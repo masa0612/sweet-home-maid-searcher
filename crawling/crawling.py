@@ -35,7 +35,7 @@ def get_cards(filter_=None):
                 card["character"] = "その他"
         card["series"] = get_series(card["name"])
         card["rarity"] = int(row[2].get_text(strip=True)[1])
-        card["color"] = row[3].find("img")["title"][0]
+        card["color"] = row[3].text
 
         skill = row[4].find("img")
         card["s_name"] = skill["title"]
@@ -58,7 +58,7 @@ def get_cards(filter_=None):
             card[f"a{i-6}_img"] = BASE+ability["data-src"]
         #tags = get_tags(card["url"])
         card["a_tag"] = get_ability_tag(card)
-        card["k_tag"] = get_killer_tag(card)
+        card["k_tag"], card["k_booster"]= get_killer_tag(card)
 
         cards.append(card)
 
@@ -69,39 +69,45 @@ def get_series(name):
     return match.group(1)
 
 def get_killer_tag(card):
-    k_tag = []
+    k_tag = set()
+    k_booster = list()
     for i in range(1,5):
         ability = card.get(f"a{i}")
         if ability is None: break
         if "手数" in ability: continue
 
-        if "全ブースター" in ability:
-            k_tag.append("ロケット")
-            k_tag.append("ミサイル")
-            k_tag.append("ボム")
-        if "ロケット" in ability:
-            k_tag.append("ロケット")
-        if "ボム" in ability:
-            k_tag.append("ボム")
-        if "ミサイル" in ability:
-            k_tag.append("ミサイル")
-
         if "キラー" in ability:
-            match = re.search(r"(.+?)キラー[＋+](\d+)", ability)
-            k_tag.append(match.group(1))
-            k_tag.append(match.group(2)+"キラー")
-        if "サポート" in ability:
-            match = re.search(r"プリティタン人形サポート[＋+](\d+)", ability)
-            k_tag.append("プリティタン")
-            k_tag.append(match.group(1)+"キラー")
-        if "なつき" in ability:
-            match = re.search(r"箱入り猫なつき度[＋+](\d+)", ability)
-            k_tag.append("箱入り猫")
-            k_tag.append(match.group(1)+"キラー")
+            match = re.search(r"(.+?)キラー[＋+](\d+)[（(](.+?)[）)]", ability)
+            k_tag.add(match.group(1))
+            if match.group(3) == "全ブースター":
+                k_booster.append("ロケット+"+match.group(2))
+                k_booster.append("ミサイル+"+match.group(2))
+                k_booster.append("ボム+"+match.group(2))
+            else:
+                k_booster.append(match.group(3)+"+"+match.group(2))
 
-        if "貫通" in ability:
-            k_tag.append("ピーナッツ貫通ロケット")
-    return k_tag
+        if "サポート" in ability:
+            match = re.search(r"プリティタン人形サポート[＋+](\d+)[（(](.+?)[）)]", ability)
+            k_tag.add("プリティタン")
+            if match.group(2) == "全ブースター":
+                k_booster.append("ロケット+"+match.group(1))
+                k_booster.append("ミサイル+"+match.group(1))
+                k_booster.append("ボム+"+match.group(1))
+            else:
+                k_booster.append(match.group(2)+"+"+match.group(1))
+
+        if "なつき" in ability:
+            match = re.search(r"箱入り猫なつき度[＋+](\d+)[（(](.+?)[）)]", ability)
+            k_tag.add("箱入り猫")
+            if match.group(2) == "全ブースター":
+                k_booster.append("ロケット+"+match.group(1))
+                k_booster.append("ミサイル+"+match.group(1))
+                k_booster.append("ボム+"+match.group(1))
+            else:
+                k_booster.append(match.group(2)+"+"+match.group(1))
+
+
+    return list(k_tag),k_booster
 
 
 def get_ability_tag(card):
@@ -121,16 +127,12 @@ def get_ability_tag(card):
             a_tag.append("アクセントカラー")
             a_tag.append(ability)
         if "手数" in ability:
-            ["a_tag"].append(ability)
-            if "Wave" in ability:
-                a_tag.append("Wave手数回復")
-            else:
-                a_tag.append("手数アップ")
+            a_tag.append(ability)
         if "リバウンド" in ability:
             a_tag.append("リバウンドスキルコスト")
         if "ダイエット" in ability:
             a_tag.append("ダイエットスキルコスト")
-        if "リンケージ" in ability:
+        if "リンケージス" in ability:
             a_tag.append("リンケージスキルコスト減少")
         if "ペア" in ability:
             if "初期" in ability:
@@ -144,6 +146,8 @@ def get_ability_tag(card):
                 a_tag.append("シミラースキルコスト減少")
         if "リンケージオ" in ability:
             a_tag.append("リンケージオールスコアアップ")
+        if "貫通" in ability:
+            a_tag.append("ピーナッツ貫通ロケット")
     return a_tag
 
 def get_skill_type(s_name):

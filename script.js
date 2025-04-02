@@ -1,4 +1,4 @@
-//スコア間違い、色間違い、スキル、キラー、アビリティ
+//スコア間違い、アイコン
 
 let characters = []; // キャラクターデータを格納
 const characterContainer = document.getElementById("characterContainer");
@@ -7,8 +7,11 @@ const filters = {
     rarity: new Set(),
     color: new Set(),
     ct: new Set(),
-    sType: "all",
+    skillType: "all",
     skillTag: new Set(),
+    abilityTag: new Set(),
+    killerTag: new Set(),
+    killerBooster: new Set(),
     sortAttributes: new Set()
 };
 
@@ -32,7 +35,7 @@ const colorFilter1 = [
     { id: "greenFilter", name: "緑", imgSrc: "assets/green_filter.png" }
 ];
 const colorFilter2 = [
-    { id: "yellowFilter", name: "黃", imgSrc: "assets/yellow_filter.png" },
+    { id: "yellowFilter", name: "黄", imgSrc: "assets/yellow_filter.png" },
     { id: "aquaFilter", name: "水", imgSrc: "assets/aqua_filter.png" },
     { id: "violetFilter", name: "紫", imgSrc: "assets/violet_filter.png" }
 ];
@@ -55,10 +58,31 @@ const colorSort2 = [
     { id: "violetSort", name: "violet", imgSrc: "assets/violet_filter.png" }
 ];
 
+const wikiUrl = "https://sweethomemaid.wikiru.jp/attach2/"
 const colorMap = {
-    "赤": "red.png", "青": "blue.png", "緑": "green.png",
-    "黄": "yellow.png", "水": "aqua.png", "紫": "violet.png"
+  "赤": "696D67_70635F7265642E706E67.png",
+  "青": "696D67_70635F626C752E706E67.png",
+  "緑": "696D67_70635F67726E2E706E67.png",
+  "黄": "696D67_70635F79656C2E706E67.png",
+  "水": "696D67_70635F6171612E706E67.png",
+  "紫": "696D67_70635F76696F2E706E67.png"
 };
+const skillTypeMap = {
+  "クリエイト": "696D67_736B696C6C5F3032342E706E67.png",
+  "ファスト": "696D67_736B5F666173745F726B482E706E67.png",
+  "セレクト": "696D67_736B5F73656C6563745F52522E706E67.png",
+  "ピースチェンジ": "696D67_736B5F706368616E67652E706E67.png",
+  "遠隔ピースチェンジ": "696D67_736B696C6C5F3033372E706E67.png",
+  "ピースブレイク": "696D67_736B696C6C5F3032392E706E67.png",
+  "カラーチェンジ": "696D67_736B5F43432E706E67.png",
+  "ピースシャッフル": "696D67_736B5F7073687566666C652E706E67.png"
+}
+const boosterMap = {
+  "スペシャル": "696D67_625F7370652E6A7067.jpg",
+  "ボム": "696D67_625F626F6D2E6A7067.jpg",
+  "ロケット": "696D67_625F726B562E6A7067.jpg",
+  "ミサイル": "696D67_625F6D736C2E6A7067.jpg",
+}
 
 // キャラクターデータの読み込み
 async function loadCharacters() {
@@ -67,6 +91,9 @@ async function loadCharacters() {
         characters = await response.json();
         renderCharacters(characters);
         createSkillTagFilters();
+        createAbilityTagFilters();
+        createKillerTagFilters();
+        createKillerBoosterFilters();
         setupEventListeners();
     } catch (error) {
         console.error("キャラクターデータの読み込みに失敗しました:", error);
@@ -84,7 +111,7 @@ function renderCharacters(characters) {
         white.classList.add("white");
 
         const colorImage = document.createElement("img");
-        colorImage.src = `assets/${colorMap[character.color]}`;
+        colorImage.src = `${wikiUrl}${colorMap[character.color]}`;
         colorImage.alt = character.color;
         colorImage.classList.add("colorImage");
 
@@ -118,18 +145,25 @@ function renderCharacters(characters) {
         characterContainer.appendChild(charCard);
     });
 }
-// フィルターの適用
 function applyFilters() {
   let filtered = characters.filter(char => {
     const matchesSkillTag = filters.skillTag.size === 0 ||
        [...filters.skillTag].every(tag => char.s_tag.includes(tag));
-    console.log(filters.skillTag)
+    const matchesAbilityTag = filters.abilityTag.size === 0 ||
+       [...filters.abilityTag].every(tag => char.a_tag.includes(tag));
+    const matchesKillerTag = filters.killerTag.size === 0 ||
+       [...filters.killerTag].every(tag => char.k_tag.includes(tag));
+    const matchesKillerBooster = filters.killerBooster.size === 0 ||
+       [...filters.killerBooster].every(tag => char.k_booster.includes(tag));
+
+    const matchesSkillType = filters.skillType === "all" || char.s_type === filters.skillType;
 
     return (filters.character.size === 0 || filters.character.has(char.character)) &&
       (filters.rarity.size === 0 || filters.rarity.has(char.rarity.toString())) &&
       (filters.color.size === 0 || filters.color.has(char.color)) &&
       (filters.ct.size === 0 || filters.ct.has(char.ct.toString())) &&
-      matchesSkillTag;
+      matchesSkillTag && matchesAbilityTag && matchesKillerTag &&
+      matchesKillerBooster && matchesSkillType;
   });
 
   if (filters.sortAttributes.size > 0) {
@@ -193,6 +227,32 @@ function setupEventListeners() {
     document.querySelectorAll(".skillTagCB").forEach(checkbox => {
         checkbox.addEventListener("change", (e) => {
             toggleFilter("skillTag", e.target.value);
+        });
+    });
+
+    document.querySelectorAll(".abilityTagCB").forEach(checkbox => {
+        checkbox.addEventListener("change", (e) => {
+            toggleFilter("abilityTag", e.target.value);
+        });
+    });
+
+    document.querySelectorAll(".killerTagCB").forEach(checkbox => {
+        checkbox.addEventListener("change", (e) => {
+            toggleFilter("killerTag", e.target.value);
+        });
+    });
+
+    document.querySelectorAll(".killerBoosterCB").forEach(checkbox => {
+        checkbox.addEventListener("change", (e) => {
+            toggleFilter("killerBooster", e.target.value);
+        });
+    });
+
+    // s_typeフィルター（ラジオボタン）
+    document.querySelectorAll(".skillTypeRadio").forEach(radio => {
+        radio.addEventListener("change", (e) => {
+            filters.skillType = e.target.value;
+            applyFilters();
         });
     });
     // ソートフィルター
@@ -261,14 +321,43 @@ function renderStaticFilter() {
   parentFilterElem = document.getElementById("rarityFilter");
   cbClass = "rarityCB";
   rarityFilter.forEach(renderCard);
+
+  createSkillTypeFilters();
 }
 
+function createSkillTypeFilters() {
+    const types = [
+        "クリエイト",
+        "ファスト",
+        "セレクト",
+        "ピースチェンジ",
+        "遠隔ピースチェンジ",
+        "ピースブレイク",
+        "カラーチェンジ",
+        "ピースシャッフル"
+    ];
+
+    // フィルター項目を作成
+    let container = document.getElementById('skillTypeFilter1');
+    // 既存の"すべて"オプションの後に追加
+    types.forEach(type => {
+        const label = document.createElement('label');
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = 'skillTypeRadio';
+        radio.classList.add('skillTypeRadio');
+        radio.value = type;
+        radio.id = `s-type-${type}`;
+        label.appendChild(radio);
+        label.appendChild(document.createTextNode(` ${type}`));
+        container.appendChild(label);
+    });
+}
 function createSkillTagFilters() {
     const allTags = new Set();
     characters.forEach(char => {
       char.s_tag.forEach(tag => allTags.add(tag));
     });
-    console.log(allTags);
     const sortedTags = Array.from(allTags).sort();
     // フィルター項目を作成
     const container = document.getElementById('skillTagFilter');
@@ -278,6 +367,69 @@ function createSkillTagFilters() {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.classList.add('skillTagCB');
+        checkbox.value = tag;
+        //checkbox.id = `skill-tag-${tag}`;
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(` ${tag}`));
+        container.appendChild(label);
+    });
+}
+function createAbilityTagFilters() {
+    const allTags = new Set();
+    characters.forEach(char => {
+      char.a_tag.forEach(tag => allTags.add(tag));
+    });
+    const sortedTags = Array.from(allTags).sort();
+    // フィルター項目を作成
+    const container = document.getElementById('abilityTagFilter');
+    sortedTags.forEach(tag => {
+        const label = document.createElement('label');
+        //label.classList.add('skill-tag-label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.classList.add('abilityTagCB');
+        checkbox.value = tag;
+        //checkbox.id = `skill-tag-${tag}`;
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(` ${tag}`));
+        container.appendChild(label);
+    });
+}
+function createKillerTagFilters() {
+    const allTags = new Set();
+    characters.forEach(char => {
+      char.k_tag.forEach(tag => allTags.add(tag));
+    });
+    const sortedTags = Array.from(allTags).sort();
+    // フィルター項目を作成
+    const container = document.getElementById('killerTagFilter');
+    sortedTags.forEach(tag => {
+        const label = document.createElement('label');
+        //label.classList.add('skill-tag-label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.classList.add('killerTagCB');
+        checkbox.value = tag;
+        //checkbox.id = `skill-tag-${tag}`;
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(` ${tag}`));
+        container.appendChild(label);
+    });
+}
+function createKillerBoosterFilters() {
+    const allTags = new Set();
+    characters.forEach(char => {
+      char.k_booster.forEach(tag => allTags.add(tag));
+    });
+    const sortedTags = Array.from(allTags).sort();
+    // フィルター項目を作成
+    const container = document.getElementById('killerBoosterFilter');
+    sortedTags.forEach(tag => {
+        const label = document.createElement('label');
+        //label.classList.add('skill-tag-label');
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.classList.add('killerBoosterCB');
         checkbox.value = tag;
         //checkbox.id = `skill-tag-${tag}`;
         label.appendChild(checkbox);

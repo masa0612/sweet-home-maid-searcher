@@ -9,6 +9,11 @@
     "color": "緑",
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 25479,
@@ -23,21 +28,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ8増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "蜘蛛の巣",
-      "2キラー",
-      "ボム",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ボム+1"
     ]
   },
   {
@@ -50,6 +49,10 @@
     "color": "黄",
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 11759,
@@ -64,20 +67,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234302E706E67.png",
     "a3": "手数2アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239612E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数2アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "ダンボール",
-      "2キラー",
-      "ミサイル",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -90,6 +88,8 @@
     "color": "赤",
     "s_name": "ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F706368616E67652E706E67.png",
+    "s_type": "ピースチェンジ",
+    "s_tag": [],
     "cost": "25",
     "ct": "3",
     "red": 28310,
@@ -104,15 +104,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239612E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ピースチェンジ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ",
-      "手数アップ"
+      "手数2アップ",
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E38381E383A7E382B3E38391E383A9E38380E382A4E382B9E38091E5BDA9E891895F69636F6E2E706E67.png",
@@ -124,6 +122,8 @@
     "color": "緑",
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
+    "s_type": "ピースブレイク",
+    "s_tag": [],
     "cost": "10",
     "ct": "3",
     "red": 12413,
@@ -138,16 +138,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "スキルコスト10減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ピースブレイク"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "2キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -160,6 +158,11 @@
     "color": "黄",
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 12413,
@@ -174,19 +177,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3331332E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "たまご",
-      "2キラー",
-      "ミサイル",
-      "たまご",
-      "1キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -199,6 +196,10 @@
     "color": "紫",
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 13824,
@@ -213,18 +214,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237342E706E67.png",
     "a3": "初期スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "リバウンドスキルコスト",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "蜘蛛の巣",
-      "2キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -237,6 +235,11 @@
     "color": "青",
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 7200,
@@ -247,30 +250,22 @@
     "violet": 19800,
     "a1": "ダンボールキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234312E706E67.png",
-    "a2": "ダンボールキラー+1(ミサイル",
+    "a2": "ダンボールキラー+1(ミサイル)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234302E706E67.png",
     "a3": "ダンボールキラー+1(ロケット)",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234322E706E67.png",
     "a4": "リンケージスキルコスト減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ボム",
-      "ダンボール",
-      "1キラー",
-      "ミサイル",
-      "ダンボール",
-      "1キラー",
-      "ロケット",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -283,6 +278,10 @@
     "color": "緑",
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 10208,
@@ -297,19 +296,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136342E706E67.png",
     "a3": "初期スキルゲージ35増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
+      "ピーナッツ貫通ロケット",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ピーナッツ",
-      "2キラー",
-      "ロケット",
-      "ピーナッツ貫通ロケット"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -322,6 +317,10 @@
     "color": "緑",
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 16006,
@@ -336,16 +335,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（水）",
-      "手数アップ"
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E4BA8CE4BABAE3818DE3828AE381AEE38195E38195E38284E3818DE880B3E3818BE3818DE38091E5BDA9E891895F69636F6E2E706E67.png",
@@ -357,6 +353,10 @@
     "color": "水",
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "40",
     "ct": "2",
     "red": 11024,
@@ -371,15 +371,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E5A48FE5A49CE38292E5BDA9E3828BE99098E6A5BCE7A5ADE38091E5BDA9E891895F69636F6E2E706E67.png",
@@ -391,6 +388,10 @@
     "color": "水",
     "s_name": "セレクト横ロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F48522E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 6805,
@@ -405,17 +406,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "セレクト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "水ヨーヨー",
-      "2キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -428,6 +426,10 @@
     "color": "赤",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 38218,
@@ -442,21 +444,18 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "シミラー初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237372E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "初期スキルゲージ増加",
       "シミラー初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -469,6 +468,10 @@
     "color": "緑",
     "s_name": "セレクト横ロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F48522E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 14863,
@@ -483,18 +486,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "セレクト"
-    ],
     "a_tag": [
-      "Wave手数回復",
+      "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "プレゼント箱",
-      "2キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -507,6 +507,8 @@
     "color": "黄",
     "s_name": "遠隔ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033372E706E67.png",
+    "s_type": "遠隔ピースチェンジ",
+    "s_tag": [],
     "cost": "115",
     "ct": "3",
     "red": 22104,
@@ -521,15 +523,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "リンケージオールスコアアップ4％",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3236332E706E67.png",
-    "s_tag": [
-      "遠隔ピースチェンジ"
-    ],
     "a_tag": [
-      "手数アップ",
-      "リンケージスキルコスト減少",
+      "手数1アップ",
       "リンケージオールスコアアップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E383A2E38395E383A2E38395E38195E38293E38081E38184E38289E381A3E38197E38283E38184EFBC81E38091E5BDA9E891895F69636F6E2E706E67.png",
@@ -541,6 +540,10 @@
     "color": "紫",
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "27",
     "ct": "3",
     "red": 21940,
@@ -555,17 +558,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "スキルコスト18減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "箱入り猫",
-      "2キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -578,6 +578,10 @@
     "color": "黄",
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 13824,
@@ -592,20 +596,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3135322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ゼリー",
-      "2キラー",
-      "ミサイル",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ボム+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -618,6 +617,10 @@
     "color": "水",
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 19008,
@@ -632,18 +635,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
-      "Wave手数回復",
+      "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ネズミ",
-      "2キラー"
+      "ネズミ"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -653,9 +653,15 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%80%91%E7%B4%AC",
     "series": "クリスマス・メイキング",
     "rarity": 4,
-    "color": "水",
+    "color": "青",
     "s_name": "ボム&ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 20160,
@@ -670,22 +676,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "氷",
-      "2キラー",
-      "ミサイル",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ボム+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -698,6 +697,11 @@
     "color": "赤",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 48083,
@@ -712,18 +716,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "みかん",
-      "2キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -736,6 +736,10 @@
     "color": "水",
     "s_name": "ファストスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F73702E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 8493,
@@ -750,15 +754,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "Wave手数回復+1",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E9BB84E98791E381AEE3819FE381BEE38194E38292E68EA2E3819BEFBC81E38091E7B4AC5F69636F6E2E706E67.png",
@@ -770,6 +771,10 @@
     "color": "青",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 24172,
@@ -784,20 +789,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ",
-      "手数アップ"
+      "手数1アップ",
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "たまご",
-      "1キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -810,6 +812,10 @@
     "color": "水",
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 7800,
@@ -824,18 +830,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "セレクト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "ダンボール",
-      "2キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -848,6 +851,11 @@
     "color": "黄",
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "2",
     "red": 7486,
@@ -862,20 +870,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "貫通ロケット(ピーナッツ)",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136342E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
-    "a_tag": [],
-    "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "ピーナッツ",
-      "1キラー",
-      "ロケット",
+    "a_tag": [
       "ピーナッツ貫通ロケット"
+    ],
+    "k_tag": [
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -888,6 +892,10 @@
     "color": "緑",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 14291,
@@ -902,18 +910,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237352E706E67.png",
     "a3": "初期スキルゲージ40増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "ダイエットスキルコスト",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "貝",
-      "2キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -926,6 +931,8 @@
     "color": "緑",
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
+    "s_type": "ピースブレイク",
+    "s_tag": [],
     "cost": "20",
     "ct": "2",
     "red": 30868,
@@ -940,14 +947,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "手数2アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239612E706E67.png",
-    "s_tag": [
-      "ピースブレイク"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ"
+      "手数2アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E799BDE8A1A3E381AEE5A4A9E4BDBFE381A8E799BDE698BCE5A4A2E38091E7B4AC5F69636F6E2E706E67.png",
@@ -959,6 +964,11 @@
     "color": "赤",
     "s_name": "ファストミックスボムミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "40",
     "ct": "4",
     "red": 41158,
@@ -973,18 +983,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330332E706E67.png",
     "a3": "初期スキルゲージ35増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（青）",
       "他カードスキル使用時スキルクールタイム減少",
       "初期スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E38286E3828BE7A78BE382ADE383A3E383B3E38397E38091E7B4AC5F69636F6E2E706E67.png",
@@ -996,6 +1002,10 @@
     "color": "緑",
     "s_name": "ファスト不発ミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F55454D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 27602,
@@ -1010,18 +1020,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "薪",
-      "2キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -1034,6 +1041,10 @@
     "color": "水",
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 24064,
@@ -1048,21 +1059,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3335322E706E67.png",
     "a3": "ペアルック初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237392E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "ペアルック初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "プリティタン",
-      "2キラー",
-      "ミサイル",
-      "プリティタン",
-      "1キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -1075,6 +1081,11 @@
     "color": "黄",
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "22",
     "ct": "2",
     "red": 5662,
@@ -1089,16 +1100,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "泡",
-      "2キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -1111,6 +1118,11 @@
     "color": "水",
     "s_name": "ダブルスペシャル&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 15571,
@@ -1125,21 +1137,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "箱入り猫",
-      "1キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -1152,6 +1160,11 @@
     "color": "紫",
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 23616,
@@ -1166,21 +1179,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "薪",
-      "2キラー",
-      "ボム",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ボム+1"
     ]
   },
   {
@@ -1193,6 +1200,10 @@
     "color": "赤",
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 40550,
@@ -1207,15 +1218,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E382BAE3839CE383A9E5A7ABE3819FE381A1E381AEE5B9B4E381AFE38198E38281E38091E88AB1E99FB35F69636F6E2E706E67.png",
@@ -1227,6 +1235,11 @@
     "color": "青",
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 19599,
@@ -1241,19 +1254,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "リンケージスキルコスト5減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ミサイル",
-      "みかん",
-      "2キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -1266,6 +1275,8 @@
     "color": "水",
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
+    "s_type": "ピースブレイク",
+    "s_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 23616,
@@ -1282,22 +1293,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
     "a4": "ダイエットスキルコスト10",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237352E706E67.png",
-    "s_tag": [
-      "ピースブレイク"
-    ],
     "a_tag": [
       "ダイエットスキルコスト"
     ],
     "k_tag": [
-      "ボム",
-      "蜘蛛の巣",
-      "1キラー",
-      "ロケット",
-      "蜘蛛の巣",
-      "1キラー",
-      "ミサイル",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -1310,6 +1315,10 @@
     "color": "赤",
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "5",
     "ct": "3",
     "red": 54355,
@@ -1324,16 +1333,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "リバウンドスキルコスト",
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E9AD94E78E8BE3838BE382A2E3818BE38289E381AEE68C91E688A6E38091E88AB1E99FB35F69636F6E2E706E67.png",
@@ -1345,6 +1351,10 @@
     "color": "黄",
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 14400,
@@ -1359,17 +1369,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
     "k_tag": [
-      "ボム",
-      "ダンボール",
-      "2キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -1382,6 +1389,10 @@
     "color": "黄",
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 24499,
@@ -1396,18 +1407,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ8増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "セレクト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "風船",
-      "2キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -1420,6 +1428,10 @@
     "color": "青",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 27901,
@@ -1434,17 +1446,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "貝",
-      "2キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -1457,6 +1466,10 @@
     "color": "緑",
     "s_name": "セレクトスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F53502E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 8166,
@@ -1471,20 +1484,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "初期スキルゲージ30増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "セレクト"
-    ],
     "a_tag": [
-      "Wave手数回復",
+      "Wave手数回復+1",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "水ヨーヨー",
-      "1キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -1497,6 +1507,10 @@
     "color": "青",
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 32556,
@@ -1511,20 +1525,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3233312E706E67.png",
     "a3": "リンケージスキルコスト7減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "セレクト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ミサイル",
-      "鎖",
-      "2キラー",
-      "ボム",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ボム+1"
     ]
   },
   {
@@ -1537,6 +1546,10 @@
     "color": "紫",
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "99",
     "ct": "1",
     "red": 25914,
@@ -1551,17 +1564,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "初期スキルゲージ90増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（緑）",
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E38286E3828BE7A78BE382ADE383A3E383B3E38397E38091E88AB1E99FB35F69636F6E2E706E67.png",
@@ -1573,6 +1583,11 @@
     "color": "赤",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "2",
     "red": 41757,
@@ -1587,18 +1602,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "薪",
-      "2キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -1611,6 +1622,11 @@
     "color": "水",
     "s_name": "ファストミックスミサイルロケット（横）",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D726F63486D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "60",
     "ct": "4",
     "red": 9555,
@@ -1625,17 +1641,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "ダイエットスキルコスト",
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルクールタイム減少"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E383A2E38395E383A2E38395E38195E38293E38081E38184E38289E381A3E38197E38283E38184EFBC81E38091E88AB1E99FB35F69636F6E2E706E67.png",
@@ -1647,6 +1659,10 @@
     "color": "赤",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "10",
     "ct": "2",
     "red": 64547,
@@ -1661,15 +1677,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "箱入り猫",
-      "2キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -1682,6 +1695,10 @@
     "color": "赤",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "15",
     "ct": "2",
     "red": 41472,
@@ -1696,17 +1713,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "みかん",
-      "2キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -1719,6 +1733,11 @@
     "color": "青",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 17280,
@@ -1733,19 +1752,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3235312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ボタン",
-      "2キラー",
-      "ミサイル",
-      "ボタン",
-      "1キラー"
+      "ボタン"
+    ],
+    "k_booster": [
+      "ボム+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -1758,6 +1771,10 @@
     "color": "緑",
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 25920,
@@ -1772,17 +1789,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
     "k_tag": [
-      "ミサイル",
-      "氷",
-      "2キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -1795,6 +1809,11 @@
     "color": "紫",
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 9799,
@@ -1809,18 +1828,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ゼリー",
-      "2キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -1833,6 +1848,10 @@
     "color": "青",
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 25479,
@@ -1847,15 +1866,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "スキルコスト10減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少",
       "初期スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E9AD94E78E8BE3838BE382A2E3818BE38289E381AEE68C91E688A6E38091E587AA5F69636F6E2E706E67.png",
@@ -1867,6 +1883,10 @@
     "color": "紫",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 13800,
@@ -1881,18 +1901,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ダンボール",
-      "2キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -1905,6 +1922,8 @@
     "color": "緑",
     "s_name": "ピースシャッフル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F7073687566666C652E706E67.png",
+    "s_type": "ピースシャッフル",
+    "s_tag": [],
     "cost": "20",
     "ct": "3",
     "red": 14291,
@@ -1921,20 +1940,14 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3332322E706E67.png",
     "a4": "スキルコスト10減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ピースシャッフル"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "風船",
-      "1キラー",
-      "ミサイル",
-      "風船",
-      "1キラー",
-      "ロケット",
-      "風船",
-      "1キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -1947,6 +1960,10 @@
     "color": "水",
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 8166,
@@ -1961,20 +1978,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ13増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "貝",
-      "1キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -1987,6 +2001,11 @@
     "color": "黄",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 25860,
@@ -2001,19 +2020,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
     "a3": "初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "水ヨーヨー",
-      "2キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -2026,6 +2041,10 @@
     "color": "黄",
     "s_name": "セレクト縦ロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F56522E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 26894,
@@ -2040,18 +2059,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "セレクト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "薪",
-      "2キラー",
-      "ミサイル",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -2064,6 +2078,10 @@
     "color": "黄",
     "s_name": "ファスト不発ミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F55454D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 15434,
@@ -2078,15 +2096,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
-      "Wave手数回復",
+      "Wave手数回復+1",
       "リンケージスキルコスト減少"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E799BDE8A1A3E381AEE5A4A9E4BDBFE381A8E799BDE698BCE5A4A2E38091E587AA5F69636F6E2E706E67.png",
@@ -2098,6 +2113,10 @@
     "color": "黄",
     "s_name": "ファストスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F73702E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 11433,
@@ -2112,17 +2131,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "初期スキルゲージ30増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（紫）",
-      "手数アップ",
+      "手数1アップ",
       "初期スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E3818AE5AEB6E7A59EE7A4BEE381A7E696B0E698A5E5889DE8A9A3E38091E587AA5F69636F6E2E706E67.png",
@@ -2134,6 +2150,10 @@
     "color": "赤",
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "24",
     "ct": "3",
     "red": 58884,
@@ -2148,18 +2168,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237382E706E67.png",
     "a3": "Wave手数回復+1",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "ペアルックスキルコスト減少",
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
     "k_tag": [
-      "ミサイル",
-      "プリティタン",
-      "2キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -2172,6 +2189,10 @@
     "color": "緑",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 14863,
@@ -2186,19 +2207,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -2211,6 +2229,10 @@
     "color": "黄",
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "24",
     "ct": "3",
     "red": 11025,
@@ -2219,24 +2241,21 @@
     "yellow": 42628,
     "aqua": 14700,
     "violet": 26459,
-    "a1": "3Dプリンターキラー+2(ミサイル",
+    "a1": "3Dプリンターキラー+2(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
     "a2": "シミラースキルコスト減少6",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "セレクト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少",
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "3Dプリンター",
-      "2キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -2249,6 +2268,10 @@
     "color": "紫",
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 22464,
@@ -2263,17 +2286,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "スキルコスト25減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
     "k_tag": [
-      "ボム",
-      "氷",
-      "2キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -2286,6 +2306,10 @@
     "color": "黄",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "15",
     "ct": "2",
     "red": 14400,
@@ -2300,18 +2324,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ピーナッツ",
-      "2キラー",
-      "ロケット",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ロケット+1"
     ]
   },
   {
@@ -2324,6 +2343,12 @@
     "color": "水",
     "s_name": "ボム&ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031352E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 10453,
@@ -2338,19 +2363,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "みかん",
-      "2キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -2363,6 +2383,11 @@
     "color": "黄",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 16332,
@@ -2377,21 +2402,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -2404,6 +2425,10 @@
     "color": "黄",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 17694,
@@ -2418,16 +2443,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239622E706E67.png",
     "a3": "初期スキルゲージ35増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
-      "Wave手数回復",
+      "Wave手数回復+2",
       "初期スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E9BB84E98791E381AEE3819FE381BEE38194E38292E68EA2E3819BEFBC81E38091E382B9E382ABE383BCE383ACE38383E383885F69636F6E2E706E67.png",
@@ -2439,6 +2461,10 @@
     "color": "紫",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "10",
     "ct": "3",
     "red": 8493,
@@ -2453,17 +2479,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "スキルコスト10減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ボム",
-      "たまご",
-      "2キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -2476,6 +2499,12 @@
     "color": "赤",
     "s_name": "ロケット＆ミサイル＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033352E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 50688,
@@ -2490,22 +2519,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ8増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "蜘蛛の巣",
-      "2キラー",
-      "ミサイル",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -2518,6 +2540,10 @@
     "color": "紫",
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "20",
     "ct": "2",
     "red": 12249,
@@ -2532,15 +2558,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ピーナッツ",
-      "2キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -2553,6 +2576,10 @@
     "color": "赤",
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 33345,
@@ -2567,18 +2594,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ13増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
-      "Wave手数回復",
+      "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "貝",
-      "2キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -2591,6 +2615,11 @@
     "color": "水",
     "s_name": "ダブルロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "37",
     "ct": "2",
     "red": 29017,
@@ -2605,18 +2634,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "シミラースキルコスト減少8",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少"
     ],
     "k_tag": [
-      "ロケット",
-      "鎖",
-      "2キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -2629,6 +2654,10 @@
     "color": "紫",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "10",
     "ct": "3",
     "red": 9201,
@@ -2643,19 +2672,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -2668,6 +2694,10 @@
     "color": "紫",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "5",
     "ct": "3",
     "red": 12495,
@@ -2682,16 +2712,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "Wave手数回復+1",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "リバウンドスキルコスト",
       "他カードスキル使用時スキルゲージ増加",
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E383A2E38395E383A2E38395E38195E38293E38081E38184E38289E381A3E38197E38283E38184EFBC81E38091E382B9E382ABE383BCE383ACE38383E383885F69636F6E2E706E67.png",
@@ -2703,6 +2730,10 @@
     "color": "緑",
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 25479,
@@ -2717,17 +2748,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "箱入り猫",
-      "2キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -2740,6 +2768,10 @@
     "color": "水",
     "s_name": "ファスト3WAYクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B56482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "50",
     "ct": "4",
     "red": 32012,
@@ -2754,17 +2786,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（赤）",
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルクールタイム減少"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E383ADE382A4E382BAE6A798E381AEE789B9E6A8A9E38091E3838BE382A25F69636F6E2E706E67.png",
@@ -2773,9 +2802,13 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E3%83%AD%E3%82%A4%E3%82%BA%E6%A7%98%E3%81%AE%E7%89%B9%E6%A8%A9%E3%80%91%E3%83%8B%E3%82%A2",
     "series": "ロイズ様の特権",
     "rarity": 4,
-    "color": "赤",
+    "color": "青",
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 20160,
@@ -2790,20 +2823,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3233302E706E67.png",
     "a3": "リンケージスキルコスト7減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ミサイル",
-      "鎖",
-      "2キラー",
-      "ロケット",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ロケット+1"
     ]
   },
   {
@@ -2816,6 +2844,10 @@
     "color": "紫",
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 13248,
@@ -2830,18 +2862,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "リンケージスキルコスト8減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ロケット",
-      "3Dプリンター",
-      "2キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -2854,6 +2883,11 @@
     "color": "赤",
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 45158,
@@ -2862,26 +2896,22 @@
     "yellow": 12672,
     "aqua": 12672,
     "violet": 13824,
-    "a1": "氷キラー+1(全ブースター",
+    "a1": "氷キラー+1(全ブースター)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238332E706E67.png",
     "a2": "スキルコスト15減少",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -2894,6 +2924,10 @@
     "color": "水",
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 20252,
@@ -2908,17 +2942,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "スキルコスト10減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ゼリー",
-      "2キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -2931,6 +2962,11 @@
     "color": "赤",
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 53308,
@@ -2945,18 +2981,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "たまご",
-      "2キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -2969,6 +3001,10 @@
     "color": "紫",
     "s_name": "セレクトスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F53502E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 17694,
@@ -2983,16 +3019,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "セレクト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
-      "Wave手数回復",
-      "手数アップ"
+      "Wave手数回復+1",
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E686A7E3828CE381AEE382B8E383A5E383BCE383B3E38396E383A9E382A4E38389E38091E3838BE382A25F69636F6E2E706E67.png",
@@ -3004,6 +3037,10 @@
     "color": "赤",
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 50086,
@@ -3018,18 +3055,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "リンケージスキルコスト5減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ロケット",
-      "風船",
-      "2キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -3042,6 +3076,10 @@
     "color": "青",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 22457,
@@ -3056,20 +3094,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136302E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "ピーナッツ",
-      "2キラー",
-      "ボム",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ボム+1"
     ]
   },
   {
@@ -3082,6 +3115,11 @@
     "color": "青",
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "2",
     "red": 23355,
@@ -3096,20 +3134,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -3122,6 +3156,10 @@
     "color": "青",
     "s_name": "ファストミックスボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "45",
     "ct": "2",
     "red": 22865,
@@ -3136,16 +3174,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（黄）",
       "他カードスキル使用時スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E88196E381AAE3828BE99BAAE59088E688A6E38091E3838BE382A25F69636F6E2E706E67.png",
@@ -3157,6 +3192,10 @@
     "color": "黄",
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 18402,
@@ -3171,18 +3210,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "セレクト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少",
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ボム",
-      "プレゼント箱",
-      "2キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -3195,6 +3231,11 @@
     "color": "青",
     "s_name": "ダブルボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32626F6D3173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "40",
     "ct": "2",
     "red": 36095,
@@ -3209,18 +3250,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237382E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "ペアルックスキルコスト減少"
     ],
     "k_tag": [
-      "ボム",
-      "プリティタン",
-      "2キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -3233,6 +3270,11 @@
     "color": "青",
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 14863,
@@ -3247,19 +3289,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "Wave手数回復",
+      "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "泡",
-      "2キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -3272,6 +3310,10 @@
     "color": "緑",
     "s_name": "トリプルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032372E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "75",
     "ct": "2",
     "red": 14700,
@@ -3286,16 +3328,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E6BA80E9968BEFBC81E5A49CE6A19CE5A4A7E5AEB4E4BC9AE38091E3838BE382A25F69636F6E2E706E67.png",
@@ -3307,6 +3346,8 @@
     "color": "青",
     "s_name": "遠隔ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033372E706E67.png",
+    "s_type": "遠隔ピースチェンジ",
+    "s_tag": [],
     "cost": "22",
     "ct": "3",
     "red": 11760,
@@ -3321,18 +3362,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "遠隔ピースチェンジ"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -3345,6 +3384,10 @@
     "color": "水",
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 14400,
@@ -3359,18 +3402,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138322E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "プレゼント箱",
-      "2キラー",
-      "ミサイル",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ミサイル+1"
     ]
   },
   {
@@ -3383,6 +3421,10 @@
     "color": "緑",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 9216,
@@ -3397,15 +3439,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "初期スキルゲージ25増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E382AFE383AAE382B9E3839EE382B9E383BBE383A1E382A4E382ADE383B3E382B0E38091E381B2E381BEE3828AE5AD905F69636F6E2E706E67.png",
@@ -3417,6 +3456,10 @@
     "color": "黄",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "12",
     "ct": "3",
     "red": 16704,
@@ -3431,17 +3474,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "スキルコスト8減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ロケット",
-      "氷",
-      "2キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ロケット+2"
     ]
   },
   {
@@ -3454,6 +3494,10 @@
     "color": "紫",
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 20906,
@@ -3468,20 +3512,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "リンケージスキルコスト7減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -3494,6 +3535,10 @@
     "color": "緑",
     "s_name": "ファストミックスボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 23040,
@@ -3508,18 +3553,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ボム",
-      "蜘蛛の巣",
-      "2キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -3532,6 +3574,8 @@
     "color": "緑",
     "s_name": "カラーチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F43432E706E67.png",
+    "s_type": "カラーチェンジ",
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 29017,
@@ -3546,14 +3590,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "カラーチェンジ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E686A7E3828CE381AEE382B8E383A5E383BCE383B3E38396E383A9E382A4E38389E38091E381B2E381BEE3828AE5AD905F69636F6E2E706E67.png",
@@ -3565,6 +3607,10 @@
     "color": "水",
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 21096,
@@ -3579,18 +3625,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ8増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "風船",
-      "2キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -3603,6 +3646,10 @@
     "color": "紫",
     "s_name": "ファスト不発ミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F55456D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 7486,
@@ -3617,18 +3664,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237352E706E67.png",
     "a3": "初期スキルゲージ25増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "ダイエットスキルコスト",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "水ヨーヨー",
-      "2キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -3641,6 +3685,10 @@
     "color": "紫",
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "28",
     "ct": "2",
     "red": 28310,
@@ -3655,17 +3703,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "シミラースキルコスト減少7",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少"
     ],
     "k_tag": [
-      "ボム",
-      "鎖",
-      "2キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ボム+2"
     ]
   },
   {
@@ -3678,6 +3723,10 @@
     "color": "水",
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "20",
     "ct": "2",
     "red": 13448,
@@ -3692,15 +3741,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "セレクト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "プレゼント箱",
-      "2キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ミサイル+2"
     ]
   },
   {
@@ -3713,6 +3759,10 @@
     "color": "黄",
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 16986,
@@ -3727,20 +3777,17 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "プリティタン",
-      "1キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -3753,6 +3800,11 @@
     "color": "青",
     "s_name": "ファストミックスミサイルロケット（縦）",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D726F63566D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "13",
     "ct": "3",
     "red": 16769,
@@ -3767,16 +3819,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（緑）"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E7A68FE8B186E9A39BE381B3E4BAA4E38186E7AF80E58886E7A5ADE38091E3838AE382B7E383A5E383AF5F69636F6E2E706E67.png",
@@ -3788,6 +3836,10 @@
     "color": "紫",
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 10617,
@@ -3802,18 +3854,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "セレクト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "泡",
-      "2キラー",
-      "ロケット",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ボム+2",
+      "ロケット+1"
     ]
   },
   {
@@ -3826,6 +3873,10 @@
     "color": "紫",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "2",
     "red": 17531,
@@ -3840,16 +3891,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（水）",
       "他カードスキル使用時スキルゲージ増加"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E3809071757265617465E382B3E383A9E3839CE38091E38182E38284E38281EFBC86E3818BE38188E381A75F69636F6E2E706E67.png",
@@ -3861,6 +3909,10 @@
     "color": "赤",
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 46493,
@@ -3877,21 +3929,17 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F414379656C2E706E67.png",
     "a4": "スキルクールタイム1減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（黄）"
     ],
     "k_tag": [
-      "ボム",
-      "ダンボール",
-      "2キラー",
-      "ボム",
       "薪",
-      "2キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ボム+2",
+      "ボム+2"
     ]
   },
   {
@@ -3904,6 +3952,10 @@
     "color": "紫",
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 19055,
@@ -3920,23 +3972,18 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F41436171612E706E67.png",
     "a4": "貫通ロケット(ピーナッツ)",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136342E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
-      "アクセントカラー（水）"
+      "アクセントカラー（水）",
+      "ピーナッツ貫通ロケット"
     ],
     "k_tag": [
-      "ロケット",
       "ネズミ",
-      "2キラー",
-      "ロケット",
-      "ピーナッツ",
-      "2キラー",
-      "ロケット",
-      "ピーナッツ貫通ロケット"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ロケット+2"
     ]
   },
   {
@@ -3949,6 +3996,10 @@
     "color": "青",
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 10671,
@@ -3965,22 +4016,18 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F414367726E2E706E67.png",
     "a4": "手数2アップ",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239612E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "セレクト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（緑）",
-      "手数アップ"
+      "手数2アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "2キラー",
-      "ミサイル",
       "ボタン",
-      "2キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ミサイル+2"
     ]
   },
   {
@@ -3993,6 +4040,8 @@
     "color": "黄",
     "s_name": "遠隔ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033372E706E67.png",
+    "s_type": "遠隔ピースチェンジ",
+    "s_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 17150,
@@ -4009,21 +4058,18 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F414376696F2E706E67.png",
     "a4": "手数2アップ",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239612E706E67.png",
-    "s_tag": [
-      "遠隔ピースチェンジ"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（紫）",
-      "手数アップ"
+      "手数2アップ"
     ],
     "k_tag": [
-      "ロケット",
       "鎖",
-      "2キラー",
-      "ロケット",
-      "氷",
-      "2キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ロケット+2",
+      "ロケット+2"
     ]
   },
   {
@@ -4036,6 +4082,10 @@
     "color": "緑",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 20416,
@@ -4052,22 +4102,18 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F4143626C752E706E67.png",
     "a4": "初期スキルゲージ30増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（青）",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "2キラー",
-      "ミサイル",
       "ボタン",
-      "2キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ミサイル+2"
     ]
   },
   {
@@ -4080,6 +4126,11 @@
     "color": "水",
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 37565,
@@ -4096,22 +4147,17 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F41437265642E706E67.png",
     "a4": "スキルクールタイム1減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "アクセントカラー",
       "アクセントカラー（赤）"
     ],
     "k_tag": [
-      "ミサイル",
-      "蜘蛛の巣",
-      "2キラー",
-      "ミサイル",
       "3Dプリンター",
-      "2キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ミサイル+2",
+      "ミサイル+2"
     ]
   },
   {
@@ -4121,9 +4167,11 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90OFF%E3%81%AE%E9%A1%94%E3%80%91%E5%BD%A9%E8%91%89",
     "series": "OFFの顔",
     "rarity": 3,
-    "color": "赤",
+    "color": "青",
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
+    "s_type": "ピースブレイク",
+    "s_tag": [],
     "cost": "15",
     "ct": "3",
     "red": 18360,
@@ -4138,14 +4186,12 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ピースブレイク"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E380904F4EE381AEE7A781E38091E5BDA9E891895F69636F6E2E706E67.png",
@@ -4157,6 +4203,10 @@
     "color": "水",
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 11340,
@@ -4171,20 +4221,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "蜘蛛の巣",
-      "1キラー",
-      "ロケット",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4194,9 +4239,14 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%80%91%E5%BD%A9%E8%91%89",
     "series": "クリスマス・メイキング",
     "rarity": 3,
-    "color": "赤",
+    "color": "青",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "25",
     "ct": "2",
     "red": 17820,
@@ -4213,19 +4263,13 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238312E706E67.png",
     "a4": "スキルクールタイム1減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "氷",
-      "1キラー",
-      "ミサイル",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4238,6 +4282,10 @@
     "color": "紫",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 11024,
@@ -4252,20 +4300,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a3": "みかんキラー+1(ロケット)",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3130332E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "みかん",
-      "1キラー",
-      "ロケット",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4278,6 +4321,10 @@
     "color": "黄",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "15",
     "ct": "3",
     "red": 26795,
@@ -4292,18 +4339,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3332332E706E67.png",
     "a3": "スキルコスト10減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "風船",
-      "1キラー",
-      "ミサイル",
-      "風船",
-      "1キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4316,6 +4358,10 @@
     "color": "水",
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 27434,
@@ -4332,20 +4378,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a4": "スキルコスト15減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ボム",
-      "貝",
-      "1キラー",
-      "ロケット",
-      "貝",
-      "1キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4358,6 +4399,10 @@
     "color": "緑",
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 20569,
@@ -4372,20 +4417,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "薪",
-      "1キラー",
-      "ミサイル",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4398,6 +4438,10 @@
     "color": "赤",
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 46579,
@@ -4412,20 +4456,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3335322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "プリティタン",
-      "1キラー",
-      "ミサイル",
-      "プリティタン",
-      "1キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4438,6 +4477,10 @@
     "color": "紫",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "25",
     "ct": "2",
     "red": 13271,
@@ -4452,18 +4495,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134302E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "泡",
-      "1キラー",
-      "ミサイル",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4476,6 +4514,11 @@
     "color": "紫",
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 8640,
@@ -4490,21 +4533,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3132322E706E67.png",
     "a3": "初期スキルゲージ25増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "ネズミ",
-      "1キラー",
-      "ロケット",
-      "ネズミ",
-      "1キラー"
+      "ネズミ"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4517,6 +4554,8 @@
     "color": "水",
     "s_name": "スキルゲージアップ(水)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033312E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 8640,
@@ -4531,17 +4570,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スキルゲージアップ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -4554,6 +4591,10 @@
     "color": "緑",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 18987,
@@ -4568,20 +4609,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3135312E706E67.png",
     "a3": "初期スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "1キラー",
-      "ボム",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -4594,6 +4630,8 @@
     "color": "紫",
     "s_name": "ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F706368616E67652E706E67.png",
+    "s_type": "ピースチェンジ",
+    "s_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 18900,
@@ -4610,20 +4648,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a4": "他カードスキル使用時スキルゲージ8増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ピースチェンジ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "蜘蛛の巣",
-      "1キラー",
-      "ミサイル",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4636,6 +4670,11 @@
     "color": "水",
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 15312,
@@ -4650,21 +4689,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3332322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ7増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "風船",
-      "1キラー",
-      "ロケット",
-      "風船",
-      "1キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4677,6 +4710,10 @@
     "color": "緑",
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "30",
     "ct": "2",
     "red": 10846,
@@ -4693,18 +4730,13 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a4": "スキルコスト10減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "セレクト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "水ヨーヨー",
-      "1キラー",
-      "ボム",
-      "水ヨーヨー",
-      "1キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -4717,6 +4749,11 @@
     "color": "紫",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "29",
     "ct": "3",
     "red": 18578,
@@ -4731,21 +4768,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3233312E706E67.png",
     "a3": "シミラースキルコスト減少6",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少"
     ],
     "k_tag": [
-      "ミサイル",
-      "鎖",
-      "1キラー",
-      "ボム",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -4758,6 +4789,11 @@
     "color": "水",
     "s_name": "ダブルスペシャル＆ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F316D736C3273702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "46",
     "ct": "3",
     "red": 15925,
@@ -4772,21 +4808,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138322E706E67.png",
     "a3": "シミラースキルコスト減少9",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少"
     ],
     "k_tag": [
-      "ロケット",
-      "プレゼント箱",
-      "1キラー",
-      "ミサイル",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4799,6 +4829,11 @@
     "color": "水",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "35",
     "ct": "2",
     "red": 21060,
@@ -4813,19 +4848,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137322E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "薪",
-      "1キラー",
-      "ロケット",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4838,6 +4867,8 @@
     "color": "赤",
     "s_name": "スキルゲージアップ(赤)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033322E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 21060,
@@ -4852,16 +4883,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ5増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "スキルゲージアップ"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -4874,6 +4903,11 @@
     "color": "黄",
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 17280,
@@ -4888,21 +4922,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "氷",
-      "1キラー",
-      "ロケット",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -4915,6 +4943,11 @@
     "color": "紫",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 12862,
@@ -4931,21 +4964,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a4": "スキルコスト10減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "1キラー",
-      "ボム",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -4958,6 +4985,10 @@
     "color": "赤",
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 38217,
@@ -4972,20 +5003,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3331332E706E67.png",
     "a3": "Wave手数回復+1",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "Wave手数回復"
+      "Wave手数回復+1"
     ],
     "k_tag": [
-      "ロケット",
-      "たまご",
-      "1キラー",
-      "ミサイル",
-      "たまご",
-      "1キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -4998,6 +5024,11 @@
     "color": "青",
     "s_name": "ダブルロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32726B74316D732E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 6380,
@@ -5012,21 +5043,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ13増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ピーナッツ",
-      "1キラー",
-      "ミサイル",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5039,6 +5064,11 @@
     "color": "緑",
     "s_name": "ダブルボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "42",
     "ct": "3",
     "red": 13271,
@@ -5053,21 +5083,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138312E706E67.png",
     "a3": "シミラースキルコスト減少8",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少"
     ],
     "k_tag": [
-      "ボム",
-      "プレゼント箱",
-      "1キラー",
-      "ロケット",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5080,6 +5104,10 @@
     "color": "緑",
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 11944,
@@ -5096,20 +5124,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a4": "スキルコスト15減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "泡",
-      "1キラー",
-      "ロケット",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5122,6 +5145,10 @@
     "color": "水",
     "s_name": "ファストミックスボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 7580,
@@ -5136,21 +5163,16 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
     "a3": "シミラー初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237372E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "シミラー初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "3Dプリンター",
-      "1キラー",
-      "ロケット",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5163,6 +5185,8 @@
     "color": "青",
     "s_name": "スキルゲージアップ(青)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033302E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 18360,
@@ -5177,16 +5201,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "スキルコスト5減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "スキルゲージアップ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -5199,6 +5221,10 @@
     "color": "緑",
     "s_name": "トリプルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030372E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 9180,
@@ -5213,18 +5239,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3235302E706E67.png",
     "a3": "スキルコスト20減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "ボタン",
-      "1キラー",
-      "ボム",
-      "ボタン",
-      "1キラー"
+      "ボタン"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -5237,6 +5258,11 @@
     "color": "赤",
     "s_name": "ダブルロケット&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032352E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 35829,
@@ -5253,22 +5279,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3130322E706E67.png",
     "a4": "他カードスキル使用時スキルゲージ12増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "みかん",
-      "1キラー",
-      "ボム",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -5281,6 +5301,10 @@
     "color": "黄",
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 24499,
@@ -5295,20 +5319,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3331322E706E67.png",
     "a3": "初期スキルゲージ45増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "たまご",
-      "1キラー",
-      "ロケット",
-      "たまご",
-      "1キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5321,6 +5340,10 @@
     "color": "緑",
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 10800,
@@ -5335,20 +5358,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
     "a3": "リンケージスキルコスト5減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ロケット",
-      "蜘蛛の巣",
-      "1キラー",
-      "ボム",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -5361,6 +5379,11 @@
     "color": "紫",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 14674,
@@ -5375,21 +5398,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136322E706E67.png",
     "a3": "初期スキルゲージ30増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ピーナッツ",
-      "1キラー",
-      "ミサイル",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5402,6 +5419,10 @@
     "color": "水",
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 9953,
@@ -5416,20 +5437,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3233322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "鎖",
-      "1キラー",
-      "ミサイル",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5442,6 +5458,10 @@
     "color": "紫",
     "s_name": "トリプルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032372E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "60",
     "ct": "2",
     "red": 11280,
@@ -5458,20 +5478,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a4": "他カードスキル使用時スキルゲージ13増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "プレゼント箱",
-      "1キラー",
-      "ミサイル",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5484,6 +5499,11 @@
     "color": "紫",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "40",
     "ct": "2",
     "red": 16588,
@@ -5498,19 +5518,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3336322E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "箱入り猫",
-      "1キラー",
-      "ミサイル",
-      "箱入り猫",
-      "1キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5523,6 +5537,8 @@
     "color": "黄",
     "s_name": "スキルゲージアップ(黄)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F6761676575705F79656C2E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 10260,
@@ -5537,17 +5553,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スキルゲージアップ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -5560,6 +5574,11 @@
     "color": "赤",
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 29484,
@@ -5574,19 +5593,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134302E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "泡",
-      "1キラー",
-      "ミサイル",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5599,6 +5612,10 @@
     "color": "緑",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "20",
     "ct": "2",
     "red": 14040,
@@ -5613,18 +5630,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238322E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "氷",
-      "1キラー",
-      "ボム",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -5637,6 +5649,12 @@
     "color": "青",
     "s_name": "ボム＆ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31626F6D31726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 9000,
@@ -5651,22 +5669,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ8増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ダンボール",
-      "1キラー",
-      "ロケット",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5679,6 +5690,10 @@
     "color": "緑",
     "s_name": "セレクトランダムロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F52522E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 24882,
@@ -5695,21 +5710,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237352E706E67.png",
     "a4": "初期スキルゲージ35増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "セレクト"
-    ],
     "a_tag": [
       "ダイエットスキルコスト",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "風船",
-      "1キラー",
-      "ロケット",
-      "風船",
-      "1キラー"
+      "風船"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5722,6 +5732,10 @@
     "color": "紫",
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "22",
     "ct": "3",
     "red": 16588,
@@ -5736,18 +5750,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3334322E706E67.png",
     "a3": "スキルコスト13減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "水ヨーヨー",
-      "1キラー",
-      "ミサイル",
-      "水ヨーヨー",
-      "1キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5760,6 +5769,10 @@
     "color": "青",
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 18578,
@@ -5776,21 +5789,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a4": "他カードスキル使用時スキルゲージ13増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "薪",
-      "1キラー",
-      "ロケット",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5803,6 +5811,11 @@
     "color": "水",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 9953,
@@ -5817,19 +5830,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3335312E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "プリティタン",
-      "1キラー",
-      "ロケット",
-      "プリティタン",
-      "1キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -5842,6 +5849,10 @@
     "color": "青",
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "20",
     "ct": "2",
     "red": 15925,
@@ -5856,18 +5867,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134622E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "泡",
-      "1キラー",
-      "ボム",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -5880,6 +5886,10 @@
     "color": "青",
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "45",
     "ct": "2",
     "red": 10336,
@@ -5896,20 +5906,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a4": "シミラースキルコスト減少10",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "シミラースキルコスト減少"
     ],
     "k_tag": [
-      "ミサイル",
-      "3Dプリンター",
-      "1キラー",
-      "ボム",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -5922,6 +5927,8 @@
     "color": "紫",
     "s_name": "スキルゲージアップ(紫)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033342E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 15120,
@@ -5936,17 +5943,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ5増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "スキルゲージアップ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -5959,6 +5964,10 @@
     "color": "緑",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 14580,
@@ -5973,20 +5982,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ボム",
-      "3Dプリンター",
-      "1キラー",
-      "ミサイル",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -5999,6 +6003,10 @@
     "color": "青",
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "10",
     "ct": "3",
     "red": 11637,
@@ -6013,18 +6021,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "みかんキラー+1(ミサイル)",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3130312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "みかん",
-      "1キラー",
-      "ミサイル",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -6037,6 +6040,10 @@
     "color": "水",
     "s_name": "トリプルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030372E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 8640,
@@ -6051,20 +6058,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ8増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "蜘蛛の巣",
-      "1キラー",
-      "ロケット",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -6077,6 +6079,10 @@
     "color": "黄",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 8438,
@@ -6093,21 +6099,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a4": "初期スキルゲージ30増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "ダンボール",
-      "1キラー",
-      "ボム",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -6120,6 +6121,10 @@
     "color": "赤",
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 33175,
@@ -6134,20 +6139,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3333322E706E67.png",
     "a3": "初期スキルゲージ35増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "貝",
-      "1キラー",
-      "ミサイル",
-      "貝",
-      "1キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -6160,6 +6160,10 @@
     "color": "黄",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "2",
     "red": 8294,
@@ -6174,18 +6178,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3334302E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "水ヨーヨー",
-      "1キラー",
-      "ボム",
-      "水ヨーヨー",
-      "1キラー"
+      "水ヨーヨー"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -6198,6 +6197,8 @@
     "color": "赤",
     "s_name": "スキルクールダウン1",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F43442E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "20",
     "ct": "4",
     "red": 34502,
@@ -6214,19 +6215,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a4": "スキルコスト10減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "スキルクールダウン1"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ボム",
-      "鎖",
-      "1キラー",
-      "ロケット",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -6239,6 +6236,11 @@
     "color": "黄",
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "35",
     "ct": "2",
     "red": 22680,
@@ -6253,19 +6255,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136322E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ピーナッツ",
-      "1キラー",
-      "ミサイル",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -6278,6 +6274,8 @@
     "color": "緑",
     "s_name": "スキルゲージアップ(緑)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033332E706E67.png",
+    "s_type": null,
+    "s_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 9180,
@@ -6292,16 +6290,14 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a3": "初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "スキルゲージアップ"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -6314,6 +6310,10 @@
     "color": "黄",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 12862,
@@ -6328,20 +6328,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3135302E706E67.png",
     "a3": "初期スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "ゼリー",
-      "1キラー",
-      "ロケット",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ロケット+1"
     ]
   },
   {
@@ -6354,6 +6349,8 @@
     "color": "青",
     "s_name": "ピースシャッフル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F7073687566666C652E706E67.png",
+    "s_type": "ピースシャッフル",
+    "s_tag": [],
     "cost": "40",
     "ct": "3",
     "red": 24499,
@@ -6370,20 +6367,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
     "a4": "リンケージスキルコスト8減少",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
-    "s_tag": [
-      "ピースシャッフル"
-    ],
     "a_tag": [
-      "手数アップ",
+      "手数1アップ",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "ミサイル",
-      "たまご",
-      "1キラー",
-      "ボム",
-      "たまご",
-      "1キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -6396,6 +6389,11 @@
     "color": "水",
     "s_name": "ダブルスペシャル＆ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F316D736C3273702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 14063,
@@ -6404,27 +6402,21 @@
     "yellow": 15750,
     "aqua": 28519,
     "violet": 20813,
-    "a1": "ダンボールキラー+1(ミサイル",
+    "a1": "ダンボールキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234302E706E67.png",
     "a2": "ダンボールキラー+1(ロケット)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234322E706E67.png",
     "a3": "初期スキルゲージ30増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "ミサイル",
-      "ダンボール",
-      "1キラー",
-      "ロケット",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ロケット+1"
     ]
   },
   {
@@ -6437,6 +6429,10 @@
     "color": "黄",
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "35",
     "ct": "3",
     "red": 6380,
@@ -6453,22 +6449,16 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a4": "貫通ロケット(ピーナッツ)",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136342E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [
-      "他カードスキル使用時スキルゲージ増加"
+      "他カードスキル使用時スキルゲージ増加",
+      "ピーナッツ貫通ロケット"
     ],
     "k_tag": [
-      "ロケット",
-      "ピーナッツ",
-      "1キラー",
-      "ボム",
-      "ピーナッツ",
-      "1キラー",
-      "ロケット",
-      "ピーナッツ貫通ロケット"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -6481,6 +6471,10 @@
     "color": "青",
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "20",
     "ct": "3",
     "red": 14674,
@@ -6495,18 +6489,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3333302E706E67.png",
     "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ファスト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "貝",
-      "1キラー",
-      "ボム",
-      "貝",
-      "1キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -6519,6 +6508,10 @@
     "color": "赤",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 34502,
@@ -6533,20 +6526,15 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137312E706E67.png",
     "a3": "他カードスキル使用時スキルゲージ10増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ボム",
-      "薪",
-      "1キラー",
-      "ミサイル",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -6559,6 +6547,11 @@
     "color": "水",
     "s_name": "ファストミックスボムミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D6D736C2E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "35",
     "ct": "4",
     "red": 18579,
@@ -6575,21 +6568,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a4": "他カードスキル使用時スキルゲージ13増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ロケット",
-      "箱入り猫",
-      "1キラー",
-      "ミサイル",
-      "箱入り猫",
-      "1キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -6602,6 +6589,8 @@
     "color": "黄",
     "s_name": "カラーチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F43432E706E67.png",
+    "s_type": "カラーチェンジ",
+    "s_tag": [],
     "cost": "55",
     "ct": "2",
     "red": 19906,
@@ -6618,19 +6607,15 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
     "a4": "手数1アップ",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "カラーチェンジ"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
     "k_tag": [
-      "ミサイル",
-      "プリティタン",
-      "1キラー",
-      "ボム",
-      "プリティタン",
-      "1キラー"
+      "プリティタン"
+    ],
+    "k_booster": [
+      "ミサイル+1",
+      "ボム+1"
     ]
   },
   {
@@ -6643,6 +6628,10 @@
     "color": "赤",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "25",
     "ct": "2",
     "red": 50029,
@@ -6657,18 +6646,13 @@
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3336302E706E67.png",
     "a3": "スキルクールタイム1減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330322E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "箱入り猫",
-      "1キラー",
-      "ボム",
-      "箱入り猫",
-      "1キラー"
+      "箱入り猫"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ボム+1"
     ]
   },
   {
@@ -6681,6 +6665,12 @@
     "color": "緑",
     "s_name": "ボム&ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 18720,
@@ -6691,17 +6681,12 @@
     "violet": 13104,
     "a1": "プレゼント箱キラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -6714,6 +6699,11 @@
     "color": "黄",
     "s_name": "ダブルミサイル&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 9828,
@@ -6724,16 +6714,12 @@
     "violet": 15444,
     "a1": "みかんキラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3130332E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -6746,6 +6732,10 @@
     "color": "水",
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "60",
     "ct": "3",
     "red": 14508,
@@ -6756,15 +6746,12 @@
     "violet": 8892,
     "a1": "ネズミキラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3132322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "ネズミ",
-      "1キラー"
+      "ネズミ"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -6777,6 +6764,10 @@
     "color": "緑",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 14508,
@@ -6787,14 +6778,11 @@
     "violet": 17784,
     "a1": "手数1アップ",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E887AAE58886E7A3A8E3818DE38091E7B4AC5F69636F6E2E706E67.png",
@@ -6806,6 +6794,10 @@
     "color": "赤",
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 25272,
@@ -6816,15 +6808,12 @@
     "violet": 17316,
     "a1": "3Dプリンターキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -6834,9 +6823,14 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E6%9C%9D%E4%B8%80%E3%81%AE%E6%82%A6%E3%81%B3%E3%80%91%E7%B4%AC",
     "series": "朝一の悦び",
     "rarity": 2,
-    "color": "赤",
+    "color": "青",
     "s_name": "ダブルロケット&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032352E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 8892,
@@ -6847,16 +6841,12 @@
     "violet": 12636,
     "a1": "ボタンキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3235312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ボタン",
-      "1キラー"
+      "ボタン"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -6869,6 +6859,11 @@
     "color": "黄",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 11232,
@@ -6879,16 +6874,12 @@
     "violet": 13104,
     "a1": "氷キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -6901,6 +6892,10 @@
     "color": "水",
     "s_name": "トリプルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030372E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 14040,
@@ -6911,15 +6906,12 @@
     "violet": 8892,
     "a1": "ダンボールキラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -6929,9 +6921,14 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E6%9C%9D%E4%B8%80%E3%81%AE%E6%82%A6%E3%81%B3%E3%80%91%E8%8A%B1%E9%9F%B3",
     "series": "朝一の悦び",
     "rarity": 2,
-    "color": "赤",
+    "color": "青",
     "s_name": "ダブルミサイル&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 16848,
@@ -6942,15 +6939,11 @@
     "violet": 13104,
     "a1": "手数1アップ",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [
-      "手数アップ"
+      "手数1アップ"
     ],
-    "k_tag": []
+    "k_tag": [],
+    "k_booster": []
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E383ADE382A4E382BAE6A798E381AEE789B9E6A8A9E38091E587AA5F69636F6E2E706E67.png",
@@ -6962,6 +6955,11 @@
     "color": "黄",
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 16848,
@@ -6972,16 +6970,12 @@
     "violet": 15912,
     "a1": "ネズミキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3132302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ネズミ",
-      "1キラー"
+      "ネズミ"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -6994,6 +6988,10 @@
     "color": "赤",
     "s_name": "トリプルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032372E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "65",
     "ct": "3",
     "red": 25272,
@@ -7004,15 +7002,12 @@
     "violet": 12636,
     "a1": "薪キラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7025,6 +7020,10 @@
     "color": "緑",
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 11232,
@@ -7035,15 +7034,12 @@
     "violet": 11700,
     "a1": "ピーナッツキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136322E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7056,6 +7052,11 @@
     "color": "緑",
     "s_name": "ダブルボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32626F6D3173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "60",
     "ct": "3",
     "red": 16380,
@@ -7066,16 +7067,12 @@
     "violet": 14976,
     "a1": "氷キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7088,6 +7085,10 @@
     "color": "赤",
     "s_name": "トリプルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F33726B742E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 25272,
@@ -7098,15 +7099,12 @@
     "violet": 9360,
     "a1": "プレゼント箱キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7119,6 +7117,11 @@
     "color": "水",
     "s_name": "ダブルロケット&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32726B743173702E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "スペシャル"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 7020,
@@ -7129,16 +7132,12 @@
     "violet": 12168,
     "a1": "氷キラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7151,6 +7150,10 @@
     "color": "黄",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 19188,
@@ -7161,15 +7164,12 @@
     "violet": 16848,
     "a1": "ボタンキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3235302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ボタン",
-      "1キラー"
+      "ボタン"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7182,6 +7182,10 @@
     "color": "紫",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 12168,
@@ -7192,15 +7196,12 @@
     "violet": 27518,
     "a1": "3Dプリンターキラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133322E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7213,6 +7214,10 @@
     "color": "水",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 13572,
@@ -7225,18 +7230,13 @@
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133312E706E67.png",
     "a2": "3Dプリンターキラー+1(ミサイル)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "3Dプリンター",
-      "1キラー",
-      "ミサイル",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ボム+1",
+      "ミサイル+1"
     ]
   },
   {
@@ -7249,6 +7249,11 @@
     "color": "赤",
     "s_name": "ダブルボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ボム"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 24148,
@@ -7259,16 +7264,12 @@
     "violet": 13104,
     "a1": "蜘蛛の巣キラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7281,6 +7282,10 @@
     "color": "紫",
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 14976,
@@ -7291,15 +7296,12 @@
     "violet": 21902,
     "a1": "ゼリーキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3135312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7309,9 +7311,14 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%A6%E3%82%8B%E3%82%82%E3%81%AE%E3%80%91%E3%81%B2%E3%81%BE%E3%82%8A%E5%AD%90",
     "series": "ハマってるもの",
     "rarity": 2,
-    "color": "赤",
+    "color": "青",
     "s_name": "ダブルスペシャル&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "60",
     "ct": "3",
     "red": 18252,
@@ -7322,16 +7329,12 @@
     "violet": 9360,
     "a1": "泡キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134312E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7344,6 +7347,10 @@
     "color": "紫",
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 11232,
@@ -7354,15 +7361,12 @@
     "violet": 23025,
     "a1": "ダンボールキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234312E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7375,6 +7379,10 @@
     "color": "水",
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 12168,
@@ -7385,15 +7393,12 @@
     "violet": 17316,
     "a1": "泡キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7406,6 +7411,10 @@
     "color": "赤",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 22464,
@@ -7416,15 +7425,12 @@
     "violet": 10296,
     "a1": "ゼリーキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3135322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7434,9 +7440,13 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%80%91%E5%87%AA",
     "series": "メインシナリオ",
     "rarity": 2,
-    "color": "赤",
+    "color": "青",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 10764,
@@ -7447,15 +7457,12 @@
     "violet": 12636,
     "a1": "ピーナッツキラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7468,6 +7475,11 @@
     "color": "黄",
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 16380,
@@ -7478,16 +7490,12 @@
     "violet": 9360,
     "a1": "薪キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7500,6 +7508,11 @@
     "color": "紫",
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 8892,
@@ -7510,16 +7523,12 @@
     "violet": 23025,
     "a1": "鎖キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3233302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7532,6 +7541,10 @@
     "color": "緑",
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 9828,
@@ -7542,15 +7555,12 @@
     "violet": 13104,
     "a1": "蜘蛛の巣キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7563,6 +7573,10 @@
     "color": "黄",
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "20",
     "ct": "5",
     "red": 14376,
@@ -7573,15 +7587,12 @@
     "violet": 20127,
     "a1": "貝キラー＋1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3333302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "貝",
-      "1キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7594,6 +7605,10 @@
     "color": "緑",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 8280,
@@ -7604,15 +7619,12 @@
     "violet": 14040,
     "a1": "ダンボールキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3234302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ダンボール",
-      "1キラー"
+      "ダンボール"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7625,6 +7637,10 @@
     "color": "黄",
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 7560,
@@ -7635,15 +7651,12 @@
     "violet": 5400,
     "a1": "ゼリーキラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3135302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "ゼリー",
-      "1キラー"
+      "ゼリー"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7656,6 +7669,12 @@
     "color": "水",
     "s_name": "ボム&ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031352E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ロケット",
+      "ミサイル",
+      "ボム"
+    ],
     "cost": "50",
     "ct": "3",
     "red": 12240,
@@ -7666,17 +7685,12 @@
     "violet": 14400,
     "a1": "ネズミキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3132312E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ネズミ",
-      "1キラー"
+      "ネズミ"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7686,9 +7700,13 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E5%A4%96%E7%9D%80%E3%80%91%E8%8A%B1%E9%9F%B3",
     "series": "外着",
     "rarity": 1,
-    "color": "赤",
+    "color": "青",
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 6480,
@@ -7699,15 +7717,12 @@
     "violet": 12600,
     "a1": "泡キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3134302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "ファスト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "泡",
-      "1キラー"
+      "泡"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7720,6 +7735,10 @@
     "color": "赤",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 19008,
@@ -7730,15 +7749,12 @@
     "violet": 6840,
     "a1": "薪キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "薪",
-      "1キラー"
+      "薪"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -7751,6 +7767,11 @@
     "color": "水",
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム",
+      "スペシャル"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 14760,
@@ -7761,16 +7782,12 @@
     "violet": 10440,
     "a1": "みかんキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3130322E706E67.png",
-    "s_tag": [
-      "ボム",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "みかん",
-      "1キラー"
+      "みかん"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7780,9 +7797,13 @@
     "url": "https://sweethomemaid.wikiru.jp/./?%E3%80%90%E9%83%A8%E5%B1%8B%E7%9D%80%E3%80%91%E5%87%AA",
     "series": "部屋着",
     "rarity": 1,
-    "color": "赤",
+    "color": "青",
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "45",
     "ct": "3",
     "red": 11520,
@@ -7793,15 +7814,12 @@
     "violet": 7920,
     "a1": "ボタンキラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3235302E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "ボタン",
-      "1キラー"
+      "ボタン"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7814,6 +7832,10 @@
     "color": "紫",
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "ロケット"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 9720,
@@ -7824,15 +7846,12 @@
     "violet": 19440,
     "a1": "氷キラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3238322E706E67.png",
-    "s_tag": [
-      "ロケット",
-      "ファスト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "氷",
-      "1キラー"
+      "氷"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -7845,6 +7864,8 @@
     "color": "黄",
     "s_name": "ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F706368616E67652E706E67.png",
+    "s_type": "ピースチェンジ",
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 12600,
@@ -7855,14 +7876,12 @@
     "violet": 9720,
     "a1": "ピーナッツキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136322E706E67.png",
-    "s_tag": [
-      "ピースチェンジ"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "ピーナッツ",
-      "1キラー"
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7875,6 +7894,10 @@
     "color": "赤",
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ボム"
+    ],
     "cost": "30",
     "ct": "3",
     "red": 19440,
@@ -7885,15 +7908,12 @@
     "violet": 7560,
     "a1": "3Dプリンターキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
-    "s_tag": [
-      "ボム",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "3Dプリンター",
-      "1キラー"
+      "3Dプリンター"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7906,6 +7926,10 @@
     "color": "紫",
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "25",
     "ct": "3",
     "red": 9000,
@@ -7916,15 +7940,12 @@
     "violet": 18144,
     "a1": "鎖キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3233322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "鎖",
-      "1キラー"
+      "鎖"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7937,6 +7958,11 @@
     "color": "青",
     "s_name": "ダブルミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030332E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
     "cost": "55",
     "ct": "3",
     "red": 10440,
@@ -7947,16 +7973,12 @@
     "violet": 11520,
     "a1": "蜘蛛の巣キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "スペシャル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "蜘蛛の巣",
-      "1キラー"
+      "蜘蛛の巣"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -7969,6 +7991,10 @@
     "color": "緑",
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
+    "s_type": "クリエイト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 6480,
@@ -7979,15 +8005,12 @@
     "violet": 11880,
     "a1": "プレゼント箱キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138312E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "クリエイト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "プレゼント箱",
-      "1キラー"
+      "プレゼント箱"
+    ],
+    "k_booster": [
+      "ロケット+1"
     ]
   },
   {
@@ -8000,6 +8023,10 @@
     "color": "青",
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
+    "s_type": "セレクト",
+    "s_tag": [
+      "ミサイル"
+    ],
     "cost": "40",
     "ct": "3",
     "red": 9290,
@@ -8010,15 +8037,12 @@
     "violet": 12828,
     "a1": "たまごキラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3331332E706E67.png",
-    "s_tag": [
-      "ミサイル",
-      "セレクト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ミサイル",
-      "たまご",
-      "1キラー"
+      "たまご"
+    ],
+    "k_booster": [
+      "ミサイル+1"
     ]
   },
   {
@@ -8031,6 +8055,10 @@
     "color": "紫",
     "s_name": "ファストスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F73702E706E67.png",
+    "s_type": "ファスト",
+    "s_tag": [
+      "スペシャル"
+    ],
     "cost": "20",
     "ct": "6",
     "red": 11059,
@@ -8041,15 +8069,12 @@
     "violet": 25656,
     "a1": "貝キラー＋1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3333302E706E67.png",
-    "s_tag": [
-      "スペシャル",
-      "ファスト"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ボム",
-      "貝",
-      "1キラー"
+      "貝"
+    ],
+    "k_booster": [
+      "ボム+1"
     ]
   },
   {
@@ -8062,6 +8087,8 @@
     "color": "赤",
     "s_name": "ピースシャッフル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F7073687566666C652E706E67.png",
+    "s_type": "ピースシャッフル",
+    "s_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 16986,
@@ -8078,26 +8105,22 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137332E706E67.png",
     "a4": "ピーナッツキラー＋1（全ブースター）",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136332E706E67.png",
-    "s_tag": [
-      "ピースシャッフル"
-    ],
     "a_tag": [],
     "k_tag": [
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "ダンボール",
-      "1キラー",
-      "ロケット",
-      "ミサイル",
-      "ボム",
       "薪",
-      "1キラー",
-      "ロケット",
-      "ミサイル",
-      "ボム",
-      "ピーナッツ",
-      "1キラー"
+      "ダンボール",
+      "ピーナッツ"
+    ],
+    "k_booster": [
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1",
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1",
+      "ロケット+1",
+      "ミサイル+1",
+      "ボム+1"
     ]
   }
 ]
