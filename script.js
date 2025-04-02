@@ -1,4 +1,4 @@
-//スコア間違い、アイコン
+//スコア間違い、アイコン、シリーズ
 
 let characters = []; // キャラクターデータを格納
 const characterContainer = document.getElementById("characterContainer");
@@ -19,14 +19,16 @@ const characters1 = [
     { id: "irohaFilter", name: "彩葉", imgSrc: "assets/iroha_filter.png" },
     { id: "tsumugiFilter", name: "紬", imgSrc: "assets/tsumugi_filter.png" },
     { id: "nagiFilter", name: "凪", imgSrc: "assets/nagi_filter.png" },
-    { id: "kanonFilter", name: "花音", imgSrc: "assets/kanon_filter.png" },
-    { id: "otherFilter", name: "その他", imgSrc: "assets/other_filter.png" }
 ];
 const characters2 = [
+    { id: "kanonFilter", name: "花音", imgSrc: "assets/kanon_filter.png" },
     { id: "scarletFilter", name: "スカーレット", imgSrc: "assets/scarlet_filter.png" },
     { id: "himarikoFilter", name: "ひまり子", imgSrc: "assets/himariko_filter.png" },
+];
+const characters3 = [
     { id: "niaFilter", name: "ニア", imgSrc: "assets/nia_filter.png" },
-    { id: "nashwaFilter", name: "ナシュワ", imgSrc: "assets/nashwa_filter.png" }
+    { id: "nashwaFilter", name: "ナシュワ", imgSrc: "assets/nashwa_filter.png" },
+    { id: "otherFilter", name: "その他", imgSrc: "assets/other_filter.png" },
 ];
 
 const colorFilter1 = [
@@ -40,9 +42,11 @@ const colorFilter2 = [
     { id: "violetFilter", name: "紫", imgSrc: "assets/violet_filter.png" }
 ];
 
-const rarityFilter = [
+const rarityFilter1 = [
     { id: "rare1Filter", name: "1", imgSrc: "assets/rare1.png" },
-    { id: "rare2Filter", name: "2", imgSrc: "assets/rare2.png" },
+    { id: "rare2Filter", name: "2", imgSrc: "assets/rare2.png" }
+];
+const rarityFilter2 = [
     { id: "rare3Filter", name: "3", imgSrc: "assets/rare3.png" },
     { id: "rare4Filter", name: "4", imgSrc: "assets/rare4.png" }
 ];
@@ -297,30 +301,36 @@ function renderStaticFilter() {
     label.appendChild(img);
     filterCard.appendChild(input);
     filterCard.appendChild(label);
+    console.log(parentFilterElem)
     parentFilterElem.appendChild(filterCard);
   }
 
-  parentFilterElem = document.getElementById("charFilter1");
   cbClass = "charCB";
+  parentFilterElem = document.getElementById("charFilter1");
   characters1.forEach(renderCard);
   parentFilterElem = document.getElementById("charFilter2");
   characters2.forEach(renderCard);
+  parentFilterElem = document.getElementById("charFilter3");
+  characters3.forEach(renderCard);
 
-  parentFilterElem = document.getElementById("colorFilter1");
+
   cbClass = "colorFilterCB";
+  parentFilterElem = document.getElementById("colorFilter1");
   colorFilter1.forEach(renderCard);
   parentFilterElem = document.getElementById("colorFilter2");
   colorFilter2.forEach(renderCard);
 
-  parentFilterElem = document.getElementById("colorSort1");
   cbClass = "colorSortCB";
+  parentFilterElem = document.getElementById("colorSort1");
   colorSort1.forEach(renderCard);
   parentFilterElem = document.getElementById("colorSort2");
   colorSort2.forEach(renderCard);
 
-  parentFilterElem = document.getElementById("rarityFilter");
   cbClass = "rarityCB";
-  rarityFilter.forEach(renderCard);
+  parentFilterElem = document.getElementById("rarityFilter1");
+  rarityFilter1.forEach(renderCard);
+  parentFilterElem = document.getElementById("rarityFilter2");
+  rarityFilter2.forEach(renderCard);
 
   createSkillTypeFilters();
 }
