@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スイメド検索</title>
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-4">
+    <div class="filters">
+      <div class="filter" id="charFilter1">
+        <h3>キャラクター</h3>
+      </div>
+      <div class="filter" id="charFilter2">
+        <br>
+      </div>
+
+      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+      <div class="filter" id="colorFilter1">
+        <h3>カラー</h3>
+      </div>
+      <div class="filter" id="colorFilter2">
+        <br>
+      </div>
+
+      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+      <div class="filter" id="rarityFilter">
+        <h3>レアリティ</h3>
+      </div>
+
+
+      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+      <div class="filter" id="colorSort1">
+        <h3>ソート</h3>
+      </div>
+      <div class="filter" id="colorSort2">
+        <br>
+      </div>
+
+      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+      <div class="filter">
+        <h3>クールタイム</h3>
+        <label><input type="checkbox" class="ctFilterCB" value="1"> 1</label>
+        <label><input type="checkbox" class="ctFilterCB" value="2"> 2</label>
+        <label><input type="checkbox" class="ctFilterCB" value="3"> 3</label>
+        <label><input type="checkbox" class="ctFilterCB" value="4"> 4</label>
+      </div>
+    </div>
+
+    <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+    <div class="filter" id="skillTypeFilter1">
+      <h3>スキルタイプ</h3>
+      <label><input type="radio" name="sTypeRadio" class="sTypeRadio" value="all" checked> すべて</label><br>
+      <!-- s_typeのラジオボタンがここに動的に追加されます -->
+    </div>
+    <div class="filter" id="skillTypeFilter2">
+    </div>
+
+    <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+    <div class="filter" id="skillTagFilter">
+      <h3>スキル</h3>
+      <!-- スキルタグのチェックボックスがここに動的に追加されます -->
+    </div>
+
+    <div id="characterContainer" class="mt-4">
+      <!-- キャラクター情報がここに表示されます -->
+    </div>
+  </div>
+</body>
+</html>

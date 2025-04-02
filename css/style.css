@@ -1,0 +1,91 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* フィルターを1行に並べる */
+.filters {
+  display: flex;
+  justify-content: flex-start; /* フィルター間のスペースを均等に配置 */
+  gap: 5px; /* フィルター間の間隔 */
+  flex-wrap: wrap; /* フィルターが折り返さないように設定 */
+  overflow-x: auto; /* 横スクロールできるようにする */
+}
+
+.filters .filter {
+  display: flex;
+  flex-direction: column; /* 各フィルターを縦並びに */
+}
+
+.filters label {
+  margin: 2px 0;
+}
+
+.charCard{
+  position: relative;
+  display: inline-block;
+}
+
+.charIcon {
+  width: 120px;
+  height: 120px;
+  object-fit: cover; /* アスペクト比を維持しつつ調整 */
+}
+
+.white {
+  position: absolute;
+  width: 40px; /* 丸の大きさ */
+  height: 40px; /* 丸の大きさ */
+  background-color: rgba(255, 255, 255, 0.5); /* 透過した白 */
+  border-radius: 50%;
+  z-index: 2; /* 白い丸をキャラクター画像の下に配置 */
+  top: 0;
+  left: 0;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.colorImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px; /* カラー画像のサイズ */
+  height: 40px; /* カラー画像のサイズ */
+  z-index: 3; /* 必要に応じて画像の重なり順を調整 */
+}
+
+#characterContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 120px));
+    justify-content: start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.charCard {
+    text-align: center;
+}
+
+.charCard p {
+    font-size: 10px;
+    text-align: left;
+}
+
+.filterCB {
+    position: absolute; /* 画像の上に重ねる */
+    top: 0px; /* 上からの位置調整 */
+    left: 0px; /* 左からの位置調整 */
+    z-index: 2; /* チェックボックスが画像の上に表示されるようにする */
+}
+
+.filterCard {
+    min-height: 45px; /* 各フィルターの最小幅 */
+    position: relative; /* 画像の上にチェックボックスを重ねるために必要 */
+    display: inline-block; /* 画像とチェックボックスを1つのブロックとして扱う */
+}
+
+.filterImg {
+    height: 40px;
+}
