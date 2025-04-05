@@ -41,7 +41,7 @@ def get_cards(filter_=None):
         card["s_name"] = skill["title"]
         card["s_img"] = BASE+skill["data-src"]
         card["s_type"] = get_skill_type(card["s_name"])
-        card["s_tag"] = get_skill_tag(card["s_name"])
+        card["booster_tag"] = get_skill_tag(card["s_name"])
         card["cost"] = row[5].text
         card["ct"] = row[6].text
         card["red"] = int(row[11].text)
@@ -123,9 +123,12 @@ def get_ability_tag(card):
             a_tag.append("他カードスキル使用時スキルゲージ増加")
         if "時スキルクール" in ability:
             a_tag.append("他カードスキル使用時スキルクールタイム減少")
-        if "カラー（" in ability:
+        if "アクセントカラー" in ability:
             a_tag.append("アクセントカラー")
-            a_tag.append(ability)
+            if "全" in ability:
+                a_tag.append("アクセントカラー(全)")
+            else:
+                a_tag.append(ability)
         if "手数" in ability:
             a_tag.append(ability)
         if "リバウンド" in ability:

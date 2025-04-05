@@ -1,5 +1,6 @@
-//スコア間違い、アイコン、シリーズ
+//スコア間違い、シリーズ
 
+const wikiUrl = "https://sweethomemaid.wikiru.jp/attach2/"
 let characters = []; // キャラクターデータを格納
 const characterContainer = document.getElementById("characterContainer");
 const filters = {
@@ -7,62 +8,131 @@ const filters = {
     rarity: new Set(),
     color: new Set(),
     ct: new Set(),
-    skillType: "all",
+    skillType: new Set(),
     skillTag: new Set(),
-    abilityTag: new Set(),
-    killerTag: new Set(),
+    ability: new Set(),
+    killer: new Set(),
     killerBooster: new Set(),
     sortAttributes: new Set()
 };
 
 const characters1 = [
-    { id: "irohaFilter", name: "彩葉", imgSrc: "assets/iroha_filter.png" },
-    { id: "tsumugiFilter", name: "紬", imgSrc: "assets/tsumugi_filter.png" },
-    { id: "nagiFilter", name: "凪", imgSrc: "assets/nagi_filter.png" },
+    { id: "irohaFilter", name: "彩葉", imgSrc: "assets/character_filter/iroha.jpg" },
+    { id: "tsumugiFilter", name: "紬", imgSrc: "assets/character_filter/tsumugi.jpg" },
+    { id: "nagiFilter", name: "凪", imgSrc: "assets/character_filter/nagi.jpg" },
 ];
 const characters2 = [
-    { id: "kanonFilter", name: "花音", imgSrc: "assets/kanon_filter.png" },
-    { id: "scarletFilter", name: "スカーレット", imgSrc: "assets/scarlet_filter.png" },
-    { id: "himarikoFilter", name: "ひまり子", imgSrc: "assets/himariko_filter.png" },
+    { id: "kanonFilter", name: "花音", imgSrc: "assets/character_filter/kanon.jpg" },
+    { id: "scarletFilter", name: "スカーレット", imgSrc: "assets/character_filter/scarlet.jpg" },
+    { id: "himarikoFilter", name: "ひまり子", imgSrc: "assets/character_filter/himariko.jpg" },
 ];
 const characters3 = [
-    { id: "niaFilter", name: "ニア", imgSrc: "assets/nia_filter.png" },
-    { id: "nashwaFilter", name: "ナシュワ", imgSrc: "assets/nashwa_filter.png" },
-    { id: "otherFilter", name: "その他", imgSrc: "assets/other_filter.png" },
+    { id: "niaFilter", name: "ニア", imgSrc: "assets/character_filter/nia.jpg" },
+    { id: "nashwaFilter", name: "ナシュワ", imgSrc: "assets/character_filter/nashwa.jpg" },
+    { id: "otherFilter", name: "その他", imgSrc: "assets/character_filter/other.jpg" },
 ];
 
 const colorFilter1 = [
-    { id: "redFilter", name: "赤", imgSrc: "assets/red_filter.png" },
-    { id: "blueFilter", name: "青", imgSrc: "assets/blue_filter.png" },
-    { id: "greenFilter", name: "緑", imgSrc: "assets/green_filter.png" }
+    { id: "redFilter", name: "赤", imgSrc: "assets/color_filter/red.jpg" },
+    { id: "blueFilter", name: "青", imgSrc: "assets/color_filter/blue.jpg" },
+    { id: "greenFilter", name: "緑", imgSrc: "assets/color_filter/green.jpg" }
 ];
 const colorFilter2 = [
-    { id: "yellowFilter", name: "黄", imgSrc: "assets/yellow_filter.png" },
-    { id: "aquaFilter", name: "水", imgSrc: "assets/aqua_filter.png" },
-    { id: "violetFilter", name: "紫", imgSrc: "assets/violet_filter.png" }
+    { id: "yellowFilter", name: "黄", imgSrc: "assets/color_filter/yellow.jpg" },
+    { id: "aquaFilter", name: "水", imgSrc: "assets/color_filter/aqua.jpg" },
+    { id: "violetFilter", name: "紫", imgSrc: "assets/color_filter/violet.jpg" }
+];
+
+const ctFilter = [
+    { id: "ct1Filter", name: "1", imgSrc: "assets/ct_filter/ct1.png" },
+    { id: "ct2Filter", name: "2", imgSrc: "assets/ct_filter/ct2.png" },
+    { id: "ct3Filter", name: "3", imgSrc: "assets/ct_filter/ct3.png" },
+    { id: "ct4Filter", name: "4", imgSrc: "assets/ct_filter/ct4.png" },
+    { id: "ct5Filter", name: "5", imgSrc: "assets/ct_filter/ct5.png" },
+    { id: "ct6Filter", name: "6", imgSrc: "assets/ct_filter/ct6.png" },
 ];
 
 const rarityFilter1 = [
-    { id: "rare1Filter", name: "1", imgSrc: "assets/rare1.png" },
-    { id: "rare2Filter", name: "2", imgSrc: "assets/rare2.png" }
+    { id: "rare1Filter", name: "1", imgSrc: "assets/rarity_filter/rare1.jpg" },
+    { id: "rare2Filter", name: "2", imgSrc: "assets/rarity_filter/rare2.jpg" }
 ];
 const rarityFilter2 = [
-    { id: "rare3Filter", name: "3", imgSrc: "assets/rare3.png" },
-    { id: "rare4Filter", name: "4", imgSrc: "assets/rare4.png" }
+    { id: "rare3Filter", name: "3", imgSrc: "assets/rarity_filter/rare3.jpg" },
+    { id: "rare4Filter", name: "4", imgSrc: "assets/rarity_filter/rare4.jpg" }
 ];
 
 const colorSort1 = [
-    { id: "redSort", name: "red", imgSrc: "assets/red_filter.png" },
-    { id: "blueSort", name: "blue", imgSrc: "assets/blue_filter.png" },
-    { id: "greenSort", name: "green", imgSrc: "assets/green_filter.png" }
+    { id: "redSort", name: "red", imgSrc: "assets/color_filter/red.jpg" },
+    { id: "blueSort", name: "blue", imgSrc: "assets/color_filter/blue.jpg" },
+    { id: "greenSort", name: "green", imgSrc: "assets/color_filter/green.jpg" }
 ];
 const colorSort2 = [
-    { id: "yellowSort", name: "yellow", imgSrc: "assets/yellow_filter.png" },
-    { id: "aquaSort", name: "aqua", imgSrc: "assets/aqua_filter.png" },
-    { id: "violetSort", name: "violet", imgSrc: "assets/violet_filter.png" }
+    { id: "yellowSort", name: "yellow", imgSrc: "assets/color_filter/yellow.jpg" },
+    { id: "aquaSort", name: "aqua", imgSrc: "assets/color_filter/aqua.jpg" },
+    { id: "violetSort", name: "violet", imgSrc: "assets/color_filter/violet.jpg" }
 ];
 
-const wikiUrl = "https://sweethomemaid.wikiru.jp/attach2/"
+const killerFilter1 = [
+    { id: "baloon", name: "風船", imgSrc: "assets/killer_filter/baloon.jpg" },
+    { id: "box", name: "ダンボール", imgSrc: "assets/killer_filter/box.jpg" },
+    { id: "button", name: "ボタン", imgSrc: "assets/killer_filter/button.jpg" },
+    { id: "cat", name: "箱入り猫", imgSrc: "assets/killer_filter/cat.jpg" },
+    { id: "chain", name: "鎖", imgSrc: "assets/killer_filter/chain.jpg" },
+    { id: "egg", name: "たまご", imgSrc: "assets/killer_filter/egg.jpg" },
+    { id: "form", name: "泡", imgSrc: "assets/killer_filter/form.jpg" },
+    { id: "ice", name: "氷", imgSrc: "assets/killer_filter/ice.jpg" },
+    { id: "jelly", name: "ゼリー", imgSrc: "assets/killer_filter/jelly.jpg" },
+    { id: "mouse", name: "ネズミ", imgSrc: "assets/killer_filter/mouse.jpg" },
+];
+const killerFilter2 = [
+    { id: "orange", name: "みかん", imgSrc: "assets/killer_filter/orange.jpg" },
+    { id: "peanuts", name: "ピーナッツ", imgSrc: "assets/killer_filter/peanuts.jpg" },
+    { id: "present", name: "プレゼント箱", imgSrc: "assets/killer_filter/present.jpg" },
+    { id: "pretty", name: "プリティタン", imgSrc: "assets/killer_filter/pretty.jpg" },
+    { id: "printer", name: "3Dプリンター", imgSrc: "assets/killer_filter/printer.jpg" },
+    { id: "shell", name: "貝", imgSrc: "assets/killer_filter/shell.jpg" },
+    { id: "spider", name: "蜘蛛の巣", imgSrc: "assets/killer_filter/spider.jpg" },
+    { id: "tree", name: "薪", imgSrc: "assets/killer_filter/tree.jpg" },
+    { id: "yoyo", name: "水ヨーヨー", imgSrc: "assets/killer_filter/yoyo.jpg" },
+];
+const abilityFilter1 = [
+    { id: "first", name: "初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237322E706E67.png" },
+    { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3330312E706E67.png" },
+    { id: "linkage", name: "リンケージスキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237332E706E67.png" },
+    { id: "diet", name: "ダイエットスキルコスト", imgSrc: wikiUrl+"696D67_6162696C6974795F3237352E706E67.png" },
+    { id: "rebound", name: "リバウンドスキルコスト", imgSrc: wikiUrl+"696D67_6162696C6974795F3237342E706E67.png" },
+    { id: "similar_up", name: "シミラー初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237372E706E67.png" },
+    { id: "similar_down", name: "シミラースキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237362E706E67.png" },
+    { id: "pair_up", name: "ペアルック初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237392E706E67.png" },
+    { id: "pair_down", name: "ペアルックスキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237382E706E67.png" },
+];
+const abilityFilter2 = [
+    { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3330332E706E67.png" },
+    { id: "hand1", name: "手数1アップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3239302E706E67.png" },
+    { id: "hand2", name: "手数2アップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3239612E706E67.png" },
+    { id: "wave1", name: "Wave手数回復+1", imgSrc: wikiUrl+"696D67_6162696C6974795F3239312E706E67.png" },
+    { id: "wave2", name: "Wave手数回復+2", imgSrc: wikiUrl+"696D67_6162696C6974795F3239622E706E67.png" },
+    { id: "ac_all", name: "アクセントカラー(全)", imgSrc: wikiUrl+"696D67_6162696C6974795F4143616C6C38302E706E67.png" },
+    { id: "score_all", name: "リンケージオールスコアアップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3236332E706E67.png" },
+    { id: "rocket_peanuts", name: "ピーナッツ貫通ロケット", imgSrc: wikiUrl+"696D67_6162696C6974795F3136342E706E67.png" },
+];
+const skillTypeFilter = [
+  { id: "create", name: "クリエイト", imgSrc: wikiUrl+"696D67_736B696C6C5F3032342E706E67.png" },
+  { id: "fast", name: "ファスト", imgSrc: wikiUrl+"696D67_736B5F666173745F726B482E706E67.png" },
+  { id: "select", name: "セレクト", imgSrc: wikiUrl+"696D67_736B5F73656C6563745F52522E706E67.png" },
+  { id: "p_change", name: "ピースチェンジ", imgSrc: wikiUrl+"696D67_736B5F706368616E67652E706E67.png" },
+  { id: "rp_change", name: "遠隔ピースチェンジ", imgSrc: wikiUrl+"696D67_736B696C6C5F3033372E706E67.png" },
+  { id: "break", name: "ピースブレイク", imgSrc: wikiUrl+"696D67_736B696C6C5F3032392E706E67.png" },
+  { id: "change", name: "カラーチェンジ", imgSrc: wikiUrl+"696D67_736B5F43432E706E67.png" },
+  { id: "shuffle", name: "ピースシャッフル", imgSrc: wikiUrl+"696D67_736B5F7073687566666C652E706E67.png" },
+];
+const boosterTagFilter= [
+  { id: "special", name: "スペシャル", imgSrc: wikiUrl+"696D67_625F7370652E6A7067.png" },
+  { id: "bom", name: "ボム", imgSrc: wikiUrl+"696D67_625F626F6D2E6A7067.png" },
+  { id: "rocket", name: "ロケット", imgSrc: wikiUrl+"696D67_625F726B562E6A7067.png" },
+  { id: "missile", name: "ミサイル", imgSrc: wikiUrl+"696D67_625F6D736C2E6A7067.png" },
+];
+
 const colorMap = {
   "赤": "696D67_70635F7265642E706E67.png",
   "青": "696D67_70635F626C752E706E67.png",
@@ -71,22 +141,6 @@ const colorMap = {
   "水": "696D67_70635F6171612E706E67.png",
   "紫": "696D67_70635F76696F2E706E67.png"
 };
-const skillTypeMap = {
-  "クリエイト": "696D67_736B696C6C5F3032342E706E67.png",
-  "ファスト": "696D67_736B5F666173745F726B482E706E67.png",
-  "セレクト": "696D67_736B5F73656C6563745F52522E706E67.png",
-  "ピースチェンジ": "696D67_736B5F706368616E67652E706E67.png",
-  "遠隔ピースチェンジ": "696D67_736B696C6C5F3033372E706E67.png",
-  "ピースブレイク": "696D67_736B696C6C5F3032392E706E67.png",
-  "カラーチェンジ": "696D67_736B5F43432E706E67.png",
-  "ピースシャッフル": "696D67_736B5F7073687566666C652E706E67.png"
-}
-const boosterMap = {
-  "スペシャル": "696D67_625F7370652E6A7067.jpg",
-  "ボム": "696D67_625F626F6D2E6A7067.jpg",
-  "ロケット": "696D67_625F726B562E6A7067.jpg",
-  "ミサイル": "696D67_625F6D736C2E6A7067.jpg",
-}
 
 // キャラクターデータの読み込み
 async function loadCharacters() {
@@ -94,9 +148,6 @@ async function loadCharacters() {
         const response = await fetch("data/characters.json");
         characters = await response.json();
         renderCharacters(characters);
-        createSkillTagFilters();
-        createAbilityTagFilters();
-        createKillerTagFilters();
         createKillerBoosterFilters();
         setupEventListeners();
     } catch (error) {
@@ -151,16 +202,16 @@ function renderCharacters(characters) {
 }
 function applyFilters() {
   let filtered = characters.filter(char => {
+    const matchesSkillType = filters.skillType.size === 0 ||
+       [...filters.skillType].every(tag => char.s_type.includes(tag));
     const matchesSkillTag = filters.skillTag.size === 0 ||
-       [...filters.skillTag].every(tag => char.s_tag.includes(tag));
-    const matchesAbilityTag = filters.abilityTag.size === 0 ||
-       [...filters.abilityTag].every(tag => char.a_tag.includes(tag));
-    const matchesKillerTag = filters.killerTag.size === 0 ||
-       [...filters.killerTag].every(tag => char.k_tag.includes(tag));
+       [...filters.skillTag].every(tag => char.booster_tag.includes(tag));
+    const matchesAbilityTag = filters.ability.size === 0 ||
+       [...filters.ability].every(tag => char.a_tag.includes(tag));
+    const matchesKillerTag = filters.killer.size === 0 ||
+       [...filters.killer].every(tag => char.k_tag.includes(tag));
     const matchesKillerBooster = filters.killerBooster.size === 0 ||
        [...filters.killerBooster].every(tag => char.k_booster.includes(tag));
-
-    const matchesSkillType = filters.skillType === "all" || char.s_type === filters.skillType;
 
     return (filters.character.size === 0 || filters.character.has(char.character)) &&
       (filters.rarity.size === 0 || filters.rarity.has(char.rarity.toString())) &&
@@ -221,10 +272,15 @@ function setupEventListeners() {
         });
     });
 
-    // クールタイムフィルター
-    document.querySelectorAll(".ctFilterCB").forEach(checkbox => {
+    document.querySelectorAll(".ctCB").forEach(checkbox => {
         checkbox.addEventListener("change", (e) => {
             toggleFilter("ct", e.target.value);
+        });
+    });
+
+    document.querySelectorAll(".skillTypeCB").forEach(checkbox => {
+        checkbox.addEventListener("change", (e) => {
+            toggleFilter("skillType", e.target.value);
         });
     });
 
@@ -234,15 +290,15 @@ function setupEventListeners() {
         });
     });
 
-    document.querySelectorAll(".abilityTagCB").forEach(checkbox => {
+    document.querySelectorAll(".abilityCB").forEach(checkbox => {
         checkbox.addEventListener("change", (e) => {
-            toggleFilter("abilityTag", e.target.value);
+            toggleFilter("ability", e.target.value);
         });
     });
 
-    document.querySelectorAll(".killerTagCB").forEach(checkbox => {
+    document.querySelectorAll(".killerCB").forEach(checkbox => {
         checkbox.addEventListener("change", (e) => {
-            toggleFilter("killerTag", e.target.value);
+            toggleFilter("killer", e.target.value);
         });
     });
 
@@ -252,13 +308,6 @@ function setupEventListeners() {
         });
     });
 
-    // s_typeフィルター（ラジオボタン）
-    document.querySelectorAll(".skillTypeRadio").forEach(radio => {
-        radio.addEventListener("change", (e) => {
-            filters.skillType = e.target.value;
-            applyFilters();
-        });
-    });
     // ソートフィルター
     document.querySelectorAll(".colorSortCB").forEach(checkbox => {
         checkbox.addEventListener("change", (e) => {
@@ -301,7 +350,6 @@ function renderStaticFilter() {
     label.appendChild(img);
     filterCard.appendChild(input);
     filterCard.appendChild(label);
-    console.log(parentFilterElem)
     parentFilterElem.appendChild(filterCard);
   }
 
@@ -312,7 +360,6 @@ function renderStaticFilter() {
   characters2.forEach(renderCard);
   parentFilterElem = document.getElementById("charFilter3");
   characters3.forEach(renderCard);
-
 
   cbClass = "colorFilterCB";
   parentFilterElem = document.getElementById("colorFilter1");
@@ -332,100 +379,32 @@ function renderStaticFilter() {
   parentFilterElem = document.getElementById("rarityFilter2");
   rarityFilter2.forEach(renderCard);
 
-  createSkillTypeFilters();
+  cbClass = "ctCB";
+  parentFilterElem = document.getElementById("ctFilter");
+  ctFilter.forEach(renderCard);
+
+  cbClass = "skillTypeCB";
+  parentFilterElem = document.getElementById("skillTypeFilter");
+  skillTypeFilter.forEach(renderCard);
+
+  cbClass = "boosterTagCB";
+  parentFilterElem = document.getElementById("boosterTagFilter");
+  boosterTagFilter.forEach(renderCard);
+
+  cbClass = "killerCB";
+  parentFilterElem = document.getElementById("killerFilter1");
+  killerFilter1.forEach(renderCard);
+  parentFilterElem = document.getElementById("killerFilter2");
+  killerFilter2.forEach(renderCard);
+
+  cbClass = "abilityCB";
+  parentFilterElem = document.getElementById("abilityFilter1");
+  abilityFilter1.forEach(renderCard);
+  parentFilterElem = document.getElementById("abilityFilter2");
+  abilityFilter2.forEach(renderCard);
+
 }
 
-function createSkillTypeFilters() {
-    const types = [
-        "クリエイト",
-        "ファスト",
-        "セレクト",
-        "ピースチェンジ",
-        "遠隔ピースチェンジ",
-        "ピースブレイク",
-        "カラーチェンジ",
-        "ピースシャッフル"
-    ];
-
-    // フィルター項目を作成
-    let container = document.getElementById('skillTypeFilter1');
-    // 既存の"すべて"オプションの後に追加
-    types.forEach(type => {
-        const label = document.createElement('label');
-        const radio = document.createElement('input');
-        radio.type = 'radio';
-        radio.name = 'skillTypeRadio';
-        radio.classList.add('skillTypeRadio');
-        radio.value = type;
-        radio.id = `s-type-${type}`;
-        label.appendChild(radio);
-        label.appendChild(document.createTextNode(` ${type}`));
-        container.appendChild(label);
-    });
-}
-function createSkillTagFilters() {
-    const allTags = new Set();
-    characters.forEach(char => {
-      char.s_tag.forEach(tag => allTags.add(tag));
-    });
-    const sortedTags = Array.from(allTags).sort();
-    // フィルター項目を作成
-    const container = document.getElementById('skillTagFilter');
-    sortedTags.forEach(tag => {
-        const label = document.createElement('label');
-        //label.classList.add('skill-tag-label');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.classList.add('skillTagCB');
-        checkbox.value = tag;
-        //checkbox.id = `skill-tag-${tag}`;
-        label.appendChild(checkbox);
-        label.appendChild(document.createTextNode(` ${tag}`));
-        container.appendChild(label);
-    });
-}
-function createAbilityTagFilters() {
-    const allTags = new Set();
-    characters.forEach(char => {
-      char.a_tag.forEach(tag => allTags.add(tag));
-    });
-    const sortedTags = Array.from(allTags).sort();
-    // フィルター項目を作成
-    const container = document.getElementById('abilityTagFilter');
-    sortedTags.forEach(tag => {
-        const label = document.createElement('label');
-        //label.classList.add('skill-tag-label');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.classList.add('abilityTagCB');
-        checkbox.value = tag;
-        //checkbox.id = `skill-tag-${tag}`;
-        label.appendChild(checkbox);
-        label.appendChild(document.createTextNode(` ${tag}`));
-        container.appendChild(label);
-    });
-}
-function createKillerTagFilters() {
-    const allTags = new Set();
-    characters.forEach(char => {
-      char.k_tag.forEach(tag => allTags.add(tag));
-    });
-    const sortedTags = Array.from(allTags).sort();
-    // フィルター項目を作成
-    const container = document.getElementById('killerTagFilter');
-    sortedTags.forEach(tag => {
-        const label = document.createElement('label');
-        //label.classList.add('skill-tag-label');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.classList.add('killerTagCB');
-        checkbox.value = tag;
-        //checkbox.id = `skill-tag-${tag}`;
-        label.appendChild(checkbox);
-        label.appendChild(document.createTextNode(` ${tag}`));
-        container.appendChild(label);
-    });
-}
 function createKillerBoosterFilters() {
     const allTags = new Set();
     characters.forEach(char => {
@@ -436,12 +415,10 @@ function createKillerBoosterFilters() {
     const container = document.getElementById('killerBoosterFilter');
     sortedTags.forEach(tag => {
         const label = document.createElement('label');
-        //label.classList.add('skill-tag-label');
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.classList.add('killerBoosterCB');
         checkbox.value = tag;
-        //checkbox.id = `skill-tag-${tag}`;
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(` ${tag}`));
         container.appendChild(label);
