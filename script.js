@@ -9,7 +9,7 @@ const filters = {
     color: new Set(),
     ct: new Set(),
     skillType: new Set(),
-    skillTag: new Set(),
+    booster: new Set(),
     ability: new Set(),
     killer: new Set(),
     killerBooster: new Set(),
@@ -118,19 +118,21 @@ const abilityFilter2 = [
 ];
 const skillTypeFilter = [
   { id: "create", name: "クリエイト", imgSrc: wikiUrl+"696D67_736B696C6C5F3032342E706E67.png" },
-  { id: "fast", name: "ファスト", imgSrc: wikiUrl+"696D67_736B5F666173745F726B482E706E67.png" },
+  { id: "fast", name: "ファスト", imgSrc: wikiUrl+"696D67_736B696C6C5F3030352E706E67.png" },
   { id: "select", name: "セレクト", imgSrc: wikiUrl+"696D67_736B5F73656C6563745F52522E706E67.png" },
   { id: "p_change", name: "ピースチェンジ", imgSrc: wikiUrl+"696D67_736B5F706368616E67652E706E67.png" },
   { id: "rp_change", name: "遠隔ピースチェンジ", imgSrc: wikiUrl+"696D67_736B696C6C5F3033372E706E67.png" },
   { id: "break", name: "ピースブレイク", imgSrc: wikiUrl+"696D67_736B696C6C5F3032392E706E67.png" },
   { id: "change", name: "カラーチェンジ", imgSrc: wikiUrl+"696D67_736B5F43432E706E67.png" },
   { id: "shuffle", name: "ピースシャッフル", imgSrc: wikiUrl+"696D67_736B5F7073687566666C652E706E67.png" },
+  { id: "gage_up", name: "スキルゲージアップ", imgSrc: wikiUrl+"696D67_736B696C6C5F3033302E706E67.png" },
+  { id: "ct_cool_down", name: "スキルクールダウン1", imgSrc: wikiUrl+"696D67_736B5F43442E706E67.png" },
 ];
-const boosterTagFilter= [
-  { id: "special", name: "スペシャル", imgSrc: wikiUrl+"696D67_625F7370652E6A7067.png" },
-  { id: "bom", name: "ボム", imgSrc: wikiUrl+"696D67_625F626F6D2E6A7067.png" },
-  { id: "rocket", name: "ロケット", imgSrc: wikiUrl+"696D67_625F726B562E6A7067.png" },
-  { id: "missile", name: "ミサイル", imgSrc: wikiUrl+"696D67_625F6D736C2E6A7067.png" },
+const boosterFilter = [
+  { id: "special", name: "スペシャル", imgSrc: wikiUrl+"696D67_625F7370652E706E67.png" },
+  { id: "bom", name: "ボム", imgSrc: wikiUrl+"696D67_625F626F6D2E706E67.png" },
+  { id: "rocket", name: "ロケット", imgSrc: wikiUrl+"696D67_625F726B562E706E67.png" },
+  { id: "missile", name: "ミサイル", imgSrc: "assets/msl.png" },
 ];
 
 const colorMap = {
@@ -202,22 +204,28 @@ function renderCharacters(characters) {
 }
 function applyFilters() {
   let filtered = characters.filter(char => {
+    console.log(char);
+    const matchesCharacter = filters.character.size === 0 ||
+       [...filters.character].every(tag => char.character.includes(tag));
     const matchesSkillType = filters.skillType.size === 0 ||
        [...filters.skillType].every(tag => char.s_type.includes(tag));
-    const matchesSkillTag = filters.skillTag.size === 0 ||
-       [...filters.skillTag].every(tag => char.booster_tag.includes(tag));
+    const matchesBoosterTag = filters.booster.size === 0 ||
+       [...filters.booster].every(tag => char.booster_tag.includes(tag));
     const matchesAbilityTag = filters.ability.size === 0 ||
        [...filters.ability].every(tag => char.a_tag.includes(tag));
     const matchesKillerTag = filters.killer.size === 0 ||
        [...filters.killer].every(tag => char.k_tag.includes(tag));
     const matchesKillerBooster = filters.killerBooster.size === 0 ||
        [...filters.killerBooster].every(tag => char.k_booster.includes(tag));
+    const matchesRarity = filters.rarity.size === 0 ||
+       [...filters.rarity].every(tag => char.rarity.toString().includes(tag));
+    const matchesColor = filters.color.size === 0 ||
+       [...filters.color].every(tag => char.color.includes(tag));
+    const matchesCt = filters.ct.size === 0 ||
+       [...filters.ct].every(tag => char.ct.includes(tag));
 
-    return (filters.character.size === 0 || filters.character.has(char.character)) &&
-      (filters.rarity.size === 0 || filters.rarity.has(char.rarity.toString())) &&
-      (filters.color.size === 0 || filters.color.has(char.color)) &&
-      (filters.ct.size === 0 || filters.ct.has(char.ct.toString())) &&
-      matchesSkillTag && matchesAbilityTag && matchesKillerTag &&
+    return matchesCharacter && matchesColor && matchesCt && matchesRarity &&
+      matchesBoosterTag && matchesAbilityTag && matchesKillerTag &&
       matchesKillerBooster && matchesSkillType;
   });
 
@@ -228,18 +236,10 @@ function applyFilters() {
 
           return sum(b) - sum(a);
       });
-      //filtered.sort((a, b) => {
-      //    let sumA = Array.from(filters.sortAttributes).
-    //    reduce((sum, attr) => sum + (a[attr] || 0), 0);
-      //    let sumB = Array.from(filters.sortAttributes).
-    //    reduce((sum, attr) => sum + (b[attr] || 0), 0);
-      //    return sumB - sumA;
-      //});
   }
   renderCharacters(filtered);
 }
 
-// チェックボックスの状態をトグルしてフィルターを適用
 function toggleFilter(category, value) {
     if (filters[category].has(value)) {
         filters[category].delete(value);
@@ -249,76 +249,37 @@ function toggleFilter(category, value) {
     applyFilters();
 }
 
-// フィルター項目にイベントリスナーを設定
 function setupEventListeners() {
-    // キャラクターフィルター
-    document.querySelectorAll(".charCB").forEach(checkbox => {
+  const target = [
+    "character",
+    "rarity",
+    "color",
+    "ct",
+    "booster",
+    "skillType",
+    "ability",
+    "killer",
+    "killerBooster",
+  ];
+  target.forEach(filter_target => {
+    document.querySelectorAll("."+filter_target+"CB").forEach(checkbox => {
         checkbox.addEventListener("change", (e) => {
-            toggleFilter("character", e.target.value);
+            toggleFilter(filter_target, e.target.value);
         });
     });
+  });
 
-    // レアリティフィルター
-    document.querySelectorAll(".rarityCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("rarity", e.target.value);
-        });
-    });
-
-    // 属性フィルター
-    document.querySelectorAll(".colorFilterCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("color", e.target.value);
-        });
-    });
-
-    document.querySelectorAll(".ctCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("ct", e.target.value);
-        });
-    });
-
-    document.querySelectorAll(".skillTypeCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("skillType", e.target.value);
-        });
-    });
-
-    document.querySelectorAll(".skillTagCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("skillTag", e.target.value);
-        });
-    });
-
-    document.querySelectorAll(".abilityCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("ability", e.target.value);
-        });
-    });
-
-    document.querySelectorAll(".killerCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("killer", e.target.value);
-        });
-    });
-
-    document.querySelectorAll(".killerBoosterCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            toggleFilter("killerBooster", e.target.value);
-        });
-    });
-
-    // ソートフィルター
-    document.querySelectorAll(".colorSortCB").forEach(checkbox => {
-        checkbox.addEventListener("change", (e) => {
-            if (e.target.checked) {
-                filters.sortAttributes.add(e.target.value);
-            } else {
-                filters.sortAttributes.delete(e.target.value);
-            }
-            applyFilters();
-        });
-    });
+  // ソートフィルター
+  document.querySelectorAll(".colorSortCB").forEach(checkbox => {
+      checkbox.addEventListener("change", (e) => {
+          if (e.target.checked) {
+              filters.sortAttributes.add(e.target.value);
+          } else {
+              filters.sortAttributes.delete(e.target.value);
+          }
+          applyFilters();
+      });
+  });
 }
 
 function renderStaticFilter() {
@@ -353,7 +314,7 @@ function renderStaticFilter() {
     parentFilterElem.appendChild(filterCard);
   }
 
-  cbClass = "charCB";
+  cbClass = "characterCB";
   parentFilterElem = document.getElementById("charFilter1");
   characters1.forEach(renderCard);
   parentFilterElem = document.getElementById("charFilter2");
@@ -361,7 +322,7 @@ function renderStaticFilter() {
   parentFilterElem = document.getElementById("charFilter3");
   characters3.forEach(renderCard);
 
-  cbClass = "colorFilterCB";
+  cbClass = "colorCB";
   parentFilterElem = document.getElementById("colorFilter1");
   colorFilter1.forEach(renderCard);
   parentFilterElem = document.getElementById("colorFilter2");
@@ -387,9 +348,9 @@ function renderStaticFilter() {
   parentFilterElem = document.getElementById("skillTypeFilter");
   skillTypeFilter.forEach(renderCard);
 
-  cbClass = "boosterTagCB";
-  parentFilterElem = document.getElementById("boosterTagFilter");
-  boosterTagFilter.forEach(renderCard);
+  cbClass = "boosterCB";
+  parentFilterElem = document.getElementById("boosterFilter");
+  boosterFilter.forEach(renderCard);
 
   cbClass = "killerCB";
   parentFilterElem = document.getElementById("killerFilter1");

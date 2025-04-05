@@ -161,7 +161,7 @@ def get_skill_type(s_name):
     if "セレクト" in s_name:
         return "セレクト"
     if "ピースチェンジ" == s_name:
-        return "ピースチェンジ" 
+        return "ピースチェンジ"
     if "ブレイク" in s_name:
         return "ピースブレイク"
     if "遠隔" in s_name:
@@ -170,10 +170,10 @@ def get_skill_type(s_name):
         return "ピースシャッフル"
     if "カラーチェンジ" in s_name:
         return "カラーチェンジ"
-    #if "アップ" in s_name:
-    #    s_tag.append("スキルゲージアップ")
-    #if "ダウン" in s_name:
-    #    s_tag.append("スキルクールダウン1")
+    if "アップ" in s_name:
+        return "スキルゲージアップ"
+    if "ダウン" in s_name:
+        return "スキルクールダウン1"
 
 def get_skill_tag(s_name):
     s_tag = []

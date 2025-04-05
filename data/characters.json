@@ -10,7 +10,7 @@
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -50,7 +50,7 @@
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "15",
@@ -89,7 +89,7 @@
     "s_name": "ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F706368616E67652E706E67.png",
     "s_type": "ピースチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "25",
     "ct": "3",
     "red": 28310,
@@ -123,7 +123,7 @@
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
     "s_type": "ピースブレイク",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "10",
     "ct": "3",
     "red": 12413,
@@ -159,7 +159,7 @@
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -197,7 +197,7 @@
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "15",
@@ -236,7 +236,7 @@
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -279,7 +279,7 @@
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -318,7 +318,7 @@
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -354,7 +354,7 @@
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "40",
@@ -389,7 +389,7 @@
     "s_name": "セレクト横ロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F48522E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "30",
@@ -427,7 +427,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -469,7 +469,7 @@
     "s_name": "セレクト横ロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F48522E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "30",
@@ -508,7 +508,7 @@
     "s_name": "遠隔ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033372E706E67.png",
     "s_type": "遠隔ピースチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "115",
     "ct": "3",
     "red": 22104,
@@ -524,6 +524,8 @@
     "a3": "リンケージオールスコアアップ4％",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3236332E706E67.png",
     "a_tag": [
+      "アクセントカラー",
+      "アクセントカラー(全)",
       "手数1アップ",
       "リンケージオールスコアアップ"
     ],
@@ -541,7 +543,7 @@
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "27",
@@ -579,7 +581,7 @@
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "35",
@@ -618,7 +620,7 @@
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "50",
@@ -657,7 +659,7 @@
     "s_name": "ボム&ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム",
       "スペシャル"
@@ -698,7 +700,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -737,7 +739,7 @@
     "s_name": "ファストスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F73702E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "20",
@@ -772,7 +774,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "20",
@@ -813,7 +815,7 @@
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -852,7 +854,7 @@
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -893,7 +895,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "50",
@@ -932,7 +934,7 @@
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
     "s_type": "ピースブレイク",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "20",
     "ct": "2",
     "red": 30868,
@@ -965,7 +967,7 @@
     "s_name": "ファストミックスボムミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -1003,7 +1005,7 @@
     "s_name": "ファスト不発ミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F55454D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -1042,7 +1044,7 @@
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -1082,7 +1084,7 @@
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -1119,7 +1121,7 @@
     "s_name": "ダブルスペシャル&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -1161,7 +1163,7 @@
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -1201,7 +1203,7 @@
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "30",
@@ -1236,7 +1238,7 @@
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -1276,7 +1278,7 @@
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
     "s_type": "ピースブレイク",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 23616,
@@ -1316,7 +1318,7 @@
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "5",
@@ -1352,7 +1354,7 @@
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "25",
@@ -1390,7 +1392,7 @@
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "35",
@@ -1429,7 +1431,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "30",
@@ -1467,7 +1469,7 @@
     "s_name": "セレクトスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F53502E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "45",
@@ -1508,7 +1510,7 @@
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -1547,7 +1549,7 @@
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "99",
@@ -1584,7 +1586,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -1623,7 +1625,7 @@
     "s_name": "ファストミックスミサイルロケット（横）",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D726F63486D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -1660,7 +1662,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "10",
@@ -1696,7 +1698,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "15",
@@ -1734,7 +1736,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -1772,7 +1774,7 @@
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "15",
@@ -1810,7 +1812,7 @@
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -1849,7 +1851,7 @@
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "35",
@@ -1884,7 +1886,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -1923,7 +1925,7 @@
     "s_name": "ピースシャッフル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F7073687566666C652E706E67.png",
     "s_type": "ピースシャッフル",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "20",
     "ct": "3",
     "red": 14291,
@@ -1961,7 +1963,7 @@
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -2002,7 +2004,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -2042,7 +2044,7 @@
     "s_name": "セレクト縦ロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F56522E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "30",
@@ -2079,7 +2081,7 @@
     "s_name": "ファスト不発ミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F55454D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -2114,7 +2116,7 @@
     "s_name": "ファストスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F73702E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "35",
@@ -2151,7 +2153,7 @@
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "24",
@@ -2190,7 +2192,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "20",
@@ -2230,7 +2232,7 @@
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "24",
@@ -2269,7 +2271,7 @@
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "25",
@@ -2307,7 +2309,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "15",
@@ -2344,7 +2346,7 @@
     "s_name": "ボム&ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031352E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル",
       "ボム"
@@ -2384,7 +2386,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -2426,7 +2428,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "35",
@@ -2462,7 +2464,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "10",
@@ -2500,7 +2502,7 @@
     "s_name": "ロケット＆ミサイル＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033352E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル",
       "スペシャル"
@@ -2541,7 +2543,7 @@
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "20",
@@ -2577,7 +2579,7 @@
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "45",
@@ -2616,7 +2618,7 @@
     "s_name": "ダブルロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -2655,7 +2657,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "10",
@@ -2695,7 +2697,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "5",
@@ -2731,7 +2733,7 @@
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "20",
@@ -2769,7 +2771,7 @@
     "s_name": "ファスト3WAYクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B56482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "50",
@@ -2806,7 +2808,7 @@
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -2845,7 +2847,7 @@
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -2884,7 +2886,7 @@
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -2925,7 +2927,7 @@
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "25",
@@ -2963,7 +2965,7 @@
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -3002,7 +3004,7 @@
     "s_name": "セレクトスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F53502E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "40",
@@ -3038,7 +3040,7 @@
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -3077,7 +3079,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "20",
@@ -3116,7 +3118,7 @@
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -3157,7 +3159,7 @@
     "s_name": "ファストミックスボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "45",
@@ -3193,7 +3195,7 @@
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "35",
@@ -3232,7 +3234,7 @@
     "s_name": "ダブルボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32626F6D3173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -3271,7 +3273,7 @@
     "s_name": "ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -3311,7 +3313,7 @@
     "s_name": "トリプルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032372E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "75",
@@ -3347,7 +3349,7 @@
     "s_name": "遠隔ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033372E706E67.png",
     "s_type": "遠隔ピースチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "22",
     "ct": "3",
     "red": 11760,
@@ -3385,7 +3387,7 @@
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "15",
@@ -3422,7 +3424,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -3457,7 +3459,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "12",
@@ -3495,7 +3497,7 @@
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -3536,7 +3538,7 @@
     "s_name": "ファストミックスボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "45",
@@ -3575,7 +3577,7 @@
     "s_name": "カラーチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F43432E706E67.png",
     "s_type": "カラーチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 29017,
@@ -3608,7 +3610,7 @@
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -3647,7 +3649,7 @@
     "s_name": "ファスト不発ミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F55456D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "35",
@@ -3686,7 +3688,7 @@
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "28",
@@ -3724,7 +3726,7 @@
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "20",
@@ -3760,7 +3762,7 @@
     "s_name": "ファストミックスミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "45",
@@ -3801,7 +3803,7 @@
     "s_name": "ファストミックスミサイルロケット（縦）",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D726F63566D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -3837,7 +3839,7 @@
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "20",
@@ -3874,7 +3876,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -3910,7 +3912,7 @@
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "30",
@@ -3934,8 +3936,8 @@
       "アクセントカラー（黄）"
     ],
     "k_tag": [
-      "薪",
-      "ダンボール"
+      "ダンボール",
+      "薪"
     ],
     "k_booster": [
       "ボム+2",
@@ -3953,7 +3955,7 @@
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "30",
@@ -3997,7 +3999,7 @@
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "30",
@@ -4041,7 +4043,7 @@
     "s_name": "遠隔ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033372E706E67.png",
     "s_type": "遠隔ピースチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 17150,
@@ -4064,8 +4066,8 @@
       "手数2アップ"
     ],
     "k_tag": [
-      "鎖",
-      "氷"
+      "氷",
+      "鎖"
     ],
     "k_booster": [
       "ロケット+2",
@@ -4083,7 +4085,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "30",
@@ -4127,7 +4129,7 @@
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -4152,8 +4154,8 @@
       "アクセントカラー（赤）"
     ],
     "k_tag": [
-      "3Dプリンター",
-      "蜘蛛の巣"
+      "蜘蛛の巣",
+      "3Dプリンター"
     ],
     "k_booster": [
       "ミサイル+2",
@@ -4171,7 +4173,7 @@
     "s_name": "ピースブレイク",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032392E706E67.png",
     "s_type": "ピースブレイク",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "15",
     "ct": "3",
     "red": 18360,
@@ -4204,7 +4206,7 @@
     "s_name": "ダブルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "40",
@@ -4243,7 +4245,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -4283,7 +4285,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "25",
@@ -4322,7 +4324,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "15",
@@ -4359,7 +4361,7 @@
     "s_name": "ファストロケット（横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F726B482E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "25",
@@ -4400,7 +4402,7 @@
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "40",
@@ -4439,7 +4441,7 @@
     "s_name": "ファストクロスロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "50",
@@ -4478,7 +4480,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "25",
@@ -4515,7 +4517,7 @@
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -4554,8 +4556,8 @@
     "color": "水",
     "s_name": "スキルゲージアップ(水)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033312E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルゲージアップ",
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 8640,
@@ -4592,7 +4594,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "20",
@@ -4631,7 +4633,7 @@
     "s_name": "ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F706368616E67652E706E67.png",
     "s_type": "ピースチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 18900,
@@ -4671,7 +4673,7 @@
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -4711,7 +4713,7 @@
     "s_name": "セレクトボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F422E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "30",
@@ -4750,7 +4752,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -4790,7 +4792,7 @@
     "s_name": "ダブルスペシャル＆ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F316D736C3273702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -4830,7 +4832,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -4867,8 +4869,8 @@
     "color": "赤",
     "s_name": "スキルゲージアップ(赤)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033322E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルゲージアップ",
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 21060,
@@ -4904,7 +4906,7 @@
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -4944,7 +4946,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -4986,7 +4988,7 @@
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "40",
@@ -5025,7 +5027,7 @@
     "s_name": "ダブルロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32726B74316D732E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -5065,7 +5067,7 @@
     "s_name": "ダブルボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -5105,7 +5107,7 @@
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -5146,7 +5148,7 @@
     "s_name": "ファストミックスボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "50",
@@ -5185,8 +5187,8 @@
     "color": "青",
     "s_name": "スキルゲージアップ(青)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033302E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルゲージアップ",
+    "booster_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 18360,
@@ -5222,7 +5224,7 @@
     "s_name": "トリプルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030372E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "25",
@@ -5259,7 +5261,7 @@
     "s_name": "ダブルロケット&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032352E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -5302,7 +5304,7 @@
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "55",
@@ -5341,7 +5343,7 @@
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -5380,7 +5382,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -5420,7 +5422,7 @@
     "s_name": "ファスト3WAYロケット(横)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030392E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "50",
@@ -5459,7 +5461,7 @@
     "s_name": "トリプルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032372E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "60",
@@ -5500,7 +5502,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -5537,8 +5539,8 @@
     "color": "黄",
     "s_name": "スキルゲージアップ(黄)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F6761676575705F79656C2E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルゲージアップ",
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 10260,
@@ -5575,7 +5577,7 @@
     "s_name": "ボム&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -5613,7 +5615,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "20",
@@ -5650,7 +5652,7 @@
     "s_name": "ボム＆ロケット＆スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F31626F6D31726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム",
       "スペシャル"
@@ -5691,7 +5693,7 @@
     "s_name": "セレクトランダムロケット",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F52522E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -5733,7 +5735,7 @@
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "22",
@@ -5770,7 +5772,7 @@
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "50",
@@ -5812,7 +5814,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -5850,7 +5852,7 @@
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "20",
@@ -5887,7 +5889,7 @@
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "45",
@@ -5927,8 +5929,8 @@
     "color": "紫",
     "s_name": "スキルゲージアップ(紫)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033342E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルゲージアップ",
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 15120,
@@ -5965,7 +5967,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "25",
@@ -6004,7 +6006,7 @@
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "10",
@@ -6041,7 +6043,7 @@
     "s_name": "トリプルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030372E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "45",
@@ -6080,7 +6082,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "40",
@@ -6122,7 +6124,7 @@
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "40",
@@ -6161,7 +6163,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "25",
@@ -6197,8 +6199,8 @@
     "color": "赤",
     "s_name": "スキルクールダウン1",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F43442E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルクールダウン1",
+    "booster_tag": [],
     "cost": "20",
     "ct": "4",
     "red": 34502,
@@ -6237,7 +6239,7 @@
     "s_name": "ボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -6274,8 +6276,8 @@
     "color": "緑",
     "s_name": "スキルゲージアップ(緑)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3033332E706E67.png",
-    "s_type": null,
-    "s_tag": [],
+    "s_type": "スキルゲージアップ",
+    "booster_tag": [],
     "cost": "30",
     "ct": "3",
     "red": 9180,
@@ -6311,7 +6313,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "25",
@@ -6350,7 +6352,7 @@
     "s_name": "ピースシャッフル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F7073687566666C652E706E67.png",
     "s_type": "ピースシャッフル",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "40",
     "ct": "3",
     "red": 24499,
@@ -6390,7 +6392,7 @@
     "s_name": "ダブルスペシャル＆ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F316D736C3273702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -6430,7 +6432,7 @@
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "35",
@@ -6472,7 +6474,7 @@
     "s_name": "ファストミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "20",
@@ -6509,7 +6511,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "40",
@@ -6548,7 +6550,7 @@
     "s_name": "ファストミックスボムミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F4D626F6D6D736C2E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -6590,7 +6592,7 @@
     "s_name": "カラーチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F43432E706E67.png",
     "s_type": "カラーチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "55",
     "ct": "2",
     "red": 19906,
@@ -6629,7 +6631,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "25",
@@ -6666,7 +6668,7 @@
     "s_name": "ボム&ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム",
       "スペシャル"
@@ -6700,7 +6702,7 @@
     "s_name": "ダブルミサイル&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "ボム"
     ],
@@ -6733,7 +6735,7 @@
     "s_name": "トリプルボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "60",
@@ -6765,7 +6767,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "25",
@@ -6795,7 +6797,7 @@
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "40",
@@ -6827,7 +6829,7 @@
     "s_name": "ダブルロケット&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032352E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -6860,7 +6862,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -6893,7 +6895,7 @@
     "s_name": "トリプルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030372E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "50",
@@ -6925,7 +6927,7 @@
     "s_name": "ダブルミサイル&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -6956,7 +6958,7 @@
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -6989,7 +6991,7 @@
     "s_name": "トリプルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032372E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "65",
@@ -7021,7 +7023,7 @@
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "50",
@@ -7053,7 +7055,7 @@
     "s_name": "ダブルボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32626F6D3173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -7086,7 +7088,7 @@
     "s_name": "トリプルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F33726B742E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "50",
@@ -7118,7 +7120,7 @@
     "s_name": "ダブルロケット&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F32726B743173702E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "スペシャル"
     ],
@@ -7151,7 +7153,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "25",
@@ -7183,7 +7185,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "30",
@@ -7215,7 +7217,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "30",
@@ -7250,7 +7252,7 @@
     "s_name": "ダブルボム&ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ボム"
     ],
@@ -7283,7 +7285,7 @@
     "s_name": "ロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "25",
@@ -7315,7 +7317,7 @@
     "s_name": "ダブルスペシャル&ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -7348,7 +7350,7 @@
     "s_name": "スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "30",
@@ -7380,7 +7382,7 @@
     "s_name": "ダブルロケットクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "40",
@@ -7412,7 +7414,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "30",
@@ -7444,7 +7446,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "25",
@@ -7476,7 +7478,7 @@
     "s_name": "ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031312E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル"
     ],
@@ -7509,7 +7511,7 @@
     "s_name": "ミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -7542,7 +7544,7 @@
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "40",
@@ -7574,7 +7576,7 @@
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "20",
@@ -7606,7 +7608,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "30",
@@ -7638,7 +7640,7 @@
     "s_name": "ダブルスペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3032382E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "50",
@@ -7670,7 +7672,7 @@
     "s_name": "ボム&ロケット&ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031352E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット",
       "ミサイル",
       "ボム"
@@ -7704,7 +7706,7 @@
     "s_name": "ファストボム",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031372E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "45",
@@ -7736,7 +7738,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "25",
@@ -7768,7 +7770,7 @@
     "s_name": "ボム&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030362E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム",
       "スペシャル"
     ],
@@ -7801,7 +7803,7 @@
     "s_name": "ファストロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030352E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "45",
@@ -7833,7 +7835,7 @@
     "s_name": "ファスト3WAYロケット(縦)",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F33726B562E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "ロケット"
     ],
     "cost": "55",
@@ -7865,7 +7867,7 @@
     "s_name": "ピースチェンジ",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F706368616E67652E706E67.png",
     "s_type": "ピースチェンジ",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 12600,
@@ -7895,7 +7897,7 @@
     "s_name": "ボムクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031342E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ボム"
     ],
     "cost": "30",
@@ -7927,7 +7929,7 @@
     "s_name": "ミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031302E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "25",
@@ -7959,7 +7961,7 @@
     "s_name": "ダブルミサイル&スペシャルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3030332E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル",
       "スペシャル"
     ],
@@ -7992,7 +7994,7 @@
     "s_name": "ダブルミサイルクリエイト",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B696C6C5F3031322E706E67.png",
     "s_type": "クリエイト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "40",
@@ -8024,7 +8026,7 @@
     "s_name": "セレクトミサイル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F73656C6563745F4D2E706E67.png",
     "s_type": "セレクト",
-    "s_tag": [
+    "booster_tag": [
       "ミサイル"
     ],
     "cost": "40",
@@ -8056,7 +8058,7 @@
     "s_name": "ファストスペシャル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F666173745F73702E706E67.png",
     "s_type": "ファスト",
-    "s_tag": [
+    "booster_tag": [
       "スペシャル"
     ],
     "cost": "20",
@@ -8088,7 +8090,7 @@
     "s_name": "ピースシャッフル",
     "s_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_736B5F7073687566666C652E706E67.png",
     "s_type": "ピースシャッフル",
-    "s_tag": [],
+    "booster_tag": [],
     "cost": "35",
     "ct": "3",
     "red": 16986,
@@ -8105,11 +8107,14 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3137332E706E67.png",
     "a4": "ピーナッツキラー＋1（全ブースター）",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3136332E706E67.png",
-    "a_tag": [],
+    "a_tag": [
+      "アクセントカラー",
+      "アクセントカラー(全)"
+    ],
     "k_tag": [
-      "薪",
       "ダンボール",
-      "ピーナッツ"
+      "ピーナッツ",
+      "薪"
     ],
     "k_booster": [
       "ロケット+1",
