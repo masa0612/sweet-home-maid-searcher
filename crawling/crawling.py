@@ -6,7 +6,6 @@ import re
 
 BASE = "https://sweethomemaid.wikiru.jp/"
 ALL = "https://sweethomemaid.wikiru.jp/?全キャラクター一覧"
-OUTPUT_FILE = "../data/characters.json"
 
 def get_cards(filter_=None):
     response = requests.get(ALL)
@@ -58,14 +57,26 @@ def get_cards(filter_=None):
             card[f"a{i-6}_img"] = BASE+ability["data-src"]
         #tags = get_tags(card["url"])
         card["a_tag"] = get_ability_tag(card)
-        card["k_tag"], card["k_booster"]= get_killer_tag(card)
+        card["k_tag"], card["plus"]= get_killer_tag(card)
 
         cards.append(card)
 
     return cards
 
 def get_series(name):
-    match = re.search(r'【(.*?)】', name)
+    match = re.search(r'(【.*?】)', name)
+    if "モフモフ" in match.group(1):
+        return "【モフモフ】"
+    if "ジューン" in match.group(1):
+        return "【ジューンブライド】"
+    if "耳かき" in match.group(1):
+        return "【ASMR】"
+    if "ズボラ" in match.group(1):
+        return "【年はじめ】"
+    if "クリスマス" in match.group(1):
+        return "【クリスマス】"
+    if "恐怖" in match.group(1):
+        return "【ハロウィン】"
     return match.group(1)
 
 def get_killer_tag(card):
@@ -186,18 +197,3 @@ def get_skill_tag(s_name):
     if "スペシャル" in s_name:
         s_tag.append("スペシャル")
     return s_tag
-
-#print(get_cards("【朝一の悦び】彩葉"))
-#exit()
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(get_cards(), f, indent=2, ensure_ascii=False)
-
-def get_tags(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-    span = soup.find("span", class_="tag")
-
-    return [
-      x.get_text(strip=True) for x in span.find_all("a")
-    ]

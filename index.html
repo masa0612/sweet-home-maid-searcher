@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>スイメド検索</title>
+  <script src="filters.js" defer></script>
   <script src="script.js" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -11,6 +12,14 @@
 <body class="bg-gray-100">
   <div class="container mx-auto p-4">
     <div class="filters">
+
+      <div class="filter" id="colorSort1">
+        <h3>ソート</h3>
+      </div>
+      <div class="filter" id="colorSort2">
+        <br>
+      </div>
+      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
       <div class="filter" id="charFilter1">
         <h3>キャラクター</h3>
       </div>
@@ -36,27 +45,26 @@
       <div class="filter" id="rarityFilter2">
         <br>
       </div>
+    </div>
 
-
-      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
-      <div class="filter" id="colorSort1">
-        <h3>ソート</h3>
-      </div>
-      <div class="filter" id="colorSort2">
         <br>
-      </div>
-    </div>
-
-
-    <div class="filter" id="ctFilter">
-      <h3>クールタイム</h3>
-    </div>
+    <div class="flex gap-2">
     <div class="filter" id="skillTypeFilter">
       <h3>スキルタイプ</h3>
     </div>
-
-    <div class="filter" id="boosterFilter">
-      <h3>ブースター</h3>
+    <div class="filter" id="soonFilter">
+      <h3>開幕起動</h3>
+      <input type="checkbox" style="width: 24px; height: 24px; margin-left: 20px" id="soonCB">
+    </div>
+    </div>
+    <div class="flex gap-2">
+        <div class="filter" id="boosterFilter">
+          <h3>ブースター</h3>
+        </div>
+        <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+        <div class="filter" id="ctFilter">
+          <h3>クールタイム</h3>
+        </div>
     </div>
 
     <div class="filter" id="killerFilter1">
@@ -65,8 +73,8 @@
     <div class="filter" id="killerFilter2">
     </div>
 
-    <div class="filter" id="killerBoosterFilter">
-      <h3>ギミックブースター</h3>
+    <div class="filter" id="plusFilter">
+      <h3>キラー＋値</h3>
     </div>
 
     <div class="filter" id="abilityFilter1">
@@ -76,7 +84,6 @@
     </div>
 
     <div id="characterContainer" class="mt-4">
-      <!-- キャラクター情報がここに表示されます -->
     </div>
   </div>
 </body>
