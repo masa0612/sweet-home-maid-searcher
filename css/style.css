@@ -68,6 +68,11 @@ h3 {
     text-align: center;
 }
 
+.charCard p {
+    font-size: 10px;
+    text-align: left;
+}
+
 .charCard button {
     font-size: 10px;
     text-align: left;
