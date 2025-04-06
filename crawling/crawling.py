@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
+import re
+import json
 import requests
 from bs4 import BeautifulSoup
-import json
-import re
 
-BASE = "https://sweethomemaid.wikiru.jp/"
-ALL = "https://sweethomemaid.wikiru.jp/?全キャラクター一覧"
+WIKI = "https://sweethomemaid.wikiru.jp/"
 
 def get_cards(filter_=None):
-    response = requests.get(ALL)
+    response = requests.get(WIKI+"?全キャラクター一覧")
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -24,11 +23,11 @@ def get_cards(filter_=None):
     cards = []
     for row in rows:
         card = {}
-        card["icon"] = BASE+row[0].find("img")["data-src"]
+        card["icon"] = WIKI+row[0].find("img")["data-src"]
         card["character"] = row[0].text
         name = row[1].find("a")
         card["name"] = name.text
-        card["url"] = BASE+name["href"]
+        card["url"] = WIKI+name["href"][2:]
         if "コラボ" in name.text or "ロイズ" in name.text:
             if "の特権" not in name.text:
                 card["character"] = "その他"
@@ -38,25 +37,24 @@ def get_cards(filter_=None):
 
         skill = row[4].find("img")
         card["s_name"] = skill["title"]
-        card["s_img"] = BASE+skill["data-src"]
+        #card["s_img"] = WIKI+skill["data-src"]
         card["s_type"] = get_skill_type(card["s_name"])
         card["booster_tag"] = get_skill_tag(card["s_name"])
         card["cost"] = row[5].text
         card["ct"] = row[6].text
-        card["red"] = int(row[11].text)
-        card["blue"] = int(row[12].text)
-        card["green"] = int(row[13].text)
-        card["yellow"] = int(row[14].text)
-        card["aqua"] = int(row[15].text)
-        card["violet"] = int(row[16].text)
-        print(get_status(card["url"]))
+        status = get_status(card["url"])
+        card["red"] = status[0]
+        card["blue"] = status[1]
+        card["green"] = status[2]
+        card["yellow"] = status[3]
+        card["aqua"] = status[4]
+        card["violet"] = status[5]
 
         for i in range(7,11):
             ability = row[i].find("img")
             if ability is None: break
             card[f"a{i-6}"] = ability["title"]
-            card[f"a{i-6}_img"] = BASE+ability["data-src"]
-        #tags = get_tags(card["url"])
+            card[f"a{i-6}_img"] = WIKI+ability["data-src"]
         card["a_tag"] = get_ability_tag(card)
         card["k_tag"], card["plus"]= get_killer_tag(card)
 
@@ -211,4 +209,28 @@ def get_status(url):
     for x in rows[2:]:
         cols = x.find_all("td")
         status_list.append(int(cols[2].get_text(strip=True).replace(",","")))
-    return status_list
+    max_value = max(status_list)
+    multiplier = get_multiplier(soup)
+    return [int(x*multiplier) if x == max_value else x for x in status_list]
+
+def get_multiplier(soup):
+    div = soup.find(id="content_1_3")
+    multiple = int()
+    color = str()
+    while True:
+        div = div.find_next_sibling("div")
+        if div is None: break
+        if "ie5" not in div["class"]: continue
+
+        table = div.find("table")
+        rows = table.find_all("tr")
+        for x in range(0,(int(len(rows)/2))):
+            ths = rows[x*2].find_all("th")
+            ability = ths[1].text
+            if "カードスコア" not in ability:
+                continue
+
+            match = re.search(r'(\d+)', ability)
+            multiple += int(match.group(1) if match else None)
+
+    return float(multiple/100)+1.02
