@@ -49,6 +49,7 @@ def get_cards(filter_=None):
         card["yellow"] = int(row[14].text)
         card["aqua"] = int(row[15].text)
         card["violet"] = int(row[16].text)
+        print(get_status(card["url"]))
 
         for i in range(7,11):
             ability = row[i].find("img")
@@ -197,3 +198,17 @@ def get_skill_tag(s_name):
     if "スペシャル" in s_name:
         s_tag.append("スペシャル")
     return s_tag
+
+def get_status(url):
+    response = requests.get(url)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, 'html.parser')
+    content_div = soup.find(id="content_1_1")
+    sibling_div = content_div.find_next_sibling("div")
+    table = sibling_div.find("table")
+    rows = table.find_all("tr")
+    status_list = []
+    for x in rows[2:]:
+        cols = x.find_all("td")
+        status_list.append(int(cols[2].get_text(strip=True).replace(",","")))
+    return status_list

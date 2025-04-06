@@ -1,4 +1,3 @@
-//スコア間違い、シリーズ
 const colorMap = {
   "赤": "696D67_70635F7265642E706E67.png",
   "青": "696D67_70635F626C752E706E67.png",
@@ -20,7 +19,7 @@ const filters = {
     ability: new Set(),
     killer: new Set(),
     plus: new Set(),
-    soon: new Boolean(),
+    soon: false,
     sortAttributes: new Set()
 };
 
