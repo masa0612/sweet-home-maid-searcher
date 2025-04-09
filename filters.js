@@ -47,13 +47,16 @@ const rarityFilter2 = [
 const colorSort1 = [
     { id: "redSort", name: "red", imgSrc: "assets/color_filter/red.jpg" },
     { id: "blueSort", name: "blue", imgSrc: "assets/color_filter/blue.jpg" },
-    { id: "greenSort", name: "green", imgSrc: "assets/color_filter/green.jpg" }
-];
-const colorSort2 = [
+    { id: "greenSort", name: "green", imgSrc: "assets/color_filter/green.jpg" },
     { id: "yellowSort", name: "yellow", imgSrc: "assets/color_filter/yellow.jpg" },
     { id: "aquaSort", name: "aqua", imgSrc: "assets/color_filter/aqua.jpg" },
     { id: "violetSort", name: "violet", imgSrc: "assets/color_filter/violet.jpg" }
 ];
+//const colorSort2 = [
+//    { id: "yellowSort", name: "yellow", imgSrc: "assets/color_filter/yellow.jpg" },
+//    { id: "aquaSort", name: "aqua", imgSrc: "assets/color_filter/aqua.jpg" },
+//    { id: "violetSort", name: "violet", imgSrc: "assets/color_filter/violet.jpg" }
+//];
 
 const killerFilter1 = [
     { id: "baloon", name: "風船", imgSrc: "assets/killer_filter/baloon.jpg" },

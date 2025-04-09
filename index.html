@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>スイメド検索</title>
+  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
   <script src="filters.js" defer></script>
   <script src="script.js" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -13,13 +14,6 @@
   <div class="container mx-auto p-4">
     <div class="filters">
 
-      <div class="filter" id="colorSort1">
-        <h3>ソート</h3>
-      </div>
-      <div class="filter" id="colorSort2">
-        <br>
-      </div>
-      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
       <div class="filter" id="charFilter1">
         <h3>キャラクター</h3>
       </div>
@@ -47,9 +41,6 @@
       </div>
     </div>
 
-        <h3>引用元のwikiのデータがおかしいのでスコア周りあんまりアテにならない</h3>
-        <h3>Wikiの各カードのlv70のスコア直してくれるボランティア募集</h3>
-        <br>
     <div class="flex gap-2">
     <div class="filter" id="skillTypeFilter">
       <h3>スキルタイプ</h3>
@@ -70,7 +61,7 @@
     </div>
 
     <div class="filter" id="killerFilter1">
-      <h3>ギミック</h3>
+      <h3>キラー</h3>
     </div>
     <div class="filter" id="killerFilter2">
     </div>
@@ -84,6 +75,12 @@
     </div>
     <div class="filter" id="abilityFilter2">
     </div>
+    <div class="filter" id="colorSort1">
+      <h3>ソート</h3>
+    </div>
+    <h3>引用元のwikiのデータがおかしいのでスコア周りあんまりアテにならない</h3>
+    <h3>Wikiの各カードのlv70のスコア直してくれるボランティア募集</h3>
+    <hr>
 
     <div id="characterContainer" class="mt-4">
     </div>

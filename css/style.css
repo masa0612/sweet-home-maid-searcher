@@ -94,3 +94,21 @@ h3 {
 .filterImg {
     height: 40px;
 }
+
+.floatingchat-container-wrap,
+.floatingchat-container-wrap-mobi {
+  left: auto !important;
+  right: 10px !important;
+}
+
+#kofi-wo-container .floatingchat-donate-button,
+#kofi-wo-container-mobi .floatingchat-donate-button {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.floating-chat-kofi-popup-iframe,
+.floating-chat-kofi-popup-iframe-mobi {
+  left: auto !important;
+  right: 10px !important;
+}

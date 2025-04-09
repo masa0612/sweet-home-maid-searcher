@@ -221,8 +221,8 @@ function renderFilter() {
   cbClass = "colorSortCB";
   parentFilterElem = document.getElementById("colorSort1");
   colorSort1.forEach(renderCard);
-  parentFilterElem = document.getElementById("colorSort2");
-  colorSort2.forEach(renderCard);
+  //parentFilterElem = document.getElementById("colorSort2");
+  //colorSort2.forEach(renderCard);
 
   cbClass = "rarityCB";
   parentFilterElem = document.getElementById("rarityFilter1");
@@ -259,7 +259,20 @@ function renderFilter() {
   abilityFilter2.forEach(renderCard);
 }
 
+function setDonation() {
+  a = kofiWidgetOverlay.draw('hugashy', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  setDonation();
   renderFilter();
   loadCharacters();
+  const iframe = document.querySelector('iframe');
+  const closed = iframe.contentDocument.querySelector('.closed');
+  closed.click();
 });
