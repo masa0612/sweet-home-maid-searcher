@@ -185,7 +185,7 @@ function renderFilter() {
     input.type = "checkbox";
     input.id = ele.id;
     input.classList.add(cbClass);
-    input.classList.add("filterCB");
+    input.classList.add("overlayCB");
     input.value = ele.name;
 
     // <label for="...">
@@ -205,28 +205,20 @@ function renderFilter() {
   }
 
   cbClass = "characterCB";
-  parentFilterElem = document.getElementById("charFilter1");
-  characters1.forEach(renderCard);
-  parentFilterElem = document.getElementById("charFilter2");
-  characters2.forEach(renderCard);
-  parentFilterElem = document.getElementById("charFilter3");
-  characters3.forEach(renderCard);
+  parentFilterElem = document.getElementById("charFilter");
+  characterFilter.forEach(renderCard);
 
   cbClass = "colorCB";
-  parentFilterElem = document.getElementById("colorFilter1");
-  colorFilter1.forEach(renderCard);
-  parentFilterElem = document.getElementById("colorFilter2");
-  colorFilter2.forEach(renderCard);
+  parentFilterElem = document.getElementById("colorFilter");
+  colorFilter.forEach(renderCard);
 
   cbClass = "colorSortCB";
   parentFilterElem = document.getElementById("colorSort");
   colorSort.forEach(renderCard);
 
   cbClass = "rarityCB";
-  parentFilterElem = document.getElementById("rarityFilter1");
-  rarityFilter1.forEach(renderCard);
-  parentFilterElem = document.getElementById("rarityFilter2");
-  rarityFilter2.forEach(renderCard);
+  parentFilterElem = document.getElementById("rarityFilter");
+  rarityFilter.forEach(renderCard);
 
   cbClass = "ctCB";
   parentFilterElem = document.getElementById("ctFilter");
@@ -241,20 +233,16 @@ function renderFilter() {
   boosterFilter.forEach(renderCard);
 
   cbClass = "killerCB";
-  parentFilterElem = document.getElementById("killerFilter1");
-  killerFilter1.forEach(renderCard);
-  parentFilterElem = document.getElementById("killerFilter2");
-  killerFilter2.forEach(renderCard);
+  parentFilterElem = document.getElementById("killerFilter");
+  killerFilter.forEach(renderCard);
 
   cbClass = "plusCB";
   parentFilterElem = document.getElementById("plusFilter");
   plusFilter.forEach(renderCard);
 
   cbClass = "abilityCB";
-  parentFilterElem = document.getElementById("abilityFilter1");
-  abilityFilter1.forEach(renderCard);
-  parentFilterElem = document.getElementById("abilityFilter2");
-  abilityFilter2.forEach(renderCard);
+  parentFilterElem = document.getElementById("abilityFilter");
+  abilityFilter.forEach(renderCard);
 }
 
 function setDonation() {
@@ -272,5 +260,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadCharacters();
   const iframe = document.querySelector('iframe');
   const closed = iframe.contentDocument.querySelector('.closed');
-  closed.click();
+  if (Math.random() < 1/3) { closed.click(); }
 });

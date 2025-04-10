@@ -12,74 +12,55 @@
 </head>
 <body class="bg-gray-100">
   <div class="container mx-auto p-4">
-    <div class="filters">
-
-      <div class="filter" id="charFilter1">
-        <h3>キャラクター</h3>
-      </div>
-      <div class="filter" id="charFilter2">
-        <br>
-      </div>
-      <div class="filter" id="charFilter3">
-        <br>
-      </div>
-
-      <div class="spacer"></div>
-
-      <div class="filter" id="colorFilter1">
-        <h3>カラー</h3>
-      </div>
-      <div class="filter" id="colorFilter2">
-        <br>
-      </div>
-
-      <div class="spacer"></div>
-      <div class="filter" id="rarityFilter1">
-        <h3>★</h3>
-      </div>
-      <div class="filter" id="rarityFilter2">
-        <br>
+    <div class="grid grid-cols-1 md:grid-cols-2 line">
+      <div class="grid grid-cols-3" id="charFilter"></div>
+      <div class="grid grid-cols-2 line">
+        <div class="grid grid-cols-2" id="colorFilter"></div>
+        <div class="grid grid-cols-2" id="rarityFilter"></div>
       </div>
     </div>
 
     <div class="spacer"></div>
-    <div class="flex gap-2">
-    <div class="filter" id="skillTypeFilter">
+
+    <div class="grid">
       <h3>スキルタイプ</h3>
+      <div id="skillTypeFilter">
+      </div>
     </div>
-    <div class="filter" id="soonFilter">
+
+<div class="hidden md:block">md以上のみ表示</div>
+<div class="block md:hidden">md未満のみ表示</div>
+
+    <div class="grid grid-cols-3 line">
+      <h3>生成ブースター</h3>
+      <h3>クールタイム</h3>
       <h3>開幕起動</h3>
-      <input type="checkbox" style="width: 24px; height: 24px; margin-left: 20px; margin-top: 7px" id="soonCB">
-    </div>
-    </div>
-    <div class="flex gap-2">
-        <div class="filter" id="boosterFilter">
-          <h3>ブースター</h3>
-        </div>
-        <div class="spacer"></div>
-        <div class="filter" id="ctFilter">
-          <h3>クールタイム</h3>
-        </div>
+      <div id="boosterFilter" class="grid grid-cols-2 md:grid-cols-4"></div>
+      <div id="ctFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
+      <div id="soonFilter"><input type="checkbox" id="soonCB"></div>
     </div>
 
-    <div class="filter" id="killerFilter1">
+
+    <div class="grid">
       <h3>キラー</h3>
-    </div>
-    <div class="filter" id="killerFilter2">
+      <div id="killerFilter" class="grid grid-cols-5 md:grid-cols-10"></div>
     </div>
 
-    <div class="filter" id="plusFilter">
+    <div class="grid">
       <h3>キラー＋値</h3>
+      <div id="plusFilter" class="grid grid-cols-10"></div>
     </div>
 
-    <div class="filter" id="abilityFilter1">
+    <div class="grid">
       <h3>アビリティ</h3>
+      <div id="abilityFilter" class="grid grid-cols-9"></div>
     </div>
-    <div class="filter" id="abilityFilter2">
-    </div>
-    <div class="filter" id="colorSort">
+
+    <div class="grid">
       <h3>ソート</h3>
+      <div id="colorSort"></div>
     </div>
+
     <h3>引用元wikiのデータが統一されておらず正確なソートではない</h3>
     <h3>Wikiの各カードのlv70のスコア直してくれるボランティア募集</h3>
     <hr>

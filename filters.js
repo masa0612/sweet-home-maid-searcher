@@ -1,26 +1,20 @@
 const wikiUrl = "https://sweethomemaid.wikiru.jp/attach2/"
-const characters1 = [
+const characterFilter = [
     { id: "irohaFilter", name: "彩葉", imgSrc: "assets/character_filter/iroha.jpg" },
     { id: "tsumugiFilter", name: "紬", imgSrc: "assets/character_filter/tsumugi.jpg" },
     { id: "nagiFilter", name: "凪", imgSrc: "assets/character_filter/nagi.jpg" },
-];
-const characters2 = [
     { id: "kanonFilter", name: "花音", imgSrc: "assets/character_filter/kanon.jpg" },
     { id: "scarletFilter", name: "スカーレット", imgSrc: "assets/character_filter/scarlet.jpg" },
     { id: "himarikoFilter", name: "ひまり子", imgSrc: "assets/character_filter/himariko.jpg" },
-];
-const characters3 = [
     { id: "niaFilter", name: "ニア", imgSrc: "assets/character_filter/nia.jpg" },
     { id: "nashwaFilter", name: "ナシュワ", imgSrc: "assets/character_filter/nashwa.jpg" },
     { id: "otherFilter", name: "その他", imgSrc: "assets/character_filter/other.jpg" },
 ];
 
-const colorFilter1 = [
+const colorFilter = [
     { id: "redFilter", name: "赤", imgSrc: "assets/color_filter/red.jpg" },
     { id: "blueFilter", name: "青", imgSrc: "assets/color_filter/blue.jpg" },
-    { id: "greenFilter", name: "緑", imgSrc: "assets/color_filter/green.jpg" }
-];
-const colorFilter2 = [
+    { id: "greenFilter", name: "緑", imgSrc: "assets/color_filter/green.jpg" },
     { id: "yellowFilter", name: "黄", imgSrc: "assets/color_filter/yellow.jpg" },
     { id: "aquaFilter", name: "水", imgSrc: "assets/color_filter/aqua.jpg" },
     { id: "violetFilter", name: "紫", imgSrc: "assets/color_filter/violet.jpg" }
@@ -35,11 +29,9 @@ const ctFilter = [
     { id: "ct6Filter", name: "6", imgSrc: "assets/ct_filter/ct6.png" },
 ];
 
-const rarityFilter1 = [
+const rarityFilter = [
     { id: "rare1Filter", name: "1", imgSrc: "assets/rarity_filter/rare1.jpg" },
-    { id: "rare2Filter", name: "2", imgSrc: "assets/rarity_filter/rare2.jpg" }
-];
-const rarityFilter2 = [
+    { id: "rare2Filter", name: "2", imgSrc: "assets/rarity_filter/rare2.jpg" },
     { id: "rare3Filter", name: "3", imgSrc: "assets/rarity_filter/rare3.jpg" },
     { id: "rare4Filter", name: "4", imgSrc: "assets/rarity_filter/rare4.jpg" }
 ];
@@ -53,30 +45,28 @@ const colorSort = [
     { id: "violetSort", name: "violet", imgSrc: wikiUrl+"696D67_70635F76696F2E706E67.png" }
 ];
 
-const killerFilter1 = [
-    { id: "baloon", name: "風船キラー", imgSrc: "assets/killer_filter/baloon.jpg" },
+const killerFilter = [
     { id: "box", name: "ダンボールキラー", imgSrc: "assets/killer_filter/box.jpg" },
-    { id: "button", name: "ボタンキラー", imgSrc: "assets/killer_filter/button.jpg" },
-    { id: "cat", name: "箱入り猫なつき度", imgSrc: "assets/killer_filter/cat.jpg" },
+    { id: "peanuts", name: "ピーナッツキラー", imgSrc: "assets/killer_filter/peanuts.jpg" },
+    { id: "mouse", name: "ネズミキラー", imgSrc: "assets/killer_filter/mouse.jpg" },
+    { id: "tree", name: "薪キラー", imgSrc: "assets/killer_filter/tree.jpg" },
     { id: "chain", name: "鎖キラー", imgSrc: "assets/killer_filter/chain.jpg" },
-    { id: "egg", name: "たまごキラー", imgSrc: "assets/killer_filter/egg.jpg" },
+    { id: "present", name: "プレゼント箱キラー", imgSrc: "assets/killer_filter/present.jpg" },
+    { id: "jelly", name: "ゼリーキラー", imgSrc: "assets/killer_filter/jelly.jpg" },
+    { id: "button", name: "ボタンキラー", imgSrc: "assets/killer_filter/button.jpg" },
+    { id: "orange", name: "みかんキラー", imgSrc: "assets/killer_filter/orange.jpg" },
+    { id: "spider", name: "蜘蛛の巣キラー", imgSrc: "assets/killer_filter/spider.jpg" },
     { id: "form", name: "泡キラー", imgSrc: "assets/killer_filter/form.jpg" },
     { id: "ice", name: "氷キラー", imgSrc: "assets/killer_filter/ice.jpg" },
-    { id: "jelly", name: "ゼリーキラー", imgSrc: "assets/killer_filter/jelly.jpg" },
-    { id: "mouse", name: "ネズミキラー", imgSrc: "assets/killer_filter/mouse.jpg" },
-];
-const killerFilter2 = [
-    { id: "orange", name: "みかんキラー", imgSrc: "assets/killer_filter/orange.jpg" },
-    { id: "peanuts", name: "ピーナッツキラー", imgSrc: "assets/killer_filter/peanuts.jpg" },
-    { id: "present", name: "プレゼント箱キラー", imgSrc: "assets/killer_filter/present.jpg" },
-    { id: "pretty", name: "プリティタン人形サポート", imgSrc: "assets/killer_filter/pretty.jpg" },
     { id: "printer", name: "3Dプリンターキラー", imgSrc: "assets/killer_filter/printer.jpg" },
+    { id: "egg", name: "たまごキラー", imgSrc: "assets/killer_filter/egg.jpg" },
+    { id: "baloon", name: "風船キラー", imgSrc: "assets/killer_filter/baloon.jpg" },
     { id: "shell", name: "貝キラー", imgSrc: "assets/killer_filter/shell.jpg" },
-    { id: "spider", name: "蜘蛛の巣キラー", imgSrc: "assets/killer_filter/spider.jpg" },
-    { id: "tree", name: "薪キラー", imgSrc: "assets/killer_filter/tree.jpg" },
     { id: "yoyo", name: "水ヨーヨーキラー", imgSrc: "assets/killer_filter/yoyo.jpg" },
+    { id: "pretty", name: "プリティタン人形サポート", imgSrc: "assets/killer_filter/pretty.jpg" },
+    { id: "cat", name: "箱入り猫なつき度", imgSrc: "assets/killer_filter/cat.jpg" },
 ];
-const abilityFilter1 = [
+const abilityFilter = [
     { id: "first", name: "初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237322E706E67.png" },
     { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3330312E706E67.png" },
     { id: "linkage", name: "リンケージスキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237332E706E67.png" },
@@ -86,8 +76,6 @@ const abilityFilter1 = [
     { id: "similar_down", name: "シミラースキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237362E706E67.png" },
     { id: "pair_up", name: "ペアルック初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237392E706E67.png" },
     { id: "pair_down", name: "ペアルックスキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237382E706E67.png" },
-];
-const abilityFilter2 = [
     { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3330332E706E67.png" },
     { id: "hand1", name: "手数1アップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3239302E706E67.png" },
     { id: "hand2", name: "手数2アップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3239612E706E67.png" },

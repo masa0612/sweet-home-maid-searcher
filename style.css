@@ -18,9 +18,50 @@ h3 {
   font-weight: bold;
 }
 
-.filters .filter {
-  display: flex;
-  flex-direction: column; /* 各フィルターを縦並びに */
+.grid {
+  gap: 3px;
+  justify-content: start;
+  align-content: start;
+}
+
+.grid-cols-2 {
+  grid-template-columns: auto auto;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: auto auto;
+  }
+}
+
+.grid-cols-3 {
+  grid-template-columns: auto auto auto;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.grid-cols-4 {
+  grid-template-columns: auto auto auto auto;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-4 {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-6 {
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+}
+
+.line {
+  grid-gap: 3px 15px;
 }
 
 /* フィルターを1行に並べる */
@@ -32,6 +73,12 @@ h3 {
   overflow-x: auto; /* 横スクロールできるようにする */
 }
 
+#soonCB {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
 
 .spacer {
   width: 10px;
@@ -88,7 +135,7 @@ h3 {
   text-align: left;
 }
 
-.filterCB {
+.overlayCB {
   position: absolute; /* 画像の上に重ねる */
   top: 0px; /* 上からの位置調整 */
   left: 0px; /* 左からの位置調整 */
@@ -96,12 +143,12 @@ h3 {
 }
 
 .filterCard {
-  min-height: 45px; /* 各フィルターの最小幅 */
   position: relative; /* 画像の上にチェックボックスを重ねるために必要 */
   display: inline-block; /* 画像とチェックボックスを1つのブロックとして扱う */
 }
 
 .filterImg {
+  object-fit: contain;
   height: 40px;
 }
 
