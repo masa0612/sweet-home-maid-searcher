@@ -1,10 +1,26 @@
 /* style.css */
 body {
-  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("assets/bg.png");
+  background-repeat: no-repeat; /* 画像の繰り返しを防止 */
+  background-size: 100vw auto ; /* 横幅100%、高さは自動調整 */
+  background-position: center center; /* または単に center */
+  background-attachment: fixed;
+}
+
+@media (max-width: 640px) {
+  body {
+    background-position: center top;
+    background-size: 100vh auto ; /* 横幅100%、高さは自動調整 */
+  }
 }
 
 h3 {
   font-weight: bold;
+}
+
+.filters .filter {
+  display: flex;
+  flex-direction: column; /* 各フィルターを縦並びに */
 }
 
 /* フィルターを1行に並べる */
@@ -16,10 +32,6 @@ h3 {
   overflow-x: auto; /* 横スクロールできるようにする */
 }
 
-.filters .filter {
-  display: flex;
-  flex-direction: column; /* 各フィルターを縦並びに */
-}
 
 .spacer {
   width: 10px;
