@@ -84,41 +84,21 @@ def get_killer_tag(card):
     for i in range(1,5):
         ability = card.get(f"a{i}")
         if ability is None: break
-        if "手数" in ability: continue
+        target = ["キラー","サポート","なつき"]
+        if not any(x in ability for x in target): continue
 
-        if "キラー" in ability:
-            match = re.search(r"(.+?)キラー[＋+](\d+)[（(](.+?)[）)]", ability)
-            k_tag.add(match.group(1))
-            if match.group(3) == "全ブースター":
-                k_booster.append("ロケット+"+match.group(2))
-                k_booster.append("ミサイル+"+match.group(2))
-                k_booster.append("ボム+"+match.group(2))
-            else:
-                k_booster.append(match.group(3)+"+"+match.group(2))
-
-        if "サポート" in ability:
-            match = re.search(r"プリティタン人形サポート[＋+](\d+)[（(](.+?)[）)]", ability)
-            k_tag.add("プリティタン")
-            if match.group(2) == "全ブースター":
-                k_booster.append("ロケット+"+match.group(1))
-                k_booster.append("ミサイル+"+match.group(1))
-                k_booster.append("ボム+"+match.group(1))
-            else:
-                k_booster.append(match.group(2)+"+"+match.group(1))
-
-        if "なつき" in ability:
-            match = re.search(r"箱入り猫なつき度[＋+](\d+)[（(](.+?)[）)]", ability)
-            k_tag.add("箱入り猫")
-            if match.group(2) == "全ブースター":
-                k_booster.append("ロケット+"+match.group(1))
-                k_booster.append("ミサイル+"+match.group(1))
-                k_booster.append("ボム+"+match.group(1))
-            else:
-                k_booster.append(match.group(2)+"+"+match.group(1))
-
-
+        match = re.search(r"(.+?)[＋+](\d+)[（(](.+?)[）)]", ability)
+        k_tag.add(match.group(1))
+        plus = match.group(2)
+        booster = match.group(3)
+        k_booster.append("+"+plus)
+        if booster == "全ブースター":
+            k_booster.append("ロケット+"+plus)
+            k_booster.append("ミサイル+"+plus)
+            k_booster.append("ボム+"+plus)
+        else:
+            k_booster.append(booster+"+"+plus)
     return list(k_tag),k_booster
-
 
 def get_ability_tag(card):
     a_tag = []
