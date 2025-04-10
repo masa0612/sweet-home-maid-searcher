@@ -8,7 +8,7 @@
   <script src="filters.js" defer></script>
   <script src="script.js" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100">
   <div class="container mx-auto p-4">
@@ -24,7 +24,8 @@
         <br>
       </div>
 
-      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+      <div class="spacer"></div>
+
       <div class="filter" id="colorFilter1">
         <h3>カラー</h3>
       </div>
@@ -32,7 +33,7 @@
         <br>
       </div>
 
-      <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+      <div class="spacer"></div>
       <div class="filter" id="rarityFilter1">
         <h3>★</h3>
       </div>
@@ -41,20 +42,21 @@
       </div>
     </div>
 
+    <div class="spacer"></div>
     <div class="flex gap-2">
     <div class="filter" id="skillTypeFilter">
       <h3>スキルタイプ</h3>
     </div>
     <div class="filter" id="soonFilter">
       <h3>開幕起動</h3>
-      <input type="checkbox" style="width: 24px; height: 24px; margin-left: 20px" id="soonCB">
+      <input type="checkbox" style="width: 24px; height: 24px; margin-left: 20px; margin-top: 7px" id="soonCB">
     </div>
     </div>
     <div class="flex gap-2">
         <div class="filter" id="boosterFilter">
           <h3>ブースター</h3>
         </div>
-        <p style="border-right: 1px solid #000000;padding:2px 8px;"></p>
+        <div class="spacer"></div>
         <div class="filter" id="ctFilter">
           <h3>クールタイム</h3>
         </div>
