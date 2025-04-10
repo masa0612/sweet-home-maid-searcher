@@ -1,6 +1,6 @@
 /* style.css */
 body {
-    font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 h3 {
@@ -11,7 +11,7 @@ h3 {
 .filters {
   display: flex;
   justify-content: flex-start; /* フィルター間のスペースを均等に配置 */
-  gap: 3; /* フィルター間の間隔 */
+  gap: 3px; /* フィルター間の間隔 */
   flex-wrap: wrap; /* フィルターが折り返さないように設定 */
   overflow-x: auto; /* 横スクロールできるようにする */
 }

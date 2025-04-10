@@ -219,10 +219,8 @@ function renderFilter() {
   colorFilter2.forEach(renderCard);
 
   cbClass = "colorSortCB";
-  parentFilterElem = document.getElementById("colorSort1");
-  colorSort1.forEach(renderCard);
-  //parentFilterElem = document.getElementById("colorSort2");
-  //colorSort2.forEach(renderCard);
+  parentFilterElem = document.getElementById("colorSort");
+  colorSort.forEach(renderCard);
 
   cbClass = "rarityCB";
   parentFilterElem = document.getElementById("rarityFilter1");

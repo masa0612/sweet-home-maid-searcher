@@ -44,19 +44,14 @@ const rarityFilter2 = [
     { id: "rare4Filter", name: "4", imgSrc: "assets/rarity_filter/rare4.jpg" }
 ];
 
-const colorSort1 = [
-    { id: "redSort", name: "red", imgSrc: "assets/color_filter/red.jpg" },
-    { id: "blueSort", name: "blue", imgSrc: "assets/color_filter/blue.jpg" },
-    { id: "greenSort", name: "green", imgSrc: "assets/color_filter/green.jpg" },
-    { id: "yellowSort", name: "yellow", imgSrc: "assets/color_filter/yellow.jpg" },
-    { id: "aquaSort", name: "aqua", imgSrc: "assets/color_filter/aqua.jpg" },
-    { id: "violetSort", name: "violet", imgSrc: "assets/color_filter/violet.jpg" }
+const colorSort = [
+    { id: "redSort", name: "red", imgSrc: wikiUrl+"696D67_70635F7265642E706E67.png" },
+    { id: "blueSort", name: "blue", imgSrc: wikiUrl+"696D67_70635F626C752E706E67.png" },
+    { id: "greenSort", name: "green", imgSrc: wikiUrl+"696D67_70635F67726E2E706E67.png" },
+    { id: "yellowSort", name: "yellow", imgSrc: wikiUrl+"696D67_70635F79656C2E706E67.png" },
+    { id: "aquaSort", name: "aqua", imgSrc: wikiUrl+"696D67_70635F6171612E706E67.png" },
+    { id: "violetSort", name: "violet", imgSrc: wikiUrl+"696D67_70635F76696F2E706E67.png" }
 ];
-//const colorSort2 = [
-//    { id: "yellowSort", name: "yellow", imgSrc: "assets/color_filter/yellow.jpg" },
-//    { id: "aquaSort", name: "aqua", imgSrc: "assets/color_filter/aqua.jpg" },
-//    { id: "violetSort", name: "violet", imgSrc: "assets/color_filter/violet.jpg" }
-//];
 
 const killerFilter1 = [
     { id: "baloon", name: "風船キラー", imgSrc: "assets/killer_filter/baloon.jpg" },
