@@ -172,6 +172,20 @@ function setupEventListeners() {
       applyFilters();
     });
   });
+
+  const toggleButton = document.querySelector("#filterTglBtn");
+  toggleButton.addEventListener('click', () => {
+    const filterContainer = document.querySelector("#filterContainer")
+    filterContainer.classList.toggle('active');
+    if (filterContainer.classList.contains('active')) {
+      toggleButton.innerHTML = "フィルター<br>非表示";
+      toggleButton.style.backgroundColor = "#FF6B6B";
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      toggleButton.innerHTML = "フィルター<br>表示";
+      toggleButton.style.backgroundColor = "#4ECDC4";
+    }
+  });
 }
 
 function renderFilter() {
