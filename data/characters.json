@@ -1,4 +1,4 @@
-[
+【満開！夜桜大宴会】紬
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E69C9DE4B880E381AEE682A6E381B3E38091E5BDA9E891895F69636F6E2E706E67.png",
     "character": "彩葉",
@@ -206,7 +206,7 @@
     "booster_tag": [
       "ミサイル"
     ],
-    "cost": "15",
+    "cost": "0",
     "ct": "3",
     "red": 15679,
     "blue": 20906,
@@ -218,11 +218,10 @@
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
     "a2": "リバウンドスキルコスト15",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237342E706E67.png",
-    "a3": "初期スキルゲージ10増加",
-    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
+    "a3": "スキルコスト15減少",
+    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237312E706E67.png",
     "a_tag": [
-      "リバウンドスキルコスト",
-      "初期スキルゲージ増加"
+      "リバウンドスキルコスト"
     ],
     "k_tag": [
       "蜘蛛の巣キラー"
@@ -231,7 +230,7 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "soon_flag": true
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E9AD94E78E8BE3838BE382A2E3818BE38289E381AEE68C91E688A6E38091E5BDA9E891895F69636F6E2E706E67.png",
@@ -368,7 +367,7 @@
     "booster_tag": [
       "スペシャル"
     ],
-    "cost": "40",
+    "cost": "36",
     "ct": "2",
     "red": 11024,
     "blue": 23519,
@@ -458,7 +457,6 @@
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237372E706E67.png",
     "a_tag": [
       "手数1アップ",
-      "初期スキルゲージ増加",
       "シミラー初期スキルゲージ増加"
     ],
     "k_tag": [
@@ -585,6 +583,46 @@
       "ミサイル+2"
     ],
     "soon_flag": true
+  },
+  {
+    "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E6BA80E9968BEFBC81E5A49CE6A19CE5A4A7E5AEB4E4BC9AE38091E5BDA9E891895F69636F6E2E706E67.png",
+    "character": "彩葉",
+    "name": "【満開！夜桜大宴会】彩葉",
+    "url": "https://sweethomemaid.wikiru.jp/?%E3%80%90%E6%BA%80%E9%96%8B%EF%BC%81%E5%A4%9C%E6%A1%9C%E5%A4%A7%E5%AE%B4%E4%BC%9A%E3%80%91%E5%BD%A9%E8%91%89",
+    "series": "【満開！夜桜大宴会】",
+    "rarity": 4,
+    "color": "紫",
+    "s_name": "ファストボム",
+    "s_type": "ファスト",
+    "booster_tag": [
+      "ボム"
+    ],
+    "cost": "29",
+    "ct": "3",
+    "red": 14700,
+    "blue": 20579,
+    "green": 10290,
+    "yellow": 18375,
+    "aqua": 23519,
+    "violet": 66675,
+    "a1": "3Dプリンターキラー+2(ボム)",
+    "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133312E706E67.png",
+    "a2": "シミラースキルコスト減少6",
+    "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
+    "a3": "リンケージスキルコスト7減少",
+    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
+    "a_tag": [
+      "シミラースキルコスト減少",
+      "リンケージスキルコスト減少"
+    ],
+    "k_tag": [
+      "3Dプリンターキラー"
+    ],
+    "plus": [
+      "+2",
+      "ボム+2"
+    ],
+    "soon_flag": false
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E3838FE3839EE381A3E381A6E3828BE38282E381AEE38091E7B4AC5F69636F6E2E706E67.png",
@@ -1088,7 +1126,6 @@
     "a3": "ペアルック初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237392E706E67.png",
     "a_tag": [
-      "初期スキルゲージ増加",
       "ペアルック初期スキルゲージ増加"
     ],
     "k_tag": [
@@ -1314,21 +1351,20 @@
     "booster_tag": [],
     "cost": "30",
     "ct": "3",
-    "red": 23616,
-    "blue": 6912,
-    "green": 17280,
-    "yellow": 11520,
-    "aqua": 64197,
-    "violet": 24192,
-    "a1": "蜘蛛の巣キラー+1(ボム)",
-    "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
-    "a2": "蜘蛛の巣キラー+1(ロケット)",
-    "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
-    "a3": "蜘蛛の巣キラー+1(ミサイル)",
-    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
-    "a4": "ダイエットスキルコスト10",
-    "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237352E706E67.png",
+    "red": 26785,
+    "blue": 7840,
+    "green": 19599,
+    "yellow": 13066,
+    "aqua": 45509,
+    "violet": 27439,
+    "a1": "蜘蛛の巣キラー+1(全ブースター)",
+    "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232332E706E67.png",
+    "a2": "手数1アップ",
+    "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
+    "a3": "ダイエットスキルコスト10",
+    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237352E706E67.png",
     "a_tag": [
+      "手数1アップ",
       "ダイエットスキルコスト"
     ],
     "k_tag": [
@@ -1336,11 +1372,9 @@
     ],
     "plus": [
       "+1",
-      "ボム+1",
-      "+1",
       "ロケット+1",
-      "+1",
-      "ミサイル+1"
+      "ミサイル+1",
+      "ボム+1"
     ],
     "soon_flag": false
   },
@@ -2575,17 +2609,17 @@
     ],
     "cost": "45",
     "ct": "3",
-    "red": 82114,
-    "blue": 11520,
-    "green": 29376,
-    "yellow": 10368,
-    "aqua": 6912,
-    "violet": 18432,
+    "red": 58208,
+    "blue": 13066,
+    "green": 33318,
+    "yellow": 11759,
+    "aqua": 7840,
+    "violet": 20906,
     "a1": "蜘蛛の巣キラー+2(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
     "a2": "蜘蛛の巣キラー+1(ミサイル)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
-    "a3": "他カードスキル使用時スキルゲージ8増加",
+    "a3": "他カードスキル使用時スキルゲージ15増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
@@ -3634,15 +3668,15 @@
     ],
     "cost": "45",
     "ct": "3",
-    "red": 23040,
-    "blue": 8640,
-    "green": 61211,
-    "yellow": 7488,
-    "aqua": 21888,
-    "violet": 22464,
+    "red": 26132,
+    "blue": 9799,
+    "green": 43391,
+    "yellow": 8493,
+    "aqua": 24825,
+    "violet": 25479,
     "a1": "蜘蛛の巣キラー+2(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
-    "a2": "初期スキルゲージ10増加",
+    "a2": "初期スキルゲージ40増加",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
     "a3": "手数1アップ",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3239302E706E67.png",
@@ -3927,6 +3961,47 @@
     "soon_flag": false
   },
   {
+    "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E6BA80E9968BEFBC81E5A49CE6A19CE5A4A7E5AEB4E4BC9AE38091E381B2E381BEE3828AE5AD905F69636F6E2E706E67.png",
+    "character": "ひまり子",
+    "name": "【満開！夜桜大宴会】ひまり子",
+    "url": "https://sweethomemaid.wikiru.jp/?%E3%80%90%E6%BA%80%E9%96%8B%EF%BC%81%E5%A4%9C%E6%A1%9C%E5%A4%A7%E5%AE%B4%E4%BC%9A%E3%80%91%E3%81%B2%E3%81%BE%E3%82%8A%E5%AD%90",
+    "series": "【満開！夜桜大宴会】",
+    "rarity": 4,
+    "color": "水",
+    "s_name": "ファストロケット（横)",
+    "s_type": "ファスト",
+    "booster_tag": [
+      "ロケット"
+    ],
+    "cost": "28",
+    "ct": "3",
+    "red": 14700,
+    "blue": 26459,
+    "green": 11025,
+    "yellow": 16905,
+    "aqua": 60724,
+    "violet": 22049,
+    "a1": "3Dプリンターキラー+2(ボム)",
+    "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133322E706E67.png",
+    "a2": "3Dプリンターキラー＋1（ミサイル）",
+    "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
+    "a3": "シミラースキルコスト減少7",
+    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
+    "a_tag": [
+      "シミラースキルコスト減少"
+    ],
+    "k_tag": [
+      "3Dプリンターキラー"
+    ],
+    "plus": [
+      "+2",
+      "ボム+2",
+      "+1",
+      "ミサイル+1"
+    ],
+    "soon_flag": false
+  },
+  {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E7A68FE8B186E9A39BE381B3E4BAA4E38186E7AF80E58886E7A5ADE38091E3838AE382B7E383A5E383AF5F69636F6E2E706E67.png",
     "character": "ナシュワ",
     "name": "【福豆飛び交う節分祭】ナシュワ",
@@ -4035,8 +4110,8 @@
       "アクセントカラー（黄）"
     ],
     "k_tag": [
-      "薪キラー",
-      "ダンボールキラー"
+      "ダンボールキラー",
+      "薪キラー"
     ],
     "plus": [
       "+2",
@@ -4171,8 +4246,8 @@
       "手数2アップ"
     ],
     "k_tag": [
-      "鎖キラー",
-      "氷キラー"
+      "氷キラー",
+      "鎖キラー"
     ],
     "plus": [
       "+2",
@@ -4768,19 +4843,19 @@
     "booster_tag": [],
     "cost": "30",
     "ct": "3",
-    "red": 18900,
-    "blue": 5400,
-    "green": 19980,
-    "yellow": 11340,
-    "aqua": 7560,
-    "violet": 64864,
+    "red": 21436,
+    "blue": 6125,
+    "green": 22661,
+    "yellow": 12862,
+    "aqua": 8575,
+    "violet": 56592,
     "a1": "蜘蛛の巣キラー+1(ボム)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
     "a2": "蜘蛛の巣キラー+1(ミサイル)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
     "a3": "初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237322E706E67.png",
-    "a4": "他カードスキル使用時スキルゲージ8増加",
+    "a4": "他カードスキル使用時スキルゲージ10増加",
     "a4_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a_tag": [
       "初期スキルゲージ増加",
@@ -4936,7 +5011,7 @@
       "ミサイル",
       "スペシャル"
     ],
-    "cost": "46",
+    "cost": "55",
     "ct": "3",
     "red": 15925,
     "blue": 9290,
@@ -4944,15 +5019,13 @@
     "yellow": 13934,
     "aqua": 49047,
     "violet": 23223,
-    "a1": "プレゼント箱キラー＋1(ロケット)",
+    "a1": "プレゼント箱キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138312E706E67.png",
-    "a2": "プレゼント箱キラー＋1(ミサイル)",
+    "a2": "プレゼント箱キラー+1(ミサイル)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3138322E706E67.png",
-    "a3": "シミラースキルコスト減少9",
+    "a3": "スキルコスト15減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237362E706E67.png",
-    "a_tag": [
-      "シミラースキルコスト減少"
-    ],
+    "a_tag": [],
     "k_tag": [
       "プレゼント箱キラー"
     ],
@@ -4963,6 +5036,47 @@
       "ミサイル+1"
     ],
     "soon_flag": false
+  },
+  {
+    "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E38090E6BA80E9968BEFBC81E5A49CE6A19CE5A4A7E5AEB4E4BC9AE38091E7B4AC5F69636F6E2E706E67.png",
+    "character": "紬",
+    "name": "【満開！夜桜大宴会】紬",
+    "url": "https://sweethomemaid.wikiru.jp/?%E3%80%90%E6%BA%80%E9%96%8B%EF%BC%81%E5%A4%9C%E6%A1%9C%E5%A4%A7%E5%AE%B4%E4%BC%9A%E3%80%91%E7%B4%AC",
+    "series": "【満開！夜桜大宴会】",
+    "rarity": 3,
+    "color": "黄",
+    "s_name": "ファストクロスロケット",
+    "s_type": "ファスト",
+    "booster_tag": [
+      "ロケット"
+    ],
+    "cost": "50",
+    "ct": "3",
+    "red": 15159,
+    "blue": 13093,
+    "green": 12403,
+    "yellow": 69762,
+    "aqua": 21361,
+    "violet": 17915,
+    "a1": "3Dプリンターキラー＋1（ロケット）",
+    "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133322E706E67.png",
+    "a2": "3Dプリンターキラー＋1（ミサイル）",
+    "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3133302E706E67.png",
+    "a3": "シミラー初期スキルゲージ20増加",
+    "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237372E706E67.png",
+    "a_tag": [
+      "シミラー初期スキルゲージ増加"
+    ],
+    "k_tag": [
+      "3Dプリンターキラー"
+    ],
+    "plus": [
+      "+1",
+      "ロケット+1",
+      "+1",
+      "ミサイル+1"
+    ],
+    "soon_flag": true
   },
   {
     "icon": "https://sweethomemaid.wikiru.jp/attach2/696D67_E380904F4EE381AEE7A781E38091E88AB1E99FB35F69636F6E2E706E67.png",
@@ -5323,7 +5437,6 @@
     "a3": "シミラー初期スキルゲージ20増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237372E706E67.png",
     "a_tag": [
-      "初期スキルゲージ増加",
       "シミラー初期スキルゲージ増加"
     ],
     "k_tag": [
@@ -5514,17 +5627,17 @@
     ],
     "cost": "35",
     "ct": "3",
-    "red": 10800,
-    "blue": 13500,
-    "green": 52818,
-    "yellow": 14580,
-    "aqua": 11880,
-    "violet": 19980,
+    "red": 12249,
+    "blue": 15312,
+    "green": 46082,
+    "yellow": 16537,
+    "aqua": 13474,
+    "violet": 22661,
     "a1": "蜘蛛の巣キラー+1(ロケット)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
     "a2": "蜘蛛の巣キラー+1(ボム)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232312E706E67.png",
-    "a3": "リンケージスキルコスト5減少",
+    "a3": "リンケージスキルコスト8減少",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3237332E706E67.png",
     "a_tag": [
       "リンケージスキルコスト減少"
@@ -6248,17 +6361,17 @@
     ],
     "cost": "45",
     "ct": "3",
-    "red": 8640,
-    "blue": 9720,
-    "green": 11340,
-    "yellow": 23760,
-    "aqua": 41698,
-    "violet": 23220,
+    "red": 9799,
+    "blue": 11024,
+    "green": 12862,
+    "yellow": 26949,
+    "aqua": 36380,
+    "violet": 26336,
     "a1": "蜘蛛の巣キラー+1(ミサイル)",
     "a1_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232322E706E67.png",
     "a2": "蜘蛛の巣キラー+1(ロケット)",
     "a2_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3232302E706E67.png",
-    "a3": "他カードスキル使用時スキルゲージ8増加",
+    "a3": "他カードスキル使用時スキルゲージ12増加",
     "a3_img": "https://sweethomemaid.wikiru.jp/attach2/696D67_6162696C6974795F3330312E706E67.png",
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
@@ -8386,9 +8499,9 @@
       "アクセントカラー(全)"
     ],
     "k_tag": [
-      "薪キラー",
       "ダンボールキラー",
-      "ピーナッツキラー"
+      "ピーナッツキラー",
+      "薪キラー"
     ],
     "plus": [
       "+1",

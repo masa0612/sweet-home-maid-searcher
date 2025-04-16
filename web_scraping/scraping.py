@@ -54,7 +54,7 @@ def get_cards(filter_=None):
             ability = row[i].find("img")
             if ability is None: break
             card[f"a{i-6}"] = ability["title"]
-            card[f"a{i-6}_img"] = WIKI+ability["data-src"]
+            #card[f"a{i-6}_img"] = WIKI+ability["data-src"]
         card["a_tag"] = get_ability_tag(card)
         card["k_tag"], card["plus"]= get_killer_tag(card)
 
@@ -108,7 +108,12 @@ def get_ability_tag(card):
             break
 
         if "初期" in ability:
-            a_tag.append("初期スキルゲージ増加")
+            if "ペア" in ability:
+                a_tag.append("ペアルック初期スキルゲージ増加")
+            elif "シミラー" in ability:
+                a_tag.append("シミラー初期スキルゲージ増加")
+            else:
+                a_tag.append("初期スキルゲージ増加")
         if "時スキルゲージ" in ability:
             a_tag.append("他カードスキル使用時スキルゲージ増加")
         if "時スキルクール" in ability:
@@ -127,16 +132,10 @@ def get_ability_tag(card):
             a_tag.append("ダイエットスキルコスト")
         if "リンケージス" in ability:
             a_tag.append("リンケージスキルコスト減少")
-        if "ペア" in ability:
-            if "初期" in ability:
-                a_tag.append("ペアルック初期スキルゲージ増加")
-            else:
-                a_tag.append("ペアルックスキルコスト減少")
-        if "シミラー" in ability:
-            if "初期" in ability:
-                a_tag.append("シミラー初期スキルゲージ増加")
-            else:
-                a_tag.append("シミラースキルコスト減少")
+        if "ペア" in ability and "減少" in ability:
+            a_tag.append("ペアルックスキルコスト減少")
+        if "シミラー" in ability and "減少" in ability:
+            a_tag.append("シミラースキルコスト減少")
         if "リンケージオ" in ability:
             a_tag.append("リンケージオールスコアアップ")
         if "貫通" in ability:

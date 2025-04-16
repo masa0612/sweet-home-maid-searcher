@@ -22,6 +22,8 @@ def add_soon_flag(cards):
       "【チョコパラダイス】彩葉",
       "【満開！夜桜大宴会】花音",
       "【OFFの顔】彩葉",
+      "【春の駅弁祭り】彩葉",
+      "【満開！夜桜大宴会】紬",
     ]
     for x in cards:
         x["soon_flag"] = x["name"] in target
