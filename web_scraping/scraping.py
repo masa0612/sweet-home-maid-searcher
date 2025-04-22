@@ -174,6 +174,10 @@ def get_skill_tag(s_name):
         s_tag.append("ボム")
     if "スペシャル" in s_name:
         s_tag.append("スペシャル")
+    if "ミックス" in s_name:
+        s_tag.append("ミックス")
+    if "WAY" in s_name:
+        s_tag.append("ミックス")
     return s_tag
 
 def get_status(url):

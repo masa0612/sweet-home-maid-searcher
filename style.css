@@ -1,12 +1,11 @@
 /* style.css */
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("assets/bg.png");
+  background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url("assets/bg.png");
   background-repeat: no-repeat; /* 画像の繰り返しを防止 */
   background-size: 100vw auto ; /* 横幅100%、高さは自動調整 */
   background-position: center center; /* または単に center */
   background-attachment: fixed;
 }
-
 @media (max-width: 640px) {
   body {
     background-position: center top;
@@ -23,30 +22,41 @@ h3 {
   justify-content: start;
   align-content: start;
 }
-
 .grid-cols-2 {
   grid-template-columns: auto auto;
 }
-
 .grid-cols-3 {
   grid-template-columns: auto auto auto;
 }
-
 .grid-cols-4 {
   grid-template-columns: auto auto auto auto;
+}
+.grid-cols-5 {
+  grid-template-columns: auto auto auto auto auto;
+}
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: auto auto;
+  }
+  .md\:grid-cols-3 {
+    grid-template-columns: auto auto auto;
+  }
+  .md\:grid-cols-4 {
+    grid-template-columns: auto auto auto auto;
+  }
+  .md\:grid-cols-5 {
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .md\:grid-cols-6 {
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  .md\:grid-cols-7 {
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
 }
 
 .line {
   grid-gap: 3px 15px;
-}
-
-/* フィルターを1行に並べる */
-.filters {
-  display: flex;
-  justify-content: flex-start; /* フィルター間のスペースを均等に配置 */
-  gap: 3px; /* フィルター間の間隔 */
-  flex-wrap: wrap; /* フィルターが折り返さないように設定 */
-  overflow-x: auto; /* 横スクロールできるようにする */
 }
 
 #soonCB {
@@ -61,58 +71,14 @@ h3 {
   height: 10px;
 }
 
-.charIcon {
-  border: 1px solid black;
-  width: 120px;
-  height: 120px;
-  object-fit: cover; /* アスペクト比を維持しつつ調整 */
+.filterCard {
+  position: relative; /* 画像の上にチェックボックスを重ねるために必要 */
+  display: inline-block; /* 画像とチェックボックスを1つのブロックとして扱う */
 }
-
-.white {
-  position: absolute;
-  width: 40px;
+.filterImg {
+  object-fit: contain;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.5); /* 透過した白 */
-  border-radius: 50%;
-  z-index: 2; /* 白い丸をキャラクター画像の下に配置 */
-  top: 0;
-  left: 0;
 }
-
-.colorImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px; /* カラー画像のサイズ */
-  height: 40px; /* カラー画像のサイズ */
-  z-index: 3; /* 必要に応じて画像の重なり順を調整 */
-}
-
-#characterContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 120px));
-  max-width: calc(135px * 6); /* 最大4列分の幅 */
-  justify-content: start;
-  gap: 10px;
-  padding: 10px;
-}
-
-.charCard {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.charCard p {
-  font-size: 10px;
-  text-align: left;
-}
-
-.charCard button {
-  font-size: 10px;
-  text-align: left;
-}
-
 .overlayCB {
   position: absolute; /* 画像の上に重ねる */
   top: 0px; /* 上からの位置調整 */
@@ -120,62 +86,22 @@ h3 {
   z-index: 2; /* チェックボックスが画像の上に表示されるようにする */
 }
 
-.filterCard {
-  position: relative; /* 画像の上にチェックボックスを重ねるために必要 */
-  display: inline-block; /* 画像とチェックボックスを1つのブロックとして扱う */
-}
-
-.filterImg {
-  object-fit: contain;
-  height: 40px;
-}
-
-.floatingchat-container-wrap,
-.floatingchat-container-wrap-mobi {
-  left: auto !important;
-  right: 10px !important;
-}
-
-#kofi-wo-container .floatingchat-donate-button,
-#kofi-wo-container-mobi .floatingchat-donate-button {
-  left: auto !important;
-  right: 0 !important;
-}
-
-.floating-chat-kofi-popup-iframe,
-.floating-chat-kofi-popup-iframe-mobi {
-  left: auto !important;
-  right: 10px !important;
-}
-
 #filterTglBtn {
   position: fixed;
-  top: 20px;
-  left: 320px;
+  bottom: 100px;
+  right: 5px;
   color: #ffffff;
   background: #FF6B6B;
   border: 2px solid white;
   text-shadow: 0px 0px 1px rgba(0,0,0,0.7), 0px 1px 1px rgba(0,0,0,0.5);
   z-index: 1000;
 }
-
 @media (min-width: 768px) {
-  .md\:grid-cols-2 {
-    grid-template-columns: auto auto;
-  }
-  .md\:grid-cols-3 {
-    grid-template-columns: auto auto auto;
-  }
-  .md\:grid-cols-4 {
-    grid-template-columns: auto auto auto auto;
-  }
-  .md\:grid-cols-6 {
-    grid-template-columns: auto auto auto auto auto auto;
-  }
   #filterTglBtn {
-    left: 1000px;
+    display: none;
   }
 }
+
 #filterContainer {
   max-width: 700px;
   max-height: 0;
@@ -186,12 +112,71 @@ h3 {
               opacity 1s ease-in-out,
               transform 1s ease-out;
 }
-
 #filterContainer.active {
   max-height: 1000px;
   opacity: 1;
   transform: translateY(0);
 }
-  display: none;
-  display: block;
-  transition: all 2s ease-in;
+
+#characterContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 120px));
+  max-width: calc(135px * 6); /* 最大4列分の幅 */
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+}
+.charCard {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.charCard p {
+  font-size: 10px;
+  text-align: left;
+}
+.charCard button {
+  font-size: 10px;
+  text-align: left;
+}
+.charIcon {
+  border: 1px solid black;
+  width: 120px;
+  height: 120px;
+  object-fit: cover; /* アスペクト比を維持しつつ調整 */
+}
+.white {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5); /* 透過した白 */
+  border-radius: 50%;
+  z-index: 2; /* 白い丸をキャラクター画像の下に配置 */
+  top: 0;
+  left: 0;
+}
+.colorImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px; /* カラー画像のサイズ */
+  height: 40px; /* カラー画像のサイズ */
+  z-index: 3; /* 必要に応じて画像の重なり順を調整 */
+}
+
+
+.floatingchat-container-wrap,
+.floatingchat-container-wrap-mobi {
+  left: auto !important;
+  right: 50px !important;
+}
+#kofi-wo-container .floatingchat-donate-button,
+#kofi-wo-container-mobi .floatingchat-donate-button {
+  left: auto !important;
+  right: 0 !important;
+}
+.floating-chat-kofi-popup-iframe,
+.floating-chat-kofi-popup-iframe-mobi {
+  left: auto !important;
+  right: 10px !important;
+}
