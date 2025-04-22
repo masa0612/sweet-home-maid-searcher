@@ -109,14 +109,15 @@ h3 {
   position: relative;
   display: inline-block;
   text-align: center;
+  margin-top: 3px;
+  margin-left: 12px;
 }
 .charCard p {
   font-size: 10px;
-  text-align: left;
+  text-align: center;
 }
 .charCard button {
   font-size: 10px;
-  text-align: left;
 }
 .charIcon {
   border: 1px solid black;
