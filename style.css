@@ -5,6 +5,8 @@ body {
   background-size: 100vw auto ; /* 横幅100%、高さは自動調整 */
   background-position: center center; /* または単に center */
   background-attachment: fixed;
+  overflow: hidden;
+  height: 100vh;
 }
 @media (max-width: 640px) {
   body {
@@ -102,30 +104,7 @@ h3 {
   }
 }
 
-#filterContainer {
-  max-width: 700px;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(-20px);
-  transition: max-height 1s ease-out,
-              opacity 1s ease-in-out,
-              transform 1s ease-out;
-}
-#filterContainer.active {
-  max-height: 1000px;
-  opacity: 1;
-  transform: translateY(0);
-}
 
-#characterContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 120px));
-  max-width: calc(135px * 6); /* 最大4列分の幅 */
-  justify-content: start;
-  gap: 10px;
-  padding: 10px;
-}
 .charCard {
   position: relative;
   display: inline-block;
@@ -179,4 +158,62 @@ h3 {
 .floating-chat-kofi-popup-iframe-mobi {
   left: auto !important;
   right: 10px !important;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+/* デフォルト：上下分割（縦長画面向け） */
+.panel-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#filterContainer{
+  height: 65%;
+  overflow-y: auto;
+  background-color: #f0f8ff;
+  padding: 5px;
+  border-bottom: 2px solid #ccc;
+}
+
+#characterContainer{
+  height: 35%;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+
+/* 横長画面向け：左右分割 */
+@media (min-aspect-ratio: 1/1) {
+  .panel-container {
+    flex-direction: row-reverse; /* 左右に並べる */
+  }
+
+  #filterContainer {
+    height: 100%;
+    width: 50%;
+    border-bottom: none;
+    border-left: 2px solid #ccc;
+  }
+
+  #characterContainer {
+    height: 100%;
+    width: 50%;
+  }
+}
+
+.panel-content {
+  padding: 10px;
+}
+
+.panel-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: white;
+  border-radius: .25rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
 }

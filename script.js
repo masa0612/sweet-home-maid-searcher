@@ -176,14 +176,19 @@ function setupEventListeners() {
   const toggleButton = document.querySelector("#filterTglBtn");
   toggleButton.addEventListener('click', () => {
     const filterContainer = document.querySelector("#filterContainer")
+    const characterContainer = document.querySelector("#characterContainer")
     filterContainer.classList.toggle('active');
     if (filterContainer.classList.contains('active')) {
       toggleButton.innerHTML = "フィルター<br>非表示";
       toggleButton.style.backgroundColor = "#FF6B6B";
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      console.log(filterContainer)
+      filterContainer.style.height = "65%";
+      characterContainer.style.height = "35%";
     } else {
       toggleButton.innerHTML = "フィルター<br>表示";
       toggleButton.style.backgroundColor = "#4ECDC4";
+      filterContainer.style.height = "0%";
+      characterContainer.style.height = "100%";
     }
   });
 }
