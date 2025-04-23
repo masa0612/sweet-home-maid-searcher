@@ -8,7 +8,7 @@ const colorMap = {
 };
 
 let characters = [];
-const characterContainer = document.getElementById("characterContainer");
+const charContainer = document.getElementById("charContainer");
 const filters = {
     character: new Set(),
     rarity: new Set(),
@@ -35,7 +35,7 @@ async function loadCharacters() {
 }
 
 function renderCharacters(filtered_characters) {
-    characterContainer.innerHTML = "";
+    charContainer.innerHTML = "";
 
     filtered_characters.forEach(character => {
         const charCard = document.createElement("div");
@@ -84,7 +84,7 @@ function renderCharacters(filtered_characters) {
           charCard.appendChild(totalScore);
         }
 
-        characterContainer.appendChild(charCard);
+        charContainer.appendChild(charCard);
     });
 }
 
@@ -176,19 +176,15 @@ function setupEventListeners() {
   const toggleButton = document.querySelector("#filterTglBtn");
   toggleButton.addEventListener('click', () => {
     const filterContainer = document.querySelector("#filterContainer")
-    const characterContainer = document.querySelector("#characterContainer")
     filterContainer.classList.toggle('active');
+    charContainer.classList.toggle('active');
     if (filterContainer.classList.contains('active')) {
       toggleButton.innerHTML = "フィルター<br>非表示";
       toggleButton.style.backgroundColor = "#FF6B6B";
       console.log(filterContainer)
-      filterContainer.style.height = "65%";
-      characterContainer.style.height = "35%";
     } else {
       toggleButton.innerHTML = "フィルター<br>表示";
       toggleButton.style.backgroundColor = "#4ECDC4";
-      filterContainer.style.height = "0%";
-      characterContainer.style.height = "100%";
     }
   });
 }
@@ -267,7 +263,8 @@ function renderFilter() {
 function setDonation() {
   a = kofiWidgetOverlay.draw('hugashy', {
     'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.text': 'モチベ維持に<br>寄付おねしゃす！！！',
+    'floating-chat.donateButton.width': 'min-content',
     'floating-chat.donateButton.background-color': '#00b9fe',
     'floating-chat.donateButton.text-color': '#fff'
   });
@@ -277,7 +274,13 @@ document.addEventListener("DOMContentLoaded", () => {
   setDonation();
   renderFilter();
   loadCharacters();
-  const iframe = document.querySelector('iframe');
-  const closed = iframe.contentDocument.querySelector('.closed');
-  if (Math.random() < 1/3) { closed.click(); }
+  const iframe = document.querySelector("iframe");
+  const kofiBtn = iframe.contentDocument.querySelector(".closed");
+  const randval = Math.random();
+  if (randval < 2/7) { kofiBtn.click(); }
+
+  const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+  iframeDoc.body.style.height = '100px';
+  iframeDoc.body.style.width = '200px';
+
 });

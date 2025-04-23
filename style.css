@@ -19,9 +19,15 @@ h3 {
   font-weight: bold;
 }
 
+.flex {
+  justify-content: center;
+}
+
 .grid {
-  justify-content: start;
-  align-content: start;
+  justify-content: center;
+}
+.grid-cols-1 {
+  grid-template-columns: auto;
 }
 .grid-cols-2 {
   grid-template-columns: auto auto;
@@ -35,7 +41,13 @@ h3 {
 .grid-cols-5 {
   grid-template-columns: auto auto auto auto auto;
 }
+.grid-cols-6 {
+  grid-template-columns: auto auto auto auto auto auto;
+}
 @media (min-width: 768px) {
+  .md\:grid-cols-1 {
+    grid-template-columns: auto;
+  }
   .md\:grid-cols-2 {
     grid-template-columns: auto auto;
   }
@@ -69,22 +81,29 @@ h3 {
 
 .spacer {
   width: 10px;
-  height: 10px;
+  height: 5px;
 }
 
 .filterCard {
-  margin: 0.5px;
+  margin: 1px;
   position: relative; /* 画像の上にチェックボックスを重ねるために必要 */
   display: inline-block; /* 画像とチェックボックスを1つのブロックとして扱う */
 }
 .filterImg {
   object-fit: contain;
-  height: 40px;
+  height: 36px;
+}
+@media (min-width: 768px) {
+  .filterImg {
+    height: 48px;
+  }
 }
 .overlayCB {
   position: absolute; /* 画像の上に重ねる */
   top: 0px; /* 上からの位置調整 */
   left: 0px; /* 左からの位置調整 */
+  width: 14px;
+  height: 14px;
   z-index: 2; /* チェックボックスが画像の上に表示されるようにする */
 }
 
@@ -110,19 +129,20 @@ h3 {
   display: inline-block;
   text-align: center;
   margin-top: 3px;
-  margin-left: 12px;
+  margin-left: 10px;
+  min-width: 100px;
 }
 .charCard p {
   font-size: 10px;
   text-align: center;
 }
 .charCard button {
-  font-size: 10px;
+  font-size: 8px;
 }
 .charIcon {
   border: 1px solid black;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: cover; /* アスペクト比を維持しつつ調整 */
 }
 .white {
@@ -150,6 +170,7 @@ h3 {
   left: auto !important;
   right: 50px !important;
 }
+
 #kofi-wo-container .floatingchat-donate-button,
 #kofi-wo-container-mobi .floatingchat-donate-button {
   left: auto !important;
@@ -172,36 +193,42 @@ h3 {
   flex-direction: column;
   height: 100%;
 }
-
+#filterContainer.active { height: 0%; }
 #filterContainer{
   height: 65%;
   overflow-y: auto;
-  background-color: #f0f8ff;
-  padding: 3px;
-  border-bottom: 2px solid #ccc;
+  background-color: rgba(240, 248, 255, 0.25);  /* 透過度50%のアリスブルー */
+  padding-left: 3px;
+  border-bottom: 2px solid #000;
 }
-
-#characterContainer{
+#charContainer.active { height: 100%; }
+#charContainer{
   height: 35%;
   overflow-y: auto;
-  background-color: #f5f5f5;
+  background-color: rgba(255, 182, 193, 0.15);  /* Soft Pink */
+
   padding: 3px;
+  justify-content: center;
 }
 
+h1 {
+  font-size: 16px;
+}
 /* 横長画面向け：左右分割 */
 @media (min-aspect-ratio: 1/1) {
+  h1 {
+    font-size: 2em;
+  }
   .panel-container {
     flex-direction: row-reverse; /* 左右に並べる */
   }
-
   #filterContainer {
     height: 100%;
     width: 50%;
     border-bottom: none;
     border-left: 2px solid #ccc;
   }
-
-  #characterContainer {
+  #charContainer {
     height: 100%;
     width: 50%;
   }
