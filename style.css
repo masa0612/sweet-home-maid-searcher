@@ -7,6 +7,7 @@ body {
   background-attachment: fixed;
   overflow: hidden;
   height: 100vh;
+  touch-action: none; /* タッチイベントによるスクロールなどの動作を防止 */
 }
 @media (max-width: 640px) {
   body {
@@ -14,15 +15,160 @@ body {
     background-size: 100vh auto ; /* 横幅100%、高さは自動調整 */
   }
 }
-
+h1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
+  margin-left: 50px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
 h3 {
   font-weight: bold;
+}
+
+.spacer {
+  width: 10px;
+  height: 5px;
+}
+#soonCB {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.filterCard {
+  margin: 1px;
+  position: relative; /* チェックボックスを重ねるため */
+  display: inline-block; /* 画像とチェックボックスを1つのブロック */
+}
+.overlayCB {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
+.filterImg {
+  object-fit: contain;
+  height: 36px;
+}
+@media (min-width: 768px) {
+  .filterImg {
+    height: 48px;
+  }
+}
+
+.charCard {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: 10px;
+  min-width: 100px;
+}
+.charCard p {
+  font-size: 10px;
+  text-align: center;
+}
+.charCard button {
+  font-size: 8px;
+}
+.charIcon {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* アスペクト比を維持しつつ調整 */
+}
+.whiteCircle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7); /* 透過した白 */
+}
+.colorImage {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+}
+
+#panelContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+#charPanel{
+  height: 35%;
+  overflow-y: auto;
+  background-color: rgba(255, 182, 193, 0.15);  /* Soft Pink */
+
+  padding: 3px;
+  justify-content: center;
+  touch-action: pan-y; /* 垂直方向のスクロールのみ許可 */
+}
+#resizer {
+  display: flex;
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center;     /* 垂直方向の中央揃え */
+  border: 1px solid black;
+  height: 20px; /* スマホ用に大きくする */
+  width: 100%;
+  cursor: row-resize;
+  background-color: #e6e6fa;
+  position: absolute;
+  z-index: 100;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  touch-action: none; /* タッチイベントのスクロールを無効化 */
+}
+#resizer:hover, #resizer.active {
+  background-color: #d8bfd8;
+}
+#filterPanel{
+  height: 65%;
+  overflow-y: auto;
+  background-color: rgba(240, 248, 255, 0.25);  /* 透過度50%のアリスブルー */
+  padding-left: 3px;
+  touch-action: pan-y; /* 垂直方向のスクロールのみ許可 */
+}
+
+/* 左右分割 */
+@media (min-aspect-ratio: 1/1) {
+  h1 {
+    font-size: 2em;
+  }
+  #panelContainer {
+    flex-direction: row; /* 左右に並べる */
+  }
+  #filterPanel {
+    height: 100%;
+    width: 50%;
+    touch-action: pan-y; /* 垂直方向のスクロールのみ許可 */
+  }
+  #charPanel {
+    height: 100%;
+    width: 50%;
+    touch-action: pan-y; /* 垂直方向のスクロールのみ許可 */
+  }
+  #resizer {
+    display: none;
+  }
 }
 
 .flex {
   justify-content: center;
 }
-
 .grid {
   justify-content: center;
 }
@@ -68,180 +214,32 @@ h3 {
   }
 }
 
-.line {
-  grid-gap: 3px 15px;
-}
-
-#soonCB {
-  width: 24px;
-  height: 24px;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-
-.spacer {
-  width: 10px;
-  height: 5px;
-}
-
-.filterCard {
-  margin: 1px;
-  position: relative; /* 画像の上にチェックボックスを重ねるために必要 */
-  display: inline-block; /* 画像とチェックボックスを1つのブロックとして扱う */
-}
-.filterImg {
-  object-fit: contain;
-  height: 36px;
-}
-@media (min-width: 768px) {
-  .filterImg {
-    height: 48px;
-  }
-}
-.overlayCB {
-  position: absolute; /* 画像の上に重ねる */
-  top: 0px; /* 上からの位置調整 */
-  left: 0px; /* 左からの位置調整 */
-  width: 14px;
-  height: 14px;
-  z-index: 2; /* チェックボックスが画像の上に表示されるようにする */
-}
-
-#filterTglBtn {
-  position: fixed;
-  bottom: 100px;
-  right: 5px;
-  color: #ffffff;
-  background: #FF6B6B;
-  border: 2px solid white;
-  text-shadow: 0px 0px 1px rgba(0,0,0,0.7), 0px 1px 1px rgba(0,0,0,0.5);
-  z-index: 1000;
-}
-@media (min-width: 768px) {
-  #filterTglBtn {
-    display: none;
-  }
-}
-
-
-.charCard {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin-top: 3px;
-  margin-left: 10px;
-  min-width: 100px;
-}
-.charCard p {
-  font-size: 10px;
-  text-align: center;
-}
-.charCard button {
-  font-size: 8px;
-}
-.charIcon {
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  object-fit: cover; /* アスペクト比を維持しつつ調整 */
-}
-.white {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.5); /* 透過した白 */
-  border-radius: 50%;
-  z-index: 2; /* 白い丸をキャラクター画像の下に配置 */
-  top: 0;
-  left: 0;
-}
-.colorImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px; /* カラー画像のサイズ */
-  height: 40px; /* カラー画像のサイズ */
-  z-index: 3; /* 必要に応じて画像の重なり順を調整 */
-}
-
 
 .floatingchat-container-wrap,
 .floatingchat-container-wrap-mobi {
-  left: auto !important;
-  right: 50px !important;
+  right: auto !important;
+  left: 5px !important;
+  top: 5px !important;
+  opacity: 0.7;
+}
+
+.floating-chat-kofi-popup-iframe,
+.floating-chat-kofi-popup-iframe-mobi {
+  right: auto !important;
+  left: 5px !important;
+  top: 15px !important;
+  opacity: 0.7;
+}
+
+.floatingchat-container,
+.floatingchat-container-mobi {
+  right: auto !important;
+  left: 0 !important;
 }
 
 #kofi-wo-container .floatingchat-donate-button,
 #kofi-wo-container-mobi .floatingchat-donate-button {
-  left: auto !important;
-  right: 0 !important;
-}
-.floating-chat-kofi-popup-iframe,
-.floating-chat-kofi-popup-iframe-mobi {
-  left: auto !important;
-  right: 10px !important;
-}
-
-.container {
-  height: 100vh;
-  width: 100%;
-}
-
-/* デフォルト：上下分割（縦長画面向け） */
-.panel-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-#filterContainer.active { height: 0%; }
-#filterContainer{
-  height: 65%;
-  overflow-y: auto;
-  background-color: rgba(240, 248, 255, 0.25);  /* 透過度50%のアリスブルー */
-  padding-left: 3px;
-  border-bottom: 2px solid #000;
-}
-#charContainer.active { height: 100%; }
-#charContainer{
-  height: 35%;
-  overflow-y: auto;
-  background-color: rgba(255, 182, 193, 0.15);  /* Soft Pink */
-
-  padding: 3px;
-  justify-content: center;
-}
-
-h1 {
-  font-size: 16px;
-}
-/* 横長画面向け：左右分割 */
-@media (min-aspect-ratio: 1/1) {
-  h1 {
-    font-size: 2em;
-  }
-  .panel-container {
-    flex-direction: row-reverse; /* 左右に並べる */
-  }
-  #filterContainer {
-    height: 100%;
-    width: 50%;
-    border-bottom: none;
-    border-left: 2px solid #ccc;
-  }
-  #charContainer {
-    height: 100%;
-    width: 50%;
-  }
-}
-
-.panel-content {
-  padding: 10px;
-}
-
-.panel-item {
-  margin-bottom: 15px;
-  padding: 10px;
-  background: white;
-  border-radius: .25rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  right: auto !important;
+  left: 0 !important;
+  margin-left: auto !important;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>スイメドなび</title>
+  <title>すいめどなび</title>
   <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="filters.js" defer></script>
@@ -14,40 +14,34 @@
 
 </head>
 <body class="bg-gray-100">
-<div class="container mx-auto p-1">
-<div class="panel-container">
-  <button id="filterTglBtn" class="bg-gradient-to-r text-black font-bold py-2 px-3 rounded-lg transform hover:-translate-y-0.5 transition-all duration-300 opacity-80">
-      フィルター<br>非表示
-  </button>
-  <div id="filterContainer" class="mx-auto">
-    <h1 style="
-      font-family: 'M PLUS Rounded 1c', sans-serif;
-      font-weight: bold; margin-bottom: 10px; text-align: center;
-      text-decoration: underline; text-underline-offset: 7px;">
-      スイメドなび
-    </h1>
-
-
-    <div class="grid grid-cols-5" id="charFilter"></div>
-    <div class="spacer"></div>
+<div id="panelContainer" class="container mx-auto p-1">
+  <div id="charPanel" class="flex flex-wrap mx-auto"></div>
+  <div id="resizer">slider</div>
+  <div id="filterPanel" class="mx-auto">
+    <h1>すいめどなび</h1>
     <div class="grid grid-cols-3 md:grid-cols-1">
-      <div class="grid grid-cols-3 md:grid-cols-6" id="colorFilter"></div>
-      <div class="spacer"></div>
       <div class="grid grid-cols-2 md:grid-cols-4" id="rarityFilter"></div>
+      <div class="spacer"></div>
+      <div class="grid grid-cols-3 md:grid-cols-6" id="colorFilter"></div>
     </div>
-
     <div class="spacer"></div>
+    <div class="grid grid-cols-5" id="charFilter"></div>
+
     <div class="grid">
       <h3>スキルタイプ</h3>
       <div id="skillTypeFilter"> </div>
     </div>
 
-    <div class="grid grid-cols-3 line">
+    <div class="grid grid-cols-5">
       <h3>ブースター種</h3>
+      <div class="spacer"></div>
       <h3>クールタイム</h3>
+      <div class="spacer"></div>
       <h3>開幕起動</h3>
       <div id="boosterFilter" class="grid grid-cols-3 md:grid-cols-5"></div>
+      <div class="spacer"></div>
       <div id="ctFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
+      <div class="spacer"></div>
       <div id="soonFilter"><input type="checkbox" id="soonCB"></div>
     </div>
 
@@ -81,10 +75,6 @@
       Wikiの各カードlv70スコア修正ボランティア募集
     </p>
   </div>
-
-  <div id="charContainer" class="flex flex-wrap mx-auto">
-  </div>
-</div>
 </div>
 </body>
 </html>

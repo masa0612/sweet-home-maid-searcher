@@ -7,8 +7,13 @@ const colorMap = {
   "紫": "696D67_70635F76696F2E706E67.png"
 };
 
+const container = document.getElementById('panelContainer');
+const panelA = document.getElementById('charPanel');
+const panelB = document.getElementById('filterPanel');
+const resizer = document.getElementById('resizer');
+
 let characters = [];
-const charContainer = document.getElementById("charContainer");
+const charPanel = document.getElementById("charPanel");
 const filters = {
     character: new Set(),
     rarity: new Set(),
@@ -24,68 +29,68 @@ const filters = {
 };
 
 async function loadCharacters() {
-    try {
-        const response = await fetch("data/characters.json");
-        characters = await response.json();
-        renderCharacters(characters);
-        setupEventListeners();
-    } catch (error) {
-        console.error("Can not loading character data: ", error);
-    }
+  try {
+    const response = await fetch("data/characters.json");
+    characters = await response.json();
+    renderCharacters(characters);
+    setupEventListeners();
+  } catch (error) {
+      console.error("Can not loading character data: ", error);
+  }
 }
 
 function renderCharacters(filtered_characters) {
-    charContainer.innerHTML = "";
+  charPanel.innerHTML = "";
 
-    filtered_characters.forEach(character => {
-        const charCard = document.createElement("div");
-        charCard.classList.add("charCard");
+  filtered_characters.forEach(character => {
+    const charCard = document.createElement("div");
+    charCard.classList.add("charCard");
 
-        const white = document.createElement("div");
-        white.classList.add("white");
+    const whiteCircle = document.createElement("div");
+    whiteCircle .classList.add("whiteCircle");
 
-        const colorImage = document.createElement("img");
-        colorImage.src = `${wikiUrl}${colorMap[character.color]}`;
-        colorImage.alt = character.color;
-        colorImage.classList.add("colorImage");
+    const colorImage = document.createElement("img");
+    colorImage.src = `${wikiUrl}${colorMap[character.color]}`;
+    colorImage.alt = character.color;
+    colorImage.classList.add("colorImage");
 
-        const charLink = document.createElement("a");
-        charLink.href = character.url;
-        charLink.target = "_blank";
-        const charImage = document.createElement("img");
-        charImage.src = character.icon;
-        charImage.alt = character.name;
-        charImage.classList.add("charIcon");
-        charLink.appendChild(charImage);
+    const charLink = document.createElement("a");
+    charLink.href = character.url;
+    charLink.target = "_blank";
+    const charImage = document.createElement("img");
+    charImage.src = character.icon;
+    charImage.alt = character.name;
+    charImage.classList.add("charIcon");
+    charLink.appendChild(charImage);
 
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "seriesFilter";
-        button.textContent = character.series;
-        button.style.cursor = "pointer";
-        button.addEventListener("click", () => {
-          let filtered = characters.filter(char => {
-            return char.series === character.series
-          });
-          renderCharacters(filtered);
-        });
-
-        const totalScore = document.createElement("p");
-        let sortValue = Array.from(filters.sortAttributes).reduce(
-          (sum, attr) => sum + (character[attr] || 0), 0
-        );
-        totalScore.textContent = "スコア合計:" + sortValue;
-
-        charCard.appendChild(charLink);
-        charCard.appendChild(button);
-        charCard.appendChild(colorImage);
-        charCard.appendChild(white);
-        if (filters.sortAttributes.size > 0) {
-          charCard.appendChild(totalScore);
-        }
-
-        charContainer.appendChild(charCard);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "seriesFilter";
+    button.textContent = character.series;
+    button.style.cursor = "pointer";
+    button.addEventListener("click", () => {
+      let filtered = characters.filter(char => {
+        return char.series === character.series
+      });
+      renderCharacters(filtered);
     });
+
+    const totalScore = document.createElement("p");
+    let sortValue = Array.from(filters.sortAttributes).reduce(
+      (sum, attr) => sum + (character[attr] || 0), 0
+    );
+    totalScore.textContent = "スコア合計:" + sortValue;
+
+    charCard.appendChild(charLink);
+    charCard.appendChild(button);
+    charCard.appendChild(colorImage);
+    charCard.appendChild(whiteCircle);
+    if (filters.sortAttributes.size > 0) {
+      charCard.appendChild(totalScore);
+    }
+
+    charPanel.appendChild(charCard);
+  });
 }
 
 function applyFilters() {
@@ -116,36 +121,36 @@ function applyFilters() {
   });
 
   if (filters.sortAttributes.size > 0) {
-      filtered.sort((a, b) => {
-          const sum = (char) => Array.from(filters.sortAttributes)
-              .reduce((sum, attr) => sum + (char[attr] || 0), 0);
+    filtered.sort((a, b) => {
+      const sum = (char) => Array.from(filters.sortAttributes)
+                    .reduce((sum, attr) => sum + (char[attr] || 0), 0);
 
-          return sum(b) - sum(a);
-      });
+      return sum(b) - sum(a);
+    });
   }
   renderCharacters(filtered);
 }
 
 function toggleFilter(category, value) {
-    if (filters[category].has(value)) {
-        filters[category].delete(value);
-    } else {
-        filters[category].add(value);
-    }
-    applyFilters();
+  if (filters[category].has(value)) {
+    filters[category].delete(value);
+  } else {
+    filters[category].add(value);
+  }
+  applyFilters();
 }
 
 function setupEventListeners() {
   const target = [
     "character",
-    "rarity",
-    "color",
-    "ct",
-    "booster",
     "skillType",
+    "booster",
     "ability",
     "killer",
+    "rarity",
+    "color",
     "plus",
+    "ct",
   ];
   target.forEach(filter_target => {
     document.querySelectorAll("."+filter_target+"CB").forEach(checkbox => {
@@ -161,31 +166,16 @@ function setupEventListeners() {
     applyFilters();
   });
 
-  // ソートフィルター
+  // ソート
   document.querySelectorAll(".colorSortCB").forEach(checkbox => {
     checkbox.addEventListener("change", (e) => {
       if (e.target.checked) {
-          filters.sortAttributes.add(e.target.value);
+        filters.sortAttributes.add(e.target.value);
       } else {
-          filters.sortAttributes.delete(e.target.value);
+        filters.sortAttributes.delete(e.target.value);
       }
       applyFilters();
     });
-  });
-
-  const toggleButton = document.querySelector("#filterTglBtn");
-  toggleButton.addEventListener('click', () => {
-    const filterContainer = document.querySelector("#filterContainer")
-    filterContainer.classList.toggle('active');
-    charContainer.classList.toggle('active');
-    if (filterContainer.classList.contains('active')) {
-      toggleButton.innerHTML = "フィルター<br>非表示";
-      toggleButton.style.backgroundColor = "#FF6B6B";
-      console.log(filterContainer)
-    } else {
-      toggleButton.innerHTML = "フィルター<br>表示";
-      toggleButton.style.backgroundColor = "#4ECDC4";
-    }
   });
 }
 
@@ -263,24 +253,81 @@ function renderFilter() {
 function setDonation() {
   a = kofiWidgetOverlay.draw('hugashy', {
     'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'モチベ維持に<br>寄付おねしゃす！！！',
-    'floating-chat.donateButton.width': 'min-content',
+    'floating-chat.donateButton.text': 'アプデ支援',
     'floating-chat.donateButton.background-color': '#00b9fe',
     'floating-chat.donateButton.text-color': '#fff'
   });
+  const iframe = document.querySelector("iframe");
+  const kofiBtn = iframe.contentDocument.querySelector(".closed");
+  kofiBtn.click();
+}
+
+function setupResizer() {
+  if (window.innerWidth > window.innerHeight) { return; }
+
+  let isResizing = false;
+  resizer.style.top = getComputedStyle(panelA).height;
+
+  resizer.addEventListener('mousedown', function(e) {
+    isResizing = true;
+    resizer.classList.add('active');
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove', function(e) {
+    if (!isResizing) return;
+    handleMove(e.clientX, e.clientY);
+  });
+  document.addEventListener('mouseup', function() {
+    if (!isResizing) return;
+    isResizing = false;
+    resizer.classList.remove('active');
+  });
+
+  resizer.addEventListener('touchstart', function(e) {
+    isResizing = true;
+    resizer.classList.add('active');
+    e.preventDefault();
+  }, { passive: false });
+  document.addEventListener('touchmove', function(e) {
+    if (!isResizing) return;
+    const touch = e.touches[0];
+    handleMove(touch.clientX, touch.clientY);
+    e.preventDefault();
+  }, { passive: false });
+  document.addEventListener('touchend', function() {
+    if (!isResizing) return;
+    isResizing = false;
+    resizer.classList.remove('active');
+  });
+  document.addEventListener('touchcancel', function() {
+    if (!isResizing) return;
+    isResizing = false;
+    resizer.classList.remove('active');
+  });
+}
+
+function handleMove(clientX, clientY) {
+  const containerRect = container.getBoundingClientRect();
+
+  const containerHeight = containerRect.height;
+  const mouseY = clientY - containerRect.top;
+  const newHeightA = mouseY;
+  const newHeightB = containerHeight - newHeightA;
+
+  // 最小サイズ25%
+  if (newHeightA / containerHeight < 0.25 || newHeightB / containerHeight < 0.25) return;
+
+  const aPercentage = (newHeightA / containerHeight * 100).toFixed(1);
+  const bPercentage = (100 - aPercentage).toFixed(1);
+  panelA.style.height = `${aPercentage}%`;
+  panelB.style.height = `${bPercentage}%`;
+
+  resizer.style.top = `${aPercentage}%`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  setDonation();
-  renderFilter();
   loadCharacters();
-  const iframe = document.querySelector("iframe");
-  const kofiBtn = iframe.contentDocument.querySelector(".closed");
-  const randval = Math.random();
-  if (randval < 2/7) { kofiBtn.click(); }
-
-  const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-  iframeDoc.body.style.height = '100px';
-  iframeDoc.body.style.width = '200px';
-
+  renderFilter();
+  setupResizer();
+  if (Math.random() < 7/7) { setDonation(); }
 });
