@@ -329,5 +329,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadCharacters();
   renderFilter();
   setupResizer();
-  if (Math.random() < 7/7) { setDonation(); }
+  if (Math.random() < 2/7) { setDonation(); }
 });
