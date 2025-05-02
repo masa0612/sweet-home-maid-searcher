@@ -4,28 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>すいめどなび</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <script src="filters.js" defer></script>
   <script src="script.js" defer></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
-
 </head>
 <body class="bg-gray-100">
 <div id="panelContainer" class="container mx-auto p-1">
-  <div id="charPanel" class="flex flex-wrap mx-auto"></div>
+  <div id="charPanel" class="mx-auto"></div>
   <div id="resizer">slider</div>
   <div id="filterPanel" class="mx-auto">
     <h1>すいめどなび</h1>
     <div class="grid grid-cols-3 md:grid-cols-1">
-      <div class="grid grid-cols-2 md:grid-cols-4" id="rarityFilter"></div>
+      <div id="rarityFilter" class="grid grid-cols-2 md:grid-cols-4"></div>
       <div class="spacer"></div>
-      <div class="grid grid-cols-3 md:grid-cols-6" id="colorFilter"></div>
+      <div id="colorFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
     </div>
     <div class="spacer"></div>
-    <div class="grid grid-cols-5" id="charFilter"></div>
+    <div id="charFilter" class="grid grid-cols-5"></div>
 
     <div class="grid">
       <h3>スキルタイプ</h3>
@@ -42,7 +41,7 @@
       <div class="spacer"></div>
       <div id="ctFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
       <div class="spacer"></div>
-      <div id="soonFilter"><input type="checkbox" id="soonCB"></div>
+      <div id="soonFilter"><input id="soonCB" type="checkbox"></div>
     </div>
 
     <div class="spacer"></div>

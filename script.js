@@ -1,19 +1,9 @@
-const colorMap = {
-  "赤": "696D67_70635F7265642E706E67.png",
-  "青": "696D67_70635F626C752E706E67.png",
-  "緑": "696D67_70635F67726E2E706E67.png",
-  "黄": "696D67_70635F79656C2E706E67.png",
-  "水": "696D67_70635F6171612E706E67.png",
-  "紫": "696D67_70635F76696F2E706E67.png"
-};
-
 const container = document.getElementById('panelContainer');
-const panelA = document.getElementById('charPanel');
-const panelB = document.getElementById('filterPanel');
+const charPanel = document.getElementById("charPanel");
+const filterPanel = document.getElementById('filterPanel');
 const resizer = document.getElementById('resizer');
 
 let characters = [];
-const charPanel = document.getElementById("charPanel");
 const filters = {
     character: new Set(),
     rarity: new Set(),
@@ -193,11 +183,9 @@ function renderFilter() {
     input.classList.add("overlayCB");
     input.value = ele.name;
 
-    // <label for="...">
     const label = document.createElement("label");
     label.htmlFor = ele.id;
 
-    // <img src="..." alt="...">
     const img = document.createElement("img");
     img.src = ele.imgSrc;
     img.alt = ele.name;
@@ -263,10 +251,10 @@ function setDonation() {
 }
 
 function setupResizer() {
-  if (window.innerWidth > window.innerHeight) { return; }
+  if (window.innerWidth > window.innerHeight) return;
 
   let isResizing = false;
-  resizer.style.top = getComputedStyle(panelA).height;
+  resizer.style.top = getComputedStyle(charPanel).height;
 
   resizer.addEventListener('mousedown', function(e) {
     isResizing = true;
@@ -314,13 +302,13 @@ function handleMove(clientX, clientY) {
   const newHeightA = mouseY;
   const newHeightB = containerHeight - newHeightA;
 
-  // 最小サイズ25%
-  if (newHeightA / containerHeight < 0.25 || newHeightB / containerHeight < 0.25) return;
+  // 最小サイズ20%
+  if (newHeightA / containerHeight < 0.20 || newHeightB / containerHeight < 0.20) return;
 
   const aPercentage = (newHeightA / containerHeight * 100).toFixed(1);
   const bPercentage = (100 - aPercentage).toFixed(1);
-  panelA.style.height = `${aPercentage}%`;
-  panelB.style.height = `${bPercentage}%`;
+  charPanel.style.height = `${aPercentage}%`;
+  filterPanel.style.height = `${bPercentage}%`;
 
   resizer.style.top = `${aPercentage}%`;
 }
@@ -329,5 +317,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadCharacters();
   renderFilter();
   setupResizer();
-  if (Math.random() < 2/7) { setDonation(); }
+  if (Math.random() < 2/7) setDonation();
 });

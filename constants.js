@@ -10,7 +10,6 @@ const characterFilter = [
     { id: "nashwaFilter", name: "ナシュワ", imgSrc: "assets/character_filter/nashwa.jpg" },
     { id: "otherFilter", name: "その他", imgSrc: "assets/character_filter/other.jpg" },
 ];
-
 const colorFilter = [
     { id: "redFilter", name: "赤", imgSrc: "assets/color_filter/red.jpg" },
     { id: "blueFilter", name: "青", imgSrc: "assets/color_filter/blue.jpg" },
@@ -19,7 +18,6 @@ const colorFilter = [
     { id: "aquaFilter", name: "水", imgSrc: "assets/color_filter/aqua.jpg" },
     { id: "violetFilter", name: "紫", imgSrc: "assets/color_filter/violet.jpg" }
 ];
-
 const ctFilter = [
     { id: "ct1Filter", name: "1", imgSrc: "assets/ct_filter/ct1.png" },
     { id: "ct2Filter", name: "2", imgSrc: "assets/ct_filter/ct2.png" },
@@ -28,14 +26,12 @@ const ctFilter = [
     { id: "ct5Filter", name: "5", imgSrc: "assets/ct_filter/ct5.png" },
     { id: "ct6Filter", name: "6", imgSrc: "assets/ct_filter/ct6.png" },
 ];
-
 const rarityFilter = [
     { id: "rare1Filter", name: "1", imgSrc: "assets/rarity_filter/rare1.jpg" },
     { id: "rare2Filter", name: "2", imgSrc: "assets/rarity_filter/rare2.jpg" },
     { id: "rare3Filter", name: "3", imgSrc: "assets/rarity_filter/rare3.jpg" },
     { id: "rare4Filter", name: "4", imgSrc: "assets/rarity_filter/rare4.jpg" }
 ];
-
 const colorSort = [
     { id: "redSort", name: "red", imgSrc: wikiUrl+"696D67_70635F7265642E706E67.png" },
     { id: "blueSort", name: "blue", imgSrc: wikiUrl+"696D67_70635F626C752E706E67.png" },
@@ -44,7 +40,6 @@ const colorSort = [
     { id: "aquaSort", name: "aqua", imgSrc: wikiUrl+"696D67_70635F6171612E706E67.png" },
     { id: "violetSort", name: "violet", imgSrc: wikiUrl+"696D67_70635F76696F2E706E67.png" }
 ];
-
 const killerFilter = [
     { id: "box", name: "ダンボールキラー", imgSrc: "assets/killer_filter/box.jpg" },
     { id: "peanuts", name: "ピーナッツキラー", imgSrc: "assets/killer_filter/peanuts.jpg" },
@@ -114,4 +109,12 @@ const plusFilter = [
   { id: "rocket1", name: "ロケット+1", imgSrc: "assets/plus_filter/rocket_plus1.jpg" },
   { id: "rocket2", name: "ロケット+2", imgSrc: "assets/plus_filter/rocket_plus2.jpg" },
 ];
+const colorMap = {
+  "赤": "696D67_70635F7265642E706E67.png",
+  "青": "696D67_70635F626C752E706E67.png",
+  "緑": "696D67_70635F67726E2E706E67.png",
+  "黄": "696D67_70635F79656C2E706E67.png",
+  "水": "696D67_70635F6171612E706E67.png",
+  "紫": "696D67_70635F76696F2E706E67.png"
+};
 
