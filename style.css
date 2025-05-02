@@ -118,8 +118,8 @@ h3 {
 }
 #charPanel{
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(120px, 120px));
-  grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  grid-template-rows: repeat(auto-fit, 120px);
+  grid-template-columns: repeat(auto-fit, 100px);
   justify-content: center;
   align-content: start; /* デフォルトは上部から開始 */
   place-items: center;

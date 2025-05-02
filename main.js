@@ -176,21 +176,20 @@ function setupEventListeners() {
     });
   });
 
-  document.querySelector("#resetBtn").addEventListener("click", () => {
-    resetFilters();
-  });
-  document.querySelector("#resetBtn").addEventListener("click", () => {
-    resetFilters();
-  });
+  document.querySelector("#resetBtn").addEventListener("click", resetFilters);
   document.addEventListener("keydown", function(event) {
     switch (event.key) {
       case "r":
         resetFilters();
     }
   });
+  window.addEventListener('resize', applyFilters);
 }
 
 function resetFilters() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+    checkbox.checked = false;
+  });
   filters.character.clear();
   filters.rarity.clear();
   filters.color.clear();
@@ -347,6 +346,7 @@ function handleMove(clientX, clientY) {
   filterPanel.style.height = `${bPercentage}%`;
 
   resizer.style.top = `${aPercentage}%`;
+  applyFilters();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
