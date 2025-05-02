@@ -20,7 +20,7 @@ const filters = {
 
 async function loadCharacters() {
   try {
-    const response = await fetch("characters.json");
+    const response = await fetch("assets/characters.json");
     characters = await response.json();
     renderCharacters(characters);
     setupEventListeners();
@@ -81,6 +81,14 @@ function renderCharacters(filtered_characters) {
 
     charPanel.appendChild(charCard);
   });
+  const cs = window.getComputedStyle(charPanel);
+  const numColumns = cs.getPropertyValue("grid-template-columns").split(' ').length;
+  const numRows = Math.ceil( filtered_characters.length / numColumns );
+  if (numRows*120 > charPanel.clientHeight) {
+    charPanel.style.alignContent = "start";
+  } else {
+    charPanel.style.alignContent = "center";
+  }
 }
 
 function applyFilters() {
@@ -167,6 +175,34 @@ function setupEventListeners() {
       applyFilters();
     });
   });
+
+  document.querySelector("#resetBtn").addEventListener("click", () => {
+    resetFilters();
+  });
+  document.querySelector("#resetBtn").addEventListener("click", () => {
+    resetFilters();
+  });
+  document.addEventListener("keydown", function(event) {
+    switch (event.key) {
+      case "r":
+        resetFilters();
+    }
+  });
+}
+
+function resetFilters() {
+  filters.character.clear();
+  filters.rarity.clear();
+  filters.color.clear();
+  filters.ct.clear();
+  filters.skillType.clear();
+  filters.booster.clear();
+  filters.ability.clear();
+  filters.killer.clear();
+  filters.plus.clear();
+  filters.sortAttributes.clear();
+  filters.soon = false;
+  applyFilters();
 }
 
 function renderFilter() {
@@ -247,7 +283,7 @@ function setDonation() {
   });
   const iframe = document.querySelector("iframe");
   const kofiBtn = iframe.contentDocument.querySelector(".closed");
-  kofiBtn.click();
+  if (Math.random() < 2/7) kofiBtn.click();
 }
 
 function setupResizer() {
@@ -317,5 +353,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadCharacters();
   renderFilter();
   setupResizer();
-  if (Math.random() < 2/7) setDonation();
+  setDonation();
 });
