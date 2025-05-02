@@ -20,7 +20,7 @@ const filters = {
 
 async function loadCharacters() {
   try {
-    const response = await fetch("data/characters.json");
+    const response = await fetch("characters.json");
     characters = await response.json();
     renderCharacters(characters);
     setupEventListeners();

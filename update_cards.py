@@ -4,6 +4,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+OUTPUT_FILE = "assets/characters.json"
 WIKI = "https://sweethomemaid.wikiru.jp/"
 
 def get_cards(filter_=None):
@@ -217,3 +218,39 @@ def get_multiplier(soup):
             multiple += int(match.group(1) if match else None)
 
     return float(multiple/100)+1.02
+
+def add_soon_flag(cards):
+    target = [
+      "【D.C.4コラボ】有里咲",
+      "【夢見るバニータイム】ひまり子",
+      "【とろけるバスタイム】ひまり子",
+      "【夢見るバニータイム】スカーレット",
+      "【夢見るバニータイム】凪",
+      "【夢見るバニータイム】紬",
+      "【夢見るバニータイム】彩葉",
+      "【白衣の天使と白昼夢】花音",
+      "【白衣の天使と白昼夢】凪",
+      "【お家神社で新春初詣】紬",
+      "【白衣の天使と白昼夢】紬",
+      "【二人きりのささやき耳かき】紬",
+      "【モフモフさん、いらっしゃい！】彩葉",
+      "【恐怖のHorrorween Party】彩葉",
+      "【チョコパラダイス】彩葉",
+      "【満開！夜桜大宴会】花音",
+      "【OFFの顔】彩葉",
+      "【春の駅弁祭り】彩葉",
+      "【満開！夜桜大宴会】紬",
+      "【夢見るバニータイム】花音",
+      "【二人きりのささやき耳かき】スカーレット",
+      "【夢見る乙女のパジャマパーティー】花音",
+    ]
+    for x in cards:
+        x["soon_flag"] = x["name"] in target
+
+if __name__ == "__main__":
+    #print(get_cards("【朝一の悦び】彩葉"))
+    #exit()
+    cards = get_cards()
+    add_soon_flag(cards)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(cards, f, indent=2, ensure_ascii=False)
