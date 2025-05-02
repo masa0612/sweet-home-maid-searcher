@@ -28,10 +28,17 @@ h3 {
   font-weight: bold;
 }
 
+#donationBtn {
+  position: fixed;
+  color: #ffffff;
+  background: #00b9fe;
+  border: 2px solid white;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.7), 0px 1px 1px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
 #resetBtn {
   position: fixed;
-  bottom: 200px;
-  right: 10px;
   color: #ffffff;
   background: #FF6B6B;
   border: 2px solid white;

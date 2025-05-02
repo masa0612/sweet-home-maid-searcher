@@ -183,7 +183,10 @@ function setupEventListeners() {
         resetFilters();
     }
   });
-  window.addEventListener('resize', applyFilters);
+  window.addEventListener('resize', ()=> {
+    applyFilters();
+    setBtn();
+  });
 }
 
 function resetFilters() {
@@ -349,9 +352,22 @@ function handleMove(clientX, clientY) {
   applyFilters();
 }
 
+function setBtn() {
+  const donationBtn = document.getElementById("donationBtn");
+  const rectCharPanel = charPanel.getBoundingClientRect();
+  donationBtn.style.top = (rectCharPanel.top + 3) + 'px';
+  donationBtn.style.left = (rectCharPanel.left + 3) + 'px';
+
+  const resetBtn = document.getElementById("resetBtn");
+  const rectFilterPanel = filterPanel.getBoundingClientRect();
+  resetBtn.style.top = (rectFilterPanel.bottom - 180) + 'px';
+  resetBtn.style.left = (rectFilterPanel.right - 85) + 'px';
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadCharacters();
   renderFilter();
   setupResizer();
-  setDonation();
+  setBtn();
+  //setDonation();
 });
