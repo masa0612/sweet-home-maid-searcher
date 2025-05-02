@@ -187,41 +187,62 @@ h3 {
   grid-template-columns: auto;
 }
 .grid-cols-2 {
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, auto);
 }
 .grid-cols-3 {
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, auto);
 }
 .grid-cols-4 {
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, auto);
 }
 .grid-cols-5 {
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: repeat(5, auto);
 }
 .grid-cols-6 {
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: repeat(6, auto);
+}
+.grid-cols-7 {
+  grid-template-columns: repeat(7, auto);
+}
+.grid-cols-8 {
+  grid-template-columns: repeat(8, auto);
+}
+.grid-cols-9 {
+  grid-template-columns: repeat(9, auto);
+}
+.grid-cols-10 {
+  grid-template-columns: repeat(10, auto);
 }
 @media (min-width: 768px) {
   .md\:grid-cols-1 {
     grid-template-columns: auto;
   }
   .md\:grid-cols-2 {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, auto);
   }
   .md\:grid-cols-3 {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
   }
   .md\:grid-cols-4 {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, auto);
   }
   .md\:grid-cols-5 {
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: repeat(5, auto);
   }
   .md\:grid-cols-6 {
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(6, auto);
   }
   .md\:grid-cols-7 {
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(7, auto);
+  }
+  .md\:grid-cols-8 {
+    grid-template-columns: repeat(8, auto);
+  }
+  .md\:grid-cols-9 {
+    grid-template-columns: repeat(9, auto);
+  }
+  .md\:grid-cols-10 {
+    grid-template-columns: repeat(10, auto);
   }
 }
 
