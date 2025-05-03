@@ -1,7 +1,7 @@
 [
   {
-    "character": "彩葉",
     "name": "【朝一の悦び】彩葉",
+    "character": "彩葉",
     "series": "【朝一の悦び】",
     "rarity": 4,
     "color": "緑",
@@ -10,13 +10,8 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 25479,
-    "blue": 9799,
-    "green": 46566,
-    "yellow": 16332,
-    "aqua": 25479,
-    "violet": 10453,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -24,16 +19,21 @@
       "蜘蛛の巣キラー"
     ],
     "plus": [
-      "+2",
-      "ロケット+2",
+      "ボム+1",
       "+1",
-      "ボム+1"
+      "+2",
+      "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 25479,
+    "blue": 9799,
+    "green": 35068,
+    "yellow": 16332,
+    "aqua": 25479,
+    "violet": 10453
   },
   {
-    "character": "彩葉",
     "name": "【とろけるバスタイム】彩葉",
+    "character": "彩葉",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "黄",
@@ -41,13 +41,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 11759,
-    "blue": 24825,
-    "green": 20906,
-    "yellow": 44451,
-    "aqua": 26132,
-    "violet": 12413,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数2アップ"
     ],
@@ -55,28 +50,28 @@
       "ダンボールキラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ロケット+2",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11759,
+    "blue": 24825,
+    "green": 20906,
+    "yellow": 33475,
+    "aqua": 26132,
+    "violet": 12413
   },
   {
-    "character": "彩葉",
     "name": "【夢見るバニータイム】彩葉",
+    "character": "彩葉",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "赤",
     "s_type": "ピースチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 28876,
-    "blue": 20524,
-    "green": 19109,
-    "yellow": 22648,
-    "aqua": 19817,
-    "violet": 24063,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数2アップ",
@@ -84,23 +79,23 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 28876,
+    "blue": 20524,
+    "green": 19109,
+    "yellow": 22648,
+    "aqua": 19817,
+    "violet": 24063
   },
   {
-    "character": "彩葉",
     "name": "【チョコパラダイス】彩葉",
+    "character": "彩葉",
     "series": "【チョコパラダイス】",
     "rarity": 4,
     "color": "緑",
     "s_type": "ピースブレイク",
     "b_tag": [],
-    "ct": "3",
-    "red": 12413,
-    "blue": 16332,
-    "green": 53975,
-    "yellow": 9799,
-    "aqua": 27439,
-    "violet": 20906,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -109,13 +104,18 @@
     ],
     "plus": [
       "+2",
-      "ミサイル+2"
+      "ロケット+2"
     ],
-    "soon_flag": true
+    "red": 12413,
+    "blue": 16332,
+    "green": 40647,
+    "yellow": 9799,
+    "aqua": 27439,
+    "violet": 20906
   },
   {
-    "character": "彩葉",
     "name": "【黄金のたまごを探せ！】彩葉",
+    "character": "彩葉",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 4,
     "color": "黄",
@@ -124,28 +124,28 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 12413,
-    "blue": 15679,
-    "green": 20906,
-    "yellow": 57150,
-    "aqua": 16332,
-    "violet": 22212,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "たまごキラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ロケット+2",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 12413,
+    "blue": 15679,
+    "green": 20906,
+    "yellow": 43039,
+    "aqua": 16332,
+    "violet": 22212
   },
   {
-    "character": "彩葉",
     "name": "【春の駅弁祭り】彩葉",
+    "character": "彩葉",
     "series": "【春の駅弁祭り】",
     "rarity": 4,
     "color": "紫",
@@ -153,13 +153,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 15679,
-    "blue": 20906,
-    "green": 11106,
-    "yellow": 20906,
-    "aqua": 16332,
-    "violet": 60357,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "リバウンドスキルコスト"
     ],
@@ -170,11 +165,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": true
+    "red": 15679,
+    "blue": 20906,
+    "green": 11106,
+    "yellow": 20906,
+    "aqua": 16332,
+    "violet": 45454
   },
   {
-    "character": "彩葉",
     "name": "【魔王ニアからの挑戦】彩葉",
+    "character": "彩葉",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 4,
     "color": "青",
@@ -183,13 +183,8 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 7200,
-    "blue": 74649,
-    "green": 11400,
-    "yellow": 21000,
-    "aqua": 25200,
-    "violet": 19800,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
@@ -197,18 +192,21 @@
       "ダンボールキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 7200,
+    "blue": 56217,
+    "green": 11400,
+    "yellow": 21000,
+    "aqua": 25200,
+    "violet": 19800
   },
   {
-    "character": "彩葉",
     "name": "【鈍感彦星と七人の織姫】彩葉",
+    "character": "彩葉",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 4,
     "color": "緑",
@@ -217,13 +215,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 10208,
-    "blue": 27221,
-    "green": 56225,
-    "yellow": 18374,
-    "aqua": 13610,
-    "violet": 23818,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "ピーナッツ貫通ロケット",
       "初期スキルゲージ増加"
@@ -235,11 +228,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 10208,
+    "blue": 27221,
+    "green": 42342,
+    "yellow": 18374,
+    "aqua": 13610,
+    "violet": 23818
   },
   {
-    "character": "彩葉",
     "name": "【白衣の天使と白昼夢】彩葉",
+    "character": "彩葉",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "緑",
@@ -248,24 +246,24 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [
+      "アクセントカラー",
+      "手数2アップ"
+    ],
+    "k_tag": [],
+    "plus": [],
     "red": 16006,
     "blue": 16768,
     "green": 65441,
     "yellow": 24390,
     "aqua": 32012,
-    "violet": 15244,
-    "a_tag": [
-      "アクセントカラー",
-      "手数1アップ"
-    ],
-    "k_tag": [],
-    "plus": [],
-    "soon_flag": false
+    "violet": 15244
   },
   {
-    "character": "彩葉",
     "name": "【二人きりのささやき耳かき】彩葉",
+    "character": "彩葉",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "水",
@@ -273,24 +271,24 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 11024,
-    "blue": 23519,
-    "green": 15434,
-    "yellow": 24989,
-    "aqua": 57150,
-    "violet": 28664,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "手数1アップ"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 11024,
+    "blue": 23519,
+    "green": 15434,
+    "yellow": 24989,
+    "aqua": 43039,
+    "violet": 28664
   },
   {
-    "character": "彩葉",
     "name": "【夏夜を彩る鐘楼祭】彩葉",
+    "character": "彩葉",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 4,
     "color": "水",
@@ -298,13 +296,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "2",
-    "red": 6805,
-    "blue": 11569,
-    "green": 30623,
-    "yellow": 25860,
-    "aqua": 56225,
-    "violet": 19055,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "手数1アップ"
     ],
@@ -315,11 +308,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 6805,
+    "blue": 11569,
+    "green": 30623,
+    "yellow": 25860,
+    "aqua": 42342,
+    "violet": 19055
   },
   {
-    "character": "彩葉",
     "name": "【恐怖のHorrorween Party】彩葉",
+    "character": "彩葉",
     "series": "【ハロウィン】",
     "rarity": 4,
     "color": "赤",
@@ -327,13 +325,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 61913,
-    "blue": 21940,
-    "green": 8493,
-    "yellow": 7077,
-    "aqua": 28310,
-    "violet": 22648,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "シミラー初期スキルゲージ増加"
@@ -342,16 +335,21 @@
       "鎖キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": true
+    "red": 46625,
+    "blue": 21940,
+    "green": 8493,
+    "yellow": 7077,
+    "aqua": 28310,
+    "violet": 22648
   },
   {
-    "character": "彩葉",
     "name": "【聖なる雪合戦】彩葉",
+    "character": "彩葉",
     "series": "【聖なる雪合戦】",
     "rarity": 4,
     "color": "緑",
@@ -359,13 +357,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 14863,
-    "blue": 12032,
-    "green": 61914,
-    "yellow": 22648,
-    "aqua": 21233,
-    "violet": 21940,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
@@ -377,23 +370,23 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 14863,
+    "blue": 12032,
+    "green": 46627,
+    "yellow": 22648,
+    "aqua": 21233,
+    "violet": 21940
   },
   {
-    "character": "彩葉",
     "name": "【我が愛しの妃へ…】彩葉",
+    "character": "彩葉",
     "series": "【我が愛しの妃へ…】",
     "rarity": 4,
     "color": "黄",
     "s_type": "遠隔ピースチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 22104,
-    "blue": 23683,
-    "green": 21314,
-    "yellow": 33818,
-    "aqua": 25261,
-    "violet": 24472,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー",
       "手数1アップ",
@@ -401,11 +394,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 22104,
+    "blue": 23683,
+    "green": 21314,
+    "yellow": 33818,
+    "aqua": 25261,
+    "violet": 24472
   },
   {
-    "character": "彩葉",
     "name": "【モフモフさん、いらっしゃい！】彩葉",
+    "character": "彩葉",
     "series": "【モフモフ】",
     "rarity": 4,
     "color": "紫",
@@ -414,13 +412,8 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 21940,
-    "blue": 10617,
-    "green": 18402,
-    "yellow": 14155,
-    "aqua": 21233,
-    "violet": 66499,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -431,11 +424,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": true
+    "red": 21940,
+    "blue": 10617,
+    "green": 18402,
+    "yellow": 14155,
+    "aqua": 21233,
+    "violet": 50079
   },
   {
-    "character": "彩葉",
     "name": "【満開！夜桜大宴会】彩葉",
+    "character": "彩葉",
     "series": "【満開！夜桜大宴会】",
     "rarity": 4,
     "color": "紫",
@@ -443,13 +441,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 14700,
-    "blue": 20579,
-    "green": 10290,
-    "yellow": 18375,
-    "aqua": 23519,
-    "violet": 66675,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "シミラースキルコスト減少",
       "リンケージスキルコスト減少"
@@ -458,14 +451,19 @@
       "3Dプリンターキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 14700,
+    "blue": 20579,
+    "green": 10290,
+    "yellow": 18375,
+    "aqua": 23519,
+    "violet": 50212
   },
   {
-    "character": "紬",
     "name": "【ハマってるもの】紬",
+    "character": "紬",
     "series": "【ハマってるもの】",
     "rarity": 4,
     "color": "黄",
@@ -473,13 +471,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 13824,
-    "blue": 14400,
-    "green": 21888,
-    "yellow": 58226,
-    "aqua": 8640,
-    "violet": 21312,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -487,16 +480,21 @@
       "ゼリーキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2",
       "+1",
-      "ミサイル+1"
+      "ボム+2",
+      "+2",
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 13824,
+    "blue": 14400,
+    "green": 21888,
+    "yellow": 43849,
+    "aqua": 8640,
+    "violet": 21312
   },
   {
-    "character": "紬",
     "name": "【とろけるバスタイム】紬",
+    "character": "紬",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "水",
@@ -504,13 +502,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 19008,
-    "blue": 11520,
-    "green": 12096,
-    "yellow": 19584,
-    "aqua": 64197,
-    "violet": 20160,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
@@ -519,14 +512,19 @@
       "ネズミキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 19008,
+    "blue": 11520,
+    "green": 12096,
+    "yellow": 19584,
+    "aqua": 48346,
+    "violet": 20160
   },
   {
-    "character": "紬",
     "name": "【クリスマス・メイキング】紬",
+    "character": "紬",
     "series": "【クリスマス】",
     "rarity": 4,
     "color": "青",
@@ -536,13 +534,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 20160,
-    "blue": 59719,
-    "green": 20160,
-    "yellow": 15552,
-    "aqua": 11520,
-    "violet": 16704,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -550,16 +543,21 @@
       "氷キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2",
       "+1",
+      "ボム+2",
+      "+2",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 20160,
+    "blue": 44974,
+    "green": 20160,
+    "yellow": 15552,
+    "aqua": 11520,
+    "violet": 16704
   },
   {
-    "character": "紬",
     "name": "【ズボラ姫たちの年はじめ】紬",
+    "character": "紬",
     "series": "【年はじめ】",
     "rarity": 4,
     "color": "赤",
@@ -568,28 +566,28 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "2",
-    "red": 48684,
-    "blue": 13719,
-    "green": 10453,
-    "yellow": 22865,
-    "aqua": 19599,
-    "violet": 22212,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 36663,
+    "blue": 13719,
+    "green": 10453,
+    "yellow": 22865,
+    "aqua": 19599,
+    "violet": 22212
   },
   {
-    "character": "紬",
     "name": "【夢見るバニータイム】紬",
+    "character": "紬",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "水",
@@ -597,24 +595,24 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 8493,
-    "blue": 17694,
-    "green": 24771,
-    "yellow": 21232,
-    "aqua": 59620,
-    "violet": 24771,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "Wave手数回復+1"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 8493,
+    "blue": 17694,
+    "green": 24771,
+    "yellow": 21232,
+    "aqua": 44899,
+    "violet": 24771
   },
   {
-    "character": "紬",
     "name": "【黄金のたまごを探せ！】紬",
+    "character": "紬",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 4,
     "color": "青",
@@ -622,13 +620,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 24172,
-    "blue": 60325,
-    "green": 5226,
-    "yellow": 19599,
-    "aqua": 9799,
-    "violet": 27439,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "手数1アップ"
@@ -637,16 +630,21 @@
       "たまごキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 24172,
+    "blue": 45430,
+    "green": 5226,
+    "yellow": 19599,
+    "aqua": 9799,
+    "violet": 27439
   },
   {
-    "character": "紬",
     "name": "【魔王ニアからの挑戦】紬",
+    "character": "紬",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 4,
     "color": "水",
@@ -654,13 +652,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 7800,
-    "blue": 9000,
-    "green": 12000,
-    "yellow": 27000,
-    "aqua": 74649,
-    "violet": 28200,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数1アップ"
@@ -672,11 +665,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 7800,
+    "blue": 9000,
+    "green": 12000,
+    "yellow": 27000,
+    "aqua": 56217,
+    "violet": 28200
   },
   {
-    "character": "紬",
     "name": "【鈍感彦星と七人の織姫】紬",
+    "character": "紬",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 4,
     "color": "黄",
@@ -685,13 +683,8 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 7486,
-    "blue": 30623,
-    "green": 23818,
-    "yellow": 67249,
-    "aqua": 9527,
-    "violet": 14291,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "ピーナッツ貫通ロケット"
     ],
@@ -699,16 +692,21 @@
       "ピーナッツキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 7486,
+    "blue": 30623,
+    "green": 23818,
+    "yellow": 50644,
+    "aqua": 9527,
+    "violet": 14291
   },
   {
-    "character": "紬",
     "name": "【魅惑のフルーツビーチ】紬",
+    "character": "紬",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 4,
     "color": "緑",
@@ -716,13 +714,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 14291,
-    "blue": 12930,
-    "green": 59531,
-    "yellow": 13610,
-    "aqua": 22457,
-    "violet": 26540,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "ダイエットスキルコスト",
       "初期スキルゲージ増加"
@@ -731,37 +724,42 @@
       "貝キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 14291,
+    "blue": 12930,
+    "green": 44832,
+    "yellow": 13610,
+    "aqua": 22457,
+    "violet": 26540
   },
   {
-    "character": "紬",
     "name": "【二人きりのささやき耳かき】紬",
+    "character": "紬",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "緑",
     "s_type": "ピースブレイク",
     "b_tag": [],
-    "ct": "2",
-    "red": 30868,
-    "blue": 8820,
-    "green": 72629,
-    "yellow": 9555,
-    "aqua": 18374,
-    "violet": 23519,
+    "soon_flag": true,
+    "ct": 2,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数2アップ"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 30868,
+    "blue": 8820,
+    "green": 54696,
+    "yellow": 9555,
+    "aqua": 18374,
+    "violet": 23519
   },
   {
-    "character": "紬",
     "name": "【白衣の天使と白昼夢】紬",
+    "character": "紬",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "赤",
@@ -771,13 +769,8 @@
       "ボム",
       "ミックス"
     ],
-    "ct": "4",
-    "red": 66675,
-    "blue": 35060,
-    "green": 9146,
-    "yellow": 15244,
-    "aqua": 23628,
-    "violet": 16768,
+    "soon_flag": true,
+    "ct": 4,
     "a_tag": [
       "アクセントカラー",
       "他カードスキル使用時スキルクールタイム減少",
@@ -785,11 +778,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 50212,
+    "blue": 35060,
+    "green": 9146,
+    "yellow": 15244,
+    "aqua": 23628,
+    "violet": 16768
   },
   {
-    "character": "紬",
     "name": "【ゆる秋キャンプ】紬",
+    "character": "紬",
     "series": "【ゆる秋キャンプ】",
     "rarity": 4,
     "color": "緑",
@@ -798,13 +796,8 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 27602,
-    "blue": 10616,
-    "green": 63060,
-    "yellow": 14863,
-    "aqua": 24771,
-    "violet": 10616,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
@@ -816,11 +809,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 27602,
+    "blue": 10616,
+    "green": 47489,
+    "yellow": 14863,
+    "aqua": 24771,
+    "violet": 10616
   },
   {
-    "character": "紬",
     "name": "【お家神社で新春初詣】紬",
+    "character": "紬",
     "series": "【お家神社で新春初詣】",
     "rarity": 4,
     "color": "水",
@@ -828,13 +826,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 24064,
-    "blue": 24771,
-    "green": 14155,
-    "yellow": 16279,
-    "aqua": 64207,
-    "violet": 8493,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "ペアルック初期スキルゲージ増加"
     ],
@@ -842,16 +835,21 @@
       "プリティタン人形サポート"
     ],
     "plus": [
+      "+1",
       "+2",
       "ロケット+2",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": true
+    "red": 24064,
+    "blue": 24771,
+    "green": 14155,
+    "yellow": 16279,
+    "aqua": 48353,
+    "violet": 8493
   },
   {
-    "character": "紬",
     "name": "【福豆飛び交う節分祭】紬",
+    "character": "紬",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 4,
     "color": "黄",
@@ -860,13 +858,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 5662,
-    "blue": 21940,
-    "green": 35388,
-    "yellow": 68793,
-    "aqua": 9201,
-    "violet": 19817,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
@@ -875,11 +868,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 5662,
+    "blue": 21940,
+    "green": 35388,
+    "yellow": 51807,
+    "aqua": 9201,
+    "violet": 19817
   },
   {
-    "character": "紬",
     "name": "【モフモフさん、いらっしゃい！】紬",
+    "character": "紬",
     "series": "【モフモフ】",
     "rarity": 4,
     "color": "水",
@@ -888,13 +886,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 15571,
-    "blue": 10617,
-    "green": 21940,
-    "yellow": 9201,
-    "aqua": 65354,
-    "violet": 29726,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
@@ -903,16 +896,21 @@
       "箱入り猫なつき度"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 15571,
+    "blue": 10617,
+    "green": 21940,
+    "yellow": 9201,
+    "aqua": 49217,
+    "violet": 29726
   },
   {
-    "character": "花音",
     "name": "【自分磨き】花音",
+    "character": "花音",
     "series": "【自分磨き】",
     "rarity": 4,
     "color": "紫",
@@ -921,13 +919,8 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "3",
-    "red": 23616,
-    "blue": 21888,
-    "green": 12096,
-    "yellow": 12672,
-    "aqua": 10368,
-    "violet": 64197,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -935,16 +928,21 @@
       "薪キラー"
     ],
     "plus": [
-      "+2",
-      "ロケット+2",
+      "ボム+1",
       "+1",
-      "ボム+1"
+      "+2",
+      "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 23616,
+    "blue": 21888,
+    "green": 12096,
+    "yellow": 12672,
+    "aqua": 10368,
+    "violet": 48346
   },
   {
-    "character": "花音",
     "name": "【とろけるバスタイム】花音",
+    "character": "花音",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "赤",
@@ -952,24 +950,24 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 65691,
-    "blue": 23616,
-    "green": 16128,
-    "yellow": 12096,
-    "aqua": 13824,
-    "violet": 13248,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "手数1アップ"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 49471,
+    "blue": 23616,
+    "green": 16128,
+    "yellow": 12096,
+    "aqua": 13824,
+    "violet": 13248
   },
   {
-    "character": "花音",
     "name": "【ズボラ姫たちの年はじめ】花音",
+    "character": "花音",
     "series": "【年はじめ】",
     "rarity": 4,
     "color": "青",
@@ -978,41 +976,36 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 19599,
-    "blue": 53975,
-    "green": 20906,
-    "yellow": 11759,
-    "aqua": 13066,
-    "violet": 22212,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 19599,
+    "blue": 40647,
+    "green": 20906,
+    "yellow": 11759,
+    "aqua": 13066,
+    "violet": 22212
   },
   {
-    "character": "花音",
     "name": "【春の駅弁祭り】花音",
+    "character": "花音",
     "series": "【春の駅弁祭り】",
     "rarity": 4,
     "color": "水",
     "s_type": "ピースブレイク",
     "b_tag": [],
-    "ct": "3",
-    "red": 26785,
-    "blue": 7840,
-    "green": 19599,
-    "yellow": 13066,
-    "aqua": 45509,
-    "violet": 27439,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "ダイエットスキルコスト"
@@ -1021,16 +1014,21 @@
       "蜘蛛の巣キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 26785,
+    "blue": 7840,
+    "green": 19599,
+    "yellow": 13066,
+    "aqua": 34272,
+    "violet": 27439
   },
   {
-    "character": "花音",
     "name": "【夢見るバニータイム】花音",
+    "character": "花音",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "赤",
@@ -1039,13 +1037,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 55034,
-    "blue": 24771,
-    "green": 18401,
-    "yellow": 12032,
-    "aqua": 24063,
-    "violet": 20524,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "リバウンドスキルコスト",
       "手数1アップ",
@@ -1053,11 +1046,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 41445,
+    "blue": 24771,
+    "green": 18401,
+    "yellow": 12032,
+    "aqua": 24063,
+    "violet": 20524
   },
   {
-    "character": "花音",
     "name": "【魔王ニアからの挑戦】花音",
+    "character": "花音",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 4,
     "color": "黄",
@@ -1065,13 +1063,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 14400,
-    "blue": 22800,
-    "green": 9000,
-    "yellow": 79315,
-    "aqua": 19200,
-    "violet": 15600,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1"
     ],
@@ -1079,14 +1072,19 @@
       "ダンボールキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 14400,
+    "blue": 22800,
+    "green": 9000,
+    "yellow": 59731,
+    "aqua": 19200,
+    "violet": 15600
   },
   {
-    "character": "花音",
     "name": "【憧れのジューンブライド】花音",
+    "character": "花音",
     "series": "【ジューンブライド】",
     "rarity": 4,
     "color": "黄",
@@ -1094,13 +1092,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 24499,
-    "blue": 13610,
-    "green": 28582,
-    "yellow": 47404,
-    "aqua": 12249,
-    "violet": 19055,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
@@ -1109,14 +1102,19 @@
       "風船キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 24499,
+    "blue": 13610,
+    "green": 28582,
+    "yellow": 35699,
+    "aqua": 12249,
+    "violet": 19055
   },
   {
-    "character": "花音",
     "name": "【魅惑のフルーツビーチ】花音",
+    "character": "花音",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 4,
     "color": "青",
@@ -1124,13 +1122,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 27901,
-    "blue": 57326,
-    "green": 26540,
-    "yellow": 12930,
-    "aqua": 10888,
-    "violet": 11569,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -1141,11 +1134,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 27901,
+    "blue": 43172,
+    "green": 26540,
+    "yellow": 12930,
+    "aqua": 10888,
+    "violet": 11569
   },
   {
-    "character": "花音",
     "name": "【夏夜を彩る鐘楼祭】花音",
+    "character": "花音",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 4,
     "color": "緑",
@@ -1153,13 +1151,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 8166,
-    "blue": 15652,
-    "green": 60634,
-    "yellow": 28582,
-    "aqua": 17013,
-    "violet": 21777,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1",
       "初期スキルゲージ増加"
@@ -1168,16 +1161,21 @@
       "水ヨーヨーキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8166,
+    "blue": 15652,
+    "green": 45663,
+    "yellow": 28582,
+    "aqua": 17013,
+    "violet": 21777
   },
   {
-    "character": "花音",
     "name": "【恐怖のHorrorween Party】花音",
+    "character": "花音",
     "series": "【ハロウィン】",
     "rarity": 4,
     "color": "青",
@@ -1185,13 +1183,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 32556,
-    "blue": 66499,
-    "green": 16278,
-    "yellow": 10616,
-    "aqua": 14155,
-    "violet": 15570,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
@@ -1199,16 +1192,21 @@
       "鎖キラー"
     ],
     "plus": [
-      "+2",
-      "ミサイル+2",
+      "ボム+1",
       "+1",
-      "ボム+1"
+      "+2",
+      "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 32556,
+    "blue": 50079,
+    "green": 16278,
+    "yellow": 10616,
+    "aqua": 14155,
+    "violet": 15570
   },
   {
-    "character": "花音",
     "name": "【白衣の天使と白昼夢】花音",
+    "character": "花音",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "紫",
@@ -1217,25 +1215,24 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "1",
+    "soon_flag": true,
+    "ct": 1,
+    "a_tag": [
+      "アクセントカラー",
+      "初期スキルゲージ増加"
+    ],
+    "k_tag": [],
+    "plus": [],
     "red": 25914,
     "blue": 18292,
     "green": 32012,
     "yellow": 9146,
     "aqua": 13719,
-    "violet": 67910,
-    "a_tag": [
-      "アクセントカラー",
-      "他カードスキル使用時スキルゲージ増加",
-      "初期スキルゲージ増加"
-    ],
-    "k_tag": [],
-    "plus": [],
-    "soon_flag": true
+    "violet": 67910
   },
   {
-    "character": "花音",
     "name": "【ゆる秋キャンプ】花音",
+    "character": "花音",
     "series": "【ゆる秋キャンプ】",
     "rarity": 4,
     "color": "赤",
@@ -1244,13 +1241,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 67646,
-    "blue": 33972,
-    "green": 28310,
-    "yellow": 8493,
-    "aqua": 9908,
-    "violet": 11324,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -1258,14 +1250,19 @@
       "薪キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 50943,
+    "blue": 33972,
+    "green": 28310,
+    "yellow": 8493,
+    "aqua": 9908,
+    "violet": 11324
   },
   {
-    "character": "花音",
     "name": "【二人きりのささやき耳かき】花音",
+    "character": "花音",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "水",
@@ -1275,13 +1272,8 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "4",
-    "red": 9555,
-    "blue": 15435,
-    "green": 28664,
-    "yellow": 17640,
-    "aqua": 69057,
-    "violet": 22049,
+    "soon_flag": false,
+    "ct": 4,
     "a_tag": [
       "ダイエットスキルコスト",
       "手数1アップ",
@@ -1289,11 +1281,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 9555,
+    "blue": 15435,
+    "green": 28664,
+    "yellow": 17640,
+    "aqua": 52006,
+    "violet": 22049
   },
   {
-    "character": "花音",
     "name": "【モフモフさん、いらっしゃい！】花音",
+    "character": "花音",
     "series": "【モフモフ】",
     "rarity": 4,
     "color": "赤",
@@ -1301,26 +1298,26 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 65354,
-    "blue": 7786,
-    "green": 26895,
-    "yellow": 12032,
-    "aqua": 14863,
-    "violet": 32557,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "箱入り猫なつき度"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 49217,
+    "blue": 7786,
+    "green": 26895,
+    "yellow": 12032,
+    "aqua": 14863,
+    "violet": 32557
   },
   {
-    "character": "凪",
     "name": "【ONの私】凪",
+    "character": "凪",
     "series": "【ONの私】",
     "rarity": 4,
     "color": "赤",
@@ -1328,28 +1325,28 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "2",
-    "red": 67184,
-    "blue": 9792,
-    "green": 23616,
-    "yellow": 19008,
-    "aqua": 16704,
-    "violet": 13824,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "手数1アップ"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 50595,
+    "blue": 9792,
+    "green": 23616,
+    "yellow": 19008,
+    "aqua": 16704,
+    "violet": 13824
   },
   {
-    "character": "凪",
     "name": "【とろけるバスタイム】凪",
+    "character": "凪",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "青",
@@ -1358,28 +1355,28 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 17280,
-    "blue": 53746,
-    "green": 12096,
-    "yellow": 13824,
-    "aqua": 20160,
-    "violet": 20160,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ボタンキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2",
       "+1",
+      "ボム+2",
+      "+2",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 17280,
+    "blue": 40475,
+    "green": 12096,
+    "yellow": 13824,
+    "aqua": 20160,
+    "violet": 20160
   },
   {
-    "character": "凪",
     "name": "【クリスマス・メイキング】凪",
+    "character": "凪",
     "series": "【クリスマス】",
     "rarity": 4,
     "color": "緑",
@@ -1387,13 +1384,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 25920,
-    "blue": 16128,
-    "green": 68676,
-    "yellow": 11520,
-    "aqua": 9792,
-    "violet": 15552,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1"
     ],
@@ -1404,11 +1396,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 25920,
+    "blue": 16128,
+    "green": 51719,
+    "yellow": 11520,
+    "aqua": 9792,
+    "violet": 15552
   },
   {
-    "character": "凪",
     "name": "【チョコパラダイス】凪",
+    "character": "凪",
     "series": "【チョコパラダイス】",
     "rarity": 4,
     "color": "紫",
@@ -1417,13 +1414,8 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 9799,
-    "blue": 16986,
-    "green": 26785,
-    "yellow": 19599,
-    "aqua": 18292,
-    "violet": 47624,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -1434,11 +1426,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 9799,
+    "blue": 16986,
+    "green": 26785,
+    "yellow": 19599,
+    "aqua": 18292,
+    "violet": 35865
   },
   {
-    "character": "凪",
     "name": "【夢見るバニータイム】凪",
+    "character": "凪",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "青",
@@ -1447,24 +1444,24 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 25479,
-    "blue": 56179,
-    "green": 22648,
-    "yellow": 16986,
-    "aqua": 16986,
-    "violet": 16986,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少",
       "初期スキルゲージ増加"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 25479,
+    "blue": 42308,
+    "green": 22648,
+    "yellow": 16986,
+    "aqua": 16986,
+    "violet": 16986
   },
   {
-    "character": "凪",
     "name": "【魔王ニアからの挑戦】凪",
+    "character": "凪",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 4,
     "color": "紫",
@@ -1472,13 +1469,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 15652,
-    "blue": 35387,
-    "green": 12249,
-    "yellow": 18374,
-    "aqua": 9527,
-    "violet": 58430,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
@@ -1490,40 +1482,43 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 15652,
+    "blue": 35387,
+    "green": 12249,
+    "yellow": 18374,
+    "aqua": 9527,
+    "violet": 44002
   },
   {
-    "character": "凪",
     "name": "【憧れのジューンブライド】凪",
+    "character": "凪",
     "series": "【ジューンブライド】",
     "rarity": 4,
     "color": "緑",
     "s_type": "ピースシャッフル",
     "b_tag": [],
-    "ct": "3",
-    "red": 14291,
-    "blue": 26540,
-    "green": 49609,
-    "yellow": 24499,
-    "aqua": 21096,
-    "violet": 11569,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "風船キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14291,
+    "blue": 26540,
+    "green": 37360,
+    "yellow": 24499,
+    "aqua": 21096,
+    "violet": 11569
   },
   {
-    "character": "凪",
     "name": "【魅惑のフルーツビーチ】凪",
+    "character": "凪",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 4,
     "color": "水",
@@ -1532,13 +1527,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 8166,
-    "blue": 19735,
-    "green": 26540,
-    "yellow": 15652,
-    "aqua": 57326,
-    "violet": 19735,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
@@ -1547,16 +1537,21 @@
       "貝キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8166,
+    "blue": 19735,
+    "green": 26540,
+    "yellow": 15652,
+    "aqua": 43172,
+    "violet": 19735
   },
   {
-    "character": "凪",
     "name": "【夏夜を彩る鐘楼祭】凪",
+    "character": "凪",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 4,
     "color": "黄",
@@ -1565,13 +1560,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 25860,
-    "blue": 6805,
-    "green": 15652,
-    "yellow": 58430,
-    "aqua": 20416,
-    "violet": 23138,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少",
       "初期スキルゲージ増加"
@@ -1580,14 +1570,19 @@
       "水ヨーヨーキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 25860,
+    "blue": 6805,
+    "green": 15652,
+    "yellow": 44002,
+    "aqua": 20416,
+    "violet": 23138
   },
   {
-    "character": "凪",
     "name": "【ゆる秋キャンプ】凪",
+    "character": "凪",
     "series": "【ゆる秋キャンプ】",
     "rarity": 4,
     "color": "黄",
@@ -1595,28 +1590,28 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "2",
-    "red": 26894,
-    "blue": 8493,
-    "green": 29725,
-    "yellow": 63060,
-    "aqua": 10616,
-    "violet": 16278,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "薪キラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ロケット+2",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 26894,
+    "blue": 8493,
+    "green": 29725,
+    "yellow": 47489,
+    "aqua": 10616,
+    "violet": 16278
   },
   {
-    "character": "凪",
     "name": "【二人きりのささやき耳かき】凪",
+    "character": "凪",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "黄",
@@ -1625,24 +1620,24 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "2",
-    "red": 15434,
-    "blue": 24254,
-    "green": 16904,
-    "yellow": 65485,
-    "aqua": 23519,
-    "violet": 15434,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "Wave手数回復+1",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 15434,
+    "blue": 24254,
+    "green": 16904,
+    "yellow": 49316,
+    "aqua": 23519,
+    "violet": 15434
   },
   {
-    "character": "凪",
     "name": "【白衣の天使と白昼夢】凪",
+    "character": "凪",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "黄",
@@ -1650,13 +1645,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 11433,
-    "blue": 25153,
-    "green": 15244,
-    "yellow": 66675,
-    "aqua": 17531,
-    "violet": 30488,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー",
       "手数1アップ",
@@ -1664,11 +1654,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 11433,
+    "blue": 25153,
+    "green": 15244,
+    "yellow": 50212,
+    "aqua": 17531,
+    "violet": 30488
   },
   {
-    "character": "凪",
     "name": "【お家神社で新春初詣】凪",
+    "character": "凪",
     "series": "【お家神社で新春初詣】",
     "rarity": 4,
     "color": "赤",
@@ -1676,13 +1671,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 59620,
-    "blue": 26895,
-    "green": 9909,
-    "yellow": 21233,
-    "aqua": 21940,
-    "violet": 10617,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "ペアルックスキルコスト減少",
       "Wave手数回復+1"
@@ -1694,11 +1684,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 44899,
+    "blue": 26895,
+    "green": 9909,
+    "yellow": 21233,
+    "aqua": 21940,
+    "violet": 10617
   },
   {
-    "character": "凪",
     "name": "【福豆飛び交う節分祭】凪",
+    "character": "凪",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 4,
     "color": "緑",
@@ -1706,13 +1701,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 14863,
-    "blue": 21233,
-    "green": 60767,
-    "yellow": 25479,
-    "aqua": 9909,
-    "violet": 18402,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -1720,16 +1710,21 @@
       "泡キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14863,
+    "blue": 21233,
+    "green": 45763,
+    "yellow": 25479,
+    "aqua": 9909,
+    "violet": 18402
   },
   {
-    "character": "凪",
     "name": "【満開！夜桜大宴会】凪",
+    "character": "凪",
     "series": "【満開！夜桜大宴会】",
     "rarity": 4,
     "color": "黄",
@@ -1737,13 +1732,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 11025,
-    "blue": 23519,
-    "green": 13965,
-    "yellow": 69057,
-    "aqua": 14700,
-    "violet": 26459,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "シミラースキルコスト減少",
       "手数1アップ"
@@ -1755,11 +1745,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 11025,
+    "blue": 23519,
+    "green": 13965,
+    "yellow": 52006,
+    "aqua": 14700,
+    "violet": 26459
   },
   {
-    "character": "スカーレット",
     "name": "【OFFの顔】スカーレット",
+    "character": "スカーレット",
     "series": "【OFFの顔】",
     "rarity": 4,
     "color": "紫",
@@ -1767,13 +1762,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 22464,
-    "blue": 11520,
-    "green": 19584,
-    "yellow": 10368,
-    "aqua": 14976,
-    "violet": 64197,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1"
     ],
@@ -1781,14 +1771,19 @@
       "氷キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 22464,
+    "blue": 11520,
+    "green": 19584,
+    "yellow": 10368,
+    "aqua": 14976,
+    "violet": 48346
   },
   {
-    "character": "スカーレット",
     "name": "【とろけるバスタイム】スカーレット",
+    "character": "スカーレット",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "黄",
@@ -1796,28 +1791,28 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "2",
-    "red": 14400,
-    "blue": 21312,
-    "green": 13248,
-    "yellow": 73155,
-    "aqua": 14976,
-    "violet": 13824,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "ピーナッツキラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ミサイル+2",
-      "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 14400,
+    "blue": 21312,
+    "green": 13248,
+    "yellow": 55092,
+    "aqua": 14976,
+    "violet": 13824
   },
   {
-    "character": "スカーレット",
     "name": "【ズボラ姫たちの年はじめ】スカーレット",
+    "character": "スカーレット",
     "series": "【年はじめ】",
     "rarity": 4,
     "color": "水",
@@ -1827,28 +1822,28 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 10453,
-    "blue": 26132,
-    "green": 18292,
-    "yellow": 11759,
-    "aqua": 47624,
-    "violet": 25479,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 10453,
+    "blue": 26132,
+    "green": 18292,
+    "yellow": 11759,
+    "aqua": 35865,
+    "violet": 25479
   },
   {
-    "character": "スカーレット",
     "name": "【チョコパラダイス】スカーレット",
+    "character": "スカーレット",
     "series": "【チョコパラダイス】",
     "rarity": 4,
     "color": "黄",
@@ -1857,13 +1852,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 16332,
-    "blue": 17639,
-    "green": 20252,
-    "yellow": 47624,
-    "aqua": 22865,
-    "violet": 13719,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
@@ -1873,15 +1863,18 @@
     ],
     "plus": [
       "+1",
-      "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 16332,
+    "blue": 17639,
+    "green": 20252,
+    "yellow": 35865,
+    "aqua": 22865,
+    "violet": 13719
   },
   {
-    "character": "スカーレット",
     "name": "【夢見るバニータイム】スカーレット",
+    "character": "スカーレット",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "黄",
@@ -1889,13 +1882,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 17694,
-    "blue": 12739,
-    "green": 27602,
-    "yellow": 58473,
-    "aqua": 11324,
-    "violet": 29017,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "Wave手数回復+2",
@@ -1903,11 +1891,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 17694,
+    "blue": 12739,
+    "green": 27602,
+    "yellow": 44035,
+    "aqua": 11324,
+    "violet": 29017
   },
   {
-    "character": "スカーレット",
     "name": "【黄金のたまごを探せ！】スカーレット",
+    "character": "スカーレット",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 4,
     "color": "紫",
@@ -1915,13 +1908,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 8493,
-    "blue": 35278,
-    "green": 14373,
-    "yellow": 13719,
-    "aqua": 15679,
-    "violet": 58208,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -1929,14 +1917,19 @@
       "たまごキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 8493,
+    "blue": 35278,
+    "green": 14373,
+    "yellow": 13719,
+    "aqua": 15679,
+    "violet": 43835
   },
   {
-    "character": "スカーレット",
     "name": "【春の駅弁祭り】スカーレット",
+    "character": "スカーレット",
     "series": "【春の駅弁祭り】",
     "rarity": 4,
     "color": "赤",
@@ -1946,13 +1939,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 58208,
-    "blue": 13066,
-    "green": 33318,
-    "yellow": 11759,
-    "aqua": 7840,
-    "violet": 20906,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -1960,16 +1948,21 @@
       "蜘蛛の巣キラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ロケット+2",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 43835,
+    "blue": 13066,
+    "green": 33318,
+    "yellow": 11759,
+    "aqua": 7840,
+    "violet": 20906
   },
   {
-    "character": "スカーレット",
     "name": "【鈍感彦星と七人の織姫】スカーレット",
+    "character": "スカーレット",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 4,
     "color": "紫",
@@ -1977,26 +1970,26 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 12249,
-    "blue": 14291,
-    "green": 23818,
-    "yellow": 29943,
-    "aqua": 10888,
-    "violet": 58430,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "ピーナッツキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 12249,
+    "blue": 14291,
+    "green": 23818,
+    "yellow": 29943,
+    "aqua": 10888,
+    "violet": 44002
   },
   {
-    "character": "スカーレット",
     "name": "【魅惑のフルーツビーチ】スカーレット",
+    "character": "スカーレット",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 4,
     "color": "赤",
@@ -2005,13 +1998,8 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 54018,
-    "blue": 26540,
-    "green": 16332,
-    "yellow": 14291,
-    "aqua": 21096,
-    "violet": 14291,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
@@ -2023,11 +2011,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 40680,
+    "blue": 26540,
+    "green": 16332,
+    "yellow": 14291,
+    "aqua": 21096,
+    "violet": 14291
   },
   {
-    "character": "スカーレット",
     "name": "【恐怖のHorrorween Party】スカーレット",
+    "character": "スカーレット",
     "series": "【ハロウィン】",
     "rarity": 4,
     "color": "水",
@@ -2036,13 +2029,8 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 29017,
-    "blue": 17694,
-    "green": 7077,
-    "yellow": 12739,
-    "aqua": 72232,
-    "violet": 21940,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "シミラースキルコスト減少"
     ],
@@ -2053,11 +2041,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 29017,
+    "blue": 17694,
+    "green": 7077,
+    "yellow": 12739,
+    "aqua": 54397,
+    "violet": 21940
   },
   {
-    "character": "スカーレット",
     "name": "【聖なる雪合戦】スカーレット",
+    "character": "スカーレット",
     "series": "【聖なる雪合戦】",
     "rarity": 4,
     "color": "紫",
@@ -2065,13 +2058,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 9201,
-    "blue": 9909,
-    "green": 24771,
-    "yellow": 21233,
-    "aqua": 28310,
-    "violet": 66499,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -2079,16 +2067,21 @@
       "プレゼント箱キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 9201,
+    "blue": 9909,
+    "green": 24771,
+    "yellow": 21233,
+    "aqua": 28310,
+    "violet": 50079
   },
   {
-    "character": "スカーレット",
     "name": "【二人きりのささやき耳かき】スカーレット",
+    "character": "スカーレット",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "紫",
@@ -2096,13 +2089,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 12495,
-    "blue": 17640,
-    "green": 33809,
-    "yellow": 19844,
-    "aqua": 9555,
-    "violet": 69057,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "リバウンドスキルコスト",
       "他カードスキル使用時スキルゲージ増加",
@@ -2110,11 +2098,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 12495,
+    "blue": 17640,
+    "green": 33809,
+    "yellow": 19844,
+    "aqua": 9555,
+    "violet": 52006
   },
   {
-    "character": "スカーレット",
     "name": "【モフモフさん、いらっしゃい！】スカーレット",
+    "character": "スカーレット",
     "series": "【モフモフ】",
     "rarity": 4,
     "color": "緑",
@@ -2122,13 +2115,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 25479,
-    "blue": 12740,
-    "green": 65354,
-    "yellow": 14155,
-    "aqua": 19817,
-    "violet": 14863,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -2139,11 +2127,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 25479,
+    "blue": 12740,
+    "green": 49217,
+    "yellow": 14155,
+    "aqua": 19817,
+    "violet": 14863
   },
   {
-    "character": "スカーレット",
     "name": "【白衣の天使と白昼夢】スカーレット",
+    "character": "スカーレット",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "水",
@@ -2152,13 +2145,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "4",
-    "red": 32012,
-    "blue": 19055,
-    "green": 18293,
-    "yellow": 12958,
-    "aqua": 70380,
-    "violet": 15244,
+    "soon_flag": false,
+    "ct": 4,
     "a_tag": [
       "アクセントカラー",
       "手数1アップ",
@@ -2166,11 +2154,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 32012,
+    "blue": 19055,
+    "green": 18293,
+    "yellow": 12958,
+    "aqua": 53002,
+    "violet": 15244
   },
   {
-    "character": "ニア",
     "name": "【ロイズ様の特権】ニア",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 4,
     "color": "青",
@@ -2178,13 +2171,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 20160,
-    "blue": 56732,
-    "green": 20736,
-    "yellow": 18432,
-    "aqua": 8640,
-    "violet": 15552,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
@@ -2192,16 +2180,21 @@
       "鎖キラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ミサイル+2",
-      "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 20160,
+    "blue": 42724,
+    "green": 20736,
+    "yellow": 18432,
+    "aqua": 8640,
+    "violet": 15552
   },
   {
-    "character": "ニア",
     "name": "【とろけるバスタイム】ニア",
+    "character": "ニア",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "紫",
@@ -2210,13 +2203,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 13248,
-    "blue": 17856,
-    "green": 18432,
-    "yellow": 20160,
-    "aqua": 11520,
-    "violet": 59719,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "リンケージスキルコスト減少"
@@ -2228,11 +2216,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 13248,
+    "blue": 17856,
+    "green": 18432,
+    "yellow": 20160,
+    "aqua": 11520,
+    "violet": 44974
   },
   {
-    "character": "ニア",
     "name": "【クリスマス・メイキング】ニア",
+    "character": "ニア",
     "series": "【クリスマス】",
     "rarity": 4,
     "color": "赤",
@@ -2241,30 +2234,28 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "3",
-    "red": 73155,
-    "blue": 23040,
-    "green": 16128,
-    "yellow": 12672,
-    "aqua": 12672,
-    "violet": 13824,
-    "a_tag": [
-      "手数1アップ"
-    ],
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [],
     "k_tag": [
       "氷キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 55092,
+    "blue": 23040,
+    "green": 16128,
+    "yellow": 12672,
+    "aqua": 12672,
+    "violet": 13824
   },
   {
-    "character": "ニア",
     "name": "【チョコパラダイス】ニア",
+    "character": "ニア",
     "series": "【チョコパラダイス】",
     "rarity": 4,
     "color": "水",
@@ -2272,13 +2263,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 20252,
-    "blue": 13066,
-    "green": 21559,
-    "yellow": 26132,
-    "aqua": 44451,
-    "violet": 12413,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -2286,14 +2272,19 @@
       "ゼリーキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 20252,
+    "blue": 13066,
+    "green": 21559,
+    "yellow": 26132,
+    "aqua": 33475,
+    "violet": 12413
   },
   {
-    "character": "ニア",
     "name": "【黄金のたまごを探せ！】ニア",
+    "character": "ニア",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 4,
     "color": "赤",
@@ -2302,13 +2293,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 53975,
-    "blue": 20906,
-    "green": 11759,
-    "yellow": 14373,
-    "aqua": 20252,
-    "violet": 22212,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -2319,11 +2305,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 40647,
+    "blue": 20906,
+    "green": 11759,
+    "yellow": 14373,
+    "aqua": 20252,
+    "violet": 22212
   },
   {
-    "character": "ニア",
     "name": "【夢見るバニータイム】ニア",
+    "character": "ニア",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "紫",
@@ -2331,13 +2322,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 17694,
-    "blue": 22648,
-    "green": 14863,
-    "yellow": 21940,
-    "aqua": 19109,
-    "violet": 63060,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "Wave手数回復+1",
@@ -2345,11 +2331,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 17694,
+    "blue": 22648,
+    "green": 14863,
+    "yellow": 21940,
+    "aqua": 19109,
+    "violet": 47489
   },
   {
-    "character": "ニア",
     "name": "【憧れのジューンブライド】ニア",
+    "character": "ニア",
     "series": "【ジューンブライド】",
     "rarity": 4,
     "color": "赤",
@@ -2357,13 +2348,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 50712,
-    "blue": 10208,
-    "green": 29262,
-    "yellow": 30623,
-    "aqua": 13610,
-    "violet": 11569,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "リンケージスキルコスト減少"
@@ -2375,11 +2361,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 38190,
+    "blue": 10208,
+    "green": 29262,
+    "yellow": 30623,
+    "aqua": 13610,
+    "violet": 11569
   },
   {
-    "character": "ニア",
     "name": "【鈍感彦星と七人の織姫】ニア",
+    "character": "ニア",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 4,
     "color": "青",
@@ -2387,13 +2378,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 22457,
-    "blue": 62839,
-    "green": 27901,
-    "yellow": 13610,
-    "aqua": 8166,
-    "violet": 17013,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -2401,16 +2387,21 @@
       "ピーナッツキラー"
     ],
     "plus": [
-      "+2",
-      "ミサイル+2",
+      "ボム+1",
       "+1",
-      "ボム+1"
+      "+2",
+      "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 22457,
+    "blue": 47323,
+    "green": 27901,
+    "yellow": 13610,
+    "aqua": 8166,
+    "violet": 17013
   },
   {
-    "character": "ニア",
     "name": "【ゆる秋キャンプ】ニア",
+    "character": "ニア",
     "series": "【ゆる秋キャンプ】",
     "rarity": 4,
     "color": "青",
@@ -2419,13 +2410,8 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 23355,
-    "blue": 72232,
-    "green": 24771,
-    "yellow": 26894,
-    "aqua": 5662,
-    "violet": 9201,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -2433,16 +2419,21 @@
       "薪キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 23355,
+    "blue": 54397,
+    "green": 24771,
+    "yellow": 26894,
+    "aqua": 5662,
+    "violet": 9201
   },
   {
-    "character": "ニア",
     "name": "【白衣の天使と白昼夢】ニア",
+    "character": "ニア",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "青",
@@ -2451,24 +2442,24 @@
       "ボム",
       "ミックス"
     ],
-    "ct": "2",
-    "red": 22865,
-    "blue": 69144,
-    "green": 11433,
-    "yellow": 29725,
-    "aqua": 17530,
-    "violet": 16768,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "アクセントカラー",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 22865,
+    "blue": 52072,
+    "green": 11433,
+    "yellow": 29725,
+    "aqua": 17530,
+    "violet": 16768
   },
   {
-    "character": "ニア",
     "name": "【聖なる雪合戦】ニア",
+    "character": "ニア",
     "series": "【聖なる雪合戦】",
     "rarity": 4,
     "color": "黄",
@@ -2476,13 +2467,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 18402,
-    "blue": 10617,
-    "green": 23356,
-    "yellow": 64207,
-    "aqua": 10617,
-    "violet": 28310,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少",
       "手数1アップ"
@@ -2491,14 +2477,19 @@
       "プレゼント箱キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 18402,
+    "blue": 10617,
+    "green": 23356,
+    "yellow": 48353,
+    "aqua": 10617,
+    "violet": 28310
   },
   {
-    "character": "ニア",
     "name": "【お家神社で新春初詣】ニア",
+    "character": "ニア",
     "series": "【お家神社で新春初詣】",
     "rarity": 4,
     "color": "青",
@@ -2507,13 +2498,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 36095,
-    "blue": 66499,
-    "green": 16279,
-    "yellow": 21940,
-    "aqua": 10617,
-    "violet": 8493,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "ペアルックスキルコスト減少"
     ],
@@ -2521,14 +2507,19 @@
       "プリティタン人形サポート"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 36095,
+    "blue": 50079,
+    "green": 16279,
+    "yellow": 21940,
+    "aqua": 10617,
+    "violet": 8493
   },
   {
-    "character": "ニア",
     "name": "【福豆飛び交う節分祭】ニア",
+    "character": "ニア",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 4,
     "color": "青",
@@ -2537,13 +2528,8 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 14863,
-    "blue": 69940,
-    "green": 30433,
-    "yellow": 10617,
-    "aqua": 6370,
-    "violet": 29018,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1",
       "他カードスキル使用時スキルゲージ増加"
@@ -2555,11 +2541,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 14863,
+    "blue": 52671,
+    "green": 30433,
+    "yellow": 10617,
+    "aqua": 6370,
+    "violet": 29018
   },
   {
-    "character": "ニア",
     "name": "【二人きりのささやき耳かき】ニア",
+    "character": "ニア",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "緑",
@@ -2567,13 +2558,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 14700,
-    "blue": 13230,
-    "green": 71438,
-    "yellow": 13965,
-    "aqua": 30134,
-    "violet": 23519,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数1アップ",
@@ -2581,23 +2567,23 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 14700,
+    "blue": 13230,
+    "green": 53799,
+    "yellow": 13965,
+    "aqua": 30134,
+    "violet": 23519
   },
   {
-    "character": "ニア",
     "name": "【満開！夜桜大宴会】ニア",
+    "character": "ニア",
     "series": "【満開！夜桜大宴会】",
     "rarity": 4,
     "color": "青",
     "s_type": "遠隔ピースチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 11760,
-    "blue": 70248,
-    "green": 12495,
-    "yellow": 26459,
-    "aqua": 18375,
-    "violet": 19844,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -2605,16 +2591,21 @@
       "3Dプリンターキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11760,
+    "blue": 52902,
+    "green": 12495,
+    "yellow": 26459,
+    "aqua": 18375,
+    "violet": 19844
   },
   {
-    "character": "ひまり子",
     "name": "【朝一の悦び】ひまり子",
+    "character": "ひまり子",
     "series": "【朝一の悦び】",
     "rarity": 4,
     "color": "水",
@@ -2622,28 +2613,28 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 14400,
-    "blue": 9792,
-    "green": 19584,
-    "yellow": 21888,
-    "aqua": 65691,
-    "violet": 16128,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "プレゼント箱キラー"
     ],
     "plus": [
+      "+1",
       "+2",
       "ロケット+2",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14400,
+    "blue": 9792,
+    "green": 19584,
+    "yellow": 21888,
+    "aqua": 49471,
+    "violet": 16128
   },
   {
-    "character": "ひまり子",
     "name": "【とろけるバスタイム】ひまり子",
+    "character": "ひまり子",
     "series": "【とろけるバスタイム】",
     "rarity": 4,
     "color": "緑",
@@ -2651,24 +2642,24 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 9216,
-    "blue": 9792,
-    "green": 62705,
-    "yellow": 21888,
-    "aqua": 19008,
-    "violet": 23616,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 9216,
+    "blue": 9792,
+    "green": 47222,
+    "yellow": 21888,
+    "aqua": 19008,
+    "violet": 23616
   },
   {
-    "character": "ひまり子",
     "name": "【クリスマス・メイキング】ひまり子",
+    "character": "ひまり子",
     "series": "【クリスマス】",
     "rarity": 4,
     "color": "黄",
@@ -2676,13 +2667,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 16704,
-    "blue": 21888,
-    "green": 23040,
-    "yellow": 62705,
-    "aqua": 12096,
-    "violet": 10368,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -2693,11 +2679,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 16704,
+    "blue": 21888,
+    "green": 23040,
+    "yellow": 47222,
+    "aqua": 12096,
+    "violet": 10368
   },
   {
-    "character": "ひまり子",
     "name": "【ズボラ姫たちの年はじめ】ひまり子",
+    "character": "ひまり子",
     "series": "【年はじめ】",
     "rarity": 4,
     "color": "紫",
@@ -2705,31 +2696,31 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 20906,
-    "blue": 26132,
-    "green": 14373,
-    "yellow": 11759,
-    "aqua": 20252,
-    "violet": 44451,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "リンケージスキルコスト減少"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 20906,
+    "blue": 26132,
+    "green": 14373,
+    "yellow": 11759,
+    "aqua": 20252,
+    "violet": 33475
   },
   {
-    "character": "ひまり子",
     "name": "【春の駅弁祭り】ひまり子",
+    "character": "ひまり子",
     "series": "【春の駅弁祭り】",
     "rarity": 4,
     "color": "緑",
@@ -2738,13 +2729,8 @@
       "ボム",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 26132,
-    "blue": 9799,
-    "green": 43391,
-    "yellow": 8493,
-    "aqua": 24825,
-    "violet": 25479,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数1アップ"
@@ -2753,37 +2739,42 @@
       "蜘蛛の巣キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 26132,
+    "blue": 9799,
+    "green": 32677,
+    "yellow": 8493,
+    "aqua": 24825,
+    "violet": 25479
   },
   {
-    "character": "ひまり子",
     "name": "【夢見るバニータイム】ひまり子",
+    "character": "ひまり子",
     "series": "【夢見るバニータイム】",
     "rarity": 4,
     "color": "緑",
     "s_type": "カラーチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 29017,
-    "blue": 22648,
-    "green": 48154,
-    "yellow": 21940,
-    "aqua": 16278,
-    "violet": 15570,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 29017,
+    "blue": 22648,
+    "green": 36264,
+    "yellow": 21940,
+    "aqua": 16278,
+    "violet": 15570
   },
   {
-    "character": "ひまり子",
     "name": "【憧れのジューンブライド】ひまり子",
+    "character": "ひまり子",
     "series": "【ジューンブライド】",
     "rarity": 4,
     "color": "水",
@@ -2791,13 +2782,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 21096,
-    "blue": 18374,
-    "green": 19735,
-    "yellow": 18374,
-    "aqua": 48507,
-    "violet": 20416,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
@@ -2809,11 +2795,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 21096,
+    "blue": 18374,
+    "green": 19735,
+    "yellow": 18374,
+    "aqua": 36530,
+    "violet": 20416
   },
   {
-    "character": "ひまり子",
     "name": "【夏夜を彩る鐘楼祭】ひまり子",
+    "character": "ひまり子",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 4,
     "color": "紫",
@@ -2821,13 +2812,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 7486,
-    "blue": 10208,
-    "green": 16332,
-    "yellow": 33345,
-    "aqua": 25860,
-    "violet": 57326,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "ダイエットスキルコスト",
       "初期スキルゲージ増加"
@@ -2839,11 +2825,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 7486,
+    "blue": 10208,
+    "green": 16332,
+    "yellow": 33345,
+    "aqua": 25860,
+    "violet": 43172
   },
   {
-    "character": "ひまり子",
     "name": "【恐怖のHorrorween Party】ひまり子",
+    "character": "ひまり子",
     "series": "【ハロウィン】",
     "rarity": 4,
     "color": "紫",
@@ -2851,13 +2842,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 28310,
-    "blue": 14155,
-    "green": 15570,
-    "yellow": 14155,
-    "aqua": 17694,
-    "violet": 71085,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "シミラースキルコスト減少"
     ],
@@ -2865,14 +2851,19 @@
       "鎖キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 28310,
+    "blue": 14155,
+    "green": 15570,
+    "yellow": 14155,
+    "aqua": 17694,
+    "violet": 53533
   },
   {
-    "character": "ひまり子",
     "name": "【聖なる雪合戦】ひまり子",
+    "character": "ひまり子",
     "series": "【聖なる雪合戦】",
     "rarity": 4,
     "color": "水",
@@ -2880,13 +2871,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "2",
-    "red": 13448,
-    "blue": 18402,
-    "green": 21940,
-    "yellow": 24064,
-    "aqua": 60767,
-    "violet": 15571,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "プレゼント箱キラー"
@@ -2895,11 +2881,16 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 13448,
+    "blue": 18402,
+    "green": 21940,
+    "yellow": 24064,
+    "aqua": 45763,
+    "violet": 15571
   },
   {
-    "character": "ひまり子",
     "name": "【お家神社で新春初詣】ひまり子",
+    "character": "ひまり子",
     "series": "【お家神社で新春初詣】",
     "rarity": 4,
     "color": "黄",
@@ -2908,13 +2899,8 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 16986,
-    "blue": 16279,
-    "green": 18402,
-    "yellow": 67646,
-    "aqua": 20525,
-    "violet": 13448,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "他カードスキル使用時スキルゲージ増加"
@@ -2923,16 +2909,21 @@
       "プリティタン人形サポート"
     ],
     "plus": [
+      "ボム+1",
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 16986,
+    "blue": 16279,
+    "green": 18402,
+    "yellow": 50943,
+    "aqua": 20525,
+    "violet": 13448
   },
   {
-    "character": "ひまり子",
     "name": "【白衣の天使と白昼夢】ひまり子",
+    "character": "ひまり子",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "青",
@@ -2942,23 +2933,23 @@
       "ミサイル",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 16769,
-    "blue": 62972,
-    "green": 29726,
-    "yellow": 21342,
-    "aqua": 19055,
-    "violet": 15244,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 16769,
+    "blue": 47423,
+    "green": 29726,
+    "yellow": 21342,
+    "aqua": 19055,
+    "violet": 15244
   },
   {
-    "character": "ひまり子",
     "name": "【満開！夜桜大宴会】ひまり子",
+    "character": "ひまり子",
     "series": "【満開！夜桜大宴会】",
     "rarity": 4,
     "color": "水",
@@ -2966,13 +2957,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 14700,
-    "blue": 26459,
-    "green": 11025,
-    "yellow": 16905,
-    "aqua": 60724,
-    "violet": 22049,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "シミラースキルコスト減少"
     ],
@@ -2980,16 +2966,21 @@
       "3Dプリンターキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2",
       "+1",
+      "+2",
+      "ロケット+2",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14700,
+    "blue": 26459,
+    "green": 11025,
+    "yellow": 16905,
+    "aqua": 45730,
+    "violet": 22049
   },
   {
-    "character": "ひまり子",
     "name": "【二人きりのささやき耳かき】ひまり子",
+    "character": "ひまり子",
     "series": "【ASMR】",
     "rarity": 4,
     "color": "青",
@@ -2998,13 +2989,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 7350,
-    "blue": 106680,
-    "green": 13230,
-    "yellow": 25724,
-    "aqua": 15435,
-    "violet": 33074,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少",
       "Wave手数回復+1",
@@ -3012,11 +2998,16 @@
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 7350,
+    "blue": 80339,
+    "green": 13230,
+    "yellow": 25724,
+    "aqua": 15435,
+    "violet": 33074
   },
   {
-    "character": "ナシュワ",
     "name": "【福豆飛び交う節分祭】ナシュワ",
+    "character": "ナシュワ",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 4,
     "color": "紫",
@@ -3024,28 +3015,28 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 10617,
-    "blue": 17694,
-    "green": 27602,
-    "yellow": 21940,
-    "aqua": 14863,
-    "violet": 61914,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2",
       "+1",
+      "ボム+2",
+      "+2",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 10617,
+    "blue": 17694,
+    "green": 27602,
+    "yellow": 21940,
+    "aqua": 14863,
+    "violet": 46627
   },
   {
-    "character": "ナシュワ",
     "name": "【白衣の天使と白昼夢】ナシュワ",
+    "character": "ナシュワ",
     "series": "【白衣の天使と白昼夢】",
     "rarity": 4,
     "color": "紫",
@@ -3053,24 +3044,24 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "2",
-    "red": 17531,
-    "blue": 16006,
-    "green": 10671,
-    "yellow": 19055,
-    "aqua": 32774,
-    "violet": 72849,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "アクセントカラー",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 17531,
+    "blue": 16006,
+    "green": 10671,
+    "yellow": 19055,
+    "aqua": 32774,
+    "violet": 54862
   },
   {
-    "character": "その他",
     "name": "【qureateコラボ】あやめ＆かえで",
+    "character": "その他",
     "series": "【qureateコラボ】",
     "rarity": 4,
     "color": "赤",
@@ -3078,13 +3069,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 75318,
-    "blue": 17530,
-    "green": 14481,
-    "yellow": 37347,
-    "aqua": 15244,
-    "violet": 13719,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "アクセントカラー"
     ],
@@ -3093,14 +3079,19 @@
       "薪キラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": false
+    "red": 56721,
+    "blue": 17530,
+    "green": 14481,
+    "yellow": 37347,
+    "aqua": 15244,
+    "violet": 13719
   },
   {
-    "character": "その他",
     "name": "【qureateコラボ】ロベリア",
+    "character": "その他",
     "series": "【qureateコラボ】",
     "rarity": 4,
     "color": "紫",
@@ -3108,13 +3099,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 19055,
-    "blue": 16006,
-    "green": 11433,
-    "yellow": 15244,
-    "aqua": 31249,
-    "violet": 71615,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー",
       "ピーナッツ貫通ロケット"
@@ -3127,11 +3113,16 @@
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 19055,
+    "blue": 16006,
+    "green": 11433,
+    "yellow": 15244,
+    "aqua": 31249,
+    "violet": 53932
   },
   {
-    "character": "その他",
     "name": "【qureateコラボ】桔梗",
+    "character": "その他",
     "series": "【qureateコラボ】",
     "rarity": 4,
     "color": "青",
@@ -3139,59 +3130,59 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 10671,
-    "blue": 66675,
-    "green": 30487,
-    "yellow": 19817,
-    "aqua": 16768,
-    "violet": 22103,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー",
       "手数2アップ"
     ],
     "k_tag": [
-      "ボタンキラー",
-      "ゼリーキラー"
+      "ゼリーキラー",
+      "ボタンキラー"
     ],
     "plus": [
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 10671,
+    "blue": 50212,
+    "green": 30487,
+    "yellow": 19817,
+    "aqua": 16768,
+    "violet": 22103
   },
   {
-    "character": "その他",
     "name": "【D.C.4コラボ】ひより",
+    "character": "その他",
     "series": "【D.C.4コラボ】",
     "rarity": 4,
     "color": "黄",
     "s_type": "遠隔ピースチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 17150,
-    "blue": 12250,
-    "green": 24499,
-    "yellow": 75407,
-    "aqua": 17150,
-    "violet": 33482,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー",
       "手数2アップ"
     ],
     "k_tag": [
-      "鎖キラー",
-      "氷キラー"
+      "氷キラー",
+      "鎖キラー"
     ],
     "plus": [
       "+2",
       "ロケット+2"
     ],
-    "soon_flag": false
+    "red": 17150,
+    "blue": 12250,
+    "green": 24499,
+    "yellow": 56788,
+    "aqua": 17150,
+    "violet": 33482
   },
   {
-    "character": "その他",
     "name": "【D.C.4コラボ】有里咲",
+    "character": "その他",
     "series": "【D.C.4コラボ】",
     "rarity": 4,
     "color": "緑",
@@ -3199,30 +3190,30 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 20416,
-    "blue": 35932,
-    "green": 70116,
-    "yellow": 13883,
-    "aqua": 19599,
-    "violet": 13883,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "アクセントカラー",
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "プレゼントキラー",
+      "プレゼント箱キラー",
       "たまごキラー"
     ],
     "plus": [
-      "+2",
-      "ボム+2"
+      "ボム+2",
+      "+2"
     ],
-    "soon_flag": true
+    "red": 20416,
+    "blue": 35932,
+    "green": 52804,
+    "yellow": 13883,
+    "aqua": 19599,
+    "violet": 13883
   },
   {
-    "character": "その他",
     "name": "【D.C.4コラボ】未羽",
+    "character": "その他",
     "series": "【D.C.4コラボ】",
     "rarity": 4,
     "color": "水",
@@ -3231,13 +3222,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 37565,
-    "blue": 13883,
-    "green": 17150,
-    "yellow": 15516,
-    "aqua": 78053,
-    "violet": 22866,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "アクセントカラー"
     ],
@@ -3249,34 +3235,39 @@
       "+2",
       "ミサイル+2"
     ],
-    "soon_flag": false
+    "red": 37565,
+    "blue": 13883,
+    "green": 17150,
+    "yellow": 15516,
+    "aqua": 58780,
+    "violet": 22866
   },
   {
-    "character": "彩葉",
     "name": "【OFFの顔】彩葉",
+    "character": "彩葉",
     "series": "【OFFの顔】",
     "rarity": 3,
     "color": "青",
     "s_type": "ピースブレイク",
     "b_tag": [],
-    "ct": "3",
-    "red": 18360,
-    "blue": 33359,
-    "green": 18900,
-    "yellow": 16200,
-    "aqua": 14040,
-    "violet": 9720,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数1アップ"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": true
+    "red": 18360,
+    "blue": 28304,
+    "green": 18900,
+    "yellow": 16200,
+    "aqua": 14040,
+    "violet": 9720
   },
   {
-    "character": "彩葉",
     "name": "【ONの私】彩葉",
+    "character": "彩葉",
     "series": "【ONの私】",
     "rarity": 3,
     "color": "水",
@@ -3284,13 +3275,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 11340,
-    "blue": 18360,
-    "green": 14040,
-    "yellow": 14040,
-    "aqua": 38918,
-    "violet": 16200,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3299,15 +3285,19 @@
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11340,
+    "blue": 18360,
+    "green": 14040,
+    "yellow": 14040,
+    "aqua": 33022,
+    "violet": 16200
   },
   {
-    "character": "彩葉",
     "name": "【クリスマス・メイキング】彩葉",
+    "character": "彩葉",
     "series": "【クリスマス】",
     "rarity": 3,
     "color": "青",
@@ -3316,28 +3306,27 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "2",
-    "red": 17820,
-    "blue": 41698,
-    "green": 14580,
-    "yellow": 16200,
-    "aqua": 14580,
-    "violet": 11340,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "氷キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 17820,
+    "blue": 35380,
+    "green": 14580,
+    "yellow": 16200,
+    "aqua": 14580,
+    "violet": 11340
   },
   {
-    "character": "彩葉",
     "name": "【ズボラ姫たちの年はじめ】彩葉",
+    "character": "彩葉",
     "series": "【年はじめ】",
     "rarity": 3,
     "color": "紫",
@@ -3345,30 +3334,29 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [
+      "他カードスキル使用時スキルゲージ増加"
+    ],
+    "k_tag": [
+      "みかん箱キラー"
+    ],
+    "plus": [
+      "ボム+1",
+      "+1",
+      "ロケット+1"
+    ],
     "red": 11024,
     "blue": 20824,
     "green": 9187,
     "yellow": 16537,
     "aqua": 26336,
-    "violet": 36380,
-    "a_tag": [
-      "他カードスキル使用時スキルゲージ増加"
-    ],
-    "k_tag": [
-      "みかんキラー"
-    ],
-    "plus": [
-      "+1",
-      "ボム+1",
-      "+1",
-      "ロケット+1"
-    ],
-    "soon_flag": false
+    "violet": 30868
   },
   {
-    "character": "彩葉",
     "name": "【憧れのジューンブライド】彩葉",
+    "character": "彩葉",
     "series": "【ジューンブライド】",
     "rarity": 3,
     "color": "黄",
@@ -3376,28 +3364,27 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 26795,
-    "blue": 22330,
-    "green": 12122,
-    "yellow": 47076,
-    "aqua": 10208,
-    "violet": 21692,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "風船キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 26795,
+    "blue": 22330,
+    "green": 12122,
+    "yellow": 39943,
+    "aqua": 10208,
+    "violet": 21692
   },
   {
-    "character": "彩葉",
     "name": "【魅惑のフルーツビーチ】彩葉",
+    "character": "彩葉",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 3,
     "color": "水",
@@ -3405,13 +3392,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 27434,
-    "blue": 21692,
-    "green": 14036,
-    "yellow": 16588,
-    "aqua": 42106,
-    "violet": 8932,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -3419,16 +3401,20 @@
       "貝キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 27434,
+    "blue": 21692,
+    "green": 14036,
+    "yellow": 16588,
+    "aqua": 35726,
+    "violet": 8932
   },
   {
-    "character": "彩葉",
     "name": "【ゆる秋キャンプ】彩葉",
+    "character": "彩葉",
     "series": "【ゆる秋キャンプ】",
     "rarity": 3,
     "color": "緑",
@@ -3436,13 +3422,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 20569,
-    "blue": 21232,
-    "green": 46419,
-    "yellow": 15924,
-    "aqua": 9953,
-    "violet": 15924,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3452,14 +3433,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 20569,
+    "blue": 21232,
+    "green": 39385,
+    "yellow": 15924,
+    "aqua": 9953,
+    "violet": 15924
   },
   {
-    "character": "彩葉",
     "name": "【お家神社で新春初詣】彩葉",
+    "character": "彩葉",
     "series": "【お家神社で新春初詣】",
     "rarity": 3,
     "color": "赤",
@@ -3467,13 +3452,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 47295,
-    "blue": 23223,
-    "green": 7963,
-    "yellow": 13934,
-    "aqua": 22560,
-    "violet": 15925,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3483,14 +3463,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 40129,
+    "blue": 23223,
+    "green": 7963,
+    "yellow": 13934,
+    "aqua": 22560,
+    "violet": 15925
   },
   {
-    "character": "彩葉",
     "name": "【福豆飛び交う節分祭】彩葉",
+    "character": "彩葉",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 3,
     "color": "紫",
@@ -3498,28 +3482,27 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 13271,
-    "blue": 16588,
-    "green": 27204,
-    "yellow": 20569,
-    "aqua": 12607,
-    "violet": 47295,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 13271,
+    "blue": 16588,
+    "green": 27204,
+    "yellow": 20569,
+    "aqua": 12607,
+    "violet": 40129
   },
   {
-    "character": "紬",
     "name": "【OFFの顔】紬",
+    "character": "紬",
     "series": "【OFFの顔】",
     "rarity": 3,
     "color": "紫",
@@ -3528,13 +3511,8 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 8640,
-    "blue": 14040,
-    "green": 8100,
-    "yellow": 19980,
-    "aqua": 20520,
-    "violet": 36138,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -3543,27 +3521,26 @@
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8640,
+    "blue": 14040,
+    "green": 8100,
+    "yellow": 19980,
+    "aqua": 20520,
+    "violet": 30663
   },
   {
-    "character": "紬",
     "name": "【ONの私】紬",
+    "character": "紬",
     "series": "【ONの私】",
     "rarity": 3,
     "color": "水",
     "s_type": "スキルゲージアップ",
     "b_tag": [],
-    "ct": "3",
-    "red": 8640,
-    "blue": 15660,
-    "green": 19980,
-    "yellow": 17280,
-    "aqua": 37992,
-    "violet": 12960,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数1アップ"
@@ -3575,11 +3552,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8640,
+    "blue": 15660,
+    "green": 19980,
+    "yellow": 17280,
+    "aqua": 32235,
+    "violet": 12960
   },
   {
-    "character": "紬",
     "name": "【チョコパラダイス】紬",
+    "character": "紬",
     "series": "【チョコパラダイス】",
     "rarity": 3,
     "color": "緑",
@@ -3587,13 +3569,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 18987,
-    "blue": 11024,
-    "green": 36380,
-    "yellow": 21436,
-    "aqua": 10412,
-    "violet": 24499,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -3601,28 +3578,27 @@
       "ゼリーキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 18987,
+    "blue": 11024,
+    "green": 30868,
+    "yellow": 21436,
+    "aqua": 10412,
+    "violet": 24499
   },
   {
-    "character": "紬",
     "name": "【春の駅弁祭り】紬",
+    "character": "紬",
     "series": "【春の駅弁祭り】",
     "rarity": 3,
     "color": "紫",
     "s_type": "ピースチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 21436,
-    "blue": 6125,
-    "green": 22661,
-    "yellow": 12862,
-    "aqua": 8575,
-    "violet": 56592,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
@@ -3631,16 +3607,20 @@
       "蜘蛛の巣キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 21436,
+    "blue": 6125,
+    "green": 22661,
+    "yellow": 12862,
+    "aqua": 8575,
+    "violet": 48017
   },
   {
-    "character": "紬",
     "name": "【憧れのジューンブライド】紬",
+    "character": "紬",
     "series": "【ジューンブライド】",
     "rarity": 3,
     "color": "水",
@@ -3649,13 +3629,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 15312,
-    "blue": 24882,
-    "green": 21054,
-    "yellow": 14036,
-    "aqua": 52547,
-    "violet": 13398,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3664,15 +3639,19 @@
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 15312,
+    "blue": 24882,
+    "green": 21054,
+    "yellow": 14036,
+    "aqua": 44586,
+    "violet": 13398
   },
   {
-    "character": "紬",
     "name": "【夏夜を彩る鐘楼祭】紬",
+    "character": "紬",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 3,
     "color": "緑",
@@ -3680,28 +3659,27 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 10846,
-    "blue": 10208,
-    "green": 39581,
-    "yellow": 23606,
-    "aqua": 29347,
-    "violet": 16588,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "水ヨーヨーキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 10846,
+    "blue": 10208,
+    "green": 33584,
+    "yellow": 23606,
+    "aqua": 29347,
+    "violet": 16588
   },
   {
-    "character": "紬",
     "name": "【恐怖のHorrorween Party】紬",
+    "character": "紬",
     "series": "【ハロウィン】",
     "rarity": 3,
     "color": "紫",
@@ -3710,13 +3688,8 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 18578,
-    "blue": 22559,
-    "green": 15261,
-    "yellow": 14597,
-    "aqua": 13934,
-    "violet": 53425,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "シミラースキルコスト減少"
     ],
@@ -3724,16 +3697,20 @@
       "鎖キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 18578,
+    "blue": 22559,
+    "green": 15261,
+    "yellow": 14597,
+    "aqua": 13934,
+    "violet": 45330
   },
   {
-    "character": "紬",
     "name": "【聖なる雪合戦】紬",
+    "character": "紬",
     "series": "【聖なる雪合戦】",
     "rarity": 3,
     "color": "水",
@@ -3742,28 +3719,29 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 15925,
-    "blue": 9290,
-    "green": 26541,
-    "yellow": 13934,
-    "aqua": 49047,
-    "violet": 23223,
-    "a_tag": [],
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [
+      "シミラースキルコスト減少"
+    ],
     "k_tag": [
       "プレゼント箱キラー"
     ],
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 15925,
+    "blue": 9290,
+    "green": 26541,
+    "yellow": 13934,
+    "aqua": 41615,
+    "violet": 23223
   },
   {
-    "character": "紬",
     "name": "【満開！夜桜大宴会】紬",
+    "character": "紬",
     "series": "【満開！夜桜大宴会】",
     "rarity": 3,
     "color": "黄",
@@ -3771,13 +3749,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 15159,
-    "blue": 13093,
-    "green": 12403,
-    "yellow": 69762,
-    "aqua": 21361,
-    "violet": 17915,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "シミラー初期スキルゲージ増加"
     ],
@@ -3787,14 +3760,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": true
+    "red": 15159,
+    "blue": 13093,
+    "green": 12403,
+    "yellow": 59192,
+    "aqua": 21361,
+    "violet": 17915
   },
   {
-    "character": "花音",
     "name": "【ONの私】花音",
+    "character": "花音",
     "series": "【ONの私】",
     "rarity": 3,
     "color": "水",
@@ -3803,40 +3780,34 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "2",
-    "red": 21060,
-    "blue": 10800,
-    "green": 21060,
-    "yellow": 15120,
-    "aqua": 37065,
-    "violet": 8100,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "薪キラー"
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 21060,
+    "blue": 10800,
+    "green": 21060,
+    "yellow": 15120,
+    "aqua": 31449,
+    "violet": 8100
   },
   {
-    "character": "花音",
     "name": "【ロイズ様の特権】花音",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 3,
     "color": "赤",
     "s_type": "スキルゲージアップ",
     "b_tag": [],
-    "ct": "3",
-    "red": 36138,
-    "blue": 17280,
-    "green": 16740,
-    "yellow": 12960,
-    "aqua": 16740,
-    "violet": 9720,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3844,14 +3815,19 @@
       "ダンボールキラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 30663,
+    "blue": 17280,
+    "green": 16740,
+    "yellow": 12960,
+    "aqua": 16740,
+    "violet": 9720
   },
   {
-    "character": "花音",
     "name": "【クリスマス・メイキング】花音",
+    "character": "花音",
     "series": "【クリスマス】",
     "rarity": 3,
     "color": "黄",
@@ -3860,13 +3836,8 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "3",
-    "red": 17280,
-    "blue": 15120,
-    "green": 15660,
-    "yellow": 38918,
-    "aqua": 14040,
-    "violet": 12960,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3874,16 +3845,20 @@
       "氷キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 17280,
+    "blue": 15120,
+    "green": 15660,
+    "yellow": 33022,
+    "aqua": 14040,
+    "violet": 12960
   },
   {
-    "character": "花音",
     "name": "【チョコパラダイス】花音",
+    "character": "花音",
     "series": "【チョコパラダイス】",
     "rarity": 3,
     "color": "紫",
@@ -3892,13 +3867,8 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 12862,
-    "blue": 9799,
-    "green": 14699,
-    "yellow": 25111,
-    "aqua": 20824,
-    "violet": 38805,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -3906,16 +3876,20 @@
       "ゼリーキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 12862,
+    "blue": 9799,
+    "green": 14699,
+    "yellow": 25111,
+    "aqua": 20824,
+    "violet": 32925
   },
   {
-    "character": "花音",
     "name": "【黄金のたまごを探せ！】花音",
+    "character": "花音",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 3,
     "color": "赤",
@@ -3923,13 +3897,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 38805,
-    "blue": 25111,
-    "green": 6737,
-    "yellow": 15312,
-    "aqua": 12249,
-    "violet": 26336,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "Wave手数回復+1"
     ],
@@ -3939,14 +3908,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 32925,
+    "blue": 25111,
+    "green": 6737,
+    "yellow": 15312,
+    "aqua": 12249,
+    "violet": 26336
   },
   {
-    "character": "花音",
     "name": "【鈍感彦星と七人の織姫】花音",
+    "character": "花音",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 3,
     "color": "青",
@@ -3955,13 +3928,8 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 6380,
-    "blue": 52547,
-    "green": 19778,
-    "yellow": 12760,
-    "aqua": 25520,
-    "violet": 25520,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -3971,14 +3939,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 6380,
+    "blue": 44586,
+    "green": 19778,
+    "yellow": 12760,
+    "aqua": 25520,
+    "violet": 25520
   },
   {
-    "character": "花音",
     "name": "【聖なる雪合戦】花音",
+    "character": "花音",
     "series": "【聖なる雪合戦】",
     "rarity": 3,
     "color": "緑",
@@ -3987,13 +3959,8 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 13271,
-    "blue": 15261,
-    "green": 42915,
-    "yellow": 27204,
-    "aqua": 26541,
-    "violet": 11280,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "シミラースキルコスト減少"
     ],
@@ -4001,16 +3968,20 @@
       "プレゼント箱キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 13271,
+    "blue": 15261,
+    "green": 36413,
+    "yellow": 27204,
+    "aqua": 26541,
+    "violet": 11280
   },
   {
-    "character": "花音",
     "name": "【福豆飛び交う節分祭】花音",
+    "character": "花音",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 3,
     "color": "緑",
@@ -4019,13 +3990,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 11944,
-    "blue": 21233,
-    "green": 49047,
-    "yellow": 15925,
-    "aqua": 9953,
-    "violet": 23223,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -4034,15 +4000,19 @@
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11944,
+    "blue": 21233,
+    "green": 41615,
+    "yellow": 15925,
+    "aqua": 9953,
+    "violet": 23223
   },
   {
-    "character": "花音",
     "name": "【満開！夜桜大宴会】花音",
+    "character": "花音",
     "series": "【満開！夜桜大宴会】",
     "rarity": 3,
     "color": "水",
@@ -4051,13 +4021,8 @@
       "ボム",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 7580,
-    "blue": 11715,
-    "green": 8269,
-    "yellow": 29629,
-    "aqua": 49114,
-    "violet": 26184,
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
       "シミラー初期スキルゲージ増加"
     ],
@@ -4065,43 +4030,47 @@
       "3Dプリンターキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": true
+    "red": 7580,
+    "blue": 11715,
+    "green": 8269,
+    "yellow": 29629,
+    "aqua": 41672,
+    "violet": 26184
   },
   {
-    "character": "凪",
     "name": "【OFFの顔】凪",
+    "character": "凪",
     "series": "【OFFの顔】",
     "rarity": 3,
     "color": "青",
     "s_type": "スキルゲージアップ",
     "b_tag": [],
-    "ct": "3",
-    "red": 18360,
-    "blue": 40772,
-    "green": 13500,
-    "yellow": 21600,
-    "aqua": 10260,
-    "violet": 8640,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 18360,
+    "blue": 34594,
+    "green": 13500,
+    "yellow": 21600,
+    "aqua": 10260,
+    "violet": 8640
   },
   {
-    "character": "凪",
     "name": "【ハマってるもの】凪",
+    "character": "凪",
     "series": "【ハマってるもの】",
     "rarity": 3,
     "color": "緑",
@@ -4109,28 +4078,27 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 9180,
-    "blue": 10260,
-    "green": 40772,
-    "yellow": 10260,
-    "aqua": 21060,
-    "violet": 21600,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ボタンキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 9180,
+    "blue": 10260,
+    "green": 34594,
+    "yellow": 10260,
+    "aqua": 21060,
+    "violet": 21600
   },
   {
-    "character": "凪",
     "name": "【ズボラ姫たちの年はじめ】凪",
+    "character": "凪",
     "series": "【年はじめ】",
     "rarity": 3,
     "color": "赤",
@@ -4139,31 +4107,30 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "3",
-    "red": 36380,
-    "blue": 18987,
-    "green": 21436,
-    "yellow": 13474,
-    "aqua": 17149,
-    "violet": 14087,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 30868,
+    "blue": 18987,
+    "green": 21436,
+    "yellow": 13474,
+    "aqua": 17149,
+    "violet": 14087
   },
   {
-    "character": "凪",
     "name": "【黄金のたまごを探せ！】凪",
+    "character": "凪",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 3,
     "color": "黄",
@@ -4171,13 +4138,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 24499,
-    "blue": 19599,
-    "green": 9187,
-    "yellow": 38805,
-    "aqua": 13474,
-    "violet": 18987,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -4185,16 +4147,20 @@
       "たまごキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 24499,
+    "blue": 19599,
+    "green": 9187,
+    "yellow": 32925,
+    "aqua": 13474,
+    "violet": 18987
   },
   {
-    "character": "凪",
     "name": "【春の駅弁祭り】凪",
+    "character": "凪",
     "series": "【春の駅弁祭り】",
     "rarity": 3,
     "color": "緑",
@@ -4202,13 +4168,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 12249,
-    "blue": 15312,
-    "green": 46082,
-    "yellow": 16537,
-    "aqua": 13474,
-    "violet": 22661,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "リンケージスキルコスト減少"
     ],
@@ -4216,16 +4177,20 @@
       "蜘蛛の巣キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 12249,
+    "blue": 15312,
+    "green": 39100,
+    "yellow": 16537,
+    "aqua": 13474,
+    "violet": 22661
   },
   {
-    "character": "凪",
     "name": "【鈍感彦星と七人の織姫】凪",
+    "character": "凪",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 3,
     "color": "紫",
@@ -4234,13 +4199,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 14674,
-    "blue": 21692,
-    "green": 18502,
-    "yellow": 14674,
-    "aqua": 14036,
-    "violet": 62403,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -4248,16 +4208,20 @@
       "ピーナッツキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14674,
+    "blue": 21692,
+    "green": 18502,
+    "yellow": 14674,
+    "aqua": 14036,
+    "violet": 52948
   },
   {
-    "character": "凪",
     "name": "【恐怖のHorrorween Party】凪",
+    "character": "凪",
     "series": "【ハロウィン】",
     "rarity": 3,
     "color": "水",
@@ -4266,13 +4230,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 9953,
-    "blue": 26540,
-    "green": 13270,
-    "yellow": 9953,
-    "aqua": 43791,
-    "violet": 26540,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -4282,14 +4241,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 9953,
+    "blue": 26540,
+    "green": 13270,
+    "yellow": 9953,
+    "aqua": 37156,
+    "violet": 26540
   },
   {
-    "character": "凪",
     "name": "【聖なる雪合戦】凪",
+    "character": "凪",
     "series": "【聖なる雪合戦】",
     "rarity": 3,
     "color": "紫",
@@ -4297,13 +4260,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 11280,
-    "blue": 16588,
-    "green": 26541,
-    "yellow": 9290,
-    "aqua": 19906,
-    "violet": 56053,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -4311,16 +4269,20 @@
       "プレゼント箱キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11280,
+    "blue": 16588,
+    "green": 26541,
+    "yellow": 9290,
+    "aqua": 19906,
+    "violet": 47560
   },
   {
-    "character": "凪",
     "name": "【モフモフさん、いらっしゃい！】凪",
+    "character": "凪",
     "series": "【モフモフ】",
     "rarity": 3,
     "color": "紫",
@@ -4329,40 +4291,34 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 16588,
-    "blue": 10617,
-    "green": 21896,
-    "yellow": 7963,
-    "aqua": 33176,
-    "violet": 47295,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "箱入り猫なつき度"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 16588,
+    "blue": 10617,
+    "green": 21896,
+    "yellow": 7963,
+    "aqua": 33176,
+    "violet": 40129
   },
   {
-    "character": "スカーレット",
     "name": "【自分磨き】スカーレット",
+    "character": "スカーレット",
     "series": "【自分磨き】",
     "rarity": 3,
     "color": "黄",
     "s_type": "スキルゲージアップ",
     "b_tag": [],
-    "ct": "3",
-    "red": 10260,
-    "blue": 18360,
-    "green": 8640,
-    "yellow": 39845,
-    "aqua": 18360,
-    "violet": 19980,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "手数1アップ"
@@ -4374,11 +4330,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 10260,
+    "blue": 18360,
+    "green": 8640,
+    "yellow": 33808,
+    "aqua": 18360,
+    "violet": 19980
   },
   {
-    "character": "スカーレット",
     "name": "【ハマってるもの】スカーレット",
+    "character": "スカーレット",
     "series": "【ハマってるもの】",
     "rarity": 3,
     "color": "赤",
@@ -4387,28 +4348,27 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 38918,
-    "blue": 13500,
-    "green": 16740,
-    "yellow": 13500,
-    "aqua": 17280,
-    "violet": 14580,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 33022,
+    "blue": 13500,
+    "green": 16740,
+    "yellow": 13500,
+    "aqua": 17280,
+    "violet": 14580
   },
   {
-    "character": "スカーレット",
     "name": "【クリスマス・メイキング】スカーレット",
+    "character": "スカーレット",
     "series": "【クリスマス】",
     "rarity": 3,
     "color": "緑",
@@ -4416,28 +4376,27 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "2",
-    "red": 14040,
-    "blue": 19440,
-    "green": 38918,
-    "yellow": 18360,
-    "aqua": 11880,
-    "violet": 12420,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "氷キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14040,
+    "blue": 19440,
+    "green": 33022,
+    "yellow": 18360,
+    "aqua": 11880,
+    "violet": 12420
   },
   {
-    "character": "スカーレット",
     "name": "【魔王ニアからの挑戦】スカーレット",
+    "character": "スカーレット",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 3,
     "color": "青",
@@ -4447,13 +4406,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 9000,
-    "blue": 56950,
-    "green": 17438,
-    "yellow": 23625,
-    "aqua": 13500,
-    "violet": 8438,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -4461,16 +4415,20 @@
       "ダンボールキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 9000,
+    "blue": 48321,
+    "green": 17438,
+    "yellow": 23625,
+    "aqua": 13500,
+    "violet": 8438
   },
   {
-    "character": "スカーレット",
     "name": "【憧れのジューンブライド】スカーレット",
+    "character": "スカーレット",
     "series": "【ジューンブライド】",
     "rarity": 3,
     "color": "緑",
@@ -4478,13 +4436,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 24882,
-    "blue": 12122,
-    "green": 58024,
-    "yellow": 10846,
-    "aqua": 24882,
-    "violet": 12760,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "ダイエットスキルコスト",
       "初期スキルゲージ増加"
@@ -4493,16 +4446,20 @@
       "風船キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 24882,
+    "blue": 12122,
+    "green": 49232,
+    "yellow": 10846,
+    "aqua": 24882,
+    "violet": 12760
   },
   {
-    "character": "スカーレット",
     "name": "【夏夜を彩る鐘楼祭】スカーレット",
+    "character": "スカーレット",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 3,
     "color": "紫",
@@ -4510,13 +4467,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 16588,
-    "blue": 6380,
-    "green": 28710,
-    "yellow": 14036,
-    "aqua": 21692,
-    "violet": 42950,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "水ヨーヨーキラー"
@@ -4524,14 +4476,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 16588,
+    "blue": 6380,
+    "green": 28710,
+    "yellow": 14036,
+    "aqua": 21692,
+    "violet": 36442
   },
   {
-    "character": "スカーレット",
     "name": "【ゆる秋キャンプ】スカーレット",
+    "character": "スカーレット",
     "series": "【ゆる秋キャンプ】",
     "rarity": 3,
     "color": "青",
@@ -4540,13 +4496,8 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 18578,
-    "blue": 48170,
-    "green": 19905,
-    "yellow": 21896,
-    "aqua": 10616,
-    "violet": 11943,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
@@ -4555,16 +4506,20 @@
       "薪キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 18578,
+    "blue": 40872,
+    "green": 19905,
+    "yellow": 21896,
+    "aqua": 10616,
+    "violet": 11943
   },
   {
-    "character": "スカーレット",
     "name": "【お家神社で新春初詣】スカーレット",
+    "character": "スカーレット",
     "series": "【お家神社で新春初詣】",
     "rarity": 3,
     "color": "水",
@@ -4573,28 +4528,27 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 9953,
-    "blue": 33839,
-    "green": 16588,
-    "yellow": 18579,
-    "aqua": 55177,
-    "violet": 5309,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "プリティタン人形サポート"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 9953,
+    "blue": 33839,
+    "green": 16588,
+    "yellow": 18579,
+    "aqua": 46817,
+    "violet": 5309
   },
   {
-    "character": "スカーレット",
     "name": "【福豆飛び交う節分祭】スカーレット",
+    "character": "スカーレット",
     "series": "【福豆飛び交う節分祭】",
     "rarity": 3,
     "color": "青",
@@ -4602,28 +4556,27 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "2",
-    "red": 15925,
-    "blue": 48170,
-    "green": 13934,
-    "yellow": 23223,
-    "aqua": 9953,
-    "violet": 26541,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 15925,
+    "blue": 40872,
+    "green": 13934,
+    "yellow": 23223,
+    "aqua": 9953,
+    "violet": 26541
   },
   {
-    "character": "スカーレット",
     "name": "【満開！夜桜大宴会】スカーレット",
+    "character": "スカーレット",
     "series": "【満開！夜桜大宴会】",
     "rarity": 3,
     "color": "青",
@@ -4631,13 +4584,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "2",
-    "red": 10336,
-    "blue": 59120,
-    "green": 14471,
-    "yellow": 26184,
-    "aqua": 22049,
-    "violet": 13093,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "シミラースキルコスト減少"
     ],
@@ -4645,28 +4593,27 @@
       "3Dプリンターキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 10336,
+    "blue": 50162,
+    "green": 14471,
+    "yellow": 26184,
+    "aqua": 22049,
+    "violet": 13093
   },
   {
-    "character": "ニア",
     "name": "【自分磨き】ニア",
+    "character": "ニア",
     "series": "【自分磨き】",
     "rarity": 3,
     "color": "紫",
     "s_type": "スキルゲージアップ",
     "b_tag": [],
-    "ct": "3",
-    "red": 15120,
-    "blue": 13500,
-    "green": 22140,
-    "yellow": 8100,
-    "aqua": 16200,
-    "violet": 40772,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加",
       "他カードスキル使用時スキルゲージ増加"
@@ -4675,14 +4622,19 @@
       "鎖キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 15120,
+    "blue": 13500,
+    "green": 22140,
+    "yellow": 8100,
+    "aqua": 16200,
+    "violet": 34594
   },
   {
-    "character": "ニア",
     "name": "【朝一の悦び】ニア",
+    "character": "ニア",
     "series": "【朝一の悦び】",
     "rarity": 3,
     "color": "緑",
@@ -4690,13 +4642,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 14580,
-    "blue": 14040,
-    "green": 38918,
-    "yellow": 18360,
-    "aqua": 18900,
-    "violet": 8100,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
@@ -4704,16 +4651,20 @@
       "3Dプリンターキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14580,
+    "blue": 14040,
+    "green": 33022,
+    "yellow": 18360,
+    "aqua": 18900,
+    "violet": 8100
   },
   {
-    "character": "ニア",
     "name": "【ズボラ姫たちの年はじめ】ニア",
+    "character": "ニア",
     "series": "【年はじめ】",
     "rarity": 3,
     "color": "青",
@@ -4721,28 +4672,27 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 11637,
-    "blue": 33955,
-    "green": 18987,
-    "yellow": 17762,
-    "aqua": 14087,
-    "violet": 24499,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11637,
+    "blue": 28810,
+    "green": 18987,
+    "yellow": 17762,
+    "aqua": 14087,
+    "violet": 24499
   },
   {
-    "character": "ニア",
     "name": "【春の駅弁祭り】ニア",
+    "character": "ニア",
     "series": "【春の駅弁祭り】",
     "rarity": 3,
     "color": "水",
@@ -4750,13 +4700,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 9799,
-    "blue": 11024,
-    "green": 12862,
-    "yellow": 26949,
-    "aqua": 36380,
-    "violet": 26336,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -4765,15 +4710,19 @@
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 9799,
+    "blue": 11024,
+    "green": 12862,
+    "yellow": 26949,
+    "aqua": 30868,
+    "violet": 26336
   },
   {
-    "character": "ニア",
     "name": "【魔王ニアからの挑戦】ニア",
+    "character": "ニア",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 3,
     "color": "黄",
@@ -4781,13 +4730,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 8438,
-    "blue": 13500,
-    "green": 7313,
-    "yellow": 55018,
-    "aqua": 25313,
-    "violet": 19125,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "初期スキルゲージ増加"
@@ -4796,16 +4740,20 @@
       "ダンボールキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 8438,
+    "blue": 13500,
+    "green": 7313,
+    "yellow": 46682,
+    "aqua": 25313,
+    "violet": 19125
   },
   {
-    "character": "ニア",
     "name": "【魅惑のフルーツビーチ】ニア",
+    "character": "ニア",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 3,
     "color": "赤",
@@ -4813,13 +4761,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 43791,
-    "blue": 8294,
-    "green": 21692,
-    "yellow": 18502,
-    "aqua": 28710,
-    "violet": 8294,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -4829,14 +4772,18 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 37156,
+    "blue": 8294,
+    "green": 21692,
+    "yellow": 18502,
+    "aqua": 28710,
+    "violet": 8294
   },
   {
-    "character": "ニア",
     "name": "【夏夜を彩る鐘楼祭】ニア",
+    "character": "ニア",
     "series": "【夏夜を彩る鐘楼祭】",
     "rarity": 3,
     "color": "黄",
@@ -4844,40 +4791,34 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 8294,
-    "blue": 8294,
-    "green": 25250,
-    "yellow": 42106,
-    "aqua": 26795,
-    "violet": 18502,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "水ヨーヨーキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8294,
+    "blue": 8294,
+    "green": 25250,
+    "yellow": 35726,
+    "aqua": 26795,
+    "violet": 18502
   },
   {
-    "character": "ニア",
     "name": "【恐怖のHorrorween Party】ニア",
+    "character": "ニア",
     "series": "【ハロウィン】",
     "rarity": 3,
     "color": "赤",
     "s_type": "スキルクールダウン1",
     "b_tag": [],
-    "ct": "4",
-    "red": 45542,
-    "blue": 13934,
-    "green": 7962,
-    "yellow": 16588,
-    "aqua": 20569,
-    "violet": 31185,
+    "soon_flag": false,
+    "ct": 4,
     "a_tag": [
       "手数1アップ"
     ],
@@ -4885,16 +4826,20 @@
       "鎖キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 38642,
+    "blue": 13934,
+    "green": 7962,
+    "yellow": 16588,
+    "aqua": 20569,
+    "violet": 31185
   },
   {
-    "character": "ひまり子",
     "name": "【OFFの顔】ひまり子",
+    "character": "ひまり子",
     "series": "【OFFの顔】",
     "rarity": 3,
     "color": "黄",
@@ -4903,40 +4848,34 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "2",
-    "red": 22680,
-    "blue": 10800,
-    "green": 8100,
-    "yellow": 39845,
-    "aqua": 12420,
-    "violet": 18900,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "ピーナッツキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 22680,
+    "blue": 10800,
+    "green": 8100,
+    "yellow": 33808,
+    "aqua": 12420,
+    "violet": 18900
   },
   {
-    "character": "ひまり子",
     "name": "【ロイズ様の特権】ひまり子",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 3,
     "color": "緑",
     "s_type": "スキルゲージアップ",
     "b_tag": [],
-    "ct": "3",
-    "red": 9180,
-    "blue": 14040,
-    "green": 39845,
-    "yellow": 19980,
-    "aqua": 10260,
-    "violet": 19440,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -4944,14 +4883,19 @@
       "プレゼント箱キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 9180,
+    "blue": 14040,
+    "green": 33808,
+    "yellow": 19980,
+    "aqua": 10260,
+    "violet": 19440
   },
   {
-    "character": "ひまり子",
     "name": "【チョコパラダイス】ひまり子",
+    "character": "ひまり子",
     "series": "【チョコパラダイス】",
     "rarity": 3,
     "color": "黄",
@@ -4959,13 +4903,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 12862,
-    "blue": 9799,
-    "green": 15924,
-    "yellow": 38805,
-    "aqua": 21436,
-    "violet": 24499,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -4973,28 +4912,27 @@
       "ゼリーキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 12862,
+    "blue": 9799,
+    "green": 15924,
+    "yellow": 32925,
+    "aqua": 21436,
+    "violet": 24499
   },
   {
-    "character": "ひまり子",
     "name": "【黄金のたまごを探せ！】ひまり子",
+    "character": "ひまり子",
     "series": "【黄金のたまごを探せ！】",
     "rarity": 3,
     "color": "青",
     "s_type": "ピースシャッフル",
     "b_tag": [],
-    "ct": "3",
-    "red": 24499,
-    "blue": 48507,
-    "green": 6737,
-    "yellow": 20211,
-    "aqua": 7350,
-    "violet": 18987,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ",
       "リンケージスキルコスト減少"
@@ -5003,16 +4941,20 @@
       "たまごキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 24499,
+    "blue": 41157,
+    "green": 6737,
+    "yellow": 20211,
+    "aqua": 7350,
+    "violet": 18987
   },
   {
-    "character": "ひまり子",
     "name": "【魔王ニアからの挑戦】ひまり子",
+    "character": "ひまり子",
     "series": "【魔王ニアからの挑戦】",
     "rarity": 3,
     "color": "水",
@@ -5021,13 +4963,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 14063,
-    "blue": 20250,
-    "green": 12375,
-    "yellow": 15750,
-    "aqua": 37645,
-    "violet": 20813,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
     ],
@@ -5036,15 +4973,19 @@
     ],
     "plus": [
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ロケット+1"
+      "ロケット+1",
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14063,
+    "blue": 20250,
+    "green": 12375,
+    "yellow": 15750,
+    "aqua": 31941,
+    "violet": 20813
   },
   {
-    "character": "ひまり子",
     "name": "【鈍感彦星と七人の織姫】ひまり子",
+    "character": "ひまり子",
     "series": "【鈍感彦星と七人の織姫】",
     "rarity": 3,
     "color": "黄",
@@ -5052,13 +4993,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 6380,
-    "blue": 32538,
-    "green": 33175,
-    "yellow": 60214,
-    "aqua": 5742,
-    "violet": 7656,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加",
       "ピーナッツ貫通ロケット"
@@ -5067,16 +5003,20 @@
       "ピーナッツキラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 6380,
+    "blue": 32538,
+    "green": 33175,
+    "yellow": 51091,
+    "aqua": 5742,
+    "violet": 7656
   },
   {
-    "character": "ひまり子",
     "name": "【魅惑のフルーツビーチ】ひまり子",
+    "character": "ひまり子",
     "series": "【魅惑のフルーツビーチ】",
     "rarity": 3,
     "color": "青",
@@ -5084,28 +5024,27 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 14674,
-    "blue": 38738,
-    "green": 21054,
-    "yellow": 9570,
-    "aqua": 26795,
-    "violet": 16588,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "貝キラー"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 14674,
+    "blue": 32868,
+    "green": 21054,
+    "yellow": 9570,
+    "aqua": 26795,
+    "violet": 16588
   },
   {
-    "character": "ひまり子",
     "name": "【ゆる秋キャンプ】ひまり子",
+    "character": "ひまり子",
     "series": "【ゆる秋キャンプ】",
     "rarity": 3,
     "color": "赤",
@@ -5113,13 +5052,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 45542,
-    "blue": 25213,
-    "green": 20569,
-    "yellow": 16588,
-    "aqua": 11943,
-    "violet": 9953,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -5127,16 +5061,20 @@
       "薪キラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 38642,
+    "blue": 25213,
+    "green": 20569,
+    "yellow": 16588,
+    "aqua": 11943,
+    "violet": 9953
   },
   {
-    "character": "ひまり子",
     "name": "【モフモフさん、いらっしゃい！】ひまり子",
+    "character": "ひまり子",
     "series": "【モフモフ】",
     "rarity": 3,
     "color": "水",
@@ -5146,13 +5084,8 @@
       "ボム",
       "ミックス"
     ],
-    "ct": "4",
-    "red": 18579,
-    "blue": 7299,
-    "green": 23887,
-    "yellow": 9953,
-    "aqua": 51674,
-    "violet": 20569,
+    "soon_flag": false,
+    "ct": 4,
     "a_tag": [
       "他カードスキル使用時スキルゲージ増加"
     ],
@@ -5162,26 +5095,25 @@
     "plus": [
       "+1",
       "ロケット+1",
-      "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 18579,
+    "blue": 7299,
+    "green": 23887,
+    "yellow": 9953,
+    "aqua": 43844,
+    "violet": 20569
   },
   {
-    "character": "ナシュワ",
     "name": "【お家神社で新春初詣】ナシュワ",
+    "character": "ナシュワ",
     "series": "【お家神社で新春初詣】",
     "rarity": 3,
     "color": "黄",
     "s_type": "カラーチェンジ",
     "b_tag": [],
-    "ct": "2",
-    "red": 19906,
-    "blue": 23887,
-    "green": 9290,
-    "yellow": 50798,
-    "aqua": 20569,
-    "violet": 7299,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [
       "手数1アップ"
     ],
@@ -5189,16 +5121,20 @@
       "プリティタン人形サポート"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ミサイル+1",
-      "+1",
-      "ボム+1"
+      "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 19906,
+    "blue": 23887,
+    "green": 9290,
+    "yellow": 43102,
+    "aqua": 20569,
+    "violet": 7299
   },
   {
-    "character": "ナシュワ",
     "name": "【モフモフさん、いらっしゃい！】ナシュワ",
+    "character": "ナシュワ",
     "series": "【モフモフ】",
     "rarity": 3,
     "color": "赤",
@@ -5206,28 +5142,27 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "2",
-    "red": 50798,
-    "blue": 12607,
-    "green": 11944,
-    "yellow": 8626,
-    "aqua": 26541,
-    "violet": 27868,
+    "soon_flag": false,
+    "ct": 2,
     "a_tag": [],
     "k_tag": [
       "箱入り猫なつき度"
     ],
     "plus": [
+      "ボム+1",
       "+1",
-      "ロケット+1",
-      "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 43102,
+    "blue": 12607,
+    "green": 11944,
+    "yellow": 8626,
+    "aqua": 26541,
+    "violet": 27868
   },
   {
-    "character": "彩葉",
     "name": "【ロイズ様の特権】彩葉",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 2,
     "color": "緑",
@@ -5237,26 +5172,26 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 18720,
-    "blue": 10764,
-    "green": 29460,
-    "yellow": 10296,
-    "aqua": 14976,
-    "violet": 13104,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "プレゼント箱キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 18720,
+    "blue": 10764,
+    "green": 25838,
+    "yellow": 10296,
+    "aqua": 14976,
+    "violet": 13104
   },
   {
-    "character": "彩葉",
     "name": "【自分磨き】彩葉",
+    "character": "彩葉",
     "series": "【自分磨き】",
     "rarity": 2,
     "color": "黄",
@@ -5265,26 +5200,26 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 9828,
-    "blue": 10764,
-    "green": 9360,
-    "yellow": 30831,
-    "aqua": 17316,
-    "violet": 15444,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
-      "みかんキラー"
+      "みかん箱キラー"
     ],
     "plus": [
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 9828,
+    "blue": 10764,
+    "green": 9360,
+    "yellow": 27041,
+    "aqua": 17316,
+    "violet": 15444
   },
   {
-    "character": "彩葉",
     "name": "【ハマってるもの】彩葉",
+    "character": "彩葉",
     "series": "【ハマってるもの】",
     "rarity": 2,
     "color": "水",
@@ -5292,13 +5227,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 14508,
-    "blue": 11232,
-    "green": 14976,
-    "yellow": 17316,
-    "aqua": 28102,
-    "violet": 8892,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ネズミキラー"
@@ -5307,11 +5237,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 14508,
+    "blue": 11232,
+    "green": 14976,
+    "yellow": 17316,
+    "aqua": 24647,
+    "violet": 8892
   },
   {
-    "character": "紬",
     "name": "【ロイズ様の特権】紬",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 2,
     "color": "緑",
@@ -5319,23 +5254,23 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 14508,
-    "blue": 12168,
-    "green": 28090,
-    "yellow": 13104,
-    "aqua": 11700,
-    "violet": 17784,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 14508,
+    "blue": 12168,
+    "green": 24636,
+    "yellow": 13104,
+    "aqua": 11700,
+    "violet": 17784
   },
   {
-    "character": "紬",
     "name": "【自分磨き】紬",
+    "character": "紬",
     "series": "【自分磨き】",
     "rarity": 2,
     "color": "赤",
@@ -5343,13 +5278,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 30831,
-    "blue": 8892,
-    "green": 18720,
-    "yellow": 7020,
-    "aqua": 10764,
-    "violet": 17316,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "3Dプリンターキラー"
@@ -5358,11 +5288,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 27041,
+    "blue": 8892,
+    "green": 18720,
+    "yellow": 7020,
+    "aqua": 10764,
+    "violet": 17316
   },
   {
-    "character": "紬",
     "name": "【朝一の悦び】紬",
+    "character": "紬",
     "series": "【朝一の悦び】",
     "rarity": 2,
     "color": "青",
@@ -5371,13 +5306,8 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "3",
-    "red": 8892,
-    "blue": 28776,
-    "green": 13572,
-    "yellow": 11700,
-    "aqua": 16380,
-    "violet": 12636,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ボタンキラー"
@@ -5386,11 +5316,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8892,
+    "blue": 25238,
+    "green": 13572,
+    "yellow": 11700,
+    "aqua": 16380,
+    "violet": 12636
   },
   {
-    "character": "花音",
     "name": "【OFFの顔】花音",
+    "character": "花音",
     "series": "【OFFの顔】",
     "rarity": 2,
     "color": "黄",
@@ -5399,13 +5334,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 11232,
-    "blue": 18252,
-    "green": 10296,
-    "yellow": 30831,
-    "aqua": 13572,
-    "violet": 13104,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "氷キラー"
@@ -5414,11 +5344,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 11232,
+    "blue": 18252,
+    "green": 10296,
+    "yellow": 27041,
+    "aqua": 13572,
+    "violet": 13104
   },
   {
-    "character": "花音",
     "name": "【ハマってるもの】花音",
+    "character": "花音",
     "series": "【ハマってるもの】",
     "rarity": 2,
     "color": "水",
@@ -5426,13 +5361,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 14040,
-    "blue": 11700,
-    "green": 10296,
-    "yellow": 18252,
-    "aqua": 29460,
-    "violet": 8892,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ダンボールキラー"
@@ -5441,11 +5371,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 14040,
+    "blue": 11700,
+    "green": 10296,
+    "yellow": 18252,
+    "aqua": 25838,
+    "violet": 8892
   },
   {
-    "character": "花音",
     "name": "【朝一の悦び】花音",
+    "character": "花音",
     "series": "【朝一の悦び】",
     "rarity": 2,
     "color": "青",
@@ -5454,23 +5389,23 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 16848,
-    "blue": 28090,
-    "green": 9828,
-    "yellow": 18720,
-    "aqua": 7488,
-    "violet": 13104,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [
       "手数1アップ"
     ],
     "k_tag": [],
     "plus": [],
-    "soon_flag": false
+    "red": 16848,
+    "blue": 24636,
+    "green": 9828,
+    "yellow": 18720,
+    "aqua": 7488,
+    "violet": 13104
   },
   {
-    "character": "凪",
     "name": "【ロイズ様の特権】凪",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 2,
     "color": "黄",
@@ -5479,26 +5414,26 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 16848,
-    "blue": 12168,
-    "green": 8892,
-    "yellow": 27406,
-    "aqua": 13572,
-    "violet": 15912,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ネズミキラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 16848,
+    "blue": 12168,
+    "green": 8892,
+    "yellow": 24036,
+    "aqua": 13572,
+    "violet": 15912
   },
   {
-    "character": "凪",
     "name": "【自分磨き】凪",
+    "character": "凪",
     "series": "【自分磨き】",
     "rarity": 2,
     "color": "赤",
@@ -5506,26 +5441,26 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 30831,
-    "blue": 12636,
-    "green": 12636,
-    "yellow": 10764,
-    "aqua": 13104,
-    "violet": 12636,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "薪キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 27041,
+    "blue": 12636,
+    "green": 12636,
+    "yellow": 10764,
+    "aqua": 13104,
+    "violet": 12636
   },
   {
-    "character": "凪",
     "name": "【朝一の悦び】凪",
+    "character": "凪",
     "series": "【朝一の悦び】",
     "rarity": 2,
     "color": "緑",
@@ -5533,13 +5468,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 11232,
-    "blue": 10764,
-    "green": 30146,
-    "yellow": 18252,
-    "aqua": 9828,
-    "violet": 11700,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ピーナッツキラー"
@@ -5548,11 +5478,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 11232,
+    "blue": 10764,
+    "green": 26439,
+    "yellow": 18252,
+    "aqua": 9828,
+    "violet": 11700
   },
   {
-    "character": "スカーレット",
     "name": "【ONの私】スカーレット",
+    "character": "スカーレット",
     "series": "【ONの私】",
     "rarity": 2,
     "color": "緑",
@@ -5561,13 +5496,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 16380,
-    "blue": 7488,
-    "green": 28090,
-    "yellow": 11232,
-    "aqua": 14040,
-    "violet": 14976,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "氷キラー"
@@ -5576,11 +5506,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 16380,
+    "blue": 7488,
+    "green": 24636,
+    "yellow": 11232,
+    "aqua": 14040,
+    "violet": 14976
   },
   {
-    "character": "スカーレット",
     "name": "【ロイズ様の特権】スカーレット",
+    "character": "その他",
     "series": "【ロイズ様の特権】",
     "rarity": 2,
     "color": "赤",
@@ -5588,13 +5523,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 30831,
-    "blue": 7488,
-    "green": 18720,
-    "yellow": 11700,
-    "aqua": 19188,
-    "violet": 9360,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "プレゼント箱キラー"
@@ -5603,11 +5533,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 27041,
+    "blue": 7488,
+    "green": 18720,
+    "yellow": 11700,
+    "aqua": 19188,
+    "violet": 9360
   },
   {
-    "character": "スカーレット",
     "name": "【朝一の悦び】スカーレット",
+    "character": "スカーレット",
     "series": "【朝一の悦び】",
     "rarity": 2,
     "color": "水",
@@ -5616,26 +5551,26 @@
       "ロケット",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 7020,
-    "blue": 13572,
-    "green": 15444,
-    "yellow": 15444,
-    "aqua": 26720,
-    "violet": 12168,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "氷キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 7020,
+    "blue": 13572,
+    "green": 15444,
+    "yellow": 15444,
+    "aqua": 23435,
+    "violet": 12168
   },
   {
-    "character": "ニア",
     "name": "【OFFの顔】ニア",
+    "character": "ニア",
     "series": "【OFFの顔】",
     "rarity": 2,
     "color": "黄",
@@ -5643,26 +5578,26 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 19188,
-    "blue": 10296,
-    "green": 10764,
-    "yellow": 28776,
-    "aqua": 9360,
-    "violet": 16848,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ボタンキラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 19188,
+    "blue": 10296,
+    "green": 10764,
+    "yellow": 25238,
+    "aqua": 9360,
+    "violet": 16848
   },
   {
-    "character": "ニア",
     "name": "【ONの私】ニア",
+    "character": "ニア",
     "series": "【ONの私】",
     "rarity": 2,
     "color": "紫",
@@ -5670,26 +5605,26 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [],
+    "k_tag": [
+      "3Dプリンターキラー"
+    ],
+    "plus": [
+      "+1",
+      "ロケット+1"
+    ],
     "red": 12168,
     "blue": 7956,
     "green": 18380,
     "yellow": 11700,
     "aqua": 14976,
-    "violet": 33571,
-    "a_tag": [],
-    "k_tag": [
-      "3Dプリンターキラー"
-    ],
-    "plus": [
-      "+1",
-      "ロケット+1"
-    ],
-    "soon_flag": false
+    "violet": 29444
   },
   {
-    "character": "ニア",
     "name": "【ハマってるもの】ニア",
+    "character": "ニア",
     "series": "【ハマってるもの】",
     "rarity": 2,
     "color": "水",
@@ -5697,28 +5632,27 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 13572,
-    "blue": 14040,
-    "green": 15912,
-    "yellow": 10296,
-    "aqua": 32123,
-    "violet": 13104,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "3Dプリンターキラー"
     ],
     "plus": [
-      "+1",
       "ボム+1",
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 13572,
+    "blue": 14040,
+    "green": 15912,
+    "yellow": 10296,
+    "aqua": 27256,
+    "violet": 13104
   },
   {
-    "character": "ひまり子",
     "name": "【ONの私】ひまり子",
+    "character": "ひまり子",
     "series": "【ONの私】",
     "rarity": 2,
     "color": "赤",
@@ -5727,26 +5661,26 @@
       "ロケット",
       "ボム"
     ],
-    "ct": "3",
-    "red": 29460,
-    "blue": 17316,
-    "green": 10296,
-    "yellow": 8892,
-    "aqua": 14976,
-    "violet": 13104,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "蜘蛛の巣キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 25838,
+    "blue": 17316,
+    "green": 10296,
+    "yellow": 8892,
+    "aqua": 14976,
+    "violet": 13104
   },
   {
-    "character": "ひまり子",
     "name": "【自分磨き】ひまり子",
+    "character": "ひまり子",
     "series": "【自分磨き】",
     "rarity": 2,
     "color": "紫",
@@ -5754,26 +5688,26 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 14976,
-    "blue": 9828,
-    "green": 8892,
-    "yellow": 17784,
-    "aqua": 18380,
-    "violet": 26720,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ゼリーキラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 14976,
+    "blue": 9828,
+    "green": 8892,
+    "yellow": 17784,
+    "aqua": 18380,
+    "violet": 23435
   },
   {
-    "character": "ひまり子",
     "name": "【ハマってるもの】ひまり子",
+    "character": "ひまり子",
     "series": "【ハマってるもの】",
     "rarity": 2,
     "color": "青",
@@ -5782,13 +5716,8 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 18252,
-    "blue": 27406,
-    "green": 12168,
-    "yellow": 14040,
-    "aqua": 11700,
-    "violet": 9360,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
@@ -5797,11 +5726,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 18252,
+    "blue": 24036,
+    "green": 12168,
+    "yellow": 14040,
+    "aqua": 11700,
+    "violet": 9360
   },
   {
-    "character": "彩葉",
     "name": "【メインシナリオ】彩葉",
+    "character": "彩葉",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "紫",
@@ -5809,26 +5743,26 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 11232,
-    "blue": 10296,
-    "green": 15444,
-    "yellow": 14508,
-    "aqua": 13104,
-    "violet": 28090,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ダンボールキラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 11232,
+    "blue": 10296,
+    "green": 15444,
+    "yellow": 14508,
+    "aqua": 13104,
+    "violet": 24636
   },
   {
-    "character": "紬",
     "name": "【メインシナリオ】紬",
+    "character": "紬",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "水",
@@ -5836,13 +5770,8 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 12168,
-    "blue": 13572,
-    "green": 10296,
-    "yellow": 10296,
-    "aqua": 30146,
-    "violet": 17316,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
@@ -5851,11 +5780,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 12168,
+    "blue": 13572,
+    "green": 10296,
+    "yellow": 10296,
+    "aqua": 26439,
+    "violet": 17316
   },
   {
-    "character": "花音",
     "name": "【メインシナリオ】花音",
+    "character": "花音",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "赤",
@@ -5863,13 +5797,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 27406,
-    "blue": 15912,
-    "green": 10764,
-    "yellow": 15444,
-    "aqua": 13572,
-    "violet": 10296,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ゼリーキラー"
@@ -5878,11 +5807,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 24036,
+    "blue": 15912,
+    "green": 10764,
+    "yellow": 15444,
+    "aqua": 13572,
+    "violet": 10296
   },
   {
-    "character": "凪",
     "name": "【メインシナリオ】凪",
+    "character": "凪",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "青",
@@ -5890,13 +5824,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 10764,
-    "blue": 26034,
-    "green": 12636,
-    "yellow": 15912,
-    "aqua": 14508,
-    "violet": 12636,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ピーナッツキラー"
@@ -5905,11 +5834,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 10764,
+    "blue": 22833,
+    "green": 12636,
+    "yellow": 15912,
+    "aqua": 14508,
+    "violet": 12636
   },
   {
-    "character": "スカーレット",
     "name": "【メインシナリオ】スカーレット",
+    "character": "スカーレット",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "黄",
@@ -5918,13 +5852,8 @@
       "ロケット",
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 16380,
-    "blue": 9828,
-    "green": 13104,
-    "yellow": 30831,
-    "aqua": 14508,
-    "violet": 9360,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "薪キラー"
@@ -5933,11 +5862,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 16380,
+    "blue": 9828,
+    "green": 13104,
+    "yellow": 27041,
+    "aqua": 14508,
+    "violet": 9360
   },
   {
-    "character": "ニア",
     "name": "【メインシナリオ】ニア",
+    "character": "ニア",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "紫",
@@ -5946,13 +5880,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 8892,
-    "blue": 9360,
-    "green": 15444,
-    "yellow": 16848,
-    "aqua": 14508,
-    "violet": 28090,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "鎖キラー"
@@ -5961,11 +5890,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 8892,
+    "blue": 9360,
+    "green": 15444,
+    "yellow": 16848,
+    "aqua": 14508,
+    "violet": 24636
   },
   {
-    "character": "ひまり子",
     "name": "【メインシナリオ】ひまり子",
+    "character": "ひまり子",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "緑",
@@ -5973,13 +5907,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 9828,
-    "blue": 16380,
-    "green": 27406,
-    "yellow": 16380,
-    "aqua": 9828,
-    "violet": 13104,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "蜘蛛の巣キラー"
@@ -5988,11 +5917,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 9828,
+    "blue": 16380,
+    "green": 24036,
+    "yellow": 16380,
+    "aqua": 9828,
+    "violet": 13104
   },
   {
-    "character": "ナシュワ",
     "name": "【メインシナリオ】ナシュワ",
+    "character": "ナシュワ",
     "series": "【メインシナリオ】",
     "rarity": 2,
     "color": "黄",
@@ -6000,26 +5934,26 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "5",
-    "red": 14376,
-    "blue": 23002,
-    "green": 10351,
-    "yellow": 36481,
-    "aqua": 8626,
-    "violet": 20127,
+    "soon_flag": false,
+    "ct": 5,
     "a_tag": [],
     "k_tag": [
-      "貝キラー"
+      "水ヨーヨーキラー"
     ],
     "plus": [
       "+1",
-      "ボム+1"
+      "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 14376,
+    "blue": 23002,
+    "green": 10351,
+    "yellow": 31996,
+    "aqua": 8626,
+    "violet": 20127
   },
   {
-    "character": "彩葉",
     "name": "【部屋着】彩葉",
+    "character": "彩葉",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "緑",
@@ -6027,13 +5961,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 8280,
-    "blue": 14760,
-    "green": 23039,
-    "yellow": 6840,
-    "aqua": 7200,
-    "violet": 14040,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ダンボールキラー"
@@ -6042,11 +5971,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 8280,
+    "blue": 14760,
+    "green": 20206,
+    "yellow": 6840,
+    "aqua": 7200,
+    "violet": 14040
   },
   {
-    "character": "紬",
     "name": "【外着】紬",
+    "character": "紬",
     "series": "【外着】",
     "rarity": 1,
     "color": "黄",
@@ -6054,13 +5988,8 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 7560,
-    "blue": 12600,
-    "green": 6840,
-    "yellow": 23716,
-    "aqua": 15120,
-    "violet": 5400,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ゼリーキラー"
@@ -6069,11 +5998,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 7560,
+    "blue": 12600,
+    "green": 6840,
+    "yellow": 20800,
+    "aqua": 15120,
+    "violet": 5400
   },
   {
-    "character": "紬",
     "name": "【部屋着】紬",
+    "character": "紬",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "水",
@@ -6083,26 +6017,26 @@
       "ミサイル",
       "ボム"
     ],
-    "ct": "3",
-    "red": 12240,
-    "blue": 7200,
-    "green": 5760,
-    "yellow": 9360,
-    "aqua": 22135,
-    "violet": 14400,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ネズミキラー"
     ],
     "plus": [
-      "+1",
-      "ミサイル+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 12240,
+    "blue": 7200,
+    "green": 5760,
+    "yellow": 9360,
+    "aqua": 19414,
+    "violet": 14400
   },
   {
-    "character": "花音",
     "name": "【外着】花音",
+    "character": "花音",
     "series": "【外着】",
     "rarity": 1,
     "color": "青",
@@ -6110,13 +6044,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 6480,
-    "blue": 21608,
-    "green": 11520,
-    "yellow": 12960,
-    "aqua": 7920,
-    "violet": 12600,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "泡キラー"
@@ -6125,11 +6054,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 6480,
+    "blue": 18951,
+    "green": 11520,
+    "yellow": 12960,
+    "aqua": 7920,
+    "violet": 12600
   },
   {
-    "character": "花音",
     "name": "【部屋着】花音",
+    "character": "花音",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "赤",
@@ -6137,13 +6071,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 23189,
-    "blue": 7920,
-    "green": 9720,
-    "yellow": 11520,
-    "aqua": 11520,
-    "violet": 6840,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "薪キラー"
@@ -6152,11 +6081,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 20338,
+    "blue": 7920,
+    "green": 9720,
+    "yellow": 11520,
+    "aqua": 11520,
+    "violet": 6840
   },
   {
-    "character": "凪",
     "name": "【外着】凪",
+    "character": "凪",
     "series": "【外着】",
     "rarity": 1,
     "color": "水",
@@ -6165,26 +6099,26 @@
       "ボム",
       "スペシャル"
     ],
-    "ct": "3",
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [],
+    "k_tag": [
+      "みかん箱キラー"
+    ],
+    "plus": [
+      "ボム+1",
+      "+1"
+    ],
     "red": 14760,
     "blue": 10440,
     "green": 8640,
     "yellow": 5400,
-    "aqua": 23716,
-    "violet": 10440,
-    "a_tag": [],
-    "k_tag": [
-      "みかんキラー"
-    ],
-    "plus": [
-      "+1",
-      "ボム+1"
-    ],
-    "soon_flag": false
+    "aqua": 20800,
+    "violet": 10440
   },
   {
-    "character": "凪",
     "name": "【部屋着】凪",
+    "character": "凪",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "青",
@@ -6192,26 +6126,26 @@
     "b_tag": [
       "ロケット"
     ],
-    "ct": "3",
-    "red": 11520,
-    "blue": 22135,
-    "green": 6120,
-    "yellow": 11160,
-    "aqua": 13320,
-    "violet": 7920,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ボタンキラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 11520,
+    "blue": 19414,
+    "green": 6120,
+    "yellow": 11160,
+    "aqua": 13320,
+    "violet": 7920
   },
   {
-    "character": "スカーレット",
     "name": "【外着】スカーレット",
+    "character": "スカーレット",
     "series": "【外着】",
     "rarity": 1,
     "color": "紫",
@@ -6220,38 +6154,33 @@
       "ロケット",
       "ミックス"
     ],
-    "ct": "3",
-    "red": 9720,
-    "blue": 8280,
-    "green": 8640,
-    "yellow": 7920,
-    "aqua": 14400,
-    "violet": 23716,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "氷キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 9720,
+    "blue": 8280,
+    "green": 8640,
+    "yellow": 7920,
+    "aqua": 14400,
+    "violet": 20800
   },
   {
-    "character": "スカーレット",
     "name": "【部屋着】スカーレット",
+    "character": "スカーレット",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "黄",
     "s_type": "ピースチェンジ",
     "b_tag": [],
-    "ct": "3",
-    "red": 12600,
-    "blue": 9000,
-    "green": 13320,
-    "yellow": 22135,
-    "aqua": 5760,
-    "violet": 9720,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "ピーナッツキラー"
@@ -6260,11 +6189,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 12600,
+    "blue": 9000,
+    "green": 13320,
+    "yellow": 19414,
+    "aqua": 5760,
+    "violet": 9720
   },
   {
-    "character": "ニア",
     "name": "【外着】ニア",
+    "character": "ニア",
     "series": "【外着】",
     "rarity": 1,
     "color": "赤",
@@ -6272,13 +6206,8 @@
     "b_tag": [
       "ボム"
     ],
-    "ct": "3",
-    "red": 23716,
-    "blue": 15120,
-    "green": 8280,
-    "yellow": 14400,
-    "aqua": 5760,
-    "violet": 7560,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "3Dプリンターキラー"
@@ -6287,11 +6216,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 20800,
+    "blue": 15120,
+    "green": 8280,
+    "yellow": 14400,
+    "aqua": 5760,
+    "violet": 7560
   },
   {
-    "character": "ニア",
     "name": "【部屋着】ニア",
+    "character": "ニア",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "紫",
@@ -6299,13 +6233,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 9000,
-    "blue": 13680,
-    "green": 8280,
-    "yellow": 12600,
-    "aqua": 5760,
-    "violet": 22135,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "鎖キラー"
@@ -6314,11 +6243,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 9000,
+    "blue": 13680,
+    "green": 8280,
+    "yellow": 12600,
+    "aqua": 5760,
+    "violet": 19414
   },
   {
-    "character": "ひまり子",
     "name": "【外着】ひまり子",
+    "character": "ひまり子",
     "series": "【外着】",
     "rarity": 1,
     "color": "青",
@@ -6327,13 +6261,8 @@
       "ミサイル",
       "スペシャル"
     ],
-    "ct": "3",
-    "red": 10440,
-    "blue": 23716,
-    "green": 10080,
-    "yellow": 8280,
-    "aqua": 7920,
-    "violet": 11520,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "蜘蛛の巣キラー"
@@ -6342,11 +6271,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 10440,
+    "blue": 20800,
+    "green": 10080,
+    "yellow": 8280,
+    "aqua": 7920,
+    "violet": 11520
   },
   {
-    "character": "ひまり子",
     "name": "【部屋着】ひまり子",
+    "character": "ひまり子",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "緑",
@@ -6354,13 +6288,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 6480,
-    "blue": 12960,
-    "green": 22662,
-    "yellow": 9360,
-    "aqua": 7920,
-    "violet": 11880,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "プレゼント箱キラー"
@@ -6369,11 +6298,16 @@
       "+1",
       "ロケット+1"
     ],
-    "soon_flag": false
+    "red": 6480,
+    "blue": 12960,
+    "green": 19876,
+    "yellow": 9360,
+    "aqua": 7920,
+    "violet": 11880
   },
   {
-    "character": "ナシュワ",
     "name": "【外着】ナシュワ",
+    "character": "ナシュワ",
     "series": "【外着】",
     "rarity": 1,
     "color": "青",
@@ -6381,13 +6315,8 @@
     "b_tag": [
       "ミサイル"
     ],
-    "ct": "3",
-    "red": 9290,
-    "blue": 27523,
-    "green": 13713,
-    "yellow": 15482,
-    "aqua": 10174,
-    "violet": 12828,
+    "soon_flag": false,
+    "ct": 3,
     "a_tag": [],
     "k_tag": [
       "たまごキラー"
@@ -6396,11 +6325,16 @@
       "+1",
       "ミサイル+1"
     ],
-    "soon_flag": false
+    "red": 9290,
+    "blue": 24139,
+    "green": 13713,
+    "yellow": 15482,
+    "aqua": 10174,
+    "violet": 12828
   },
   {
-    "character": "ナシュワ",
     "name": "【部屋着】ナシュワ",
+    "character": "ナシュワ",
     "series": "【部屋着】",
     "rarity": 1,
     "color": "紫",
@@ -6408,60 +6342,171 @@
     "b_tag": [
       "スペシャル"
     ],
-    "ct": "6",
-    "red": 11059,
-    "blue": 8847,
-    "green": 17694,
-    "yellow": 14155,
-    "aqua": 4424,
-    "violet": 31300,
+    "soon_flag": false,
+    "ct": 6,
     "a_tag": [],
     "k_tag": [
       "貝キラー"
     ],
     "plus": [
-      "+1",
-      "ボム+1"
+      "ボム+1",
+      "+1"
     ],
-    "soon_flag": false
+    "red": 11059,
+    "blue": 8847,
+    "green": 17694,
+    "yellow": 14155,
+    "aqua": 4424,
+    "violet": 27451
   },
   {
-    "character": "その他",
     "name": "【ロイズ様の日常】ロイズ",
+    "character": "その他",
     "series": "【ロイズ様の日常】",
     "rarity": 4,
     "color": "赤",
     "s_type": "ピースシャッフル",
     "b_tag": [],
-    "ct": "3",
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [
+      "アクセントカラー"
+    ],
+    "k_tag": [
+      "ダンボールキラー",
+      "ピーナッツキラー",
+      "薪キラー"
+    ],
+    "plus": [
+      "ボム+1",
+      "+1",
+      "ロケット+1",
+      "ミサイル+1"
+    ],
     "red": 17325,
     "blue": 16333,
     "green": 16333,
     "yellow": 16333,
     "aqua": 16333,
-    "violet": 16333,
+    "violet": 16333
+  },
+  {
+    "name": "【夢見る乙女のパジャマパーティー】花音",
+    "character": "花音",
+    "series": "【パジャマパーティー】",
+    "rarity": 4,
+    "color": "赤",
+    "s_type": "ファスト",
+    "b_tag": [
+      "ロケット"
+    ],
+    "soon_flag": true,
+    "ct": 3,
     "a_tag": [
-      "アクセントカラー"
+      "初期スキルゲージ増加",
+      "他カードスキル使用時スキルゲージ増加"
     ],
     "k_tag": [
-      "ピーナッツキラー",
-      "ダンボールキラー",
-      "薪キラー"
+      "ボタンキラー"
+    ],
+    "plus": [
+      "ミサイル+1",
+      "ロケット+1",
+      "+1",
+      "ボム+1"
+    ],
+    "red": 76035,
+    "blue": 13965,
+    "green": 22784,
+    "yellow": 27194,
+    "aqua": 14700,
+    "violet": 11025
+  },
+  {
+    "name": "【夢見る乙女のパジャマパーティー】彩葉",
+    "character": "彩葉",
+    "series": "【パジャマパーティー】",
+    "rarity": 3,
+    "color": "赤",
+    "s_type": "クリエイト",
+    "b_tag": [
+      "スペシャル"
+    ],
+    "soon_flag": false,
+    "ct": 3,
+    "a_tag": [
+      "手数1アップ"
+    ],
+    "k_tag": [
+      "ボタンキラー"
+    ],
+    "plus": [
+      "ロケット+1",
+      "+1",
+      "ミサイル+1"
+    ],
+    "red": 76666,
+    "blue": 13093,
+    "green": 24805,
+    "yellow": 20671,
+    "aqua": 22049,
+    "violet": 11025
+  },
+  {
+    "name": "【夢見る乙女のパジャマパーティー】ニア",
+    "character": "ニア",
+    "series": "【パジャマパーティー】",
+    "rarity": 3,
+    "color": "黄",
+    "s_type": "クリエイト",
+    "b_tag": [
+      "ロケット",
+      "ボム"
+    ],
+    "soon_flag": false,
+    "ct": 2,
+    "a_tag": [],
+    "k_tag": [
+      "ボタンキラー"
     ],
     "plus": [
       "+1",
       "ロケット+1",
-      "ミサイル+1",
-      "ボム+1",
-      "+1",
-      "ロケット+1",
-      "ミサイル+1",
-      "ボム+1",
-      "+1",
-      "ロケット+1",
-      "ミサイル+1",
       "ボム+1"
     ],
-    "soon_flag": false
+    "red": 17227,
+    "blue": 11025,
+    "green": 28251,
+    "yellow": 75319,
+    "aqua": 21361,
+    "violet": 14471
+  },
+  {
+    "name": "【夢見る乙女のパジャマパーティー】凪",
+    "character": "凪",
+    "series": "【パジャマパーティー】",
+    "rarity": 4,
+    "color": "水",
+    "s_type": "クリエイト",
+    "b_tag": [
+      "ミサイル",
+      "スペシャル"
+    ],
+    "soon_flag": false,
+    "ct": 2,
+    "a_tag": [],
+    "k_tag": [
+      "ボタンキラー"
+    ],
+    "plus": [
+      "+2",
+      "ミサイル+2"
+    ],
+    "red": 30134,
+    "blue": 11760,
+    "green": 17640,
+    "yellow": 22784,
+    "aqua": 83208,
+    "violet": 14700
   }
 ]

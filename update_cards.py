@@ -43,7 +43,7 @@ def get_card_info(url):
 
     card = dict()
     rows = char_table.find_all("tr")
-    card["name"] = rows[0].th.text
+    card["name"] = soup.find("h1").find("a").get_text(strip=True)
     character = re.search(r'】(.+)', card["name"]).group(1)
     if "コラボ" in card["name"] or "ロイズ" in card["name"]:
         if "の特権" not in character:
@@ -89,6 +89,8 @@ def get_series(name):
         return "【クリスマス】"
     if "恐怖" in match.group(1):
         return "【ハロウィン】"
+    if "パジャマ" in match.group(1):
+        return "【パジャマパーティー】"
     return match.group(1)
 
 def get_skill_type(s_name):
@@ -184,6 +186,7 @@ def parse_ability(ability_tables):
         ability = a_table.find_all("th")[1].text
         if "デッキスコア" in ability: continue
         if ability == "スキルクールタイム1減少": continue
+        if re.fullmatch(r"スキルコスト\d+減少", ability): continue
 
         if "カードスコア" in ability:
             match = re.search(r'(\d+)', ability)
@@ -212,7 +215,7 @@ def get_ability_tag(ability):
     if "アクセントカラー" in ability:
         return "アクセントカラー"
     if "手数" in ability:
-        return ability
+        return ability.replace("＋", "+")
     if "リバウンド" in ability:
         return "リバウンドスキルコスト"
     if "ダイエット" in ability:
@@ -245,8 +248,11 @@ def get_killer_tag(ability):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        print(get_card_info(sys.argv[1]))
+        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            cards = json.load(f)
+        cards.append(get_card_info(sys.argv[1]))
     else:
         cards = get_cards()
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(cards, f, indent=2, ensure_ascii=False)
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(cards, f, indent=2, ensure_ascii=False)

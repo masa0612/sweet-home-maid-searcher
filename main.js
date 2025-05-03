@@ -110,7 +110,7 @@ function applyFilters() {
     const matchesColor = filters.color.size === 0 ||
        [...filters.color].some(tag => char.color.includes(tag));
     const matchesCt = filters.ct.size === 0 ||
-       [...filters.ct].some(tag => char.ct.includes(tag));
+       [...filters.ct].some(tag => char.ct.toString().includes(tag));
     const matchesSoon = !filters.soon || char.soon_flag;
 
     return matchesCharacter && matchesColor && matchesCt && matchesSoon &&
