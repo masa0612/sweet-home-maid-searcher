@@ -1,4 +1,5 @@
-const wikiUrl = "https://sweethomemaid.wikiru.jp/attach2/"
+const wikiUrl = "https://sweethomemaid.wikiru.jp/"
+const atcUrl = wikiUrl + "attach2/"
 const characterFilter = [
     { id: "irohaFilter", name: "彩葉", imgSrc: "assets/character_filter/iroha.jpg" },
     { id: "tsumugiFilter", name: "紬", imgSrc: "assets/character_filter/tsumugi.jpg" },
@@ -33,12 +34,12 @@ const rarityFilter = [
     { id: "rare4Filter", name: "4", imgSrc: "assets/rarity_filter/rare4.jpg" }
 ];
 const colorSort = [
-    { id: "redSort", name: "red", imgSrc: wikiUrl+"696D67_70635F7265642E706E67.png" },
-    { id: "blueSort", name: "blue", imgSrc: wikiUrl+"696D67_70635F626C752E706E67.png" },
-    { id: "greenSort", name: "green", imgSrc: wikiUrl+"696D67_70635F67726E2E706E67.png" },
-    { id: "yellowSort", name: "yellow", imgSrc: wikiUrl+"696D67_70635F79656C2E706E67.png" },
-    { id: "aquaSort", name: "aqua", imgSrc: wikiUrl+"696D67_70635F6171612E706E67.png" },
-    { id: "violetSort", name: "violet", imgSrc: wikiUrl+"696D67_70635F76696F2E706E67.png" }
+    { id: "redSort", name: "red", imgSrc: atcUrl+"696D67_70635F7265642E706E67.png" },
+    { id: "blueSort", name: "blue", imgSrc: atcUrl+"696D67_70635F626C752E706E67.png" },
+    { id: "greenSort", name: "green", imgSrc: atcUrl+"696D67_70635F67726E2E706E67.png" },
+    { id: "yellowSort", name: "yellow", imgSrc: atcUrl+"696D67_70635F79656C2E706E67.png" },
+    { id: "aquaSort", name: "aqua", imgSrc: atcUrl+"696D67_70635F6171612E706E67.png" },
+    { id: "violetSort", name: "violet", imgSrc: atcUrl+"696D67_70635F76696F2E706E67.png" }
 ];
 const killerFilter = [
     { id: "box", name: "ダンボールキラー", imgSrc: "assets/killer_filter/box.jpg" },
@@ -62,41 +63,41 @@ const killerFilter = [
     { id: "cat", name: "箱入り猫なつき度", imgSrc: "assets/killer_filter/cat.jpg" },
 ];
 const abilityFilter = [
-    { id: "first", name: "初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237322E706E67.png" },
-    { id: "linkage", name: "リンケージスキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237332E706E67.png" },
-    { id: "diet", name: "ダイエットスキルコスト", imgSrc: wikiUrl+"696D67_6162696C6974795F3237352E706E67.png" },
-    { id: "rebound", name: "リバウンドスキルコスト", imgSrc: wikiUrl+"696D67_6162696C6974795F3237342E706E67.png" },
-    { id: "similar_up", name: "シミラー初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237372E706E67.png" },
-    { id: "similar_down", name: "シミラースキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237362E706E67.png" },
-    { id: "pair_up", name: "ペアルック初期スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3237392E706E67.png" },
-    { id: "pair_down", name: "ペアルックスキルコスト減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3237382E706E67.png" },
-    { id: "rocket_peanuts", name: "ピーナッツ貫通ロケット", imgSrc: wikiUrl+"696D67_6162696C6974795F3136342E706E67.png" },
-    { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: wikiUrl+"696D67_6162696C6974795F3330312E706E67.png" },
-    { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: wikiUrl+"696D67_6162696C6974795F3330332E706E67.png" },
-    { id: "hand1", name: "手数1アップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3239302E706E67.png" },
-    { id: "hand2", name: "手数2アップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3239612E706E67.png" },
-    { id: "wave1", name: "Wave手数回復+1", imgSrc: wikiUrl+"696D67_6162696C6974795F3239312E706E67.png" },
-    { id: "wave2", name: "Wave手数回復+2", imgSrc: wikiUrl+"696D67_6162696C6974795F3239622E706E67.png" },
-    { id: "ac_all", name: "アクセントカラー(全)", imgSrc: wikiUrl+"696D67_6162696C6974795F4143616C6C38302E706E67.png" },
-    { id: "score_all", name: "リンケージオールスコアアップ", imgSrc: wikiUrl+"696D67_6162696C6974795F3236332E706E67.png" },
+    { id: "first", name: "初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237322E706E67.png" },
+    { id: "linkage", name: "リンケージスキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237332E706E67.png" },
+    { id: "diet", name: "ダイエットスキルコスト", imgSrc: atcUrl+"696D67_6162696C6974795F3237352E706E67.png" },
+    { id: "rebound", name: "リバウンドスキルコスト", imgSrc: atcUrl+"696D67_6162696C6974795F3237342E706E67.png" },
+    { id: "similar_up", name: "シミラー初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237372E706E67.png" },
+    { id: "similar_down", name: "シミラースキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237362E706E67.png" },
+    { id: "pair_up", name: "ペアルック初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237392E706E67.png" },
+    { id: "pair_down", name: "ペアルックスキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237382E706E67.png" },
+    { id: "rocket_peanuts", name: "ピーナッツ貫通ロケット", imgSrc: atcUrl+"696D67_6162696C6974795F3136342E706E67.png" },
+    { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3330312E706E67.png" },
+    { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: atcUrl+"696D67_6162696C6974795F3330332E706E67.png" },
+    { id: "hand1", name: "手数1アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239302E706E67.png" },
+    { id: "hand2", name: "手数2アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239612E706E67.png" },
+    { id: "wave1", name: "Wave手数回復+1", imgSrc: atcUrl+"696D67_6162696C6974795F3239312E706E67.png" },
+    { id: "wave2", name: "Wave手数回復+2", imgSrc: atcUrl+"696D67_6162696C6974795F3239622E706E67.png" },
+    { id: "ac_all", name: "アクセントカラー", imgSrc: atcUrl+"696D67_6162696C6974795F4143616C6C38302E706E67.png" },
+    { id: "score_all", name: "リンケージオールスコアアップ", imgSrc: atcUrl+"696D67_6162696C6974795F3236332E706E67.png" },
 ];
 const skillTypeFilter = [
   { id: "create", name: "クリエイト", imgSrc: "assets/create.png" },
   { id: "fast", name: "ファスト", imgSrc: "assets/fast.png" },
   { id: "select", name: "セレクト", imgSrc: "assets/select.png" },
-  { id: "p_change", name: "ピースチェンジ", imgSrc: wikiUrl+"696D67_736B5F706368616E67652E706E67.png" },
-  { id: "rp_change", name: "遠隔ピースチェンジ", imgSrc: wikiUrl+"696D67_736B696C6C5F3033372E706E67.png" },
-  { id: "break", name: "ピースブレイク", imgSrc: wikiUrl+"696D67_736B696C6C5F3032392E706E67.png" },
-  { id: "change", name: "カラーチェンジ", imgSrc: wikiUrl+"696D67_736B5F43432E706E67.png" },
-  { id: "shuffle", name: "ピースシャッフル", imgSrc: wikiUrl+"696D67_736B5F7073687566666C652E706E67.png" },
-  { id: "gage_up", name: "スキルゲージアップ", imgSrc: wikiUrl+"696D67_736B696C6C5F3033302E706E67.png" },
-  { id: "ct_cool_down", name: "スキルクールダウン1", imgSrc: wikiUrl+"696D67_736B5F43442E706E67.png" },
+  { id: "p_change", name: "ピースチェンジ", imgSrc: atcUrl+"696D67_736B5F706368616E67652E706E67.png" },
+  { id: "rp_change", name: "遠隔ピースチェンジ", imgSrc: atcUrl+"696D67_736B696C6C5F3033372E706E67.png" },
+  { id: "break", name: "ピースブレイク", imgSrc: atcUrl+"696D67_736B696C6C5F3032392E706E67.png" },
+  { id: "change", name: "カラーチェンジ", imgSrc: atcUrl+"696D67_736B5F43432E706E67.png" },
+  { id: "shuffle", name: "ピースシャッフル", imgSrc: atcUrl+"696D67_736B5F7073687566666C652E706E67.png" },
+  { id: "gage_up", name: "スキルゲージアップ", imgSrc: atcUrl+"696D67_736B696C6C5F3033302E706E67.png" },
+  { id: "ct_cool_down", name: "スキルクールダウン1", imgSrc: atcUrl+"696D67_736B5F43442E706E67.png" },
 ];
 const boosterFilter = [
-  { id: "special", name: "スペシャル", imgSrc: wikiUrl+"696D67_625F7370652E706E67.png" },
-  { id: "bom", name: "ボム", imgSrc: wikiUrl+"696D67_625F626F6D2E706E67.png" },
-  { id: "rocket", name: "ロケット", imgSrc: wikiUrl+"696D67_625F726B562E706E67.png" },
-  { id: "missile", name: "ミサイル", imgSrc: wikiUrl+"696D67_625F6D736C2E706E67.png" },
+  { id: "special", name: "スペシャル", imgSrc: atcUrl+"696D67_625F7370652E706E67.png" },
+  { id: "bom", name: "ボム", imgSrc: atcUrl+"696D67_625F626F6D2E706E67.png" },
+  { id: "rocket", name: "ロケット", imgSrc: atcUrl+"696D67_625F726B562E706E67.png" },
+  { id: "missile", name: "ミサイル", imgSrc: atcUrl+"696D67_625F6D736C2E706E67.png" },
   { id: "mix", name: "ミックス", imgSrc: "assets/mix.png" },
 ];
 const plusFilter = [

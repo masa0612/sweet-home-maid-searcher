@@ -40,15 +40,15 @@ function renderCharacters(filtered_characters) {
     whiteCircle .classList.add("whiteCircle");
 
     const colorImage = document.createElement("img");
-    colorImage.src = `${wikiUrl}${colorMap[character.color]}`;
+    colorImage.src = `${atcUrl}${colorMap[character.color]}`;
     colorImage.alt = character.color;
     colorImage.classList.add("colorImage");
 
     const charLink = document.createElement("a");
-    charLink.href = character.url;
+    charLink.href = wikiUrl + "?" + character.name;
     charLink.target = "_blank";
     const charImage = document.createElement("img");
-    charImage.src = character.icon;
+    charImage.src = wikiUrl+"?plugin=ref&page=img&src="+character.name+"_icon.png";
     charImage.alt = character.name;
     charImage.classList.add("charIcon");
     charLink.appendChild(charImage);
@@ -98,7 +98,7 @@ function applyFilters() {
     const matchesSkillType = filters.skillType.size === 0 ||
        [...filters.skillType].some(tag => char.s_type.includes(tag));
     const matchesBoosterTag = filters.booster.size === 0 ||
-       [...filters.booster].some(tag => char.booster_tag.includes(tag));
+       [...filters.booster].some(tag => char.b_tag.includes(tag));
     const matchesAbilityTag = filters.ability.size === 0 ||
        [...filters.ability].some(tag => char.a_tag.includes(tag));
     const matchesKillerTag = filters.killer.size === 0 ||
@@ -160,7 +160,6 @@ function setupEventListeners() {
 
   document.querySelector("#soonCB").addEventListener("change", (e) => {
     filters["soon"] = e.target.checked;
-    console.log(filters["soon"])
     applyFilters();
   });
 
