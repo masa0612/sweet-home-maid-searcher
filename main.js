@@ -3,6 +3,7 @@ const charPanel = document.getElementById("charPanel");
 const filterPanel = document.getElementById('filterPanel');
 const resizer = document.getElementById('resizer');
 
+let howToUse;
 let characters = [];
 const filters = {
     character: new Set(),
@@ -30,6 +31,7 @@ async function loadCharacters() {
 
 function renderCharacters(filtered_characters) {
   charPanel.innerHTML = "";
+  charPanel.style.display = "grid";
 
   filtered_characters.forEach(character => {
     const charCard = document.createElement("div");
@@ -75,7 +77,10 @@ function renderCharacters(filtered_characters) {
     charCard.appendChild(colorImage);
     charCard.appendChild(whiteCircle);
     if (filters.sortAttributes.size > 0) {
+      charPanel.style.gridTemplateRows = 'repeat(auto-fit, 140px)';
       charCard.appendChild(totalScore);
+    } else {
+      charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
     }
 
     charPanel.appendChild(charCard);
@@ -83,7 +88,8 @@ function renderCharacters(filtered_characters) {
   const cs = window.getComputedStyle(charPanel);
   const numColumns = cs.getPropertyValue("grid-template-columns").split(' ').length;
   const numRows = Math.ceil( filtered_characters.length / numColumns );
-  if (numRows*120 > charPanel.clientHeight) {
+  const pixelValue = parseInt(charPanel.style.gridTemplateRows.match(/(\d+)px/)[1]);
+  if (numRows*pixelValue > charPanel.clientHeight) {
     charPanel.style.alignContent = "start";
   } else {
     charPanel.style.alignContent = "center";
@@ -93,9 +99,9 @@ function renderCharacters(filtered_characters) {
 function applyFilters() {
   let filtered = characters.filter(char => {
     const matchesCharacter = filters.character.size === 0 ||
-       [...filters.character].some(tag => char.character.includes(tag));
+       [...filters.character].some(tag => char.character === tag);
     const matchesSkillType = filters.skillType.size === 0 ||
-       [...filters.skillType].some(tag => char.s_type.includes(tag));
+       [...filters.skillType].some(tag => char.s_type === tag);
     const matchesBoosterTag = filters.booster.size === 0 ||
        [...filters.booster].some(tag => char.b_tag.includes(tag));
     const matchesAbilityTag = filters.ability.size === 0 ||
@@ -103,13 +109,13 @@ function applyFilters() {
     const matchesKillerTag = filters.killer.size === 0 ||
        [...filters.killer].some(tag => char.k_tag.includes(tag));
     const matchesKillerBooster = filters.plus.size === 0 ||
-       [...filters.plus].some(tag => char.plus.includes(tag));
+       [...filters.plus].some(tag => char.p_tag.includes(tag));
     const matchesRarity = filters.rarity.size === 0 ||
-       [...filters.rarity].some(tag => char.rarity.toString().includes(tag));
+       [...filters.rarity].some(tag => char.rarity.toString() ===tag);
     const matchesColor = filters.color.size === 0 ||
-       [...filters.color].some(tag => char.color.includes(tag));
+       [...filters.color].some(tag => char.color === tag);
     const matchesCt = filters.ct.size === 0 ||
-       [...filters.ct].some(tag => char.ct.toString().includes(tag));
+       [...filters.ct].some(tag => char.ct.toString() === tag);
     const matchesSoon = !filters.soon || char.soon_flag;
 
     return matchesCharacter && matchesColor && matchesCt && matchesSoon &&
@@ -125,7 +131,11 @@ function applyFilters() {
       return sum(b) - sum(a);
     });
   }
-  renderCharacters(filtered);
+  if (isInitialState()) {
+    renderHowToUse();
+  } else {
+    renderCharacters(filtered);
+  }
 }
 
 function toggleFilter(category, value) {
@@ -203,6 +213,26 @@ function resetFilters() {
   filters.sortAttributes.clear();
   filters.soon = false;
   applyFilters();
+}
+
+function isInitialState() {
+  return filters.character.size === 0 &&
+    filters.rarity.size === 0 &&
+    filters.color.size === 0 &&
+    filters.ct.size === 0 &&
+    filters.skillType.size === 0 &&
+    filters.booster.size === 0 &&
+    filters.ability.size === 0 &&
+    filters.killer.size === 0 &&
+    filters.plus.size === 0 &&
+    filters.soon === false &&
+    filters.sortAttributes.size === 0;
+}
+
+function renderHowToUse() {
+  charPanel.style.display = "";
+  charPanel.style.alignContent = "center";
+  charPanel.innerHTML = howToUse;
 }
 
 function renderFilter() {
@@ -351,6 +381,7 @@ function setBtn() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  howToUse = charPanel.innerHTML;
   loadCharacters();
   renderFilter();
   setupResizer();

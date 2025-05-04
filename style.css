@@ -124,11 +124,9 @@ h3 {
   flex-direction: column;
 }
 #charPanel{
-  display: grid;
-  grid-template-rows: repeat(auto-fit, 120px);
   grid-template-columns: repeat(auto-fit, 100px);
   justify-content: center;
-  align-content: start; /* デフォルトは上部から開始 */
+  align-content: center;
   place-items: center;
   gap: 5px;
   height: 35%;
