@@ -27,6 +27,39 @@ h1 {
 h3 {
   font-weight: bold;
 }
+#charPanel h2 {
+   border-left: 5px solid #0078d7;
+   padding-left: 0.5em;
+   margin-top: 2em;
+   font-size: 1.4em;
+   color: #0078d7;
+ }
+#charPanel p {
+   margin: 0.5em 0;
+ }
+#charPanel ul {
+   padding-left: 1.5em;
+ }
+#charPanel li {
+   margin: 0.3em 0;
+ }
+#charPanel dl {
+   margin-top: 1em;
+   padding-left: 1em;
+ }
+#charPanel dt {
+   font-weight: bold;
+   margin-top: 1em;
+   color: #444;
+ }
+#charPanel dd {
+   margin-left: 1em;
+   color: #666;
+ }
+#charPanel .note {
+   font-size: 0.9em;
+   color: #999;
+ }
 
 #donationBtn {
   position: fixed;
