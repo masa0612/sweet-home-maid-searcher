@@ -46,7 +46,7 @@ def get_card_info(url):
     card["name"] = soup.find("h1").find("a").get_text(strip=True)
     character = re.search(r'】(.+)', card["name"]).group(1)
     if "コラボ" in card["name"] or "ロイズ" in card["name"]:
-        if "の特権" not in character:
+        if "の特権" not in card["name"]:
             card["character"] = "その他"
     else:
         card["character"] = character
@@ -250,7 +250,11 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
             cards = json.load(f)
-        cards.append(get_card_info(sys.argv[1]))
+        card = get_card_info(sys.argv[1])
+        if card["name"] in [x["name"] for x in cards]:
+            print(cards[[x["name"] for x in cards].index(card["name"])])
+        else:
+            cards.append(card)
     else:
         cards = get_cards()
 

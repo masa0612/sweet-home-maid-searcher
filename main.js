@@ -22,7 +22,6 @@ async function loadCharacters() {
   try {
     const response = await fetch("assets/characters.json");
     characters = await response.json();
-    renderCharacters(characters);
     setupEventListeners();
   } catch (error) {
       console.error("Can not loading character data: ", error);
@@ -275,18 +274,6 @@ function renderFilter() {
   abilityFilter.forEach(renderCard);
 }
 
-function setDonation() {
-  a = kofiWidgetOverlay.draw('hugashy', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'アプデ支援',
-    'floating-chat.donateButton.background-color': '#00b9fe',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-  const iframe = document.querySelector("iframe");
-  const kofiBtn = iframe.contentDocument.querySelector(".closed");
-  if (Math.random() < 2/7) kofiBtn.click();
-}
-
 function setupResizer() {
   if (window.innerWidth > window.innerHeight) return;
 
@@ -368,5 +355,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderFilter();
   setupResizer();
   setBtn();
-  //setDonation();
 });
