@@ -1,10 +1,9 @@
+let characters = [];
 const container = document.getElementById('panelContainer');
 const charPanel = document.getElementById("charPanel");
-const filterPanel = document.getElementById('filterPanel');
+const howToUse = charPanel.innerHTML;
 const resizer = document.getElementById('resizer');
-
-let howToUse;
-let characters = [];
+const filterPanel = document.getElementById('filterPanel');
 const filters = {
     character: new Set(),
     rarity: new Set(),
@@ -23,7 +22,7 @@ async function loadCharacters() {
   try {
     const response = await fetch("assets/characters.json");
     characters = await response.json();
-    setupEventListeners();
+    setupResizer();
   } catch (error) {
       console.error("Can not loading character data: ", error);
   }
@@ -184,7 +183,6 @@ function setupEventListeners() {
     });
   });
 
-  document.querySelector("#resetBtn").addEventListener("click", resetFilters);
   document.addEventListener("keydown", function(event) {
     switch (event.key) {
       case "r":
@@ -193,7 +191,7 @@ function setupEventListeners() {
   });
   window.addEventListener('resize', ()=> {
     applyFilters();
-    setBtn();
+    layoutBtn();
   });
 }
 
@@ -368,7 +366,7 @@ function handleMove(clientX, clientY) {
   applyFilters();
 }
 
-function setBtn() {
+function layoutBtn() {
   const donationBtn = document.getElementById("donationBtn");
   const rectCharPanel = charPanel.getBoundingClientRect();
   donationBtn.style.top = (rectCharPanel.top + 3) + 'px';
@@ -380,10 +378,14 @@ function setBtn() {
   resetBtn.style.left = (rectFilterPanel.right - 85) + 'px';
 }
 
+function setupBtn() {
+  layoutBtn();
+  document.querySelector("#resetBtn").addEventListener("click", resetFilters);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-  howToUse = charPanel.innerHTML;
   loadCharacters();
+  setupBtn();
   renderFilter();
-  setupResizer();
-  setBtn();
+  setupEventListeners();
 });

@@ -50,7 +50,7 @@ const killerFilter = [
     { id: "present", name: "プレゼント箱キラー", imgSrc: "assets/killer_filter/present.jpg" },
     { id: "jelly", name: "ゼリーキラー", imgSrc: "assets/killer_filter/jelly.jpg" },
     { id: "button", name: "ボタンキラー", imgSrc: "assets/killer_filter/button.jpg" },
-    { id: "orange", name: "みかんキラー", imgSrc: "assets/killer_filter/orange.jpg" },
+    { id: "orange", name: "みかん箱キラー", imgSrc: "assets/killer_filter/orange.jpg" },
     { id: "spider", name: "蜘蛛の巣キラー", imgSrc: "assets/killer_filter/spider.jpg" },
     { id: "form", name: "泡キラー", imgSrc: "assets/killer_filter/form.jpg" },
     { id: "ice", name: "氷キラー", imgSrc: "assets/killer_filter/ice.jpg" },
