@@ -38,20 +38,24 @@ h3 {
    padding-left: 1.5em;
  }
 #charPanel li {
-   margin: 0.3em 0;
+   margin-bottom: 0.3em;
  }
 #charPanel dl {
-   margin-top: 1em;
    padding-left: 1em;
- }
+}
 #charPanel dt {
    font-weight: bold;
    margin-top: 1em;
-   color: #444;
- }
+}
 #charPanel dd {
    margin-left: 1em;
-   color: #666;
+   color: #1a1a1a;
+}
+#charPanel p {
+   padding-left: 1em;
+   padding-right: 1em;
+   margin-bottom: 0.5em;
+   color: #1a1a1a;
  }
 
 #donationBtn {
