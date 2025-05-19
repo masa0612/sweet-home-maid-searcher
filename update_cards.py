@@ -57,13 +57,13 @@ def get_card_info(url):
     rows = skill1_table.find_all("tr")
     skill_name = rows[0].find("strong").get_text(strip=True)
     card["s_type"] = get_skill_type(skill_name)
-    card["b_tag"] = get_skill_tag(skill_name)
 
     rows = skill2_table.find_all("tr")
     card["soon_flag"] = add_soon_flag(card["name"])
     card["ct"] = get_ct(soup.find(class_="tag").find_all("a"), card["name"])
-    a_tag, k_tag, plus, multiplier = parse_ability(ability_tables)
-    card.update({"a_tag": a_tag, "k_tag": k_tag, "plus": plus})
+    card["b_tag"] = get_skill_tag(skill_name)
+    a_tag, k_tag, p_tag, multiplier = parse_ability(ability_tables)
+    card.update({"a_tag": a_tag, "k_tag": k_tag, "p_tag": p_tag})
 
     status = get_status(status_table, multiplier)
     card["red"] = status[0]
