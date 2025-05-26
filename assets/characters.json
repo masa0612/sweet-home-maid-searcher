@@ -6627,5 +6627,30 @@
     "yellow": 77470,
     "aqua": 24989,
     "violet": 13965
+  },
+  {
+    "name": "【二人きりのささやき耳かき】ナシュワ",
+    "character": "ナシュワ",
+    "series": "【ASMR】",
+    "rarity": 4,
+    "color": "赤",
+    "s_type": "クリエイト",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [
+      "スペシャル"
+    ],
+    "a_tag": [
+      "手数1アップ",
+      "リンケージスキルコスト減少"
+    ],
+    "k_tag": [],
+    "p_tag": [],
+    "red": 78904,
+    "blue": 30134,
+    "green": 29399,
+    "yellow": 24254,
+    "aqua": 8820,
+    "violet": 6615
   }
 ]
