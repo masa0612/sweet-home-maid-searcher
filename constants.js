@@ -61,6 +61,7 @@ const killerFilter = [
     { id: "yoyo", name: "水ヨーヨーキラー", imgSrc: "assets/killer_filter/yoyo.jpg" },
     { id: "pretty", name: "プリティタン人形サポート", imgSrc: "assets/killer_filter/pretty.jpg" },
     { id: "cat", name: "箱入り猫なつき度", imgSrc: "assets/killer_filter/cat.jpg" },
+    { id: "capsule", name: "ガチャカプセルキラー", imgSrc: "assets/killer_filter/capsule.jpg" },
 ];
 const abilityFilter = [
     { id: "first", name: "初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237322E706E67.png" },
