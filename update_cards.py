@@ -5,7 +5,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-OUTPUT_FILE = "assets/characters.json"
+OUTPUT_FILE = "assets/cards.json"
 WIKI = "https://sweethomemaid.wikiru.jp/"
 
 COLOR_MAP = {

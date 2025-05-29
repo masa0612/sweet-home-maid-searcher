@@ -20,7 +20,7 @@ const filters = {
 
 async function loadCharacters() {
   try {
-    const response = await fetch("assets/characters.json");
+    const response = await fetch("assets/cards.json");
     characters = await response.json();
     setupResizer();
   } catch (error) {
