@@ -155,6 +155,8 @@ def add_soon_flag(name):
       "【夢見るバニータイム】花音",
       "【二人きりのささやき耳かき】スカーレット",
       "【夢見る乙女のパジャマパーティー】花音",
+      "【ガーデンウエディング】ナシュワ",
+      "【ガーデンウエディング】紬",
     ]
     return name in target
 
@@ -252,11 +254,13 @@ if __name__ == "__main__":
             cards = json.load(f)
         card = get_card_info(sys.argv[1])
         if card["name"] in [x["name"] for x in cards]:
-            print(cards[[x["name"] for x in cards].index(card["name"])])
+            cards[[x["name"] for x in cards].index(card["name"])] = card
         else:
             cards.append(card)
     else:
         cards = get_cards()
 
+    #cards = sorted(cards, key=lambda x: (x['rarity'], x['character']))
+    #print(json.dumps(sorted_data, ensure_ascii=False, indent=2))
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(cards, f, indent=2, ensure_ascii=False)
