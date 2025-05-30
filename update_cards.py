@@ -260,7 +260,19 @@ if __name__ == "__main__":
     else:
         cards = get_cards()
 
-    #cards = sorted(cards, key=lambda x: (x['rarity'], x['character']))
-    #print(json.dumps(sorted_data, ensure_ascii=False, indent=2))
+    char_order = [
+      "彩葉","凪","花音",
+      "ニア","スカーレット","紬",
+      "ひまり子","ナシュワ","その他"
+    ]
+    char_priority = {name: i for i, name in enumerate(char_order)}
+    cards = sorted(
+      cards,
+      key=lambda x: (
+        -x['rarity'],
+        char_priority.get(x['character'], len(char_order))
+    )
+)
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(cards, f, indent=2, ensure_ascii=False)
