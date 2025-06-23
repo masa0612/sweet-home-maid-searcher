@@ -72,7 +72,7 @@ const abilityFilter = [
     { id: "similar_down", name: "シミラースキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237362E706E67.png" },
     { id: "pair_up", name: "ペアルック初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237392E706E67.png" },
     { id: "pair_down", name: "ペアルックスキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237382E706E67.png" },
-    { id: "penetration", name: "貫通ロケット", imgSrc: atcUrl+"696D67_6162696C6974795F3136342E706E67.png" },
+    { id: "penetration", name: "貫通ロケット", imgSrc: "assets/penetration.png" },
     { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3330312E706E67.png" },
     { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: atcUrl+"696D67_6162696C6974795F3330332E706E67.png" },
     { id: "quick_ct_hand2", name: "クイッククールタイム減少/手数アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3330342E706E67.png" },
