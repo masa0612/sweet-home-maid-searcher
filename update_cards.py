@@ -174,7 +174,11 @@ def get_status(table, multiplier):
     status_list = []
     for x in rows[2:]:
         cols = x.find_all("td")
-        status_list.append(int(cols[2].get_text(strip=True).replace(",","")))
+        try:
+            status = int(cols[2].get_text(strip=True).replace(",",""))
+        except:
+            status = 0
+        status_list.append(status)
     max_value = max(status_list)
     return [int(x*multiplier) if x == max_value else x for x in status_list]
 
