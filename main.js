@@ -38,11 +38,13 @@ function renderCharacters(filtered_characters) {
 
     const whiteCircle = document.createElement("div");
     whiteCircle .classList.add("whiteCircle");
+    charCard.appendChild(whiteCircle);
 
     const colorImage = document.createElement("img");
     colorImage.src = `${atcUrl}${colorMap[character.color]}`;
     colorImage.alt = character.color;
     colorImage.classList.add("colorImage");
+    charCard.appendChild(colorImage);
 
     const charLink = document.createElement("a");
     charLink.href = wikiUrl + "?" + character.name;
@@ -52,34 +54,32 @@ function renderCharacters(filtered_characters) {
     charImage.alt = character.name;
     charImage.classList.add("charIcon");
     charLink.appendChild(charImage);
-
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "seriesFilter";
-    button.textContent = character.series;
-    button.style.cursor = "pointer";
-    button.addEventListener("click", () => {
-      let filtered = characters.filter(char => {
-        return char.series === character.series
-      });
-      renderCharacters(filtered);
-    });
-
-    const totalScore = document.createElement("p");
-    let sortValue = Array.from(filters.sortAttributes).reduce(
-      (sum, attr) => sum + (character[attr] || 0), 0
-    );
-    totalScore.textContent = "スコア合計:" + sortValue;
-
     charCard.appendChild(charLink);
-    charCard.appendChild(button);
-    charCard.appendChild(colorImage);
-    charCard.appendChild(whiteCircle);
+
+
     if (filters.sortAttributes.size > 0) {
-      charPanel.style.gridTemplateRows = 'repeat(auto-fit, 140px)';
+      const totalScore = document.createElement("p");
+      let sortValue = Array.from(filters.sortAttributes).reduce(
+        (sum, attr) => sum + (character[attr] || 0), 0
+      );
+      totalScore.textContent = "合計スコア:" + sortValue;
+      totalScore.style.fontSize = "9px";
       charCard.appendChild(totalScore);
+      //charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
     } else {
-      charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "seriesFilter";
+      button.textContent = character.series;
+      button.style.cursor = "pointer";
+      button.addEventListener("click", () => {
+        let filtered = characters.filter(char => {
+          return char.series === character.series
+        });
+        renderCharacters(filtered);
+      });
+      charCard.appendChild(button);
+      //charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
     }
 
     charPanel.appendChild(charCard);
