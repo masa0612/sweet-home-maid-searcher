@@ -238,7 +238,9 @@ def get_ability_tag(ability):
     if "リンケージオ" in ability:
         return "リンケージオールスコアアップ"
     if "貫通" in ability:
-        return "ピーナッツ貫通ロケット"
+        return "貫通ロケット"
+    if "リピートシェアスキルコスト" in ability:
+        return "リピートシェアスキルコスト"
 
 def get_killer_tag(ability):
     plus_tag = list()

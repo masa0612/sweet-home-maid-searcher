@@ -73,7 +73,7 @@ const abilityFilter = [
     { id: "similar_down", name: "シミラースキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237362E706E67.png" },
     { id: "pair_up", name: "ペアルック初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237392E706E67.png" },
     { id: "pair_down", name: "ペアルックスキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3237382E706E67.png" },
-    { id: "penetration", name: "貫通ロケット", imgSrc: "assets/penetration.png" },
+    { id: "repeat_share", name: "リピートシェアスキルコスト", imgSrc: atcUrl+"696D67_6162696C6974795F3330352E706E67.png" },
     { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3330312E706E67.png" },
     { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: atcUrl+"696D67_6162696C6974795F3330332E706E67.png" },
     { id: "quick_ct_hand2", name: "クイッククールタイム減少/手数アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3330342E706E67.png" },
@@ -81,6 +81,7 @@ const abilityFilter = [
     { id: "hand2", name: "手数2アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239612E706E67.png" },
     { id: "wave1", name: "Wave手数回復+1", imgSrc: atcUrl+"696D67_6162696C6974795F3239312E706E67.png" },
     { id: "wave2", name: "Wave手数回復+2", imgSrc: atcUrl+"696D67_6162696C6974795F3239622E706E67.png" },
+    { id: "penetration", name: "貫通ロケット", imgSrc: "assets/penetration.png" },
     { id: "ac_all", name: "アクセントカラー", imgSrc: atcUrl+"696D67_6162696C6974795F4143616C6C38302E706E67.png" },
     { id: "score_all", name: "リンケージオールスコアアップ", imgSrc: atcUrl+"696D67_6162696C6974795F3236332E706E67.png" },
 ];

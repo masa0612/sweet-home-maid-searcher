@@ -986,6 +986,31 @@
     "violet": 29399
   },
   {
+    "name": "【我が愛しの妃へ…】凪",
+    "character": "凪",
+    "series": "【我が愛しの妃へ…】",
+    "rarity": 4,
+    "color": "青",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "ミサイル"
+    ],
+    "a_tag": [
+      "リピートシェアスキルコスト",
+      "手数1アップ"
+    ],
+    "k_tag": [],
+    "p_tag": [],
+    "red": 26132,
+    "blue": 37483,
+    "green": 30216,
+    "yellow": 24499,
+    "aqua": 21233,
+    "violet": 16333
+  },
+  {
     "name": "【自分磨き】花音",
     "character": "花音",
     "series": "【自分磨き】",

@@ -25,21 +25,12 @@
   <main>
     <section id="introduction">
       <h2>1. はじめに</h2>
-      <p>本アプリは「スイートホームメイド」の編成を補助する<strong>非公式ツール</strong>です。</p>
+      <p>本アプリは「スイートホームメイド」の編成を補助する<strong>非公式アプリ</strong>です。</p>
 
       <p>
-        スキルCT,スキル種別（クリエイト,ファスト,セレクトなど）,
-        アビリティ,キラー,キラーのプラス値など、公式には無いパラメータで
-        <strong>フィルタリング</strong>することができます。
-      </p>
-
-      <p>
-        また公式は1色 or 総スコアのソートしかできませんが、 本アプリは
-        <strong>選択色の合算スコア値</strong>で
-        <strong>ソート</strong>できるため、
-        ステージに応じた最適キャラが探しやすくなります。
-        手番+1などのアビリティでの絞り込みも可能なので、
-        MRやOFの編成に活用できます。
+        スキルCT, キラーのプラス値など、公式には無いパラメータでカードを
+        <strong>フィルタリング</strong>したり、指定した色での
+        <strong>スコアソート</strong>ができます。
       </p>
 
       <dl>
@@ -66,7 +57,7 @@
         キャラ表示領域とフィルタ領域のサイズを調整できます。
       </p>
 
-      <p>画面右下の「フィルタリセット」ボタンのクリック、またPCでは「r」キー押下でフィルタをリセットできます。</p>
+      <p>画面右下の「リセット」ボタンのクリック、またPCでは「r」キー押下でフィルタをリセットできます。</p>
     </section>
 
     <section id="contact">
@@ -88,15 +79,13 @@
   <div id="filterPanel" class="mx-auto">
     <h1>すいめどなび</h1>
     <button id="resetBtn" class="bg-gradient-to-r text-black font-bold py-1 px-2 rounded-lg transform hover:-translate-y-0.5 transition-all duration-300 opacity-80">
-      フィルタ<br>リセット
+      リセット
     </button>
     <div class="grid grid-cols-3 md:grid-cols-1">
       <div id="rarityFilter" class="grid grid-cols-2 md:grid-cols-4"></div>
       <div class="spacer"></div>
       <div id="colorFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
     </div>
-    <div class="spacer"></div>
-    <div id="charFilter" class="grid grid-cols-5"></div>
 
     <div class="spacer"></div>
     <div class="grid">
@@ -119,33 +108,36 @@
 
     <div class="spacer"></div>
     <div class="grid">
+      <h3>キラー</h3>
+      <div id="killerFilter" class="grid grid-cols-6 md:grid-cols-7"></div>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="grid">
       <h3>キラー＋値</h3>
       <div id="plusFilter" class="grid grid-cols-8"></div>
     </div>
 
     <div class="spacer"></div>
     <div class="grid">
-      <h3>キラー</h3>
-      <div id="killerFilter" class="grid grid-cols-5 md:grid-cols-7"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
       <h3>アビリティ</h3>
-      <div id="abilityFilter" class="grid grid-cols-9"></div>
+      <div id="abilityFilter" class="grid grid-cols-10"></div>
     </div>
 
     <div class="spacer"></div>
     <div class="grid">
-      <h3>ソート</h3>
+      <h3>キャラクター</h3>
+      <div id="charFilter" class="grid grid-cols-5"></div>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="grid">
+      <h3>ソート (引用元wikiのデータが未統一のため不正確)</h3>
+    </div>
+    <div class="grid">
       <div id="colorSort"></div>
     </div>
 
-    <p style="text-align: center">
-      引用元wikiのデータが未統一のため正確ではない
-      <br>
-      Wikiの各カードlv70スコア修正ボランティア募集
-    </p>
   </div>
 </div>
 </body>

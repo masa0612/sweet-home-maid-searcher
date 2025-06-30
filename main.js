@@ -374,7 +374,7 @@ function layoutBtn() {
 
   const resetBtn = document.getElementById("resetBtn");
   const rectFilterPanel = filterPanel.getBoundingClientRect();
-  resetBtn.style.top = (rectFilterPanel.bottom - 180) + 'px';
+  resetBtn.style.top = (rectFilterPanel.bottom - 100) + 'px';
   resetBtn.style.left = (rectFilterPanel.right - 85) + 'px';
 }
 
