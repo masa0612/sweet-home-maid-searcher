@@ -216,7 +216,7 @@
       "ロケット",
       "ミックス"
     ],
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 3,
     "a_tag": [
       "貫通ロケット",
@@ -4100,7 +4100,7 @@
       "ボム",
       "スペシャル"
     ],
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
