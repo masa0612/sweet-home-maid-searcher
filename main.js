@@ -65,7 +65,7 @@ function renderCharacters(filtered_characters) {
       totalScore.textContent = "合計スコア:" + sortValue;
       totalScore.style.fontSize = "9px";
       charCard.appendChild(totalScore);
-      //charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
+      charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
     } else {
       const button = document.createElement("button");
       button.type = "button";
@@ -79,7 +79,7 @@ function renderCharacters(filtered_characters) {
         renderCharacters(filtered);
       });
       charCard.appendChild(button);
-      //charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
+      charPanel.style.gridTemplateRows = 'repeat(auto-fit, 120px)';
     }
 
     charPanel.appendChild(charCard);
