@@ -2931,6 +2931,28 @@
     "violet": 11760
   },
   {
+    "name": "【いっしょにおやすみ】紬",
+    "character": "紬",
+    "series": "【いっしょにおやすみ】",
+    "rarity": 4,
+    "color": "緑",
+    "s_type": "ピースチェンジ",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [],
+    "a_tag": [
+      "ペアルック手数1アップ"
+    ],
+    "k_tag": [],
+    "p_tag": [],
+    "red": 11052,
+    "blue": 15789,
+    "green": 95535,
+    "yellow": 28419,
+    "aqua": 16578,
+    "violet": 21314
+  },
+  {
     "name": "【朝一の悦び】ひまり子",
     "character": "ひまり子",
     "series": "【朝一の悦び】",

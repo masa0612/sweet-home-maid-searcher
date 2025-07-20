@@ -81,6 +81,7 @@ const abilityFilter = [
     { id: "hand2", name: "手数2アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239612E706E67.png" },
     { id: "wave1", name: "Wave手数回復+1", imgSrc: atcUrl+"696D67_6162696C6974795F3239312E706E67.png" },
     { id: "wave2", name: "Wave手数回復+2", imgSrc: atcUrl+"696D67_6162696C6974795F3239622E706E67.png" },
+    { id: "pair_hand", name: "ペアルック手数1アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239632E706E67.png" },
     { id: "penetration", name: "貫通ロケット", imgSrc: "assets/penetration.png" },
     { id: "ac_all", name: "アクセントカラー", imgSrc: atcUrl+"696D67_6162696C6974795F4143616C6C38302E706E67.png" },
     { id: "score_all", name: "リンケージオールスコアアップ", imgSrc: atcUrl+"696D67_6162696C6974795F3236332E706E67.png" },
