@@ -492,6 +492,35 @@
     "violet": 17640
   },
   {
+    "name": "【SURVIVAL SUMMER！】彩葉",
+    "character": "彩葉",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 4,
+    "color": "緑",
+    "s_type": "クリエイト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "スペシャル"
+    ],
+    "a_tag": [],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "ロケット+1",
+      "ボム+1",
+      "ミサイル+1",
+      "+1"
+    ],
+    "red": 8820,
+    "blue": 11760,
+    "green": 81774,
+    "yellow": 23519,
+    "aqua": 24989,
+    "violet": 28664
+  },
+  {
     "name": "【ONの私】凪",
     "character": "凪",
     "series": "【ONの私】",
@@ -3385,6 +3414,37 @@
     "violet": 11025
   },
   {
+    "name": "【SURVIVAL SUMMER！】ひまり子",
+    "character": "ひまり子",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 4,
+    "color": "紫",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [
+      "ボム",
+      "ミックス"
+    ],
+    "a_tag": [
+      "手数1アップ",
+      "他カードスキル使用時スキルゲージ増加"
+    ],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "+2",
+      "ボム+2"
+    ],
+    "red": 12495,
+    "blue": 8820,
+    "green": 24989,
+    "yellow": 15435,
+    "aqua": 24989,
+    "violet": 81774
+  },
+  {
     "name": "【福豆飛び交う節分祭】ナシュワ",
     "character": "ナシュワ",
     "series": "【福豆飛び交う節分祭】",
@@ -4294,6 +4354,36 @@
     "violet": 40129
   },
   {
+    "name": "【SURVIVAL SUMMER！】凪",
+    "character": "凪",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 3,
+    "color": "黄",
+    "s_type": "セレクト",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [
+      "スペシャル"
+    ],
+    "a_tag": [
+      "手数1アップ"
+    ],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "+1",
+      "ロケット+1",
+      "ミサイル+1"
+    ],
+    "red": 13093,
+    "blue": 12403,
+    "green": 21361,
+    "yellow": 52168,
+    "aqua": 23427,
+    "violet": 14471
+  },
+  {
     "name": "【ONの私】花音",
     "character": "花音",
     "series": "【ONの私】",
@@ -4595,6 +4685,34 @@
     "yellow": 21361,
     "aqua": 13781,
     "violet": 7580
+  },
+  {
+    "name": "【SURVIVAL SUMMER！】花音",
+    "character": "花音",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 3,
+    "color": "緑",
+    "s_type": "遠隔ピースチェンジ",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [],
+    "a_tag": [
+      "手数1アップ"
+    ],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "ボム+1",
+      "+1",
+      "ミサイル+1"
+    ],
+    "red": 13781,
+    "blue": 9647,
+    "green": 56180,
+    "yellow": 28251,
+    "aqua": 14471,
+    "violet": 19293
   },
   {
     "name": "【自分磨き】ニア",

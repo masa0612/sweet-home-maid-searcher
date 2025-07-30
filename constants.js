@@ -63,6 +63,7 @@ const killerFilter = [
     { id: "cat", name: "箱入り猫なつき度", imgSrc: "assets/killer_filter/cat.jpg" },
     { id: "capsule", name: "ガチャカプセルキラー", imgSrc: "assets/killer_filter/capsule.jpg" },
     { id: "harb", name: "ハーブキラー", imgSrc: "assets/killer_filter/harb.jpg" },
+    { id: "water_cannon", name: "水大砲サポート", imgSrc: "assets/killer_filter/water_cannon.jpg" },
 ];
 const abilityFilter = [
     { id: "first", name: "初期スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3237322E706E67.png" },
