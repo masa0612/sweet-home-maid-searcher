@@ -1984,6 +1984,32 @@
     "violet": 19844
   },
   {
+    "name": "【胡蝶之夢世界】ニア",
+    "character": "ニア",
+    "series": "【胡蝶之夢世界】",
+    "rarity": 4,
+    "color": "紫",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "ロケット",
+      "ミックス"
+    ],
+    "a_tag": [
+      "インスタントスキルコスト減少",
+      "リモデルスコアアップ"
+    ],
+    "k_tag": [],
+    "p_tag": [],
+    "red": 0,
+    "blue": 0,
+    "green": 0,
+    "yellow": 0,
+    "aqua": 0,
+    "violet": 0
+  },
+  {
     "name": "【OFFの顔】スカーレット",
     "character": "スカーレット",
     "series": "【OFFの顔】",

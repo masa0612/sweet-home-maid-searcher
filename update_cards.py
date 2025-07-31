@@ -233,12 +233,16 @@ def get_ability_tag(ability):
         return "ダイエットスキルコスト"
     if "リンケージス" in ability:
         return "リンケージスキルコスト減少"
+    if "インスタントスキルコスト減少" in ability:
+        return "インスタントスキルコスト減少"
     if "ペア" in ability and "減少" in ability:
         return "ペアルックスキルコスト減少"
     if "シミラー" in ability and "減少" in ability:
         return "シミラースキルコスト減少"
     if "リンケージオ" in ability:
         return "リンケージオールスコアアップ"
+    if "リモデルスコアアップ" in ability:
+        return "リモデルスコアアップ"
     if "貫通" in ability:
         return "貫通ロケット"
     if "リピートシェアスキルコスト" in ability:
