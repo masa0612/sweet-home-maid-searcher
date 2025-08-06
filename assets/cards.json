@@ -2010,6 +2010,35 @@
     "violet": 0
   },
   {
+    "name": "【SURVIVAL SUMMER！】ニア",
+    "character": "ニア",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 4,
+    "color": "黄",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [
+      "ロケット"
+    ],
+    "a_tag": [
+      "Wave手数回復+1"
+    ],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "ロケット+2",
+      "+2"
+    ],
+    "red": 10290,
+    "blue": 16170,
+    "green": 17640,
+    "yellow": 77470,
+    "aqua": 29399,
+    "violet": 15435
+  },
+  {
     "name": "【OFFの顔】スカーレット",
     "character": "スカーレット",
     "series": "【OFFの顔】",
@@ -5781,7 +5810,7 @@
       "ミサイル",
       "スペシャル"
     ],
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
