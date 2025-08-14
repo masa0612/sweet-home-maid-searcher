@@ -2789,7 +2789,7 @@
     "b_tag": [
       "ボム"
     ],
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 3,
     "a_tag": [
       "ダイエットスキルコスト",
@@ -4926,7 +4926,7 @@
     "b_tag": [
       "ロケット"
     ],
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 3,
     "a_tag": [
       "初期スキルゲージ増加"
