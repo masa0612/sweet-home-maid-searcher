@@ -3639,6 +3639,36 @@
     "violet": 16170
   },
   {
+    "name": "【SURVIVAL SUMMER！】ナシュワ",
+    "character": "ナシュワ",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 4,
+    "color": "水",
+    "s_type": "ファスト",
+    "soon_flag": true,
+    "ct": 3,
+    "b_tag": [
+      "ミサイル",
+      "ミックス"
+    ],
+    "a_tag": [
+      "初期スキルゲージ増加"
+    ],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "ミサイル+2",
+      "+2"
+    ],
+    "red": 9555,
+    "blue": 11760,
+    "green": 24254,
+    "yellow": 26459,
+    "aqua": 84643,
+    "violet": 13230
+  },
+  {
     "name": "【qureateコラボ】あやめ＆かえで",
     "character": "その他",
     "series": "【qureateコラボ】",
@@ -5382,6 +5412,36 @@
     "yellow": 26184,
     "aqua": 22049,
     "violet": 13093
+  },
+  {
+    "name": "【SURVIVAL SUMMER！】スカーレット",
+    "character": "スカーレット",
+    "series": "【SURVIVAL SUMMER！】",
+    "rarity": 3,
+    "color": "紫",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [
+      "スペシャル"
+    ],
+    "a_tag": [
+      "初期スキルゲージ増加"
+    ],
+    "k_tag": [
+      "水大砲サポート"
+    ],
+    "p_tag": [
+      "ロケット+1",
+      "ボム+1",
+      "+1"
+    ],
+    "red": 9647,
+    "blue": 11025,
+    "green": 19293,
+    "yellow": 26184,
+    "aqua": 14471,
+    "violet": 58187
   },
   {
     "name": "【OFFの顔】紬",
