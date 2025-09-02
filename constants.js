@@ -78,7 +78,7 @@ const abilityFilter = [
     { id: "use_cost_up", name: "他カードスキル使用時スキルゲージ増加", imgSrc: atcUrl+"696D67_6162696C6974795F3330312E706E67.png" },
     { id: "instant_down", name: "インスタントスキルコスト減少", imgSrc: atcUrl+"696D67_6162696C6974795F3330362E706E67.png" },
     { id: "use_ct_down", name: "他カードスキル使用時スキルクールタイム減少", imgSrc: atcUrl+"696D67_6162696C6974795F3330332E706E67.png" },
-    { id: "quick_ct_hand2", name: "クイッククールタイム減少/手数アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3330342E706E67.png" },
+    { id: "quick_ct", name: "クイッククールタイム減少", imgSrc: atcUrl+"696D67_6162696C6974795F3330342E706E67.png" },
     { id: "hand1", name: "手数1アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239302E706E67.png" },
     { id: "hand2", name: "手数2アップ", imgSrc: atcUrl+"696D67_6162696C6974795F3239612E706E67.png" },
     { id: "wave1", name: "Wave手数回復+1", imgSrc: atcUrl+"696D67_6162696C6974795F3239312E706E67.png" },

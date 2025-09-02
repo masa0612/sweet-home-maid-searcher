@@ -227,7 +227,7 @@ def get_ability_tag(ability):
     if "時スキルクール" in ability:
         return "他カードスキル使用時スキルクールタイム減少"
     if "クイック" in ability:
-        return "クイッククールタイム減少/手数アップ"
+        return "クイッククールタイム減少"
     if "アクセントカラー" in ability:
         return "アクセントカラー"
     if "手数" in ability:
