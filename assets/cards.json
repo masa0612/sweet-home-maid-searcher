@@ -3390,7 +3390,7 @@
     "b_tag": [
       "ミサイル"
     ],
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 3,
     "a_tag": [
       "ダイエットスキルコスト",
