@@ -33,7 +33,7 @@ def crop_rectangles(image_path, output_folder="cropped_rectangles"):
             x, y, w, h = cv2.boundingRect(approx)
             roi = original[y:y+h, x:x+w]
             output_path = os.path.join(output_folder, f"rectangle_{rect_count}.jpg")
-            cv2.imwrite(output_path, roi)
+            cv2.imwrite(output_path, cv2.resize(roi, (232, 145)))
             print(f"保存しました: {output_path}")
     print(f"合計 {rect_count} 個の四角形を検出して切り抜きました")
 

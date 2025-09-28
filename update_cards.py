@@ -53,6 +53,7 @@ def add_soon_flag(name):
       "【SURVIVAL SUMMER！】ナシュワ",
       "【水面に揺れる月灯り】ニア",
       "【水面に揺れる月灯り】紬",
+      "【びっくりハロウィン】彩葉",
     ]
     return name in target
 
