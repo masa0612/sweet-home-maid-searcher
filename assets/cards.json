@@ -4231,6 +4231,99 @@
     "violet": 16333
   },
   {
+    "name": "【嫌パンコラボ】ちとせ",
+    "character": "その他",
+    "series": "【嫌パンコラボ】",
+    "rarity": 4,
+    "color": "青",
+    "s_type": "クリエイト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "スペシャル"
+    ],
+    "a_tag": [
+      "アクセントカラー"
+    ],
+    "k_tag": [
+      "薪キラー",
+      "風船キラー"
+    ],
+    "p_tag": [
+      "ロケット+2",
+      "+2"
+    ],
+    "red": 0,
+    "blue": 0,
+    "green": 0,
+    "yellow": 0,
+    "aqua": 0,
+    "violet": 0
+  },
+  {
+    "name": "【嫌パンコラボ】いおり",
+    "character": "その他",
+    "series": "【嫌パンコラボ】",
+    "rarity": 4,
+    "color": "赤",
+    "s_type": "ファスト",
+    "soon_flag": true,
+    "ct": 3,
+    "b_tag": [
+      "ロケット",
+      "ミックス"
+    ],
+    "a_tag": [
+      "アクセントカラー",
+      "初期スキルゲージ増加"
+    ],
+    "k_tag": [
+      "みかん箱キラー",
+      "蜘蛛の巣キラー"
+    ],
+    "p_tag": [
+      "+2",
+      "ロケット+2"
+    ],
+    "red": 0,
+    "blue": 0,
+    "green": 0,
+    "yellow": 0,
+    "aqua": 0,
+    "violet": 0
+  },
+  {
+    "name": "【嫌パンコラボ】マリア",
+    "character": "その他",
+    "series": "【嫌パンコラボ】",
+    "rarity": 4,
+    "color": "紫",
+    "s_type": "セレクト",
+    "soon_flag": false,
+    "ct": 3,
+    "b_tag": [
+      "ボム"
+    ],
+    "a_tag": [
+      "アクセントカラー",
+      "手数2アップ"
+    ],
+    "k_tag": [
+      "泡キラー",
+      "鎖キラー"
+    ],
+    "p_tag": [
+      "+2",
+      "ボム+2"
+    ],
+    "red": 0,
+    "blue": 0,
+    "green": 0,
+    "yellow": 0,
+    "aqua": 0,
+    "violet": 0
+  },
+  {
     "name": "【OFFの顔】彩葉",
     "character": "彩葉",
     "series": "【OFFの顔】",
