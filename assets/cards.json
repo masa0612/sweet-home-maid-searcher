@@ -2747,6 +2747,32 @@
     "violet": 7350
   },
   {
+    "name": "【ポリス・ロマンス】スカーレット",
+    "character": "スカーレット",
+    "series": "【ポリス・ロマンス】",
+    "rarity": 4,
+    "color": "赤",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "ミサイル",
+      "ミックス"
+    ],
+    "a_tag": [
+      "クイッククールタイム減少",
+      "Wave手数回復+1"
+    ],
+    "k_tag": [],
+    "p_tag": [],
+    "red": 0,
+    "blue": 0,
+    "green": 0,
+    "yellow": 0,
+    "aqua": 0,
+    "violet": 0
+  },
+  {
     "name": "【ハマってるもの】紬",
     "character": "紬",
     "series": "【ハマってるもの】",
