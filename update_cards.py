@@ -33,6 +33,8 @@ def add_soon_flag(name):
       "【白衣の天使と白昼夢】凪",
       "【白衣の天使と白昼夢】紬",
       "【ポリス・ロマンス】凪",
+      "【ポリス・ロマンス】花音",
+      "【ポリス・ロマンス】スカーレット",
       "【D.C.4コラボ】有里咲",
       "【お家神社で新春初詣】紬",
       "【モフモフさん、いらっしゃい！】彩葉",
@@ -256,6 +258,8 @@ def get_ability_tag(ability):
         return "貫通ロケット"
     if "リピートシェアスキルコスト" in ability:
         return "リピートシェアスキルコスト"
+    if "リピートシェアスキルクールタイム" in ability:
+        return "リピートシェアスキルクールタイム"
 
 def get_killer_tag(ability):
     plus_tag = list()

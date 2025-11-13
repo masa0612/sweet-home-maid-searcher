@@ -1133,6 +1133,35 @@
     "violet": 16905
   },
   {
+    "name": "【メモリアルパーティー】凪",
+    "character": "凪",
+    "series": "【メモリアルパーティー】",
+    "rarity": 4,
+    "color": "青",
+    "s_type": "クリエイト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "スペシャル"
+    ],
+    "a_tag": [
+      "他カードスキル使用時スキルゲージ増加"
+    ],
+    "k_tag": [
+      "アロマキラー"
+    ],
+    "p_tag": [
+      "ミサイル+2",
+      "+2"
+    ],
+    "red": 23619,
+    "blue": 98355,
+    "green": 24407,
+    "yellow": 13384,
+    "aqua": 15746,
+    "violet": 22045
+  },
+  {
     "name": "【自分磨き】花音",
     "character": "花音",
     "series": "【自分磨き】",
@@ -1633,7 +1662,7 @@
     "rarity": 4,
     "color": "青",
     "s_type": "ファスト",
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 1,
     "b_tag": [
       "ミサイル",
@@ -2248,6 +2277,31 @@
     "violet": 0
   },
   {
+    "name": "【我が愛しの妃へ…】ニア",
+    "character": "ニア",
+    "series": "【我が愛しの妃へ…】",
+    "rarity": 4,
+    "color": "紫",
+    "s_type": "ファスト",
+    "soon_flag": false,
+    "ct": 2,
+    "b_tag": [
+      "ロケット",
+      "ミックス"
+    ],
+    "a_tag": [
+      "リピートシェアスキルクールタイム"
+    ],
+    "k_tag": [],
+    "p_tag": [],
+    "red": 22744,
+    "blue": 32367,
+    "green": 17496,
+    "yellow": 19245,
+    "aqua": 27118,
+    "violet": 48182
+  },
+  {
     "name": "【OFFの顔】スカーレット",
     "character": "スカーレット",
     "series": "【OFFの顔】",
@@ -2753,7 +2807,7 @@
     "rarity": 4,
     "color": "赤",
     "s_type": "ファスト",
-    "soon_flag": false,
+    "soon_flag": true,
     "ct": 2,
     "b_tag": [
       "ミサイル",
