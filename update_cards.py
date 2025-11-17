@@ -7,15 +7,8 @@ from bs4 import BeautifulSoup
 
 OUTPUT_FILE = "assets/cards.json"
 WIKI = "https://sweethomemaid.wikiru.jp/"
-
 COLOR_MAP = {
-  "pc_red.png": "赤",
-  "pc_blu.png": "青",
-  "pc_grn.png": "緑",
-  "pc_yel.png": "黄",
-  "pc_aqa.png": "水",
-  "pc_vio.png": "紫",
-}
+  "pc_red.png": "赤", "pc_blu.png": "青", "pc_grn.png": "緑", "pc_yel.png": "黄", "pc_aqa.png": "水", "pc_vio.png": "紫", }
 
 def add_soon_flag(name):
     target = [
@@ -57,6 +50,7 @@ def add_soon_flag(name):
       "【水面に揺れる月灯り】紬",
       "【びっくりハロウィン】彩葉",
       "【嫌パンコラボ】いおり",
+      "【プレシャスドリーム】彩葉",
     ]
     return name in target
 
