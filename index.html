@@ -1,144 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>すいめどなび</title>
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="constants.js" defer></script>
-  <script src="main.js" defer></script>
-  <script data-goatcounter="https://hugashy.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>お知らせ — サービス更新停止</title>
+  <meta name="description" content="サービス運営者からの重要なお知らせ: 更新停止と運営終了について">
+  <meta property="og:title" content="お知らせ — サービス更新停止">
+  <meta property="og:description" content="このWebアプリは更新を停止します。運営者の都合によりサービス終了のお知らせです。">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    .section-box {
+      background: #fafafa;
+      border: 1px solid #ddd;
+      padding: 12px;
+      border-radius: 6px;
+      margin: 16px 0;
+    }
+    a { color: #0366d6; }
+  </style>
 </head>
-<body class="bg-gray-100">
-<a id="donationBtn" target="_blank"
-  href="https://www.amazon.co.jp/hz/wishlist/ls/E212C5BSEKEA"
-  class="bg-gradient-to-r text-black font-bold py-1 px-2 rounded-lg transform hover:-translate-y-0.5 transition-all duration-300 opacity-80"
->
-  アプデ支援
-</a>
-<div id="panelContainer" class="container mx-auto p-1">
-  <div id="charPanel" class="mx-auto">
-  <main>
-    <section id="introduction">
-      <h2>1. はじめに</h2>
-      <p>本アプリは「スイートホームメイド」の編成を補助する<strong>非公式アプリ</strong>です。</p>
+<body>
+  <div class="wrap">
+    <div class="card" role="article" aria-labelledby="title">
+      <div style="position:relative">
+        <header>
+          <div>
+            <h1 id="title">お知らせ！（最終更新: 2025-12-03）</h1>
+          </div>
+        </header>
 
-      <p>
-        スキルCT, キラーのプラス値など、公式には無いパラメータでカードを
-        <strong>フィルタリング</strong>したり、指定した色での
-        <strong>スコアソート</strong>ができます。
-      </p>
+        <section class="notice">
+          <div>
+            <p>いつも使ってくれてありがとうございます。ゆるく近況と今後の話をまとめました。</p>
 
-      <dl>
-        <dt>応援・支援について</dt>
-        <dd>継続的なアプデのモチベ維持のため、左上のリンクから支援いただけると助かります。</dd>
-      </dl>
-    </section>
+            <ul>
+              <li>2周年のアプデ内容がちょっと残念で、正直モチベが下がりました。</li>
+              <li>さらに第二子が生まれて、単純に時間がなくなりました。</li>
+              <li>そんなわけで、引退することにしました。</li>
+              <li>このWebアプリの更新もストップします。</li>
+            </ul>
 
-    <section id="usage">
-      <h2>2. 使用方法</h2>
-      <p>操作は<strong>フィルタしたい項目をクリック</strong>するだけです。</p>
-      <p>複数選択時の動作は以下の通りです。</p>
-      <ul>
-        <li><strong>同ジャンル内:</strong></li>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;OR条件（例：「赤」+「青」＝赤または青）</li>
-        <li><strong>異なるジャンル:</strong></li>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;AND条件（例：「赤」+「彩葉」＝赤の彩葉）</li>
-      </ul>
-      <p>各キャラの下にある【ASMR】などをクリックすると、そのシリーズでフィルタされます。</p>
-      <p>また、キャラのアイコンをクリックすると、<strong>wikiページ</strong>が新しいタブで開きます。</p>
+              <h2 style="margin-top:0">引き継ぎ先あります！</h2>
+              <p>ありがたいことに、アプリを引き継いでくれる方が見つかりました。今後はこちらをご利用ください。</p>
+              <p><a href="https://pokotrees.github.io/sweet-home-maid-searcher/" target="_blank">https://pokotrees.github.io/sweet-home-maid-searcher/</a></p>
 
-      <p>
-        スマホなど縦長の画面では、中央の「slider」バーを上下にドラッグして、
-        キャラ表示領域とフィルタ領域のサイズを調整できます。
-      </p>
+              <h2 style="margin-bottom:4px">さらに、引き継ぎ手も募集中！</h2>
+              <p>とはいえ、更新速度は保証できません。なので「自分もやってみたい」という人はぜひ連絡してください。</p>
+              <p><strong>📧 mgmjd336@gmail.com</strong></p>
+              <p>サーバー代は<strong>0円</strong>なので負担なし。</p>
+              <p>Python, JavaScript, GitHub あたりができるとベストですが、どれか1つできるだけでも十分です！</p>
+              <p>必要なら軽くレクチャーもしますので、ほんとお気軽にご連絡ください。</p>
 
-      <p>画面右下の「リセット」ボタンのクリック、またPCでは「r」キー押下でフィルタをリセットできます。</p>
-    </section>
 
-    <section id="contact">
-      <h2>3. 問い合わせ先</h2>
-      <dl>
-        <dt>機能要望・バグ報告など</dt>
-        <dd>以下のメールアドレスからお気軽にご連絡ください。</dd>
-        <dd>作成者：ふがし</dd>
-        <dd>メールアドレス：<a href="mailto:mgmjd336@gmail.com">mgmjd336@gmail.com</a></dd>
-        <dd>※本アプリは非公認のファンメイドツールであり、運営元とは一切関係ありません。
-        運営元へのお問い合わせはご遠慮ください。
-        </dd>
-      </dl>
-    </section>
-    <br>
-  </main>
+            <h2 style="margin-top:0">最後に<br> いままで使ってくれた皆さん、本当にありがとうございました！
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <div style="margin-top:18px;color:#e6eef8;font-size:13px;text-align:center">
+      <p>この文面やデザインの修正、より丁寧な言い回し（例：謝辞を増やす、移行案内を付ける等）をご希望ならお知らせください。</p>
+    </div>
   </div>
-  <div id="resizer">slider</div>
-  <div id="filterPanel" class="mx-auto">
-    <h1>すいめどなび</h1>
-    <button id="resetBtn" class="bg-gradient-to-r text-black font-bold py-1 px-2 rounded-lg transform hover:-translate-y-0.5 transition-all duration-300 opacity-80">
-      リセット
-    </button>
-    <div class="grid grid-cols-3 md:grid-cols-1">
-      <div id="rarityFilter" class="grid grid-cols-2 md:grid-cols-4"></div>
-      <div class="spacer"></div>
-      <div id="colorFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
-      <h3>スキルタイプ</h3>
-      <div id="skillTypeFilter" class="grid grid-cols-10"> </div>
-    </div>
-
-    <div class="grid grid-cols-5">
-      <h3>ブースター種</h3>
-      <div class="spacer"></div>
-      <h3>クールタイム</h3>
-      <div class="spacer"></div>
-      <h3>開幕起動</h3>
-      <div id="boosterFilter" class="grid grid-cols-3 md:grid-cols-5"></div>
-      <div class="spacer"></div>
-      <div id="ctFilter" class="grid grid-cols-3 md:grid-cols-6"></div>
-      <div class="spacer"></div>
-      <div id="soonFilter"><input id="soonCB" type="checkbox"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
-      <h3>キラー</h3>
-      <div id="killerFilter" class="grid grid-cols-6 md:grid-cols-6"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
-      <h3>キラー＋値</h3>
-      <div id="plusFilter" class="grid grid-cols-8"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
-      <h3>アビリティ</h3>
-      <div id="abilityFilter" class="grid grid-cols-9"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
-      <h3>キャラクター</h3>
-      <div id="charFilter" class="grid grid-cols-5"></div>
-    </div>
-
-    <div class="spacer"></div>
-    <div class="grid">
-      <h3>ソート (引用元wikiのデータが未統一のため不正確)</h3>
-    </div>
-    <div class="grid">
-      <div id="colorSort"></div>
-    </div>
-
-  </div>
-</div>
 </body>
 </html>
+
